@@ -28,7 +28,7 @@
   "test": [
     { "id": "t1", "type": "lis-choisis-son", "cible": "q:103:3:6", "options": ["q:103:3:6", "q:103:3:4", "q:2:5:1"], "explication": "وَتَوَاصَوْا۟ : wa-ta-wâ-ṣaw, alif muet : « wa-tawâṣaw »." },
     { "id": "t2", "type": "ecoute-choisis", "cible": "q:89:11:2", "options": ["q:89:11:2", "q:79:17:5", "q:84:22:3"], "explication": "« ṭaghaw » : le wâw porte un soukoun (« aw »), l'alif suivant est muet. طَغَىٰ, lui, se lit « ṭaghâ »." },
-    { "id": "t3", "type": "lis-choisis-son", "cible": "q:103:3:9", "options": ["q:103:3:9", "q:103:3:7", "q:103:3:5"], "explication": "بِٱلصَّبْرِ : alif de liaison muet, lâm muet (ṣâd solaire) : « bi-ṣ-ṣabri »." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "q:103:3:9", "options": ["q:103:3:9", "q:103:3:7", "q:103:3:5"], "explication": "بِٱلصَّبْرِ : alif de liaison muet, lâm muet (ṣâd solaire) : « bi-ṣ-ṣabr »." },
     { "id": "t4", "type": "classe", "consigne": "Le mot contient-il une lettre muette ?", "categories": [{ "id": "muette", "label": "Une lettre muette (۟)" }, { "id": "toutes", "label": "Toutes les lettres se lisent" }], "elements": [{ "ref": "q:89:11:2", "categorie": "muette" }, { "ref": "q:79:17:5", "categorie": "toutes" }, { "ref": "q:103:3:4", "categorie": "muette" }, { "ref": "q:1:5:2", "categorie": "toutes" }, { "ref": "q:2:5:6", "categorie": "muette" }, { "ref": "q:112:3:2", "categorie": "toutes" }], "explication": "Seuls les mots avec le petit rond ont une lettre muette : طَغَوْا۟, وَعَمِلُوا۟, وَأُو۟لَٰٓئِكَ." },
     { "id": "t5", "type": "lis-choisis-son", "cible": "q:103:3:5", "options": ["q:103:3:5", "q:113:4:3", "q:1:6:2"], "explication": "ٱلصَّٰلِحَٰتِ : ṣâd doublé (solaire), petits alifs : « aṣ-ṣâliḥâti », les bonnes œuvres." }
   ]
