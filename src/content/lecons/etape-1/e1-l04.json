@@ -1,0 +1,35 @@
+{
+  "id": "e1-l04",
+  "etape": 1,
+  "ordre": 4,
+  "titre": "Petites lettres, deux par deux : د ذ ر ز",
+  "resume": "Deux paires : un angle posé sur la ligne (د ذ) et une courbe qui descend (ر ز). Le point ajoute un son.",
+  "duree": 6,
+  "enseigne": ["lettre-dal", "lettre-dhal", "lettre-ra", "lettre-zay"],
+  "elementsNouveaux": ["lettre-dal", "lettre-dhal", "lettre-ra", "lettre-zay"],
+  "theorie": [
+    { "type": "texte", "texte": "Deux paires de petites lettres. Dans chaque paire, la seconde porte **un point au-dessus**." },
+    { "type": "paire", "elements": ["lettre-dal", "lettre-dhal"], "note": "**د** : un petit angle posé sur la ligne, son « d ». **ذ** : le même avec un point, son « dh », comme le « th » anglais de « this » (langue entre les dents, avec la voix)." },
+    { "type": "paire", "elements": ["lettre-ra", "lettre-zay"], "note": "**ر** : une petite courbe qui **descend sous la ligne**, son « r » roulé. **ز** : la même avec un point, son « z », comme dans « zèbre »." },
+    { "type": "astuce", "texte": "Pour ne pas confondre د et ر : د reste **posé sur la ligne**, avec un angle ; ر **glisse sous la ligne**, en courbe." },
+    { "type": "texte", "texte": "Le « r » de ر est **roulé** du bout de la langue, comme en espagnol ou en italien. Le « r » français, lui, correspond à une autre lettre que tu verras bientôt." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "lettre-dal", "options": ["lettre-dal", "lettre-ra"], "explication": "Un angle posé sur la ligne, sans point : د, « d ». ر, lui, descend sous la ligne." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "lettre-zay", "options": ["lettre-ra", "lettre-zay", "lettre-dhal"], "explication": "Une courbe qui descend, avec un point : ز, « z ». ذ a aussi un point, mais il reste posé en angle." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "lettre-dhal", "options": ["lettre-dal", "lettre-dhal", "lettre-zay"], "explication": "Le son « dh » (langue entre les dents) : ذ, l'angle avec un point." },
+    { "id": "p4", "type": "paires-minimales", "paire": ["lettre-dal", "lettre-dhal"], "cible": "lettre-dhal", "explication": "« d » se dit langue contre les dents ; « dh », langue entre les dents. À l'écrit : د sans point, ذ avec un point." },
+    { "id": "p5", "type": "ecoute-choisis", "cible": "lettre-ra", "options": ["lettre-ra", "lettre-dal", "lettre-noun"], "explication": "Le « r » roulé : ر, la petite courbe sans point qui descend sous la ligne." },
+    { "id": "p6", "type": "classe", "consigne": "Posée sur la ligne ou descendante ?", "categories": [{ "id": "pose", "label": "Posée sur la ligne (angle)" }, { "id": "descend", "label": "Descend sous la ligne (courbe)" }], "elements": [{ "ref": "lettre-dal", "categorie": "pose" }, { "ref": "lettre-dhal", "categorie": "pose" }, { "ref": "lettre-ra", "categorie": "descend" }, { "ref": "lettre-zay", "categorie": "descend" }], "explication": "د et ذ restent sur la ligne avec un angle ; ر et ز descendent en courbe. Le point, lui, ne change pas le dessin." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "lettre-ra", "options": ["lettre-jim", "lettre-ra", "lettre-zay", "lettre-dal"], "explication": "Courbe descendante, sans point : ر, « r »." },
+    { "id": "p8", "type": "paires-minimales", "paire": ["lettre-ra", "lettre-zay"], "cible": "lettre-zay", "explication": "Même dessin : ر sans point (« r »), ز avec un point (« z »)." },
+    { "id": "p9", "type": "lis-verifie", "cible": "lettre-ra", "explication": "Un « r » roulé du bout de la langue, comme en espagnol. S'il sort à la française pour l'instant, ce n'est pas grave : l'important est de reconnaître ر." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "lettre-zay", "options": ["lettre-zay", "lettre-dhal", "lettre-ra"], "explication": "Le son « z » : ز, la courbe descendante avec un point." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "lettre-dhal", "options": ["lettre-dhal", "lettre-zay", "lettre-tha"], "explication": "L'angle avec un point : ذ, « dh », avec la voix. Ne le confonds pas avec ث (« th », sans voix, trois points)." },
+    { "id": "t3", "type": "paires-minimales", "paire": ["lettre-dal", "lettre-ra"], "cible": "lettre-ra", "explication": "د est posé sur la ligne (« d ») ; ر descend dessous (« r »)." },
+    { "id": "t4", "type": "ecoute-choisis", "cible": "lettre-dal", "options": ["lettre-kha", "lettre-dal", "lettre-ba"], "explication": "Le son « d » : د, petit angle sans point." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "lettre-ra", "options": ["lettre-ra", "lettre-noun", "lettre-dal"], "explication": "La petite courbe qui descend, sans point : ر, « r »." }
+  ]
+}

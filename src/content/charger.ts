@@ -15,7 +15,7 @@ import {
   type Lecon,
   type TestEtape,
 } from './schema';
-import { estRefCoran, idAudioRef, resoudreRef, urlAudioMot, urlAudioVerset } from '../lib/coran';
+import { estRefCoran, idAudioRef, resoudreRef, urlAudioMot, urlAudioVerset, verset } from '../lib/coran';
 
 const RACINE = join(process.cwd(), 'src', 'content');
 
@@ -130,6 +130,9 @@ function chargerTout() {
         coran: true,
         coranRef: `${r.sourate}:${r.verset}:${r.de}-${r.a}`,
         audio: motUnique ? urlAudioMot(r.sourate, r.verset, r.mot!) : versetEntier ? urlAudioVerset(r.sourate, r.verset) : null,
+        mots: versetEntier
+          ? verset(r.sourate, r.verset).jetons.map((j) => ({ texte: j.texte, audio: j.mot ? urlAudioMot(r.sourate, r.verset, j.mot) : null }))
+          : undefined,
       };
     } else {
       const e = elements.get(ref);
@@ -144,7 +147,7 @@ function chargerTout() {
   // Audio local enregistré (déposé dans public/audio) prioritaire sur l'absence d'audio.
   function audioDe(it: Item): string | null {
     const m = manifeste.get(it.id);
-    if (m?.fichier) return `audio/${m.fichier}`;
+    if (m?.fichier) return `/iqra/audio/${m.fichier}`; // fichier enregistré, servi depuis public/audio
     return it.audio;
   }
 
@@ -218,4 +221,36 @@ export function refsBloc(b: Lecon['theorie'][number]): string[] {
 
 export function leconsEtape(n: number): Lecon[] {
   return contenus().lecons.filter((l) => l.etape === n);
+}
+
+/** Résout une liste de références en éléments prêts pour le navigateur (audio compris). */
+export function itemsPour(refs: Iterable<string>): Record<string, Item> {
+  const { item, audioDe } = contenus();
+  const res: Record<string, Item> = {};
+  for (const r of refs) {
+    const it = item(r);
+    res[r] = { ...it, audio: audioDe(it) };
+  }
+  return res;
+}
+
+/** Toutes les références d'une leçon (théorie, exercices, éléments nouveaux). */
+export function refsLecon(l: Lecon): string[] {
+  return [...new Set([...l.elementsNouveaux, ...l.theorie.flatMap(refsBloc), ...l.pratique.flatMap(refsExercice), ...l.test.flatMap(refsExercice)])];
+}
+
+/** Catalogue des éléments révisables : éléments nouveaux et cibles de toutes les leçons. */
+export function catalogueRevision(): Record<string, Item> {
+  const refs = new Set<string>();
+  for (const l of contenus().lecons) {
+    l.elementsNouveaux.forEach((r) => refs.add(r));
+    [...l.pratique, ...l.test].forEach((ex) => {
+      const c = cibleExercice(ex);
+      if (c) refs.add(c);
+      refsExercice(ex).forEach((r) => refs.add(r));
+    });
+  }
+  const parRef = itemsPour(refs);
+  // Indexé par identifiant stable (celui des cartes de révision).
+  return Object.fromEntries(Object.values(parRef).map((it) => [it.id, it]));
 }

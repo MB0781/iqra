@@ -1,0 +1,37 @@
+{
+  "id": "e3-l01",
+  "etape": 3,
+  "ordre": 1,
+  "titre": "La fatha : le son « a »",
+  "resume": "Un petit trait au-dessus de la lettre donne le son « a » : بَ = « ba ».",
+  "duree": 7,
+  "enseigne": ["voyelle-fatha"],
+  "elementsNouveaux": ["syl-ba-a", "syl-ta-a", "syl-mim-a", "syl-sin-a", "syl-sad-a", "syl-hha-a", "syl-ha-a", "syl-jim-a", "mot-kataba", "mot-djalasa", "mot-dhahaba", "mot-kharadja", "mot-fataha", "mot-dakhala"],
+  "theorie": [
+    { "type": "texte", "texte": "Jusqu'ici, tu as appris les lettres : ce sont surtout des **consonnes**. En arabe, les voyelles courtes s'écrivent avec de **petits signes** posés au-dessus ou au-dessous de la lettre. Le premier : la **fatha**, un petit trait oblique **au-dessus** de la lettre. Elle se lit « a »." },
+    { "type": "presentation", "element": "syl-ba-a", "note": "ب + fatha = « ba ». On lit la lettre et sa voyelle **d'un seul coup**, comme une syllabe." },
+    { "type": "galerie", "elements": ["syl-ta-a", "syl-tha-a", "syl-noun-a", "syl-ya-a", "syl-fa-a", "syl-kaf-a", "syl-lam-a", "syl-mim-a"], "note": "Même petit trait, même son « a » : seule la consonne change. « ta, tha, na, ya, fa, ka, la, ma »." },
+    { "type": "attention", "texte": "Après les lettres **ص ض ط ظ ق خ غ**, le « a » sonne plus sourd, la bouche ouverte vers l'arrière, un peu comme le « a » de « pâte ». C'est de la prononciation : pour lire, retiens simplement qu'il s'agit d'une fatha." },
+    { "type": "presentation", "element": "mot-kataba", "note": "Trois syllabes avec fatha : كَ + تَ + بَ = « kataba », il a écrit. On enchaîne sans s'arrêter." },
+    { "type": "astuce", "texte": "Commence par la consonne, puis ajoute la voyelle : k + a = « ka ». Avec l'entraînement, tu verras directement « ka »." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "syl-ba-a", "options": ["syl-ba-a", "syl-ta-a", "syl-noun-a"], "explication": "Un point en dessous et la fatha au-dessus : ب + a = « ba »." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "syl-mim-a", "options": ["syl-mim-a", "syl-lam-a", "syl-kaf-a"], "explication": "« ma » : la petite boucle de م, avec la fatha au-dessus." },
+    { "id": "p3", "type": "paires-minimales", "paire": ["syl-sin-a", "syl-sad-a"], "cible": "syl-sad-a", "explication": "ص est le « s » emphatique : la langue recule, le son devient grave, et le « a » qui suit sonne plus sourd. س est le « s » français." },
+    { "id": "p4", "type": "lis-choisis-son", "cible": "syl-jim-a", "options": ["syl-jim-a", "syl-hha-a", "syl-kha-a"], "explication": "ج, ح et خ ont le même dessin : le point en dessous donne ج, donc « dja »." },
+    { "id": "p5", "type": "paires-minimales", "paire": ["syl-ta-a", "syl-tta-a"], "cible": "syl-ta-a", "explication": "ت (deux points) est le « t » français, clair. ط est emphatique, plus grave. Ici, on entend un « ta » clair : تَ." },
+    { "id": "p6", "type": "assemble", "morceaux": ["syl-kaf-a", "syl-ta-a", "syl-ba-a"], "distracteurs": ["syl-tha-a"], "resultat": "mot-kataba", "explication": "On lit de droite à gauche : كَ (ka), puis تَ (ta), puis بَ (ba). ثَ n'en fait pas partie : avec ses trois points, il se lit « tha »." },
+    { "id": "p7", "type": "trouve-lettre", "mot": "mot-djalasa", "lettre": "lettre-lam", "reponse": "milieu", "explication": "Dans جَلَسَ, la lettre ل est au milieu : sa forme médiane est un simple trait montant, comme tu l'as vu à l'étape 2." },
+    { "id": "p8", "type": "classe", "consigne": "Le « a » est-il clair ou plus sourd ?", "categories": [{ "id": "clair", "label": "« a » clair" }, { "id": "sourd", "label": "« a » plus sourd (lettre emphatique)" }], "elements": [{ "ref": "syl-sin-a", "categorie": "clair" }, { "ref": "syl-sad-a", "categorie": "sourd" }, { "ref": "syl-dal-a", "categorie": "clair" }, { "ref": "syl-dad-a", "categorie": "sourd" }, { "ref": "syl-tta-a", "categorie": "sourd" }, { "ref": "syl-ta-a", "categorie": "clair" }], "explication": "Les emphatiques ص ض ط assombrissent la fatha ; س د ت la laissent claire. Le signe est le même : seule la prononciation change." },
+    { "id": "p9", "type": "lis-choisis-son", "cible": "mot-dhahaba", "options": ["mot-dhahaba", "mot-dakhala", "mot-fataha"], "explication": "ذَ + هَ + بَ = « dhahaba », il est parti. ذ a un point, comme ز, mais se prononce la langue entre les dents." },
+    { "id": "p10", "type": "lis-verifie", "cible": "mot-kharadja", "explication": "خَ + رَ + جَ = « kharadja », il est sorti. Trois syllabes égales, sans t'arrêter. Le « kh » se fait au fond de la gorge." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "syl-fa-a", "options": ["syl-fa-a", "syl-qaf-a", "syl-ghayn-a"], "explication": "ف a un seul point au-dessus ; ق en a deux ; غ a un point sur un autre dessin. Ici : « fa »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "syl-hha-a", "options": ["syl-hha-a", "syl-ha-a", "syl-kha-a"], "explication": "« ḥa » : souffle serré dans la gorge, c'est ح sans point. هَ est un « h » léger, خَ a un point." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "mot-fataha", "options": ["mot-fataha", "mot-kataba", "mot-djalasa"], "explication": "فَ + تَ + حَ = « fataḥa », il a ouvert." },
+    { "id": "t4", "type": "ecoute-choisis", "cible": "mot-dakhala", "options": ["mot-dakhala", "mot-dhahaba", "mot-kharadja"], "explication": "دَ + خَ + لَ = « dakhala », il est entré." },
+    { "id": "t5", "type": "paires-minimales", "paire": ["syl-ha-a", "syl-hha-a"], "cible": "syl-ha-a", "explication": "هَ : un « h » léger, une simple expiration. حَ : un souffle serré au milieu de la gorge." }
+  ]
+}

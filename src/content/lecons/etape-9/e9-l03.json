@@ -1,0 +1,36 @@
+{
+  "id": "e9-l03",
+  "etape": 9,
+  "ordre": 3,
+  "titre": "Al-'Asr (sourate 103)",
+  "resume": "Trois versets, dont un long, avec des liaisons à enchaîner.",
+  "duree": 8,
+  "enseigne": [],
+  "elementsNouveaux": ["q:103:1:5", "q:103:2:2", "q:103:2:3", "q:103:2:4", "q:103:3:3", "q:103:3:5", "q:103:3:6", "q:103:3:7", "q:103:3:9", "q:103:1", "q:103:2", "q:103:3"],
+  "theorie": [
+    { "type": "texte", "texte": "Sens global d'Al-'Asr : « Par le Temps ! L'homme est certes en perdition, sauf ceux qui croient, accomplissent les bonnes œuvres, s'enjoignent mutuellement la vérité et s'enjoignent mutuellement la patience. »" },
+    { "type": "presentation", "element": "q:103:3:3", "note": "**âmanoû** : la hamza suivie d'un alif donne un « â » long. À la fin, le petit rond ۟ sur l'alif : cet alif s'écrit mais **ne se prononce pas**. On lit « âmanoû »." },
+    { "type": "presentation", "element": "q:103:3:7", "note": "**bi-l-ḥaqqi** : bi + al-ḥaqqi. L'alif de liaison ne se prononce pas : on enchaîne « bil »." },
+    { "type": "presentation", "element": "q:103:2:3", "note": "**lafî** : ici, la dernière lettre (yâ sans points) suit une kasra : elle allonge le son en « î »." },
+    { "type": "attention", "texte": "Dans « al-insâna », le noûn n'a pas de soukoun dessiné : c'est une indication de récitation (un n un peu nasal). Pour lire, prononce simplement « n »." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lecture-guidee", "consigne": "Lis la sourate seul, d'abord. Écoute ensuite.", "versets": "103:1-3", "aides": ["audio"], "explication": "Le verset 3 est long : lis-le par groupes de deux mots." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "q:103:1:5", "options": ["q:103:1:5", "q:103:3:9", "q:103:2:4"], "explication": "Wâw, alif de liaison muet, ل avec soukoun (lunaire), ع, ص avec soukoun, ر : « wa-l-ʿaṣr »." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "q:103:2:2", "options": ["q:103:2:2", "q:103:3:5", "q:103:2:4"], "explication": "« al-insâna » : article lunaire, hamza avec kasra, n, s, « â » long avec le petit alif." },
+    { "id": "p4", "type": "lis-choisis-son", "cible": "q:103:3:3", "options": ["q:103:3:3", "q:103:3:4", "q:103:3:6"], "explication": "« â » long au début, et l'alif final muet : « âmanoû »." },
+    { "id": "p5", "type": "ecoute-choisis", "cible": "q:103:3:9", "options": ["q:103:3:9", "q:103:3:7", "q:103:1:5"], "explication": "« bi-ṣ-ṣabr » : ص solaire doublé, ب avec soukoun, ر à l'arrêt." },
+    { "id": "p6", "type": "lis-choisis-son", "cible": "q:103:3:5", "options": ["q:103:3:5", "q:103:2:2", "q:103:3:2"], "explication": "ص solaire doublé, deux petits alifs qui donnent deux « â » : « aṣ-ṣâliḥâti »." },
+    { "id": "p7", "type": "lis-verifie", "cible": "q:103:1", "explication": "Basmala, puis un seul mot : « wa-l-ʿaṣr »." },
+    { "id": "p8", "type": "lis-verifie", "cible": "q:103:2", "explication": "« inna l-insâna lafî khousr » : le tanwin final tombe à l'arrêt." },
+    { "id": "p9", "type": "lis-verifie", "cible": "q:103:3", "explication": "Par groupes : illâ lladhîna âmanoû / wa-ʿamiloû ṣ-ṣâliḥâti / wa-tawâṣaw bi-l-ḥaqqi / wa-tawâṣaw bi-ṣ-ṣabr." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "q:103:3:6", "options": ["q:103:3:6", "q:103:3:4", "q:103:3:3"], "explication": "« wa-tawâṣaw » : w, t, « wâ » long, ṣ, puis و avec soukoun après fatha (« aw ») ; l'alif final est muet." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "q:103:3:7", "options": ["q:103:3:7", "q:103:3:9", "q:103:1:5"], "explication": "ب, alif muet, ل avec soukoun (lunaire), ح, ق doublé : « bi-l-ḥaqqi »." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "q:103:2:4", "options": ["q:103:2:4", "q:103:2:3", "q:103:3:1"], "explication": "خ avec damma, س avec soukoun, ر : « khousr » (le tanwin tombe à l'arrêt)." },
+    { "id": "t4", "type": "ecoute-choisis", "cible": "q:103:3:2", "options": ["q:103:3:2", "q:103:3:1", "q:103:2:1"], "explication": "« alladhîna » : l doublé, « dh », « î » long. Tu l'as déjà lu dans Al-Fatiha." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "q:103:2", "options": ["q:103:2", "q:103:1", "q:108:3"], "explication": "Le verset 2 commence par « inna » et finit par « khousr »." },
+    { "id": "t6", "type": "ecoute-choisis", "cible": "q:108:2:3", "options": ["q:108:2:3", "q:103:1:5"], "explication": "Révision : « wa-nḥar » (Al-Kawthar), alif de liaison muet après « wa »." }
+  ]
+}

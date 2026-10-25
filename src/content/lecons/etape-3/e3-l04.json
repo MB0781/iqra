@@ -1,0 +1,38 @@
+{
+  "id": "e3-l04",
+  "etape": 3,
+  "ordre": 4,
+  "titre": "Les trois voyelles et les sons proches",
+  "resume": "On mélange a, i, ou sur toutes les lettres et on travaille les paires de sons absents du français.",
+  "duree": 9,
+  "enseigne": [],
+  "elementsNouveaux": ["syl-alif-a", "syl-ayn-a", "syl-kaf-a", "syl-qaf-a", "syl-hha-i", "syl-tta-i", "syl-tha-ou", "mot-haraba", "mot-hadhira", "mot-thaqula", "mot-zaraa", "mot-dhakara", "mot-sadaqa", "mot-taraka"],
+  "theorie": [
+    { "type": "texte", "texte": "Tu connais maintenant les trois voyelles courtes. Dans cette leçon, on les mélange sur toutes les lettres et on travaille les **sons proches** qui n'existent pas en français." },
+    { "type": "paire", "elements": ["syl-ha-a", "syl-hha-a"], "note": "هَ : un « h » léger, simple souffle. حَ : souffle serré au milieu de la gorge, comme pour embuer une vitre, en plus fort." },
+    { "type": "paire", "elements": ["syl-alif-a", "syl-ayn-a"], "note": "اَ : la voyelle « a » seule. عَ : la gorge se contracte avant le « a ». Cette différence change le sens des mots." },
+    { "type": "paire", "elements": ["syl-kaf-a", "syl-qaf-a"], "note": "كَ : le « k » français. قَ : tout au fond de la gorge, son plus grave." },
+    { "type": "texte", "texte": "Les **emphatiques** ص ض ط ظ ont chacune une sœur « claire » : س د ت ذ. Pour une emphatique, la langue se creuse et recule : le son devient plus grave." },
+    { "type": "astuce", "texte": "Si tu n'arrives pas encore à prononcer un son, ce n'est pas grave : le but est d'abord de **reconnaître** la lettre et de lire la bonne voyelle. La prononciation s'affine avec l'écoute." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "paires-minimales", "paire": ["syl-ha-i", "syl-hha-i"], "cible": "syl-hha-i", "explication": "حِ : souffle serré. هِ : « h » léger. À l'écrit, ح ressemble à ج sans point ; ه est arrondi." },
+    { "id": "p2", "type": "paires-minimales", "paire": ["syl-alif-a", "syl-ayn-a"], "cible": "syl-alif-a", "explication": "اَ : la voyelle seule. عَ : on contracte la gorge avant le « a »." },
+    { "id": "p3", "type": "paires-minimales", "paire": ["syl-kaf-ou", "syl-qaf-ou"], "cible": "syl-kaf-ou", "explication": "كُ : « kou » comme en français. قُ : le même son, mais du fond de la gorge." },
+    { "id": "p4", "type": "paires-minimales", "paire": ["syl-sin-ou", "syl-sad-ou"], "cible": "syl-sin-ou", "explication": "سُ : « sou » comme en français. صُ : plus grave, la langue recule." },
+    { "id": "p5", "type": "paires-minimales", "paire": ["syl-ta-i", "syl-tta-i"], "cible": "syl-tta-i", "explication": "طِ : « t » emphatique, grave. تِ : « t » français, clair." },
+    { "id": "p6", "type": "lis-choisis-son", "cible": "mot-haraba", "options": ["mot-haraba", "mot-hadhira", "mot-taraka"], "explication": "هَ + رَ + بَ = « haraba », il s'est enfui. Le premier son est le « h » léger de ه." },
+    { "id": "p7", "type": "ecoute-choisis", "cible": "mot-thaqula", "options": ["mot-thaqula", "mot-sadaqa", "mot-dhakara"], "explication": "ثَ + قُ + لَ = « thaqoula », il est devenu lourd : ث (trois points), ق (deux points), ل." },
+    { "id": "p8", "type": "assemble", "morceaux": ["syl-zay-a", "syl-ra-a", "syl-ayn-a"], "distracteurs": ["syl-alif-a", "syl-dhal-a"], "resultat": "mot-zaraa", "explication": "زَ (za) + رَ (ra) + عَ (ʿa) = « zaraʿa », il a planté. C'est ز (« z ») et non ذ (« dh ») ; et le dernier son vient de la gorge : ع, pas ا." },
+    { "id": "p9", "type": "classe", "categories": [{ "id": "emph", "label": "Emphatique (son grave)" }, { "id": "clair", "label": "Son clair" }], "elements": [{ "ref": "syl-dad-a", "categorie": "emph" }, { "ref": "syl-dal-i", "categorie": "clair" }, { "ref": "syl-dha-i", "categorie": "emph" }, { "ref": "syl-dhal-a", "categorie": "clair" }, { "ref": "syl-tta-ou", "categorie": "emph" }, { "ref": "syl-ta-a", "categorie": "clair" }, { "ref": "syl-sad-i", "categorie": "emph" }, { "ref": "syl-sin-a", "categorie": "clair" }], "explication": "ص ض ط ظ sont les emphatiques. Leurs sœurs claires س د ت ذ se prononcent sans creuser la langue." },
+    { "id": "p10", "type": "lis-verifie", "cible": "mot-hadhira", "explication": "حَ + ذِ + رَ = « ḥadhira », il s'est méfié. Souffle serré pour ح, langue entre les dents pour ذ." }
+  ],
+  "test": [
+    { "id": "t1", "type": "paires-minimales", "paire": ["syl-dad-i", "syl-dal-i"], "cible": "syl-dad-i", "explication": "ضِ : « d » emphatique, grave, avec un point. دِ : « d » français." },
+    { "id": "t2", "type": "paires-minimales", "paire": ["syl-ghayn-a", "syl-ra-a"], "cible": "syl-ra-a", "explication": "رَ : « r » roulé du bout de la langue. غَ : au fond de la gorge, avec un point à l'écrit." },
+    { "id": "t3", "type": "paires-minimales", "paire": ["syl-dha-a", "syl-dhal-a"], "cible": "syl-dha-a", "explication": "ظَ : « dh » emphatique, grave (dessin de ط avec un point). ذَ : léger (dessin de د avec un point)." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "mot-sadaqa", "options": ["mot-sadaqa", "mot-dhakara", "mot-taraka"], "explication": "صَ + دَ + قَ = « ṣadaqa », il a dit vrai." },
+    { "id": "t5", "type": "ecoute-choisis", "cible": "mot-dhakara", "options": ["mot-dhakara", "mot-zaraa", "mot-taraka"], "explication": "ذَ + كَ + رَ = « dhakara », il a mentionné." },
+    { "id": "t6", "type": "paires-minimales", "paire": ["syl-tha-ou", "syl-sin-ou"], "cible": "syl-tha-ou", "explication": "ثُ : la langue entre les dents. سُ : le « s » français." }
+  ]
+}

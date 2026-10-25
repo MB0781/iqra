@@ -1,0 +1,35 @@
+{
+  "id": "e5-l02",
+  "etape": 5,
+  "ordre": 2,
+  "titre": "Assembler les syllabes",
+  "resume": "Remettre des syllabes dans l'ordre pour reconstruire des mots de 3 et 4 syllabes.",
+  "duree": 8,
+  "enseigne": [],
+  "elementsNouveaux": ["syl-mim-i-fa", "syl-mim-a-tta", "syl-ta-ou-fa", "syl-chin-ou-ba", "syl-ba-ou-ra", "syl-fa-ou-noun", "mot-miftahoun", "mot-matbakhoun", "mot-tuffahoun", "mot-chubbakoun", "mot-burtuqaloun", "mot-funduqoun"],
+  "theorie": [
+    { "type": "texte", "texte": "Dans cette leçon, tu fais le chemin inverse : tu as des syllabes et tu les remets dans l'ordre pour former un mot. Rappel : on lit **de droite à gauche**, donc la première syllabe est celle de droite." },
+    { "type": "presentation", "element": "mot-miftahoun", "note": "مِفْ + تَا + حٌ = « miftâḥoun », une clé." },
+    { "type": "presentation", "element": "mot-tuffahoun", "note": "تُفْ + فَا + حٌ = « touffâḥoun », des pommes. À l'écrit, les deux ف n'en font qu'un, avec une chadda." },
+    { "type": "presentation", "element": "mot-burtuqaloun", "note": "Quatre syllabes : بُرْ + تُ + قَا + لٌ = « bour-tou-qâ-loun », des oranges." },
+    { "type": "astuce", "texte": "Pour t'orienter, cherche la syllabe qui porte le **tanwin** : dans ces mots, elle est toujours la dernière." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "assemble", "morceaux": ["syl-mim-i-fa", "syl-ta-aa", "syl-hha-oun"], "distracteurs": ["syl-kha-oun"], "resultat": "mot-miftahoun", "explication": "مِفْ (mif) + تَا (tâ) + حٌ (ḥoun). خٌ, avec un point, se lirait « khoun »." },
+    { "id": "p2", "type": "assemble", "morceaux": ["syl-mim-a-tta", "syl-ba-a", "syl-kha-oun"], "distracteurs": ["syl-mim-a-kaf"], "resultat": "mot-matbakhoun", "explication": "مَطْ (maṭ) + بَ (ba) + خٌ (khoun) = « maṭbakhoun », une cuisine. مَكْ (mak) n'a pas le ط." },
+    { "id": "p3", "type": "assemble", "morceaux": ["syl-ta-ou-fa", "syl-fa-aa", "syl-hha-oun"], "distracteurs": ["syl-fa-a"], "resultat": "mot-tuffahoun", "explication": "تُفْ + فَا + حٌ : la chadda sur ف se lit « f-f ». Et la deuxième syllabe est longue : فَا." },
+    { "id": "p4", "type": "assemble", "morceaux": ["syl-chin-ou-ba", "syl-ba-aa", "syl-kaf-oun"], "distracteurs": ["syl-ba-a"], "resultat": "mot-chubbakoun", "explication": "شُبْ + بَا + كٌ = « choubbâkoun », une fenêtre." },
+    { "id": "p5", "type": "assemble", "morceaux": ["syl-ba-ou-ra", "syl-ta-ou", "syl-qaf-aa", "syl-lam-oun"], "distracteurs": ["syl-kaf-aa"], "resultat": "mot-burtuqaloun", "explication": "Quatre morceaux : بُرْ + تُ + قَا + لٌ. C'est قَا (deux points) et non كَا." },
+    { "id": "p6", "type": "assemble", "morceaux": ["syl-fa-ou-noun", "syl-dal-ou", "syl-qaf-oun"], "distracteurs": ["syl-dal-ouu"], "resultat": "mot-funduqoun", "explication": "فُنْ + دُ + قٌ = « foundouqoun », un hôtel. دُو serait long : ici, la damma est brève." },
+    { "id": "p7", "type": "classe", "consigne": "Combien de syllabes ?", "categories": [{ "id": "deux", "label": "2 syllabes" }, { "id": "trois", "label": "3 syllabes" }, { "id": "quatre", "label": "4 syllabes" }], "elements": [{ "ref": "mot-burtuqaloun", "categorie": "quatre" }, { "ref": "mot-funduqoun", "categorie": "trois" }, { "ref": "mot-qittoun", "categorie": "deux" }, { "ref": "mot-miftahoun", "categorie": "trois" }, { "ref": "mot-mudarrisi", "categorie": "quatre" }, { "ref": "mot-choukran", "categorie": "deux" }, { "ref": "mot-chubbakoun", "categorie": "trois" }], "explication": "Une voyelle = une syllabe. بُرْتُقَالٌ : bour-tou-qâ-loun (4). شُكْرًا : chouk-ran (2)." },
+    { "id": "p8", "type": "trouve-lettre", "mot": "mot-chubbakoun", "lettre": "lettre-kaf", "reponse": "fin", "explication": "Dans شُبَّاكٌ, ك est la dernière lettre et porte le tanwin « oun »." },
+    { "id": "p9", "type": "lis-verifie", "cible": "mot-tuffahoun", "explication": "تُفْ-فَا-حٌ : « touffâḥoun ». Tiens le « f », allonge le « â »." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "mot-chubbakoun", "options": ["mot-chubbakoun", "mot-tuffahoun", "mot-maktaboun"], "explication": "شُبْ + بَا + كٌ = « choubbâkoun », une fenêtre." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "mot-funduqoun", "options": ["mot-funduqoun", "mot-burtuqaloun", "mot-miftahoun"], "explication": "فُنْ + دُ + قٌ = « foundouqoun », un hôtel." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "mot-miftahoun", "options": ["mot-miftahoun", "mot-matbakhoun", "mot-tuffahoun"], "explication": "مِفْ + تَا + حٌ = « miftâḥoun », une clé." },
+    { "id": "t4", "type": "ecoute-choisis", "cible": "mot-burtuqaloun", "options": ["mot-burtuqaloun", "mot-funduqoun", "mot-chubbakoun"], "explication": "بُرْ + تُ + قَا + لٌ = « bourtouqâloun », des oranges." },
+    { "id": "t5", "type": "assemble", "morceaux": ["syl-mim-a-tta", "syl-ba-a", "syl-kha-oun"], "distracteurs": ["syl-mim-a-kaf", "syl-hha-oun"], "resultat": "mot-matbakhoun", "explication": "مَطْ (maṭ) + بَ (ba) + خٌ (khoun) = « maṭbakhoun ». حٌ, sans point, se lirait « ḥoun »." }
+  ]
+}

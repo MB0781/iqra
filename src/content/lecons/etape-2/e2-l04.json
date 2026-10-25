@@ -1,0 +1,44 @@
+{
+  "id": "e2-l04",
+  "etape": 2,
+  "ordre": 4,
+  "titre": "Boucles et gorge : ص ض ط ظ ع غ",
+  "resume": "ص ض ط ظ changent peu ; ع et غ prennent trois visages bien différents selon leur place.",
+  "duree": 9,
+  "enseigne": [],
+  "elementsNouveaux": [
+    "forme-sad-debut", "forme-sad-milieu", "forme-sad-fin",
+    "forme-dad-debut", "forme-dad-milieu", "forme-dad-fin",
+    "forme-tta-debut", "forme-tta-milieu", "forme-tta-fin",
+    "forme-dha-debut", "forme-dha-milieu", "forme-dha-fin",
+    "forme-ayn-debut", "forme-ayn-milieu", "forme-ayn-fin",
+    "forme-ghayn-debut", "forme-ghayn-milieu", "forme-ghayn-fin",
+    "mot-nv-sabr", "mot-nv-tayr", "mot-nv-ayn", "mot-nv-baad", "mot-nv-gharb", "mot-nv-saghir", "mot-nv-nazar", "mot-nv-batn", "mot-nv-darb", "mot-nv-sabaa"
+  ],
+  "theorie": [
+    { "type": "texte", "texte": "ص et ض perdent leur cuvette au début et au milieu. ط et ظ ne changent presque pas : leur **haste** (trait vertical) reste toujours, c'est le repère le plus sûr." },
+    { "type": "galerie", "elements": ["forme-sad-debut", "forme-sad-milieu", "forme-sad-fin", "lettre-sad"], "note": "La boucle et la petite dent restent ; la cuvette n'apparaît qu'à la fin." },
+    { "type": "texte", "texte": "ع et غ, eux, changent **beaucoup**. Au début, une petite tête ouverte ; au milieu, une **petite boucle fermée**, un peu triangulaire ; à la fin, la tête se referme et la grande courbe revient." },
+    { "type": "galerie", "elements": ["forme-ayn-debut", "forme-ayn-milieu", "forme-ayn-fin", "lettre-ayn"], "note": "ع au début, au milieu, à la fin, puis seule. Observe bien la forme du milieu : c'est celle qu'on reconnaît le moins facilement." },
+    { "type": "presentation", "element": "mot-nv-baad", "note": "**b-ʿ-d** (« baʿd », après) : ع est au milieu, sous sa forme fermée, puis د à la fin." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "forme-ayn-milieu", "options": ["forme-ayn-milieu", "forme-ghayn-milieu", "forme-hha-milieu"], "explication": "La petite boucle fermée sans point : ـعـ, « ʿ ». ـغـ a un point, ـحـ est la tête ouverte de ح." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "forme-dad-debut", "options": ["forme-dad-debut", "forme-sad-debut", "forme-tta-debut"], "explication": "Le « d » grave : ضـ, la boucle avec un point, sans haste." },
+    { "id": "p3", "type": "lis-choisis-son", "cible": "forme-dha-milieu", "options": ["forme-dha-milieu", "forme-tta-milieu", "forme-dad-milieu"], "explication": "Boucle, haste et un point : ـظـ, « ẓ »." },
+    { "id": "p4", "type": "classe", "consigne": "Début, milieu ou fin ?", "categories": [{ "id": "debut", "label": "Début" }, { "id": "milieu", "label": "Milieu" }, { "id": "fin", "label": "Fin" }], "elements": [{ "ref": "forme-ayn-debut", "categorie": "debut" }, { "ref": "forme-ghayn-debut", "categorie": "debut" }, { "ref": "forme-ayn-milieu", "categorie": "milieu" }, { "ref": "forme-ghayn-milieu", "categorie": "milieu" }, { "ref": "forme-ayn-fin", "categorie": "fin" }, { "ref": "forme-ghayn-fin", "categorie": "fin" }], "explication": "Tête ouverte = début ; petite boucle fermée = milieu ; grande courbe = fin. Le point de غ ne change rien à la position." },
+    { "id": "p5", "type": "trouve-lettre", "mot": "mot-nv-baad", "lettre": "lettre-ayn", "reponse": "milieu", "explication": "بعد : ب, puis ع sous sa forme du milieu, puis د." },
+    { "id": "p6", "type": "trouve-lettre", "mot": "mot-nv-gharb", "lettre": "lettre-ghayn", "reponse": "debut", "explication": "غرب commence par la tête ouverte avec un point : غـ." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "mot-nv-tayr", "options": ["mot-nv-tayr", "mot-nv-sabr", "mot-nv-ayn"], "explication": "ط (haste), une dent à deux points dessous (y), puis ر : ṭ-y-r (« ṭayr », oiseaux)." },
+    { "id": "p8", "type": "assemble", "morceaux": ["lettre-sad", "lettre-ghayn", "lettre-ya", "lettre-ra"], "distracteurs": ["lettre-ayn"], "resultat": "mot-nv-saghir", "explication": "ص, غ (avec point), ي, ر : صغير (« ṣaghîr », petit)." },
+    { "id": "p9", "type": "trouve-lettre", "mot": "mot-nv-sabaa", "lettre": "lettre-ayn", "reponse": "fin", "explication": "سبع se termine par ـع : la tête fermée et la grande courbe de fin." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "forme-ghayn-milieu", "options": ["forme-ghayn-milieu", "forme-ayn-milieu", "forme-kha-milieu"], "explication": "« gh » au milieu : la petite boucle fermée avec un point, ـغـ." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "forme-tta-fin", "options": ["forme-tta-fin", "forme-dha-fin", "forme-sad-fin"], "explication": "Boucle et haste sans point : ـط, « ṭ »." },
+    { "id": "t3", "type": "trouve-lettre", "mot": "mot-nv-nazar", "lettre": "lettre-dha", "reponse": "milieu", "explication": "نظر : ن, puis ظ (haste et point), puis ر." },
+    { "id": "t4", "type": "trouve-lettre", "mot": "mot-nv-batn", "lettre": "lettre-noun", "reponse": "fin", "explication": "بطن se termine par ـن, cuvette et point au-dessus." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "mot-nv-darb", "options": ["mot-nv-darb", "mot-nv-gharb", "mot-nv-sabr"], "explication": "ض (boucle et point), ر, puis ب isolé : ḍ-r-b." },
+    { "id": "t6", "type": "assemble", "morceaux": ["lettre-ayn", "lettre-ya", "lettre-noun"], "distracteurs": ["lettre-ghayn"], "resultat": "mot-nv-ayn", "explication": "ع (sans point), ي, ن : عين (« ʿayn », œil)." }
+  ]
+}

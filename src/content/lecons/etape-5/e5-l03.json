@@ -1,0 +1,35 @@
+{
+  "id": "e5-l03",
+  "etape": 5,
+  "ordre": 3,
+  "titre": "Lire d'une traite",
+  "resume": "Passer du découpage syllabe par syllabe à une lecture fluide du mot entier.",
+  "duree": 8,
+  "enseigne": [],
+  "elementsNouveaux": ["syl-ha-a-noun", "mot-muallimoun", "mot-tabiboun", "mot-matamoun", "mot-sabounoun", "mot-kursiyyoun", "mot-muhandisoun", "mot-haliboun"],
+  "theorie": [
+    { "type": "texte", "texte": "Découper aide au début. Maintenant, l'objectif est de lire le mot **d'une seule traite**, sans pause entre les syllabes, comme on prononce un mot." },
+    { "type": "presentation", "element": "mot-muallimoun", "note": "مُ-عَلْ-لِ-مٌ, puis d'une traite : « mouʿallimoun », un enseignant." },
+    { "type": "presentation", "element": "mot-kursiyyoun", "note": "كُرْ-سِيْ-يٌ : « koursiyyoun », une chaise. La chadda est sur ي : on entend « yy »." },
+    { "type": "astuce", "texte": "Méthode en trois passes : 1) repère les signes ; 2) lis lentement, syllabe par syllabe ; 3) relis d'une traite. À chaque passe, raccourcis les pauses." },
+    { "type": "galerie", "elements": ["mot-tabiboun", "mot-matamoun", "mot-sabounoun", "mot-haliboun"], "note": "Médecin, restaurant, savon, lait : des mots de tous les jours." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "mot-tabiboun", "options": ["mot-tabiboun", "mot-haliboun", "mot-sabounoun"], "explication": "طَ-بِي-بٌ : « ṭabîboun », un médecin. Le ط est emphatique." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "mot-matamoun", "options": ["mot-matamoun", "mot-maktaboun", "mot-matbakhoun"], "explication": "مَطْ-عَ-مٌ : « maṭʿamoun », un restaurant. Ne le confonds pas avec مَطْبَخٌ, la cuisine." },
+    { "id": "p3", "type": "lis-choisis-son", "cible": "mot-muhandisoun", "options": ["mot-muhandisoun", "mot-muallimoun", "mot-mudarrisi"], "explication": "مُ-هَنْ-دِ-سٌ : « mouhandisoun », un ingénieur." },
+    { "id": "p4", "type": "assemble", "morceaux": ["syl-mim-ou", "syl-ha-a-noun", "syl-dal-i", "syl-sin-oun"], "distracteurs": ["syl-hha-a"], "resultat": "mot-muhandisoun", "explication": "مُ (mou) + هَنْ (han) + دِ (di) + سٌ (soun). C'est le « h » léger de ه, pas ح." },
+    { "id": "p5", "type": "ecoute-choisis", "cible": "mot-sabounoun", "options": ["mot-sabounoun", "mot-tabiboun", "mot-kursiyyoun"], "explication": "صَا-بُو-نٌ : « ṣâboûnoun », du savon. Deux voyelles longues de suite." },
+    { "id": "p6", "type": "classe", "categories": [{ "id": "long", "label": "Contient une voyelle longue" }, { "id": "chadda", "label": "Contient une chadda" }], "elements": [{ "ref": "mot-tabiboun", "categorie": "long" }, { "ref": "mot-sabounoun", "categorie": "long" }, { "ref": "mot-haliboun", "categorie": "long" }, { "ref": "mot-muallimoun", "categorie": "chadda" }, { "ref": "mot-kursiyyoun", "categorie": "chadda" }, { "ref": "mot-qittoun", "categorie": "chadda" }], "explication": "ا, و ou ي sans signe après la bonne voyelle : voyelle longue. Le petit « w » : chadda. Dans كُرْسِيٌّ, le ي porte la chadda : ce n'est pas une prolongation." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "mot-kursiyyoun", "options": ["mot-kursiyyoun", "mot-muallimoun", "mot-mudarrisi"], "explication": "كُرْ-سِيْ-يٌ : « koursiyyoun », une chaise." },
+    { "id": "p8", "type": "lis-verifie", "cible": "mot-haliboun", "explication": "حَ-لِي-بٌ, d'une traite : « ḥalîboun », du lait. Souffle serré pour ح." },
+    { "id": "p9", "type": "lis-verifie", "cible": "mot-muallimoun", "explication": "« mouʿallimoun » : contracte la gorge pour ع, puis tiens le « l » doublé." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "mot-haliboun", "options": ["mot-haliboun", "mot-hatifoun", "mot-tabiboun"], "explication": "« ḥalîboun » commence par ح (souffle serré) ; هَاتِفٌ « hâtifoun » par ه (« h » léger)." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "mot-matamoun", "options": ["mot-matamoun", "mot-matbakhoun", "mot-maktaboun"], "explication": "مَطْ-عَ-مٌ : « maṭʿamoun », un restaurant." },
+    { "id": "t3", "type": "ecoute-choisis", "cible": "mot-muallimoun", "options": ["mot-muallimoun", "mot-muhandisoun", "mot-mudarrisi"], "explication": "مُ-عَلْ-لِ-مٌ : « mouʿallimoun », un enseignant." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "mot-sabounoun", "options": ["mot-sabounoun", "mot-kursiyyoun", "mot-haliboun"], "explication": "صَا-بُو-نٌ : « ṣâboûnoun »." },
+    { "id": "t5", "type": "ecoute-choisis", "cible": "mot-kursiyyoun", "options": ["mot-kursiyyoun", "mot-qittoun", "mot-tuffahoun"], "explication": "كُرْ-سِيْ-يٌ : « koursiyyoun », une chaise." }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "e3-l02",
+  "etape": 3,
+  "ordre": 2,
+  "titre": "La kasra : le son « i »",
+  "resume": "Un petit trait sous la lettre donne le son « i » : بِ = « bi ».",
+  "duree": 7,
+  "enseigne": ["voyelle-kasra"],
+  "elementsNouveaux": ["syl-ba-i", "syl-noun-i", "syl-qaf-i", "syl-kaf-i", "syl-ayn-i", "syl-alif-i", "syl-tha-i", "syl-sin-i", "syl-ra-i", "mot-chariba", "mot-samia", "mot-fahima", "mot-rakiba", "mot-laiba", "mot-alima"],
+  "theorie": [
+    { "type": "texte", "texte": "La **kasra** est un petit trait oblique **sous** la lettre. Elle se lit « i », comme dans « lit »." },
+    { "type": "paire", "elements": ["syl-ba-a", "syl-ba-i"], "note": "Même lettre, voyelle différente : trait **au-dessus** = « ba », trait **en dessous** = « bi »." },
+    { "type": "galerie", "elements": ["syl-ta-i", "syl-noun-i", "syl-mim-i", "syl-lam-i", "syl-sin-i", "syl-ra-i", "syl-kaf-i", "syl-fa-i"], "note": "Toutes ces lettres portent une kasra : « ti, ni, mi, li, si, ri, ki, fi »." },
+    { "type": "attention", "texte": "Avec ب, le point et la kasra sont tous les deux sous la lettre : le point est **collé** à la lettre, la kasra est un **petit trait** placé plus bas. Ne les confonds pas." },
+    { "type": "presentation", "element": "mot-chariba", "note": "شَ + رِ + بَ = « chariba », il a bu. Fatha, kasra, fatha : regarde bien la voyelle du milieu." },
+    { "type": "astuce", "texte": "Quand l'**alif** porte une voyelle (اَ اِ), on entend simplement cette voyelle, avec une petite attaque de la voix. Tu verras à l'étape 6 qu'on l'écrit souvent avec un signe en plus, la hamza." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "syl-ba-i", "options": ["syl-ba-a", "syl-ba-i"], "explication": "Le trait est sous la lettre : c'est une kasra, donc « bi »." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "syl-noun-i", "options": ["syl-noun-i", "syl-noun-a", "syl-ta-i"], "explication": "« ni » : le point de ن est au-dessus, la kasra en dessous." },
+    { "id": "p3", "type": "paires-minimales", "paire": ["syl-kaf-i", "syl-qaf-i"], "cible": "syl-qaf-i", "explication": "ق se prononce tout au fond de la gorge, ك plus en avant, comme le « k » français. À l'écrit, ق a deux points au-dessus." },
+    { "id": "p4", "type": "paires-minimales", "paire": ["syl-alif-i", "syl-ayn-i"], "cible": "syl-ayn-i", "explication": "عِ demande une contraction de la gorge avant le « i ». Avec اِ, l'alif porte simplement la voyelle : on entend juste « i »." },
+    { "id": "p5", "type": "lis-choisis-son", "cible": "mot-samia", "options": ["mot-samia", "mot-chariba", "mot-rakiba"], "explication": "سَ + مِ + عَ = « samiʿa », il a entendu. Le ع final se fait dans la gorge." },
+    { "id": "p6", "type": "assemble", "morceaux": ["syl-fa-a", "syl-ha-i", "syl-mim-a"], "distracteurs": ["syl-hha-i"], "resultat": "mot-fahima", "explication": "فَ (fa) + هِ (hi) + مَ (ma) = « fahima », il a compris. C'est هِ, le « h » léger, et non حِ." },
+    { "id": "p7", "type": "trouve-lettre", "mot": "mot-rakiba", "lettre": "lettre-kaf", "reponse": "milieu", "explication": "Dans رَكِبَ, le ك est au milieu, sous sa forme médiane, et c'est lui qui porte la kasra : « ra-ki-ba »." },
+    { "id": "p8", "type": "classe", "categories": [{ "id": "fatha", "label": "Fatha : « a »" }, { "id": "kasra", "label": "Kasra : « i »" }], "elements": [{ "ref": "syl-dal-a", "categorie": "fatha" }, { "ref": "syl-dal-i", "categorie": "kasra" }, { "ref": "syl-sad-i", "categorie": "kasra" }, { "ref": "syl-kha-a", "categorie": "fatha" }, { "ref": "syl-ghayn-i", "categorie": "kasra" }, { "ref": "syl-zay-a", "categorie": "fatha" }], "explication": "Trait au-dessus : fatha (« a »). Trait en dessous : kasra (« i »). La place du trait suffit, quelle que soit la lettre." },
+    { "id": "p9", "type": "lis-verifie", "cible": "mot-laiba", "explication": "لَ + عِ + بَ = « laʿiba », il a joué. Prends le temps de faire le ع au milieu." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "syl-tha-i", "options": ["syl-tha-i", "syl-sin-i", "syl-ta-i"], "explication": "Trois points au-dessus et une kasra : « thi », la langue entre les dents." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "mot-alima", "options": ["mot-alima", "mot-laiba", "mot-samia"], "explication": "عَ + لِ + مَ = « ʿalima », il a su. Le mot commence par la gorge : ع." },
+    { "id": "t3", "type": "paires-minimales", "paire": ["syl-sin-i", "syl-tha-i"], "cible": "syl-sin-i", "explication": "سِ : le « s » français. ثِ : la langue entre les dents. Le dessin aide : س a trois dents, ث trois points." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "syl-ra-i", "options": ["syl-ra-i", "syl-ra-a", "syl-zay-i"], "explication": "ر sans point, trait en dessous : « ri »." },
+    { "id": "t5", "type": "ecoute-choisis", "cible": "mot-chariba", "options": ["mot-chariba", "mot-kataba", "mot-fahima"], "explication": "شَ + رِ + بَ = « chariba », il a bu." }
+  ]
+}

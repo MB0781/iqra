@@ -1,0 +1,10 @@
+---
+/** Marque d'Iqra' : une étoile à huit branches tracée pour le projet (deux carrés croisés). */
+interface Props { taille?: number; class?: string }
+const { taille = 24, class: classe = '' } = Astro.props;
+---
+<svg width={taille} height={taille} viewBox="0 0 32 32" fill="none" aria-hidden="true" class={classe}>
+  <rect x="7" y="7" width="18" height="18" rx="1.5" stroke="currentColor" stroke-width="1.75" />
+  <rect x="7" y="7" width="18" height="18" rx="1.5" stroke="currentColor" stroke-width="1.75" transform="rotate(45 16 16)" />
+  <circle cx="16" cy="16" r="2.25" fill="currentColor" />
+</svg>

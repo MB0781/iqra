@@ -1,0 +1,34 @@
+{
+  "id": "e4-l03",
+  "etape": 4,
+  "ordre": 3,
+  "titre": "La chadda : la lettre doublée",
+  "resume": "Le petit signe ّ double la lettre : مَرَّ = « mar-ra ».",
+  "duree": 7,
+  "enseigne": ["signe-chadda"],
+  "elementsNouveaux": ["syl-mim-a-ra", "mot-marra", "mot-allama", "mot-darrasa", "mot-kasara", "mot-kassara", "mot-djaddi", "mot-mudarrisi"],
+  "theorie": [
+    { "type": "texte", "texte": "La **chadda** ( ّ ) ressemble à un petit « w » posé sur la lettre. Elle indique que la lettre est **doublée** : on la prononce deux fois, d'abord sans voyelle (comme avec un soukoun), puis avec sa voyelle." },
+    { "type": "presentation", "element": "mot-marra", "note": "مَرَّ = مَرْ + رَ : « mar-ra », il est passé. On appuie sur le « r »." },
+    { "type": "texte", "texte": "La chadda porte toujours une voyelle. La fatha et la damma se placent **au-dessus** de la chadda ; la kasra se place sous la lettre ou, selon l'écriture, juste sous la chadda." },
+    { "type": "presentation", "element": "mot-djaddi", "note": "جَدْ + دِي = « djad-dî », mon grand-père : chadda avec kasra sur د, puis ي de prolongation." },
+    { "type": "astuce", "texte": "Pense à l'italien « mamma » : on tient la consonne un instant avant la voyelle. C'est exactement ce que demande la chadda." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "mot-allama", "options": ["mot-allama", "mot-alima", "mot-laiba"], "explication": "عَلْ + لَ + مَ = « ʿallama », il a enseigné. Sans chadda, عَلِمَ (« ʿalima ») veut dire « il a su »." },
+    { "id": "p2", "type": "assemble", "morceaux": ["syl-mim-a-ra", "syl-ra-a"], "distracteurs": ["syl-mim-aa"], "resultat": "mot-marra", "explication": "La chadda se lit en deux temps : مَرْ (mar), puis رَ (ra). مَا serait un « â » long, sans « r »." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "mot-darrasa", "options": ["mot-darrasa", "mot-kassara", "mot-allama"], "explication": "دَرْ + رَ + سَ = « darrasa », il a donné un cours." },
+    { "id": "p4", "type": "paires-minimales", "paire": ["mot-kasara", "mot-kassara"], "cible": "mot-kassara", "explication": "كَسَّرَ : « s » doublé, « kassara ». كَسَرَ : un seul « s », « kasara ». La chadda change la prononciation et nuance le sens (briser en morceaux)." },
+    { "id": "p5", "type": "classe", "categories": [{ "id": "chadda", "label": "Avec chadda" }, { "id": "soukoun", "label": "Avec soukoun" }, { "id": "aucun", "label": "Ni l'un ni l'autre" }], "elements": [{ "ref": "mot-marra", "categorie": "chadda" }, { "ref": "mot-djaddi", "categorie": "chadda" }, { "ref": "mot-min", "categorie": "soukoun" }, { "ref": "mot-qultu", "categorie": "soukoun" }, { "ref": "mot-kana", "categorie": "aucun" }, { "ref": "mot-kabura", "categorie": "aucun" }, { "ref": "mot-mudarrisi", "categorie": "chadda" }], "explication": "Le petit « w » est la chadda, le petit rond est le soukoun. كَانَ et كَبُرَ n'ont ni l'un ni l'autre." },
+    { "id": "p6", "type": "lis-choisis-son", "cible": "mot-mudarrisi", "options": ["mot-mudarrisi", "mot-darrasa", "mot-djaddi"], "explication": "مُ + دَرْ + رِ + سِي = « moudarrisî », mon professeur." },
+    { "id": "p7", "type": "trouve-lettre", "mot": "mot-djaddi", "lettre": "lettre-dal", "reponse": "milieu", "explication": "Dans جَدِّي, un seul د est écrit, au milieu ; la chadda le fait prononcer deux fois." },
+    { "id": "p8", "type": "lis-verifie", "cible": "mot-marra", "explication": "« mar-ra » : tiens le « r » un instant avant le « a »." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "mot-djaddi", "options": ["mot-djaddi", "mot-bayti", "mot-kitabi"], "explication": "جَدْ + دِي = « djaddî », mon grand-père." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "mot-kassara", "options": ["mot-kassara", "mot-kasara", "mot-darrasa"], "explication": "« kassara » : la chadda double le « s »." },
+    { "id": "t3", "type": "paires-minimales", "paire": ["mot-alima", "mot-allama"], "cible": "mot-alima", "explication": "عَلِمَ : un seul « l », avec kasra (« ʿalima »). عَلَّمَ : « l » doublé (« ʿallama »)." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "mot-darrasa", "options": ["mot-darrasa", "mot-mudarrisi", "mot-marra"], "explication": "دَرْ + رَ + سَ = « darrasa »." },
+    { "id": "t5", "type": "ecoute-choisis", "cible": "mot-marra", "options": ["mot-marra", "mot-min", "mot-lam"], "explication": "« marra » : مَ, puis رَّ doublé." }
+  ]
+}

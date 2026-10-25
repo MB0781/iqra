@@ -1,0 +1,37 @@
+{
+  "id": "e9-l04",
+  "etape": 9,
+  "ordre": 4,
+  "titre": "Al-Falaq (sourate 113)",
+  "resume": "Cinq versets construits sur une formule qui revient : « et contre le mal de… ».",
+  "duree": 9,
+  "enseigne": [],
+  "elementsNouveaux": ["q:113:1:6", "q:113:1:7", "q:113:1:8", "q:113:2:4", "q:113:3:3", "q:113:3:5", "q:113:4:3", "q:113:4:5", "q:113:5:3", "q:113:5:5", "q:113:1", "q:113:2", "q:113:3", "q:113:4", "q:113:5"],
+  "theorie": [
+    { "type": "texte", "texte": "Sens global d'Al-Falaq : « Dis : Je cherche protection auprès du Seigneur de l'aube naissante, contre le mal de ce qu'Il a créé, contre le mal de l'obscurité quand elle s'étend, contre le mal de celles qui soufflent sur les nœuds, et contre le mal de l'envieux quand il envie. » Cette fois, **aucune aide** : lis seul." },
+    { "type": "presentation", "element": "q:113:3:1-2", "note": "**wa-min charri** (« et contre le mal de ») revient trois fois. Une fois reconnu, tu le lis d'un coup d'œil. Le noûn sans soukoun se lit simplement « n »." },
+    { "type": "presentation", "element": "q:113:1:6", "note": "**aʿoûdhou** : hamza + fatha, ع avec damma suivi de و (« ʿoû » long), ذ (« dh »)." },
+    { "type": "presentation", "element": "q:113:4:3", "note": "**an-naffâthâti** : ن solaire doublé, ف doublé, deux petits alifs qui donnent deux « â », et ث." },
+    { "type": "astuce", "texte": "Dans le verset 4, le « î » de « fî » se raccourcit à l'oreille devant l'article qui suit (« fi l-ʿouqad »). Lis-le comme tu l'entends ensuite : c'est une simple habitude de prononciation." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lecture-guidee", "consigne": "Lis la sourate seul, sans aucune aide. Écoute seulement après.", "versets": "113:1-5", "aides": [], "explication": "Repère d'abord les formules qui reviennent : elles allègent la lecture." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "q:113:1:8", "options": ["q:113:1:8", "q:113:4:5", "q:113:2:4"], "explication": "Article lunaire, ف, ل, ق : « al-falaq »." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "q:113:3:3", "options": ["q:113:3:3", "q:113:5:3", "q:113:3:5"], "explication": "« ghâsiqin » : gh, « â » long, s, q, et le tanwin kasra (« in »)." },
+    { "id": "p4", "type": "lis-choisis-son", "cible": "q:113:5:3", "options": ["q:113:5:3", "q:113:3:3", "q:113:5:5"], "explication": "ح (souffle serré), « â » long, س, د avec tanwin : « ḥâsidin »." },
+    { "id": "p5", "type": "ecoute-choisis", "cible": "q:113:4:3", "options": ["q:113:4:3", "q:113:4:5", "q:113:1:6"], "explication": "« an-naffâthâti » : n doublé, f doublé, « th » de l'anglais « think »." },
+    { "id": "p6", "type": "lis-verifie", "cible": "q:113:1", "explication": "Basmala, puis « qoul aʿoûdhou birabbi l-falaq »." },
+    { "id": "p7", "type": "lis-verifie", "cible": "q:113:2", "explication": "« min charri mâ khalaq » : le ش doublé par la chadda." },
+    { "id": "p8", "type": "lis-verifie", "cible": "q:113:3", "explication": "« wa-min charri ghâsiqin idhâ waqab »." },
+    { "id": "p9", "type": "lis-verifie", "cible": "q:113:4", "explication": "« wa-min charri n-naffâthâti fi l-ʿouqad »." },
+    { "id": "p10", "type": "lis-verifie", "cible": "q:113:5", "explication": "« wa-min charri ḥâsidin idhâ ḥasad »." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "q:113:1:6", "options": ["q:113:1:6", "q:113:1:7", "q:113:1:5"], "explication": "ع suivi de و long, puis ذ : « aʿoûdhou »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "q:113:2:4", "options": ["q:113:2:4", "q:113:5:5", "q:113:3:5"], "explication": "« khalaq » : kh, l, q." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "q:113:4:5", "options": ["q:113:4:5", "q:113:1:8", "q:113:2:2"], "explication": "Article lunaire, ع avec damma, ق, د : « al-ʿouqad »." },
+    { "id": "t4", "type": "ecoute-choisis", "cible": "q:113:5:5", "options": ["q:113:5:5", "q:113:5:3"], "explication": "« ḥasad » : trois syllabes courtes, sans « â » long." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "q:113:3:5", "options": ["q:113:3:5", "q:113:2:4", "q:113:3:4"], "explication": "و, ق, ب : « waqab »." },
+    { "id": "t6", "type": "ecoute-choisis", "cible": "q:113:1:7", "options": ["q:113:1:7", "q:108:2:2", "q:1:2:3"], "explication": "« birabbi » = bi + rabbi. « lirabbika » commence par « li », « rabbi » n'a rien devant." }
+  ]
+}

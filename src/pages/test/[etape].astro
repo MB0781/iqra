@@ -1,0 +1,30 @@
+---
+import Base from '../../layouts/Base.astro';
+import TestEtape from '../../components/exercices/TestEtape.tsx';
+import { contenus, itemsPour, refsExercice } from '../../content/charger';
+import { lien } from '../../lib/liens';
+
+export function getStaticPaths() {
+  return [...contenus().tests.keys()].map((n) => ({ params: { etape: String(n) } }));
+}
+const n = Number(Astro.params.etape);
+const { tests, etapes, lecons } = contenus();
+const test = tests.get(n)!;
+const etape = etapes.find((e) => e.numero === n)!;
+const items = itemsPour(test.questions.flatMap(refsExercice));
+const toutes = lecons.map((l) => ({ id: l.id, etape: l.etape, ordre: l.ordre }));
+---
+<Base titre={`Test de l’étape ${n}`} description={`Test de fin d’étape ${n} (${etape.titre}) : 85 % pour ouvrir l’étape suivante.`}>
+  <article class="conteneur max-w-2xl pt-8 sm:pt-12">
+    <nav aria-label="Fil d’Ariane" class="text-sm text-encre-2">
+      <a class="hover:text-encre" href={lien('parcours/')}>Parcours</a>
+      <span aria-hidden="true" class="mx-1.5 text-encre-3">/</span>
+      <a class="hover:text-encre" href={lien(`parcours/#etape-${n}`)}>Étape {n}</a>
+    </nav>
+    <h1 class="mt-4 text-2xl font-semibold sm:text-3xl">{test.titre}</h1>
+    <p class="mt-2 text-lg text-encre-2">{test.consigne}</p>
+    <div class="mt-8">
+      <TestEtape client:load etape={n} questions={test.questions} items={items} toutes={toutes} aSuivante={n < etapes.length} />
+    </div>
+  </article>
+</Base>

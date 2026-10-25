@@ -1,0 +1,44 @@
+{
+  "id": "e2-l03",
+  "etape": 2,
+  "ordre": 3,
+  "titre": "Têtes et dents : ج ح خ س ش",
+  "resume": "Ces lettres gardent leur tête ou leurs dents et ne déploient leur grande courbe qu'à la fin du mot.",
+  "duree": 8,
+  "enseigne": [],
+  "elementsNouveaux": [
+    "forme-jim-debut", "forme-jim-milieu", "forme-jim-fin",
+    "forme-hha-debut", "forme-hha-milieu", "forme-hha-fin",
+    "forme-kha-debut", "forme-kha-milieu", "forme-kha-fin",
+    "forme-sin-debut", "forme-sin-milieu", "forme-sin-fin",
+    "forme-chin-debut", "forme-chin-milieu", "forme-chin-fin",
+    "mot-nv-bahr", "mot-nv-hajar", "mot-nv-khubz", "mot-nv-chajar", "mot-nv-sabt", "mot-nv-jisr", "mot-nv-khachab"
+  ],
+  "theorie": [
+    { "type": "texte", "texte": "Ces lettres changent peu. Au début et au milieu, elles **perdent leur grande courbe** (ou leur cuvette) et se relient par un simple trait." },
+    { "type": "galerie", "elements": ["forme-jim-debut", "forme-jim-milieu", "forme-jim-fin", "lettre-jim"], "note": "ج : la tête reste ; la grande courbe n'apparaît qu'à la fin et en forme isolée. Le point reste sous la tête." },
+    { "type": "texte", "texte": "ح et خ suivent exactement la même logique. Seul le point change : **dessous** (ج), **aucun** (ح), **dessus** (خ)." },
+    { "type": "galerie", "elements": ["forme-sin-debut", "forme-sin-milieu", "forme-sin-fin", "lettre-sin"], "note": "س : les trois petites dents restent ; la cuvette n'apparaît qu'à la fin. ش fait de même, avec ses trois points." },
+    { "type": "presentation", "element": "mot-nv-bahr", "note": "**b-ḥ-r** (« baḥr », mer) : ب au début, ح au milieu, puis ر à la fin." },
+    { "type": "attention", "texte": "Au milieu d'un mot, les trois dents de س peuvent se confondre avec des dents de ب ت ث ن ي. Indice : س a trois dents à la suite et aucun point." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "forme-hha-milieu", "options": ["forme-jim-milieu", "forme-hha-milieu", "forme-kha-milieu"], "explication": "La tête sans aucun point : ـحـ, « ḥ »." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "forme-chin-debut", "options": ["forme-chin-debut", "forme-sin-debut", "forme-tha-debut"], "explication": "« ch » : trois dents et trois points, شـ. ثـ a aussi trois points, mais sur une seule dent." },
+    { "id": "p3", "type": "lis-choisis-son", "cible": "forme-kha-fin", "options": ["forme-kha-fin", "forme-jim-fin", "forme-hha-fin"], "explication": "La tête avec un point au-dessus et la grande courbe de fin : ـخ, « kh »." },
+    { "id": "p4", "type": "classe", "consigne": "Début, milieu ou fin ?", "categories": [{ "id": "debut", "label": "Début" }, { "id": "milieu", "label": "Milieu" }, { "id": "fin", "label": "Fin" }], "elements": [{ "ref": "forme-jim-debut", "categorie": "debut" }, { "ref": "forme-sin-debut", "categorie": "debut" }, { "ref": "forme-kha-milieu", "categorie": "milieu" }, { "ref": "forme-chin-milieu", "categorie": "milieu" }, { "ref": "forme-hha-fin", "categorie": "fin" }, { "ref": "forme-chin-fin", "categorie": "fin" }], "explication": "La grande courbe ou la cuvette n'apparaît qu'en fin de mot. Au début et au milieu, regarde de quel côté part le trait ـ." },
+    { "id": "p5", "type": "trouve-lettre", "mot": "mot-nv-hajar", "lettre": "lettre-jim", "reponse": "milieu", "explication": "حجر : ح au début, ج au milieu (point sous la tête), ر à la fin." },
+    { "id": "p6", "type": "trouve-lettre", "mot": "mot-nv-khubz", "lettre": "lettre-ba", "reponse": "milieu", "explication": "خبز : la petite dent à un point dessous, entre خ et ز, c'est ب." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "mot-nv-chajar", "options": ["mot-nv-chajar", "mot-nv-hajar", "mot-nv-jisr"], "explication": "Trois dents et trois points (ch), la tête au point dessous (dj), puis ر : ch-dj-r (« chajar », arbres)." },
+    { "id": "p8", "type": "assemble", "morceaux": ["lettre-sin", "lettre-ba", "lettre-ta"], "distracteurs": ["lettre-chin"], "resultat": "mot-nv-sabt", "explication": "س, puis ب, puis ت, tous liés : سبت (« sabt », samedi)." },
+    { "id": "p9", "type": "trouve-lettre", "mot": "mot-nv-sabt", "lettre": "lettre-chin", "reponse": "absente", "explication": "سبت commence par trois dents sans point : c'est س, pas ش." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "forme-jim-milieu", "options": ["forme-jim-milieu", "forme-hha-milieu", "forme-kha-milieu"], "explication": "« dj » au milieu : la tête avec un point dessous, ـجـ." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "forme-sin-milieu", "options": ["forme-sin-milieu", "forme-chin-milieu", "forme-ba-milieu"], "explication": "Trois dents sans point : ـسـ, « s »." },
+    { "id": "t3", "type": "trouve-lettre", "mot": "mot-nv-jisr", "lettre": "lettre-ra", "reponse": "fin", "explication": "جسر se termine par ر, qui descend sous la ligne." },
+    { "id": "t4", "type": "trouve-lettre", "mot": "mot-nv-khachab", "lettre": "lettre-kha", "reponse": "debut", "explication": "خشب commence par la tête au point dessus : خـ." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "mot-nv-khubz", "options": ["mot-nv-khubz", "mot-nv-khachab", "mot-nv-bahr"], "explication": "خ, une dent à un point dessous (b), puis ز : kh-b-z (« khoubz », pain)." },
+    { "id": "t6", "type": "assemble", "morceaux": ["lettre-ba", "lettre-hha", "lettre-ra"], "distracteurs": ["lettre-kha"], "resultat": "mot-nv-bahr", "explication": "ب, ح (sans point), ر : بحر." }
+  ]
+}

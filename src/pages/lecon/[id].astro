@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+import Lecon from '../../components/exercices/Lecon.tsx';
+import { contenus, itemsPour, refsLecon } from '../../content/charger';
+import { lien } from '../../lib/liens';
+
+export function getStaticPaths() {
+  return contenus().lecons.map((l) => ({ params: { id: l.id } }));
+}
+
+const { lecons, etapes } = contenus();
+const lecon = lecons.find((l) => l.id === Astro.params.id)!;
+const i = lecons.indexOf(lecon);
+const etape = etapes.find((e) => e.numero === lecon.etape)!;
+const suiv = lecons[i + 1]?.etape === lecon.etape ? lecons[i + 1] : null;
+const prec = lecons[i - 1]?.etape === lecon.etape ? lecons[i - 1] : null;
+const items = itemsPour(refsLecon(lecon));
+const toutes = lecons.map((l) => ({ id: l.id, etape: l.etape, ordre: l.ordre }));
+const nouveaux = lecon.elementsNouveaux.map((r) => items[r].id);
+const nbLecons = lecons.filter((l) => l.etape === lecon.etape).length;
+---
+<Base titre={lecon.titre} description={`Étape ${lecon.etape}, ${etape.titre.toLowerCase()} : ${lecon.resume}`}>
+  <article class="conteneur max-w-2xl pt-8 sm:pt-12">
+    <nav aria-label="Fil d’Ariane" class="text-sm text-encre-2">
+      <a class="hover:text-encre" href={lien('parcours/')}>Parcours</a>
+      <span aria-hidden="true" class="mx-1.5 text-encre-3">/</span>
+      <a class="hover:text-encre" href={lien(`parcours/#etape-${lecon.etape}`)}>Étape {lecon.etape}</a>
+    </nav>
+    <header class="mt-4">
+      <p class="text-sm text-encre-2">Leçon {lecon.ordre} sur {nbLecons}, environ {lecon.duree} minutes</p>
+      <h1 class="mt-1 text-2xl font-semibold sm:text-3xl">{lecon.titre}</h1>
+      <p class="mt-2 text-lg text-encre-2">{lecon.resume}</p>
+    </header>
+    <div class="mt-10">
+      <Lecon client:load lecon={lecon} items={items} toutes={toutes} suivante={suiv ? { id: suiv.id, titre: suiv.titre } : null} precedente={prec ? { id: prec.id, titre: prec.titre } : null} nouveaux={nouveaux} />
+    </div>
+  </article>
+</Base>

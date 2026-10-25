@@ -1,0 +1,35 @@
+{
+  "id": "e1-l07",
+  "etape": 1,
+  "ordre": 7,
+  "titre": "Boucles et hastes : ف ق ك ل",
+  "resume": "ف et ق partagent une petite boucle, ك et ل une grande haste.",
+  "duree": 7,
+  "enseigne": ["lettre-fa", "lettre-qaf", "lettre-kaf", "lettre-lam"],
+  "elementsNouveaux": ["lettre-fa", "lettre-qaf", "lettre-kaf", "lettre-lam"],
+  "theorie": [
+    { "type": "texte", "texte": "Quatre lettres, deux paires d'aspect. ف et ق ont une **petite boucle ronde** ; ك et ل ont une **grande haste**." },
+    { "type": "paire", "elements": ["lettre-fa", "lettre-qaf"], "note": "**ف** : un point au-dessus, et une queue **plate**, posée sur la ligne. Son « f ». **ق** : **deux points** au-dessus, et une queue **ronde** qui plonge sous la ligne. Son « q »." },
+    { "type": "presentation", "element": "lettre-kaf", "note": "Une haste, une base plate, et un **petit signe ondulé** à l'intérieur. Son « k », comme dans « kilo »." },
+    { "type": "presentation", "element": "lettre-lam", "note": "Une grande haste qui descend en **crochet sous la ligne**, sans point. Son « l », comme dans « lune »." },
+    { "type": "texte", "texte": "« q » se prononce comme un « k », mais **tout au fond de la bouche**, contre la luette. Le « k » de ك est celui du français." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "lettre-fa", "options": ["lettre-fa", "lettre-qaf"], "explication": "Un point et une queue plate : ف, « f ». ق a deux points et une queue qui plonge." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "lettre-lam", "options": ["lettre-lam", "lettre-kaf", "lettre-noun"], "explication": "Grande haste et crochet sous la ligne, sans point : ل, « l ». ن a un point et pas de haste." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "lettre-qaf", "options": ["lettre-fa", "lettre-qaf", "lettre-tha"], "explication": "Le son « q » : ق, petite boucle avec deux points et queue ronde." },
+    { "id": "p4", "type": "ecoute-choisis", "cible": "lettre-kaf", "options": ["lettre-kaf", "lettre-lam", "lettre-dal"], "explication": "Le son « k » : ك, avec son petit signe ondulé à l'intérieur." },
+    { "id": "p5", "type": "paires-minimales", "paire": ["lettre-fa", "lettre-qaf"], "cible": "lettre-qaf", "explication": "ف : un point (« f »). ق : deux points (« q », au fond de la gorge)." },
+    { "id": "p6", "type": "classe", "consigne": "La fin de la lettre reste-t-elle sur la ligne ?", "categories": [{ "id": "plate", "label": "Reste sur la ligne" }, { "id": "descend", "label": "Descend sous la ligne" }], "elements": [{ "ref": "lettre-fa", "categorie": "plate" }, { "ref": "lettre-kaf", "categorie": "plate" }, { "ref": "lettre-dal", "categorie": "plate" }, { "ref": "lettre-tta", "categorie": "plate" }, { "ref": "lettre-qaf", "categorie": "descend" }, { "ref": "lettre-lam", "categorie": "descend" }, { "ref": "lettre-ra", "categorie": "descend" }, { "ref": "lettre-zay", "categorie": "descend" }], "explication": "ف, ك, د et ط restent posés sur la ligne ; ق, ل, ر et ز plongent dessous. Ce repère aide beaucoup pour ف et ق." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "lettre-qaf", "options": ["lettre-qaf", "lettre-ghayn", "lettre-fa", "lettre-kaf"], "explication": "Petite boucle, deux points, queue ronde : ق, « q »." },
+    { "id": "p8", "type": "ecoute-choisis", "cible": "lettre-lam", "options": ["lettre-lam", "lettre-ayn", "lettre-kaf"], "explication": "Le son « l » : ل, grande haste et crochet." },
+    { "id": "p9", "type": "lis-verifie", "cible": "lettre-qaf", "explication": "Un « k » prononcé tout au fond, contre la luette. Le son est plus sourd que le « k » français." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "lettre-fa", "options": ["lettre-fa", "lettre-qaf", "lettre-ghayn"], "explication": "Le son « f » : ف, un point et une queue plate." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "lettre-kaf", "options": ["lettre-kaf", "lettre-lam", "lettre-tta"], "explication": "Haste, base plate et signe ondulé : ك, « k »." },
+    { "id": "t3", "type": "paires-minimales", "paire": ["lettre-qaf", "lettre-kaf"], "cible": "lettre-qaf", "explication": "« q » vient du fond de la gorge (ق, deux points) ; « k » est le k français (ك)." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "lettre-lam", "options": ["lettre-lam", "lettre-dal", "lettre-ra"], "explication": "Grande haste et crochet : ل, « l »." },
+    { "id": "t5", "type": "ecoute-choisis", "cible": "lettre-qaf", "options": ["lettre-qaf", "lettre-fa", "lettre-kha"], "explication": "Le son « q » : ق, deux points." }
+  ]
+}

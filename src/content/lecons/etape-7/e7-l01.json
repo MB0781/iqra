@@ -1,0 +1,35 @@
+{
+  "id": "e7-l01",
+  "etape": 7,
+  "ordre": 1,
+  "titre": "L'article al- et les lettres lunaires",
+  "resume": "« Le, la, les » en arabe : ال, et le lâm qu'on prononce.",
+  "duree": 7,
+  "enseigne": ["notion-article", "notion-lettres-lunaires"],
+  "elementsNouveaux": ["mot-bayt-indef", "mot-al-bayt", "mot-al-qamar", "mot-al-kitab", "mot-al-qalam", "mot-al-walad", "mot-al-bab"],
+  "theorie": [
+    { "type": "texte", "texte": "En arabe, « le, la, les » se dit **al-** et s'écrit **ال**, collé au début du mot. Il n'y a qu'un seul article, pour le masculin, le féminin et le pluriel." },
+    { "type": "paire", "elements": ["mot-bayt-indef", "mot-al-bayt"], "note": "بَيْتٌ : « baytoun », une maison. الْبَيْتُ : « al-baytou », la maison. Avec l'article, le tanwin disparaît : il ne reste qu'une voyelle simple." },
+    { "type": "presentation", "element": "mot-al-qamar", "note": "الْقَمَرُ : « al-qamarou », la lune. Le lâm porte un **soukoun** : on le prononce bien, « al- »." },
+    { "type": "texte", "texte": "Devant 14 lettres, le lâm de l'article se prononce toujours. On les appelle les **lettres lunaires**, comme le qâf de الْقَمَرُ (la lune) : ء ب ج ح خ ع غ ف ق ك م و ه ي." },
+    { "type": "galerie", "elements": ["mot-al-kitab", "mot-al-qalam", "mot-al-walad", "mot-al-bab"], "note": "Lâm avec soukoun, puis la lettre lunaire avec sa voyelle : « al-kitâbou », « al-qalamou », « al-waladou », « al-bâbou »." },
+    { "type": "astuce", "texte": "L'alif du début de l'article ne porte pas de voyelle : quand tu commences ta lecture par ce mot, dis simplement « a ». Ce qui compte pour lire : **soukoun sur le lâm = on prononce « al- »**." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "mot-al-bayt", "options": ["mot-al-bayt", "mot-bayt-indef", "mot-al-bab"], "explication": "ال au début, lâm avec soukoun, puis « baytou » sans tanwin : « al-baytou », la maison." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "mot-al-kitab", "options": ["mot-al-kitab", "mot-al-qalam", "mot-al-walad"], "explication": "Après « al- » : kâf avec kasra, tâ allongé par l'alif, bâ avec damma : « al-kitâbou »." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "mot-al-walad", "options": ["mot-al-walad", "mot-al-qamar", "mot-al-bab"], "explication": "« al-waladou » : wâw, lâm, dâl, avec fatha, fatha, damma." },
+    { "id": "p4", "type": "classe", "consigne": "Le mot a-t-il l'article ?", "categories": [{ "id": "avec", "label": "Avec l'article ال" }, { "id": "sans", "label": "Sans article" }], "elements": [{ "ref": "mot-al-bayt", "categorie": "avec" }, { "ref": "mot-bayt-indef", "categorie": "sans" }, { "ref": "mot-al-kitab", "categorie": "avec" }, { "ref": "q:112:1:8", "categorie": "sans" }, { "ref": "q:1:2:3", "categorie": "sans" }, { "ref": "mot-al-qalam", "categorie": "avec" }, { "ref": "q:113:2:4", "categorie": "sans" }], "explication": "L'article, c'est ال au tout début du mot. Sans lui, un nom finit souvent par un tanwin, comme أَحَدٌ (« aḥadoun »)." },
+    { "id": "p5", "type": "lis-choisis-son", "cible": "mot-al-qalam", "options": ["mot-al-qalam", "mot-al-qamar", "mot-al-kitab"], "explication": "الْقَلَمُ : après « al- », qâf, lâm, mîm : « al-qalamou ». الْقَمَرُ a un mîm puis un râ : « al-qamarou »." },
+    { "id": "p6", "type": "lis-choisis-son", "cible": "q:97:3:5", "options": ["q:97:3:5", "q:97:4:9", "q:97:4:5"], "explication": "أَلْفِ commence par « al », mais l'alif porte une hamza et une fatha : ce n'est pas l'article, c'est le mot « alfi » (mille)." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "q:2:255:37", "options": ["q:2:255:37", "q:2:255:24", "q:2:255:27"], "explication": "Révision : عِلْمِهِۦٓ, « ʿilmihî ». Le petit yâ allonge le « hi »." },
+    { "id": "p8", "type": "lis-verifie", "cible": "mot-al-bab", "explication": "« al-bâbou » : le lâm avec soukoun se prononce, puis « bâ » long et « bou »." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "mot-al-qamar", "options": ["mot-al-qamar", "mot-al-qalam", "mot-al-bab"], "explication": "الْقَمَرُ : « al- » puis qa-ma-rou : « al-qamarou », la lune." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "mot-bayt-indef", "options": ["mot-bayt-indef", "mot-al-bayt", "mot-al-walad"], "explication": "Pas de ال, et un tanwin à la fin : « baytoun », une maison." },
+    { "id": "t3", "type": "ecoute-choisis", "cible": "mot-al-kitab", "options": ["mot-al-kitab", "mot-al-bayt", "mot-al-qamar"], "explication": "« al-kitâbou » : le kâf vient juste après le lâm avec soukoun." },
+    { "id": "t4", "type": "classe", "consigne": "Le mot a-t-il l'article ?", "categories": [{ "id": "avec", "label": "Avec l'article ال" }, { "id": "sans", "label": "Sans article" }], "elements": [{ "ref": "mot-al-walad", "categorie": "avec" }, { "ref": "mot-al-bab", "categorie": "avec" }, { "ref": "q:97:3:5", "categorie": "sans" }, { "ref": "q:113:1:6", "categorie": "sans" }, { "ref": "mot-al-qamar", "categorie": "avec" }], "explication": "أَلْفِ et أَعُوذُ commencent par une hamza sur l'alif : ce n'est pas l'article. L'article s'écrit avec un alif sans hamza, suivi du lâm." },
+    { "id": "t5", "type": "lis-verifie", "cible": "mot-al-walad", "explication": "« al-waladou » : lâm prononcé grâce au soukoun, puis wa-la-dou." }
+  ]
+}

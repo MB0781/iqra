@@ -9,7 +9,7 @@ Ce guide est la référence pour écrire ou modifier une leçon. Les schémas ex
 - Les éléments (lettres, formes, syllabes, mots) = `src/content/elements/etape-N.json` (tableau). Un élément créé à une
   étape peut être réutilisé dans toutes les étapes suivantes. Avant de créer un identifiant, vérifie qu'il n'existe pas
   déjà (`grep -r '"id": "mot-xxx"' src/content/elements`).
-- Translittération des références coraniques = `src/content/coran-translit/etape-N.json` : `{ "q:1:2:1": "al-ḥamdu" }`.
+- Translittération des références coraniques = `src/content/coran-translit/etape-N.json` : `{ "q:1:2:1": "al-ḥamdou" }`.
 
 ## Identifiants stables
 

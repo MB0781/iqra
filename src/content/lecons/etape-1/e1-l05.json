@@ -1,0 +1,35 @@
+{
+  "id": "e1-l05",
+  "etape": 1,
+  "ordre": 5,
+  "titre": "Dents et boucles : س ش ص ض",
+  "resume": "Trois petites dents pour س ش, une boucle allongée pour ص ض, et tes premières lettres emphatiques.",
+  "duree": 7,
+  "enseigne": ["lettre-sin", "lettre-chin", "lettre-sad", "lettre-dad"],
+  "elementsNouveaux": ["lettre-sin", "lettre-chin", "lettre-sad", "lettre-dad"],
+  "theorie": [
+    { "type": "texte", "texte": "Deux familles voisines. La première a **trois petites dents** suivies d'une cuvette ; la seconde, une **boucle allongée** suivie d'une petite dent et de la même cuvette." },
+    { "type": "paire", "elements": ["lettre-sin", "lettre-chin"], "note": "**س** : trois dents, aucun point, son « s » comme dans « sol ». **ش** : les mêmes avec **trois points au-dessus**, son « ch » comme dans « chat »." },
+    { "type": "paire", "elements": ["lettre-sad", "lettre-dad"], "note": "**ص** : la boucle, sans point, son « ṣ », un s emphatique. **ض** : avec **un point au-dessus**, son « ḍ », un d emphatique." },
+    { "type": "texte", "texte": "**Emphatique** veut dire : la langue s'abaisse et recule un peu, la bouche se creuse, et le son devient plus **grave**, plus plein. Le point sous la lettre latine (ṣ, ḍ) signale cette emphase." },
+    { "type": "astuce", "texte": "Des dents = « s » ou « ch ». Une boucle = « ṣ » ou « ḍ ». Dans chaque famille, les points donnent le second son." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "lettre-sin", "options": ["lettre-sin", "lettre-chin"], "explication": "Trois dents sans point : س, « s ». ش a trois points au-dessus." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "lettre-dad", "options": ["lettre-sad", "lettre-dad", "lettre-dal"], "explication": "La boucle avec un point : ض, « ḍ », un d grave. د (« d ») est le petit angle, sans boucle." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "lettre-chin", "options": ["lettre-sin", "lettre-chin", "lettre-tha"], "explication": "Le son « ch » : ش. Attention, ث a aussi trois points au-dessus, mais une seule cuvette sans dents." },
+    { "id": "p4", "type": "paires-minimales", "paire": ["lettre-sad", "lettre-dad"], "cible": "lettre-sad", "explication": "Même boucle : ص sans point (« ṣ »), ض avec un point (« ḍ »)." },
+    { "id": "p5", "type": "ecoute-choisis", "cible": "lettre-sad", "options": ["lettre-sad", "lettre-sin", "lettre-dad"], "explication": "Le « s » grave, emphatique : ص, la boucle sans point. س, le « s » clair, a trois dents." },
+    { "id": "p6", "type": "classe", "consigne": "Des dents ou une boucle ?", "categories": [{ "id": "dents", "label": "Trois petites dents" }, { "id": "boucle", "label": "Une boucle allongée" }], "elements": [{ "ref": "lettre-sin", "categorie": "dents" }, { "ref": "lettre-chin", "categorie": "dents" }, { "ref": "lettre-sad", "categorie": "boucle" }, { "ref": "lettre-dad", "categorie": "boucle" }], "explication": "س et ش ont trois dents ; ص et ض une boucle. C'est le premier indice à regarder, avant même les points." },
+    { "id": "p7", "type": "classe", "consigne": "Avec ou sans point ?", "categories": [{ "id": "sans", "label": "Sans point" }, { "id": "avec", "label": "Avec point(s)" }], "elements": [{ "ref": "lettre-sin", "categorie": "sans" }, { "ref": "lettre-sad", "categorie": "sans" }, { "ref": "lettre-hha", "categorie": "sans" }, { "ref": "lettre-dal", "categorie": "sans" }, { "ref": "lettre-chin", "categorie": "avec" }, { "ref": "lettre-dad", "categorie": "avec" }, { "ref": "lettre-kha", "categorie": "avec" }, { "ref": "lettre-dhal", "categorie": "avec" }], "explication": "Chaque famille a une lettre sans point et une ou deux avec points : س/ش, ص/ض, ح/خ, د/ذ. Le point change toujours le son." },
+    { "id": "p8", "type": "lis-choisis-son", "cible": "lettre-chin", "options": ["lettre-chin", "lettre-kha", "lettre-sin", "lettre-zay"], "explication": "Trois dents et trois points : ش, « ch »." },
+    { "id": "p9", "type": "lis-verifie", "cible": "lettre-sad", "explication": "Un « s » grave : langue abaissée, bouche creusée. Compare avec س, plus clair et plus aigu." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "lettre-dad", "options": ["lettre-dad", "lettre-sad", "lettre-dhal"], "explication": "Le « d » grave : ض, la boucle avec un point." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "lettre-sad", "options": ["lettre-sad", "lettre-dad", "lettre-sin"], "explication": "La boucle sans point : ص, « ṣ »." },
+    { "id": "t3", "type": "paires-minimales", "paire": ["lettre-sin", "lettre-chin"], "cible": "lettre-chin", "explication": "Mêmes dents : س sans point (« s »), ش avec trois points (« ch »)." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "lettre-sin", "options": ["lettre-sin", "lettre-tha", "lettre-chin"], "explication": "Trois dents sans point : س, « s »." },
+    { "id": "t5", "type": "ecoute-choisis", "cible": "lettre-ra", "options": ["lettre-zay", "lettre-ra", "lettre-dal"], "explication": "Le « r » roulé : ر, courbe sans point. Révision de la leçon précédente." }
+  ]
+}

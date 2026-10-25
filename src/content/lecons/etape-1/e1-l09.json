@@ -1,0 +1,38 @@
+{
+  "id": "e1-l09",
+  "etape": 1,
+  "ordre": 9,
+  "titre": "Les sons qui se ressemblent",
+  "resume": "Dix paires de sons proches pour une oreille francophone : l'écrit les distingue toujours, l'oreille s'y habitue peu à peu.",
+  "duree": 8,
+  "enseigne": [],
+  "elementsNouveaux": [],
+  "theorie": [
+    { "type": "texte", "texte": "Tu connais les 28 lettres. Certaines ont des sons proches, surtout pour une oreille francophone. Pour **lire**, la forme ne trompe jamais : il suffit de reconnaître la lettre. Pour **prononcer**, voici des repères." },
+    { "type": "paire", "elements": ["lettre-hha", "lettre-ha"], "note": "**ح** « ḥ » : souffle serré au milieu de la gorge, comme pour embuer une vitre, en plus fort. **ه** « h » : souffle léger et ouvert, comme « hello »." },
+    { "type": "paire", "elements": ["lettre-ayn", "lettre-alif"], "note": "**ع** « ʿ » : la gorge se serre et la voix passe. **ا** n'a pas de son propre : il porte une voyelle, qu'on entend sans resserrement." },
+    { "type": "paire", "elements": ["lettre-qaf", "lettre-kaf"], "note": "**ق** « q » : un k tout au fond, contre la luette, plus sourd. **ك** « k » : le k du français." },
+    { "type": "texte", "texte": "**Les emphatiques** ص ض ط ظ ont chacune une sœur « claire » : ص/س, ض/د, ط/ت, ظ/ذ. L'emphatique se dit langue abaissée, bouche creusée, son grave ; la claire se dit comme en français." },
+    { "type": "astuce", "texte": "Trois autres pièges : ث « th » (sans voix) et س « s » ; ذ « dh » (langue entre les dents) et ز « z » ; غ « gh » (r grasseyé) et ر « r » (roulé). Dans chaque paire, le dessin et les points te disent laquelle lire." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "paires-minimales", "paire": ["lettre-hha", "lettre-ha"], "cible": "lettre-ha", "explication": "Le souffle léger et ouvert est « h » : ه, la forme ronde. ح est plus serré." },
+    { "id": "p2", "type": "paires-minimales", "paire": ["lettre-ayn", "lettre-alif"], "cible": "lettre-ayn", "explication": "On entend la gorge se serrer : c'est ع. Avec ا, la voyelle sort librement." },
+    { "id": "p3", "type": "paires-minimales", "paire": ["lettre-qaf", "lettre-kaf"], "cible": "lettre-kaf", "explication": "Le k « français », clair : ك. ق se dit plus au fond, plus sourd." },
+    { "id": "p4", "type": "paires-minimales", "paire": ["lettre-sad", "lettre-sin"], "cible": "lettre-sad", "explication": "Le « s » grave, bouche creusée : ص (boucle). س (trois dents) est le « s » clair." },
+    { "id": "p5", "type": "paires-minimales", "paire": ["lettre-tta", "lettre-ta"], "cible": "lettre-ta", "explication": "Le « t » clair, comme en français : ت. ط est plus grave, langue plaquée." },
+    { "id": "p6", "type": "paires-minimales", "paire": ["lettre-dad", "lettre-dal"], "cible": "lettre-dad", "explication": "Le « d » grave et plein : ض (boucle et point). د est le « d » clair." },
+    { "id": "p7", "type": "paires-minimales", "paire": ["lettre-dha", "lettre-dhal"], "cible": "lettre-dhal", "explication": "« dh » clair, langue entre les dents : ذ. ظ fait le même geste, avec un son grave." },
+    { "id": "p8", "type": "paires-minimales", "paire": ["lettre-tha", "lettre-sin"], "cible": "lettre-tha", "explication": "Langue entre les dents : « th », ث. Pour « s » (س), la langue reste derrière les dents." },
+    { "id": "p9", "type": "classe", "consigne": "Emphatique (grave) ou claire ?", "categories": [{ "id": "emphatique", "label": "Emphatique (grave)" }, { "id": "claire", "label": "Claire" }], "elements": [{ "ref": "lettre-sad", "categorie": "emphatique" }, { "ref": "lettre-dad", "categorie": "emphatique" }, { "ref": "lettre-tta", "categorie": "emphatique" }, { "ref": "lettre-dha", "categorie": "emphatique" }, { "ref": "lettre-sin", "categorie": "claire" }, { "ref": "lettre-dal", "categorie": "claire" }, { "ref": "lettre-ta", "categorie": "claire" }, { "ref": "lettre-dhal", "categorie": "claire" }], "explication": "Les quatre emphatiques sont ص ض ط ظ : on les reconnaît à leur boucle allongée. Chacune a une sœur claire : س, د, ت, ذ." },
+    { "id": "p10", "type": "ecoute-choisis", "cible": "lettre-hha", "options": ["lettre-hha", "lettre-ha", "lettre-kha"], "explication": "Le souffle serré, sans raclement : ح. ه est plus léger, خ racle." }
+  ],
+  "test": [
+    { "id": "t1", "type": "paires-minimales", "paire": ["lettre-ghayn", "lettre-ra"], "cible": "lettre-ra", "explication": "Le « r » roulé du bout de la langue : ر. غ est le « r » grasseyé, au fond de la gorge." },
+    { "id": "t2", "type": "paires-minimales", "paire": ["lettre-dhal", "lettre-zay"], "cible": "lettre-dhal", "explication": "Langue entre les dents : « dh », ذ (angle et point). Pour « z » (ز), la langue reste derrière les dents." },
+    { "id": "t3", "type": "paires-minimales", "paire": ["lettre-hha", "lettre-ha"], "cible": "lettre-hha", "explication": "Souffle serré : ح. ه est léger et ouvert." },
+    { "id": "t4", "type": "paires-minimales", "paire": ["lettre-qaf", "lettre-kaf"], "cible": "lettre-qaf", "explication": "Le k du fond de la gorge : ق, deux points sur une petite boucle." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "lettre-dad", "options": ["lettre-dad", "lettre-dal", "lettre-dha"], "explication": "Boucle et un point, sans haste : ض, « ḍ », le d grave." },
+    { "id": "t6", "type": "ecoute-choisis", "cible": "lettre-ayn", "options": ["lettre-ayn", "lettre-alif", "lettre-ha"], "explication": "La gorge se serre : ع, petite tête ouverte." }
+  ]
+}

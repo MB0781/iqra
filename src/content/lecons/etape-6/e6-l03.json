@@ -1,0 +1,36 @@
+{
+  "id": "e6-l03",
+  "etape": 6,
+  "ordre": 3,
+  "titre": "La tâ marbouta : ة",
+  "resume": "Une lettre de fin de mot qui se lit « t », ou « h » à la pause.",
+  "duree": 7,
+  "enseigne": ["signe-ta-marbuta"],
+  "elementsNouveaux": ["lettre-ta-marbuta", "mot-madrasa", "q:97:1:8", "q:88:10:2", "q:2:255:10"],
+  "theorie": [
+    { "type": "texte", "texte": "Certains mots se terminent par une lettre ronde surmontée de deux points : ة, la **tâ marbouta** (« t attaché »). Elle a la forme du hâ ه avec les deux points du tâ ت. On ne la trouve **qu'en fin de mot**." },
+    { "type": "presentation", "element": "lettre-ta-marbuta", "note": "**Dans la lecture enchaînée, elle se lit « t »** avec la voyelle qu'elle porte : ةِ = ti, ةُ = tou, ةٍ = tin, ةٌ = toun." },
+    { "type": "presentation", "element": "mot-madrasa", "note": "مَدْرَسَةٌ : « madrasatoun », une école." },
+    { "type": "presentation", "element": "q:97:1:8", "note": "لَيْلَةِ : « laylati », la nuit (de)…" },
+    { "type": "paire", "elements": ["lettre-ta-marbuta", "lettre-ha"], "note": "ة porte deux points et se lit « t ». ه n'a pas de points et se lit toujours « h »." },
+    { "type": "attention", "texte": "Quand on **s'arrête** sur un mot qui finit par ة (en fin de verset, par exemple), on ne dit pas « t » mais un léger « h » : « laylah ». C'est la seule règle de pause à retenir pour ce signe." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "q:97:1:8", "options": ["q:97:1:8", "q:97:2:4", "q:1:4:2"], "explication": "La tâ marbouta porte une kasra : « ti ». On lit « laylati ». Avec une damma, ce serait « laylatou »." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "q:88:10:2", "options": ["q:88:10:2", "q:99:7:4", "q:91:13:5"], "explication": "« djannatin » : jîm avec fatha, noûn doublé, puis ة avec tanwin kasra : « tin »." },
+    { "id": "p3", "type": "classe", "consigne": "Comment se termine chaque mot ?", "categories": [{ "id": "ta-marbuta", "label": "Par ة (t)" }, { "id": "ha", "label": "Par ه (h)" }], "elements": [{ "ref": "q:97:1:8", "categorie": "ta-marbuta" }, { "ref": "q:2:255:10", "categorie": "ta-marbuta" }, { "ref": "q:104:1:7", "categorie": "ta-marbuta" }, { "ref": "q:97:1:6", "categorie": "ha" }, { "ref": "q:80:2:2", "categorie": "ha" }, { "ref": "q:88:3:1", "categorie": "ta-marbuta" }], "explication": "ة porte deux points et se lit « t ». ه n'en a pas et se lit « h » : أَنزَلْنَٰهُ, « anzalnâhou » ; جَآءَهُ, « djâʾahou »." },
+    { "id": "p4", "type": "lis-choisis-son", "cible": "q:2:255:10", "options": ["q:2:255:10", "q:88:3:1", "q:104:1:7"], "explication": "سِنَةٌ : sîn avec kasra, noûn avec fatha, ة avec tanwin damma : « sinatoun » (somnolence)." },
+    { "id": "p5", "type": "trouve-lettre", "mot": "q:106:2:2", "lettre": "lettre-ta-marbuta", "reponse": "fin", "explication": "رِحْلَةَ, « riḥlata » : comme toujours, la tâ marbouta est à la fin du mot." },
+    { "id": "p6", "type": "lis-choisis-son", "cible": "q:96:16:3", "options": ["q:96:16:3", "q:96:16:1", "q:96:16:2"], "explication": "خَاطِئَةٍ : « khâ » long, ṭâ avec kasra, hamza sur yâ avec fatha (ʾa), puis ة avec tanwin : « khâṭiʾatin »." },
+    { "id": "p7", "type": "ecoute-choisis", "cible": "q:101:9:2", "options": ["q:101:9:2", "q:88:3:1", "q:104:1:7"], "explication": "« hâwiyatoun » : hâ + « â » long, wâw avec kasra, yâ avec fatha, puis ة avec tanwin damma." },
+    { "id": "p8", "type": "assemble", "consigne": "Remets les mots dans l'ordre de lecture.", "morceaux": ["q:96:16:1", "q:96:16:2", "q:96:16:3"], "resultat": "q:96:16:1-3", "explication": "« nâṣiyatin kâdhibatin khâṭiʾatin » : trois mots qui finissent tous par ة avec tanwin kasra (« tin »)." },
+    { "id": "p9", "type": "lis-verifie", "cible": "q:88:3", "explication": "« ʿâmilatoun nâṣibah ». Dans le premier mot, ة se lit « t » car on enchaîne ; à la fin du verset, on s'arrête : « h »." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "q:97:2:4", "options": ["q:97:2:4", "q:97:1:8", "q:2:255:10"], "explication": "ة porte une damma : « tou ». On lit « laylatou »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "q:99:7:4", "options": ["q:99:7:4", "q:88:10:2", "q:81:20:2"], "explication": "« dharratin » : dhâl avec fatha, râ doublé, ة avec tanwin kasra." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "q:104:1:7", "options": ["q:104:1:7", "q:106:2:2", "q:91:13:5"], "explication": "هُمَزَةٍ : hou-ma-za-tin. On lit « houmazatin »." },
+    { "id": "t4", "type": "trouve-lettre", "mot": "q:88:3:1", "lettre": "lettre-ta-marbuta", "reponse": "fin", "explication": "عَامِلَةٌ : la tâ marbouta ne se trouve qu'en fin de mot." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "q:91:13:5", "options": ["q:91:13:5", "q:88:10:2", "q:2:255:10"], "explication": "نَاقَةَ : « nâ » long, qâf avec fatha, ة avec fatha : « nâqata »." }
+  ]
+}

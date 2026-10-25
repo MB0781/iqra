@@ -16,6 +16,8 @@ export interface Item {
   prononciation?: string;
   sens?: string;
   audio: string | null;
+  /** Pour un verset entier : chaque jeton avec son audio mot par mot (null pour la basmala en tête). */
+  mots?: { texte: string; audio: string | null }[];
 }
 
 export interface ManifesteEntree {

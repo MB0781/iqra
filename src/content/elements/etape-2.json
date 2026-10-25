@@ -1,0 +1,835 @@
+[
+  {
+    "id": "forme-alif-fin",
+    "type": "forme",
+    "ar": "ـا",
+    "translit": "alif",
+    "nom": "alif (fin)"
+  },
+  {
+    "id": "forme-ba-debut",
+    "type": "forme",
+    "ar": "بـ",
+    "translit": "b",
+    "nom": "bâ (début)"
+  },
+  {
+    "id": "forme-ba-milieu",
+    "type": "forme",
+    "ar": "ـبـ",
+    "translit": "b",
+    "nom": "bâ (milieu)"
+  },
+  {
+    "id": "forme-ba-fin",
+    "type": "forme",
+    "ar": "ـب",
+    "translit": "b",
+    "nom": "bâ (fin)"
+  },
+  {
+    "id": "forme-ta-debut",
+    "type": "forme",
+    "ar": "تـ",
+    "translit": "t",
+    "nom": "tâ (début)"
+  },
+  {
+    "id": "forme-ta-milieu",
+    "type": "forme",
+    "ar": "ـتـ",
+    "translit": "t",
+    "nom": "tâ (milieu)"
+  },
+  {
+    "id": "forme-ta-fin",
+    "type": "forme",
+    "ar": "ـت",
+    "translit": "t",
+    "nom": "tâ (fin)"
+  },
+  {
+    "id": "forme-tha-debut",
+    "type": "forme",
+    "ar": "ثـ",
+    "translit": "th",
+    "nom": "thâ (début)"
+  },
+  {
+    "id": "forme-tha-milieu",
+    "type": "forme",
+    "ar": "ـثـ",
+    "translit": "th",
+    "nom": "thâ (milieu)"
+  },
+  {
+    "id": "forme-tha-fin",
+    "type": "forme",
+    "ar": "ـث",
+    "translit": "th",
+    "nom": "thâ (fin)"
+  },
+  {
+    "id": "forme-jim-debut",
+    "type": "forme",
+    "ar": "جـ",
+    "translit": "dj",
+    "nom": "jîm (début)"
+  },
+  {
+    "id": "forme-jim-milieu",
+    "type": "forme",
+    "ar": "ـجـ",
+    "translit": "dj",
+    "nom": "jîm (milieu)"
+  },
+  {
+    "id": "forme-jim-fin",
+    "type": "forme",
+    "ar": "ـج",
+    "translit": "dj",
+    "nom": "jîm (fin)"
+  },
+  {
+    "id": "forme-hha-debut",
+    "type": "forme",
+    "ar": "حـ",
+    "translit": "ḥ",
+    "nom": "ḥâ (début)"
+  },
+  {
+    "id": "forme-hha-milieu",
+    "type": "forme",
+    "ar": "ـحـ",
+    "translit": "ḥ",
+    "nom": "ḥâ (milieu)"
+  },
+  {
+    "id": "forme-hha-fin",
+    "type": "forme",
+    "ar": "ـح",
+    "translit": "ḥ",
+    "nom": "ḥâ (fin)"
+  },
+  {
+    "id": "forme-kha-debut",
+    "type": "forme",
+    "ar": "خـ",
+    "translit": "kh",
+    "nom": "khâ (début)"
+  },
+  {
+    "id": "forme-kha-milieu",
+    "type": "forme",
+    "ar": "ـخـ",
+    "translit": "kh",
+    "nom": "khâ (milieu)"
+  },
+  {
+    "id": "forme-kha-fin",
+    "type": "forme",
+    "ar": "ـخ",
+    "translit": "kh",
+    "nom": "khâ (fin)"
+  },
+  {
+    "id": "forme-dal-fin",
+    "type": "forme",
+    "ar": "ـد",
+    "translit": "d",
+    "nom": "dâl (fin)"
+  },
+  {
+    "id": "forme-dhal-fin",
+    "type": "forme",
+    "ar": "ـذ",
+    "translit": "dh",
+    "nom": "dhâl (fin)"
+  },
+  {
+    "id": "forme-ra-fin",
+    "type": "forme",
+    "ar": "ـر",
+    "translit": "r",
+    "nom": "râ (fin)"
+  },
+  {
+    "id": "forme-zay-fin",
+    "type": "forme",
+    "ar": "ـز",
+    "translit": "z",
+    "nom": "zây (fin)"
+  },
+  {
+    "id": "forme-sin-debut",
+    "type": "forme",
+    "ar": "سـ",
+    "translit": "s",
+    "nom": "sîn (début)"
+  },
+  {
+    "id": "forme-sin-milieu",
+    "type": "forme",
+    "ar": "ـسـ",
+    "translit": "s",
+    "nom": "sîn (milieu)"
+  },
+  {
+    "id": "forme-sin-fin",
+    "type": "forme",
+    "ar": "ـس",
+    "translit": "s",
+    "nom": "sîn (fin)"
+  },
+  {
+    "id": "forme-chin-debut",
+    "type": "forme",
+    "ar": "شـ",
+    "translit": "ch",
+    "nom": "chîn (début)"
+  },
+  {
+    "id": "forme-chin-milieu",
+    "type": "forme",
+    "ar": "ـشـ",
+    "translit": "ch",
+    "nom": "chîn (milieu)"
+  },
+  {
+    "id": "forme-chin-fin",
+    "type": "forme",
+    "ar": "ـش",
+    "translit": "ch",
+    "nom": "chîn (fin)"
+  },
+  {
+    "id": "forme-sad-debut",
+    "type": "forme",
+    "ar": "صـ",
+    "translit": "ṣ",
+    "nom": "ṣâd (début)"
+  },
+  {
+    "id": "forme-sad-milieu",
+    "type": "forme",
+    "ar": "ـصـ",
+    "translit": "ṣ",
+    "nom": "ṣâd (milieu)"
+  },
+  {
+    "id": "forme-sad-fin",
+    "type": "forme",
+    "ar": "ـص",
+    "translit": "ṣ",
+    "nom": "ṣâd (fin)"
+  },
+  {
+    "id": "forme-dad-debut",
+    "type": "forme",
+    "ar": "ضـ",
+    "translit": "ḍ",
+    "nom": "ḍâd (début)"
+  },
+  {
+    "id": "forme-dad-milieu",
+    "type": "forme",
+    "ar": "ـضـ",
+    "translit": "ḍ",
+    "nom": "ḍâd (milieu)"
+  },
+  {
+    "id": "forme-dad-fin",
+    "type": "forme",
+    "ar": "ـض",
+    "translit": "ḍ",
+    "nom": "ḍâd (fin)"
+  },
+  {
+    "id": "forme-tta-debut",
+    "type": "forme",
+    "ar": "طـ",
+    "translit": "ṭ",
+    "nom": "ṭâ (début)"
+  },
+  {
+    "id": "forme-tta-milieu",
+    "type": "forme",
+    "ar": "ـطـ",
+    "translit": "ṭ",
+    "nom": "ṭâ (milieu)"
+  },
+  {
+    "id": "forme-tta-fin",
+    "type": "forme",
+    "ar": "ـط",
+    "translit": "ṭ",
+    "nom": "ṭâ (fin)"
+  },
+  {
+    "id": "forme-dha-debut",
+    "type": "forme",
+    "ar": "ظـ",
+    "translit": "ẓ",
+    "nom": "ẓâ (début)"
+  },
+  {
+    "id": "forme-dha-milieu",
+    "type": "forme",
+    "ar": "ـظـ",
+    "translit": "ẓ",
+    "nom": "ẓâ (milieu)"
+  },
+  {
+    "id": "forme-dha-fin",
+    "type": "forme",
+    "ar": "ـظ",
+    "translit": "ẓ",
+    "nom": "ẓâ (fin)"
+  },
+  {
+    "id": "forme-ayn-debut",
+    "type": "forme",
+    "ar": "عـ",
+    "translit": "ʿ",
+    "nom": "ʿayn (début)"
+  },
+  {
+    "id": "forme-ayn-milieu",
+    "type": "forme",
+    "ar": "ـعـ",
+    "translit": "ʿ",
+    "nom": "ʿayn (milieu)"
+  },
+  {
+    "id": "forme-ayn-fin",
+    "type": "forme",
+    "ar": "ـع",
+    "translit": "ʿ",
+    "nom": "ʿayn (fin)"
+  },
+  {
+    "id": "forme-ghayn-debut",
+    "type": "forme",
+    "ar": "غـ",
+    "translit": "gh",
+    "nom": "ghayn (début)"
+  },
+  {
+    "id": "forme-ghayn-milieu",
+    "type": "forme",
+    "ar": "ـغـ",
+    "translit": "gh",
+    "nom": "ghayn (milieu)"
+  },
+  {
+    "id": "forme-ghayn-fin",
+    "type": "forme",
+    "ar": "ـغ",
+    "translit": "gh",
+    "nom": "ghayn (fin)"
+  },
+  {
+    "id": "forme-fa-debut",
+    "type": "forme",
+    "ar": "فـ",
+    "translit": "f",
+    "nom": "fâ (début)"
+  },
+  {
+    "id": "forme-fa-milieu",
+    "type": "forme",
+    "ar": "ـفـ",
+    "translit": "f",
+    "nom": "fâ (milieu)"
+  },
+  {
+    "id": "forme-fa-fin",
+    "type": "forme",
+    "ar": "ـف",
+    "translit": "f",
+    "nom": "fâ (fin)"
+  },
+  {
+    "id": "forme-qaf-debut",
+    "type": "forme",
+    "ar": "قـ",
+    "translit": "q",
+    "nom": "qâf (début)"
+  },
+  {
+    "id": "forme-qaf-milieu",
+    "type": "forme",
+    "ar": "ـقـ",
+    "translit": "q",
+    "nom": "qâf (milieu)"
+  },
+  {
+    "id": "forme-qaf-fin",
+    "type": "forme",
+    "ar": "ـق",
+    "translit": "q",
+    "nom": "qâf (fin)"
+  },
+  {
+    "id": "forme-kaf-debut",
+    "type": "forme",
+    "ar": "كـ",
+    "translit": "k",
+    "nom": "kâf (début)"
+  },
+  {
+    "id": "forme-kaf-milieu",
+    "type": "forme",
+    "ar": "ـكـ",
+    "translit": "k",
+    "nom": "kâf (milieu)"
+  },
+  {
+    "id": "forme-kaf-fin",
+    "type": "forme",
+    "ar": "ـك",
+    "translit": "k",
+    "nom": "kâf (fin)"
+  },
+  {
+    "id": "forme-lam-debut",
+    "type": "forme",
+    "ar": "لـ",
+    "translit": "l",
+    "nom": "lâm (début)"
+  },
+  {
+    "id": "forme-lam-milieu",
+    "type": "forme",
+    "ar": "ـلـ",
+    "translit": "l",
+    "nom": "lâm (milieu)"
+  },
+  {
+    "id": "forme-lam-fin",
+    "type": "forme",
+    "ar": "ـل",
+    "translit": "l",
+    "nom": "lâm (fin)"
+  },
+  {
+    "id": "forme-mim-debut",
+    "type": "forme",
+    "ar": "مـ",
+    "translit": "m",
+    "nom": "mîm (début)"
+  },
+  {
+    "id": "forme-mim-milieu",
+    "type": "forme",
+    "ar": "ـمـ",
+    "translit": "m",
+    "nom": "mîm (milieu)"
+  },
+  {
+    "id": "forme-mim-fin",
+    "type": "forme",
+    "ar": "ـم",
+    "translit": "m",
+    "nom": "mîm (fin)"
+  },
+  {
+    "id": "forme-noun-debut",
+    "type": "forme",
+    "ar": "نـ",
+    "translit": "n",
+    "nom": "noûn (début)"
+  },
+  {
+    "id": "forme-noun-milieu",
+    "type": "forme",
+    "ar": "ـنـ",
+    "translit": "n",
+    "nom": "noûn (milieu)"
+  },
+  {
+    "id": "forme-noun-fin",
+    "type": "forme",
+    "ar": "ـن",
+    "translit": "n",
+    "nom": "noûn (fin)"
+  },
+  {
+    "id": "forme-ha-debut",
+    "type": "forme",
+    "ar": "هـ",
+    "translit": "h",
+    "nom": "hâ (début)"
+  },
+  {
+    "id": "forme-ha-milieu",
+    "type": "forme",
+    "ar": "ـهـ",
+    "translit": "h",
+    "nom": "hâ (milieu)"
+  },
+  {
+    "id": "forme-ha-fin",
+    "type": "forme",
+    "ar": "ـه",
+    "translit": "h",
+    "nom": "hâ (fin)"
+  },
+  {
+    "id": "forme-waw-fin",
+    "type": "forme",
+    "ar": "ـو",
+    "translit": "w",
+    "nom": "wâw (fin)"
+  },
+  {
+    "id": "forme-ya-debut",
+    "type": "forme",
+    "ar": "يـ",
+    "translit": "y",
+    "nom": "yâ (début)"
+  },
+  {
+    "id": "forme-ya-milieu",
+    "type": "forme",
+    "ar": "ـيـ",
+    "translit": "y",
+    "nom": "yâ (milieu)"
+  },
+  {
+    "id": "forme-ya-fin",
+    "type": "forme",
+    "ar": "ـي",
+    "translit": "y",
+    "nom": "yâ (fin)"
+  },
+  {
+    "id": "mot-nv-bint",
+    "type": "mot",
+    "ar": "بنت",
+    "translit": "b-n-t",
+    "sens": "fille"
+  },
+  {
+    "id": "mot-nv-bayt",
+    "type": "mot",
+    "ar": "بيت",
+    "translit": "b-y-t",
+    "sens": "maison"
+  },
+  {
+    "id": "mot-nv-tin",
+    "type": "mot",
+    "ar": "تين",
+    "translit": "t-y-n",
+    "sens": "figues"
+  },
+  {
+    "id": "mot-nv-nabt",
+    "type": "mot",
+    "ar": "نبت",
+    "translit": "n-b-t",
+    "sens": "plante"
+  },
+  {
+    "id": "mot-nv-bayn",
+    "type": "mot",
+    "ar": "بين",
+    "translit": "b-y-n",
+    "sens": "entre"
+  },
+  {
+    "id": "mot-nv-bab",
+    "type": "mot",
+    "ar": "باب",
+    "translit": "b-a-b",
+    "sens": "porte"
+  },
+  {
+    "id": "mot-nv-dar",
+    "type": "mot",
+    "ar": "دار",
+    "translit": "d-a-r",
+    "sens": "demeure"
+  },
+  {
+    "id": "mot-nv-ward",
+    "type": "mot",
+    "ar": "ورد",
+    "translit": "w-r-d",
+    "sens": "roses"
+  },
+  {
+    "id": "mot-nv-zayt",
+    "type": "mot",
+    "ar": "زيت",
+    "translit": "z-y-t",
+    "sens": "huile"
+  },
+  {
+    "id": "mot-nv-nour",
+    "type": "mot",
+    "ar": "نور",
+    "translit": "n-w-r",
+    "sens": "lumière"
+  },
+  {
+    "id": "mot-nv-dhanb",
+    "type": "mot",
+    "ar": "ذنب",
+    "translit": "dh-n-b",
+    "sens": "faute"
+  },
+  {
+    "id": "mot-nv-bard",
+    "type": "mot",
+    "ar": "برد",
+    "translit": "b-r-d",
+    "sens": "froid"
+  },
+  {
+    "id": "mot-nv-bahr",
+    "type": "mot",
+    "ar": "بحر",
+    "translit": "b-ḥ-r",
+    "sens": "mer"
+  },
+  {
+    "id": "mot-nv-hajar",
+    "type": "mot",
+    "ar": "حجر",
+    "translit": "ḥ-dj-r",
+    "sens": "pierre"
+  },
+  {
+    "id": "mot-nv-khubz",
+    "type": "mot",
+    "ar": "خبز",
+    "translit": "kh-b-z",
+    "sens": "pain"
+  },
+  {
+    "id": "mot-nv-chajar",
+    "type": "mot",
+    "ar": "شجر",
+    "translit": "ch-dj-r",
+    "sens": "arbres"
+  },
+  {
+    "id": "mot-nv-sabt",
+    "type": "mot",
+    "ar": "سبت",
+    "translit": "s-b-t",
+    "sens": "samedi"
+  },
+  {
+    "id": "mot-nv-jisr",
+    "type": "mot",
+    "ar": "جسر",
+    "translit": "dj-s-r",
+    "sens": "pont"
+  },
+  {
+    "id": "mot-nv-khachab",
+    "type": "mot",
+    "ar": "خشب",
+    "translit": "kh-ch-b",
+    "sens": "bois"
+  },
+  {
+    "id": "mot-nv-sabr",
+    "type": "mot",
+    "ar": "صبر",
+    "translit": "ṣ-b-r",
+    "sens": "patience"
+  },
+  {
+    "id": "mot-nv-tayr",
+    "type": "mot",
+    "ar": "طير",
+    "translit": "ṭ-y-r",
+    "sens": "oiseaux"
+  },
+  {
+    "id": "mot-nv-ayn",
+    "type": "mot",
+    "ar": "عين",
+    "translit": "ʿ-y-n",
+    "sens": "œil"
+  },
+  {
+    "id": "mot-nv-baad",
+    "type": "mot",
+    "ar": "بعد",
+    "translit": "b-ʿ-d",
+    "sens": "après"
+  },
+  {
+    "id": "mot-nv-gharb",
+    "type": "mot",
+    "ar": "غرب",
+    "translit": "gh-r-b",
+    "sens": "ouest"
+  },
+  {
+    "id": "mot-nv-saghir",
+    "type": "mot",
+    "ar": "صغير",
+    "translit": "ṣ-gh-y-r",
+    "sens": "petit"
+  },
+  {
+    "id": "mot-nv-nazar",
+    "type": "mot",
+    "ar": "نظر",
+    "translit": "n-ẓ-r",
+    "sens": "regard"
+  },
+  {
+    "id": "mot-nv-batn",
+    "type": "mot",
+    "ar": "بطن",
+    "translit": "b-ṭ-n",
+    "sens": "ventre"
+  },
+  {
+    "id": "mot-nv-darb",
+    "type": "mot",
+    "ar": "ضرب",
+    "translit": "ḍ-r-b",
+    "sens": "coup"
+  },
+  {
+    "id": "mot-nv-sabaa",
+    "type": "mot",
+    "ar": "سبع",
+    "translit": "s-b-ʿ",
+    "sens": "sept"
+  },
+  {
+    "id": "mot-nv-qalb",
+    "type": "mot",
+    "ar": "قلب",
+    "translit": "q-l-b",
+    "sens": "cœur"
+  },
+  {
+    "id": "mot-nv-kalb",
+    "type": "mot",
+    "ar": "كلب",
+    "translit": "k-l-b",
+    "sens": "chien"
+  },
+  {
+    "id": "mot-nv-qamar",
+    "type": "mot",
+    "ar": "قمر",
+    "translit": "q-m-r",
+    "sens": "lune"
+  },
+  {
+    "id": "mot-nv-malik",
+    "type": "mot",
+    "ar": "ملك",
+    "translit": "m-l-k",
+    "sens": "roi"
+  },
+  {
+    "id": "mot-nv-fil",
+    "type": "mot",
+    "ar": "فيل",
+    "translit": "f-y-l",
+    "sens": "éléphant"
+  },
+  {
+    "id": "mot-nv-nahr",
+    "type": "mot",
+    "ar": "نهر",
+    "translit": "n-h-r",
+    "sens": "fleuve"
+  },
+  {
+    "id": "mot-nv-wajh",
+    "type": "mot",
+    "ar": "وجه",
+    "translit": "w-dj-h",
+    "sens": "visage"
+  },
+  {
+    "id": "mot-nv-qalam",
+    "type": "mot",
+    "ar": "قلم",
+    "translit": "q-l-m",
+    "sens": "stylo"
+  },
+  {
+    "id": "mot-nv-chams",
+    "type": "mot",
+    "ar": "شمس",
+    "translit": "ch-m-s",
+    "sens": "soleil"
+  },
+  {
+    "id": "mot-nv-lahm",
+    "type": "mot",
+    "ar": "لحم",
+    "translit": "l-ḥ-m",
+    "sens": "viande"
+  },
+  {
+    "id": "mot-nv-masjid",
+    "type": "mot",
+    "ar": "مسجد",
+    "translit": "m-s-dj-d",
+    "sens": "mosquée"
+  },
+  {
+    "id": "mot-nv-kitab",
+    "type": "mot",
+    "ar": "كتاب",
+    "translit": "k-t-a-b",
+    "sens": "livre"
+  },
+  {
+    "id": "mot-nv-funduq",
+    "type": "mot",
+    "ar": "فندق",
+    "translit": "f-n-d-q",
+    "sens": "hôtel"
+  },
+  {
+    "id": "mot-nv-dhahab",
+    "type": "mot",
+    "ar": "ذهب",
+    "translit": "dh-h-b",
+    "sens": "or"
+  },
+  {
+    "id": "mot-nv-jabal",
+    "type": "mot",
+    "ar": "جبل",
+    "translit": "dj-b-l",
+    "sens": "montagne"
+  },
+  {
+    "id": "mot-nv-samak",
+    "type": "mot",
+    "ar": "سمك",
+    "translit": "s-m-k",
+    "sens": "poissons"
+  },
+  {
+    "id": "mot-nv-qamis",
+    "type": "mot",
+    "ar": "قميص",
+    "translit": "q-m-y-ṣ",
+    "sens": "chemise"
+  },
+  {
+    "id": "mot-nv-zahr",
+    "type": "mot",
+    "ar": "زهر",
+    "translit": "z-h-r",
+    "sens": "fleurs"
+  }
+]

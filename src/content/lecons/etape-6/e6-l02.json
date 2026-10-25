@@ -1,0 +1,37 @@
+{
+  "id": "e6-l02",
+  "etape": 6,
+  "ordre": 2,
+  "titre": "La hamza sur wâw, sur yâ, seule ; le signe madd",
+  "resume": "Trois autres supports pour la hamza, et la vague qui fait tenir le son.",
+  "duree": 9,
+  "enseigne": ["signe-madd"],
+  "elementsNouveaux": ["lettre-hamza", "lettre-waw-hamza", "lettre-ya-hamza", "lettre-alif-madda", "mot-amana-courant", "q:2:3:2", "q:108:3:2", "q:110:1:6", "q:108:1:5", "q:2:13:6"],
+  "theorie": [
+    { "type": "texte", "texte": "La hamza ne se pose pas toujours sur un alif. Elle peut s'asseoir sur un **wâw** (ؤ), sur un **yâ sans points** (ئ), ou rester **seule sur la ligne** (ء). Le support ne se prononce pas : c'est toujours le coup de glotte ʾ, suivi de la voyelle écrite." },
+    { "type": "galerie", "elements": ["lettre-alif-hamza-haut", "lettre-waw-hamza", "lettre-ya-hamza", "lettre-hamza"], "note": "Quatre supports, un seul son : ʾ. Pour savoir quoi dire ensuite, regarde la voyelle." },
+    { "type": "presentation", "element": "q:2:3:2", "note": "يُؤْمِنُونَ : « youʾminoûna ». La hamza sur le wâw porte un soukoun : on coupe le son juste après « you »." },
+    { "type": "texte", "texte": "Le **signe madd** (ٓ), une petite vague posée sur une voyelle longue, veut dire : **tiens le son plus longtemps**, environ deux fois plus qu'une voyelle longue ordinaire. On le voit souvent juste avant une hamza. Le tajwid fixe des durées précises ; pour lire, retiens seulement : vague = on prolonge." },
+    { "type": "presentation", "element": "q:110:1:6", "note": "جَآءَ : « djâʾa ». Le « â » est long et tenu, puis vient le coup de glotte et « a »." },
+    { "type": "paire", "elements": ["mot-amana-courant", "q:2:13:6"], "note": "Dans l'écriture courante, hamza + « â » long s'écrit souvent آ (alif madda) : آمَنَ. Le Mushaf utilisé ici écrit ءَا : ءَامَنَ. Les deux se lisent « âmana » (il a cru)." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "q:2:3:2", "options": ["q:2:3:2", "q:2:3:8", "q:2:3:4"], "explication": "يُؤْمِنُونَ : yâ avec damma (you), hamza sur wâw avec soukoun (ʾ), puis « minoûna » : « youʾminoûna »." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "q:108:3:2", "options": ["q:108:3:2", "q:113:3:3", "q:113:5:3"], "explication": "« châniʾaka » : chîn + « â » long, noûn avec kasra, puis la hamza sur un yâ sans points (ʾa) et « ka »." },
+    { "id": "p3", "type": "classe", "consigne": "Range chaque mot selon le support de sa hamza.", "categories": [{ "id": "waw", "label": "Sur wâw ؤ" }, { "id": "ya", "label": "Sur yâ ئ" }, { "id": "ligne", "label": "Seule ء" }], "elements": [{ "ref": "q:2:3:2", "categorie": "waw" }, { "ref": "q:108:3:2", "categorie": "ya" }, { "ref": "q:79:8:2", "categorie": "ya" }, { "ref": "q:2:13:6", "categorie": "ligne" }, { "ref": "q:81:8:3", "categorie": "ya" }, { "ref": "q:79:38:1", "categorie": "ligne" }, { "ref": "q:2:13:9", "categorie": "waw" }], "explication": "Le support change selon les voyelles voisines, mais le son reste le même : ʾ. Pour lire, il suffit de repérer la hamza et sa voyelle." },
+    { "id": "p4", "type": "trouve-lettre", "mot": "q:108:3:2", "lettre": "lettre-ya-hamza", "reponse": "milieu", "explication": "شَانِئَكَ : la hamza sur yâ (ئ) est au milieu du mot, entre le noûn et le kâf." },
+    { "id": "p5", "type": "lis-choisis-son", "cible": "q:110:1:6", "options": ["q:110:1:6", "q:2:255:40", "q:113:2:4"], "explication": "جَآءَ : jîm + « â » long marqué de la vague (on le tient), puis hamza avec fatha : « djâʾa ». شَآءَ commence par ش (ch)." },
+    { "id": "p6", "type": "ecoute-choisis", "cible": "q:108:1:5", "options": ["q:108:1:5", "q:103:2:1", "q:1:5:1"], "explication": "إِنَّآ, « innâ » : comme إِنَّ (« inna »), mais avec un alif long surmonté de la vague du madd." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "q:78:14:4", "options": ["q:78:14:4", "q:2:255:40", "q:2:13:6"], "explication": "مَآءً, « mâʾan » (de l'eau) : le « â » porte la vague, on le tient ; puis la hamza seule avec tanwin fatha : « ʾan »." },
+    { "id": "p8", "type": "assemble", "consigne": "Remets les mots dans l'ordre de lecture.", "morceaux": ["q:2:255:2", "q:2:255:3"], "distracteurs": ["q:103:2:1"], "resultat": "q:2:255:2-3", "explication": "لَآ (« lâ », tenu grâce à la vague, car un coup de glotte suit) puis إِلَٰهَ (« ilâha ») : « lâ ilâha »." },
+    { "id": "p9", "type": "lis-verifie", "cible": "q:113:3", "explication": "« wa-min charri ghâsiqin idhâ waqab ». Repère إِذَا : hamza sous l'alif. En fin de verset, on s'arrête sur la dernière lettre sans sa voyelle : « waqab »." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "q:79:8:2", "options": ["q:79:8:2", "q:1:4:2", "q:113:3:4"], "explication": "يَوْمَئِذٍ : « yawma » puis hamza sur yâ avec kasra (ʾi) et « dhin » : « yawmaʾidhin »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "q:2:255:40", "options": ["q:2:255:40", "q:110:1:6", "q:78:14:4"], "explication": "« châʾa » : ش (ch) + « â » tenu (vague du madd), puis hamza avec fatha." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "q:2:13:6", "options": ["q:2:13:6", "q:79:38:1", "q:113:2:4"], "explication": "ءَامَنَ : hamza seule avec fatha, suivie d'un alif : « ʾâ », puis « mana » : « âmana »." },
+    { "id": "t4", "type": "trouve-lettre", "mot": "q:2:3:2", "lettre": "lettre-waw-hamza", "reponse": "milieu", "explication": "يُؤْمِنُونَ : la hamza sur wâw (ؤ) vient juste après le premier yâ, au milieu du mot." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "q:81:8:3", "options": ["q:81:8:3", "q:2:3:2", "q:108:3:2"], "explication": "سُئِلَتْ : sîn avec damma (sou), hamza sur yâ avec kasra (ʾi), puis « lat » : « souʾilat »." },
+    { "id": "t6", "type": "lis-choisis-son", "cible": "q:79:34:2", "options": ["q:79:34:2", "q:110:1:6", "q:2:255:40"], "explication": "جَآءَتِ : même début que جَآءَ (« djâʾa »), avec en plus تِ : « djâʾati »." }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "e4-l04",
+  "etape": 4,
+  "ordre": 4,
+  "titre": "Le tanwin : an, in, oun",
+  "resume": "Une voyelle doublée en fin de mot ajoute un « n » : كِتَابٌ = « kitâboun ».",
+  "duree": 8,
+  "enseigne": ["signe-tanwin"],
+  "elementsNouveaux": ["syl-ba-an", "syl-ba-in", "syl-ba-oun", "syl-noun-oun", "syl-dal-an", "syl-qaf-oun", "mot-kitaboun", "mot-kitaban", "mot-kitabin", "mot-qalamoun", "mot-waladoun", "mot-baytoun", "mot-choukran", "mot-afwan", "mot-djiddan"],
+  "theorie": [
+    { "type": "texte", "texte": "Le **tanwin** est une voyelle **doublée** à la fin d'un mot. Il ajoute un son « n », sans que la lettre ن soit écrite. Il en existe trois." },
+    { "type": "galerie", "elements": ["syl-ba-an", "syl-ba-in", "syl-ba-oun"], "note": "Deux fatha = « ban ». Deux kasra = « bin ». Damma doublée = « boun »." },
+    { "type": "attention", "texte": "Avec le tanwin « an », on écrit presque toujours un **alif muet** après la lettre : بًا se lit « ban », pas « bân ». Cet alif ne prolonge rien." },
+    { "type": "presentation", "element": "mot-kitaboun", "note": "كِ + تَا + بٌ = « kitâboun », un livre." },
+    { "type": "astuce", "texte": "Quand on s'arrête en fin de phrase, le tanwin se prononce autrement ; on en reparlera plus tard. Pour l'instant, lis toujours le mot complet, avec son « n »." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "syl-noun-oun", "options": ["syl-noun-oun", "syl-noun-ou", "syl-noun-in"], "explication": "Damma doublée : « noun ». Une seule damma donnerait « nou »." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "syl-dal-an", "options": ["syl-dal-an", "syl-dal-in", "syl-dal-oun"], "explication": "« dan » : deux fatha sur د, puis l'alif muet." },
+    { "id": "p3", "type": "classe", "categories": [{ "id": "an", "label": "« an »" }, { "id": "in", "label": "« in »" }, { "id": "oun", "label": "« oun »" }], "elements": [{ "ref": "syl-mim-an", "categorie": "an" }, { "ref": "syl-ra-in", "categorie": "in" }, { "ref": "syl-kaf-oun", "categorie": "oun" }, { "ref": "syl-lam-an", "categorie": "an" }, { "ref": "syl-sin-in", "categorie": "in" }, { "ref": "syl-ayn-oun", "categorie": "oun" }], "explication": "Deux traits au-dessus : « an ». Deux traits en dessous : « in ». Damma doublée : « oun »." },
+    { "id": "p4", "type": "paires-minimales", "paire": ["mot-kitaban", "mot-kitabin"], "cible": "mot-kitaban", "explication": "كِتَابًا : « kitâban », deux fatha et l'alif muet. كِتَابٍ : « kitâbin », deux kasra." },
+    { "id": "p5", "type": "lis-choisis-son", "cible": "mot-qalamoun", "options": ["mot-qalamoun", "mot-waladoun", "mot-baytoun"], "explication": "قَ + لَ + مٌ = « qalamoun », un stylo." },
+    { "id": "p6", "type": "assemble", "morceaux": ["syl-chin-ou-kaf", "syl-ra-an"], "distracteurs": ["syl-ra-aa"], "resultat": "mot-choukran", "explication": "شُكْ (chouk) + رًا (ran) = « choukran », merci. رَا se lirait « râ », long et sans « n »." },
+    { "id": "p7", "type": "ecoute-choisis", "cible": "mot-afwan", "options": ["mot-afwan", "mot-choukran", "mot-djiddan"], "explication": "عَفْ + وًا = « ʿafwan », de rien. Ici و porte le tanwin : c'est la consonne « w »." },
+    { "id": "p8", "type": "trouve-lettre", "mot": "mot-waladoun", "lettre": "lettre-dal", "reponse": "fin", "explication": "Dans وَلَدٌ, le د est à la fin et porte le tanwin « oun » : « waladoun », un garçon." },
+    { "id": "p9", "type": "lis-verifie", "cible": "mot-djiddan", "explication": "جِدْ + دًا = « djid-dan », très. Chadda et tanwin sur la même lettre." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "syl-qaf-oun", "options": ["syl-qaf-oun", "syl-kaf-oun", "syl-qaf-aa"], "explication": "Deux points et une damma doublée : « qoun »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "mot-kitabin", "options": ["mot-kitabin", "mot-kitaboun", "mot-kitabi"], "explication": "« kitâbin » : deux kasra sous ب. كِتَابِي, avec un ي, se lit « kitâbî »." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "mot-baytoun", "options": ["mot-baytoun", "mot-bayti", "mot-waladoun"], "explication": "بَيْ + تٌ = « baytoun », une maison." },
+    { "id": "t4", "type": "paires-minimales", "paire": ["syl-ba-an", "syl-ba-aa"], "cible": "syl-ba-an", "explication": "بًا : « ban », tanwin et alif muet. بَا : « bâ », fatha simple et alif de prolongation." },
+    { "id": "t5", "type": "ecoute-choisis", "cible": "mot-choukran", "options": ["mot-choukran", "mot-afwan", "mot-kitaban"], "explication": "شُكْ + رًا = « choukran », merci." }
+  ]
+}

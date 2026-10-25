@@ -1,0 +1,35 @@
+{
+  "id": "e1-l03",
+  "etape": 1,
+  "ordre": 3,
+  "titre": "La famille du crochet : ج ح خ",
+  "resume": "Trois lettres au même dessin : un point dans le creux, aucun point, ou un point au-dessus.",
+  "duree": 6,
+  "enseigne": ["lettre-jim", "lettre-hha", "lettre-kha"],
+  "elementsNouveaux": ["lettre-jim", "lettre-hha", "lettre-kha"],
+  "theorie": [
+    { "type": "texte", "texte": "Nouvelle famille : un même dessin, comme un **crochet** ouvert vers la gauche, prolongé par une grande courbe sous la ligne. Encore une fois, ce sont les **points** qui décident du son." },
+    { "type": "presentation", "element": "lettre-jim", "note": "**Un point dans le creux**, sous le crochet. Son : « dj », comme dans « djembé »." },
+    { "type": "presentation", "element": "lettre-hha", "note": "**Aucun point.** Son : « ḥ », un souffle chaud et serré au milieu de la gorge. Ce son n'existe pas en français : on le note ḥ, avec un point sous le h." },
+    { "type": "presentation", "element": "lettre-kha", "note": "**Un point au-dessus.** Son : « kh », comme la « jota » espagnole ou le « ch » allemand de « Bach »." },
+    { "type": "astuce", "texte": "Point dans le creux = « dj ». Pas de point = « ḥ ». Point au-dessus = « kh »." },
+    { "type": "attention", "texte": "Pour lire, l'essentiel est de **reconnaître** la lettre. Le son « ḥ » demande de l'entraînement : écoute, répète, et rapproche-toi peu à peu. Personne ne le réussit parfaitement du premier coup." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "lettre-jim", "options": ["lettre-jim", "lettre-kha"], "explication": "Le point est dans le creux, sous le crochet : c'est ج, « dj ». خ a son point au-dessus." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "lettre-hha", "options": ["lettre-hha", "lettre-jim", "lettre-kha"], "explication": "Aucun point : c'est ح, « ḥ »." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "lettre-kha", "options": ["lettre-hha", "lettre-kha", "lettre-jim"], "explication": "Le son « kh », qui racle comme la jota espagnole, s'écrit خ : un point au-dessus." },
+    { "id": "p4", "type": "paires-minimales", "paire": ["lettre-hha", "lettre-kha"], "cible": "lettre-kha", "explication": "« kh » racle au fond de la bouche ; « ḥ » est un souffle sans raclement. À l'écrit : ح sans point, خ avec un point au-dessus." },
+    { "id": "p5", "type": "classe", "consigne": "Où sont les points ?", "categories": [{ "id": "aucun", "label": "Aucun point" }, { "id": "dessus", "label": "Point(s) au-dessus" }, { "id": "dessous", "label": "Point(s) en dessous ou dans le creux" }], "elements": [{ "ref": "lettre-hha", "categorie": "aucun" }, { "ref": "lettre-kha", "categorie": "dessus" }, { "ref": "lettre-noun", "categorie": "dessus" }, { "ref": "lettre-jim", "categorie": "dessous" }, { "ref": "lettre-ba", "categorie": "dessous" }, { "ref": "lettre-ya", "categorie": "dessous" }], "explication": "ح est la seule sans point. خ et ن ont leur point au-dessus ; ج, ب et ي ont le leur en bas." },
+    { "id": "p6", "type": "ecoute-choisis", "cible": "lettre-jim", "options": ["lettre-jim", "lettre-ya", "lettre-hha"], "explication": "Le son « dj » : ج, avec son point dans le creux du crochet." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "lettre-kha", "options": ["lettre-kha", "lettre-noun", "lettre-hha", "lettre-tha"], "explication": "Un point au-dessus d'un crochet : خ, « kh ». ن a aussi un point au-dessus, mais sur une cuvette." },
+    { "id": "p8", "type": "lis-verifie", "cible": "lettre-hha", "explication": "Un souffle chaud et serré, comme pour embuer une vitre, en plus fort. Il ne racle pas : c'est la différence avec « kh »." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "lettre-hha", "options": ["lettre-hha", "lettre-kha"], "explication": "Le souffle « ḥ », sans raclement : ح, sans point." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "lettre-jim", "options": ["lettre-ta", "lettre-jim", "lettre-hha"], "explication": "Le crochet avec un point dans le creux : ج, « dj »." },
+    { "id": "t3", "type": "paires-minimales", "paire": ["lettre-jim", "lettre-hha"], "cible": "lettre-jim", "explication": "Même dessin : ج a un point dans le creux (« dj »), ح n'en a pas (« ḥ »)." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "lettre-kha", "options": ["lettre-kha", "lettre-jim", "lettre-ya"], "explication": "Point au-dessus du crochet : خ, « kh »." },
+    { "id": "t5", "type": "ecoute-choisis", "cible": "lettre-tha", "options": ["lettre-tha", "lettre-kha", "lettre-noun"], "explication": "Le son « th » : ث, trois points au-dessus. Révision de la première leçon." }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "e6-l05",
+  "etape": 6,
+  "ordre": 5,
+  "titre": "Les petits wâw et yâ : ۥ et ۦ",
+  "resume": "De toutes petites lettres qui allongent le pronom « hou » / « hi ».",
+  "duree": 8,
+  "enseigne": ["signe-petites-lettres"],
+  "elementsNouveaux": ["q:112:4:3", "q:78:15:2", "q:79:17:4", "q:79:40:5"],
+  "theorie": [
+    { "type": "texte", "texte": "Dans le Mushaf, après le pronom هُ (« hou », lui) ou هِ (« hi »), tu verras parfois un **tout petit wâw** (ۥ) ou un **tout petit yâ** (ۦ). Ils indiquent que la voyelle est **longue** : « hoû », « hî »." },
+    { "type": "presentation", "element": "q:112:4:3", "note": "لَّهُۥ : « lahoû ». Le petit wâw allonge la damma : « hoû »." },
+    { "type": "presentation", "element": "q:78:15:2", "note": "بِهِۦ : « bihî ». Le petit yâ allonge la kasra : « hî »." },
+    { "type": "paire", "elements": ["q:79:16:3", "q:2:255:42"], "note": "Avec ۥ, on allonge : رَبُّهُۥ, « rabbouhoû ». Sans petite lettre, la voyelle reste courte : كُرْسِيُّهُ, « koursiyyouhou »." },
+    { "type": "astuce", "texte": "C'est une règle de récitation ; pour lire, suis simplement le signe : **petite lettre = voyelle longue**, de la durée d'une voyelle longue ordinaire. Si la vague ٓ est posée en plus, tiens le son plus longtemps." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "q:112:4:3", "options": ["q:112:4:3", "q:112:1:6", "q:2:255:42"], "explication": "لَّهُۥ : lâm doublé avec fatha, puis هُ allongé par le petit wâw : « lahoû »." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "q:79:17:4", "options": ["q:79:17:4", "q:103:2:1", "q:108:1:5"], "explication": "« innahoû » : إِنَّ (« inna ») suivi du pronom هُۥ, allongé par le petit wâw." },
+    { "id": "p3", "type": "classe", "consigne": "Le pronom final est-il long ou court ?", "categories": [{ "id": "long", "label": "Long (petite lettre)" }, { "id": "court", "label": "Court" }], "elements": [{ "ref": "q:112:4:3", "categorie": "long" }, { "ref": "q:78:15:2", "categorie": "long" }, { "ref": "q:2:255:42", "categorie": "court" }, { "ref": "q:80:2:2", "categorie": "court" }, { "ref": "q:79:40:5", "categorie": "long" }, { "ref": "q:97:1:6", "categorie": "court" }, { "ref": "q:99:7:6", "categorie": "long" }], "explication": "Le petit wâw ou le petit yâ après ه indique « hoû » ou « hî ». Sans lui, on lit « hou » ou « hi », bref." },
+    { "id": "p4", "type": "lis-choisis-son", "cible": "q:79:40:5", "options": ["q:79:40:5", "q:79:16:3", "q:1:2:3"], "explication": "رَبِّهِۦ : « rabbi » puis هِ allongé par le petit yâ : « rabbihî » (son Seigneur)." },
+    { "id": "p5", "type": "lis-choisis-son", "cible": "q:80:18:4", "options": ["q:80:18:4", "q:113:2:4", "q:80:2:2"], "explication": "خَلَقَهُۥ : « khalaqa » + « hoû » : « khalaqahoû » (il l'a créé)." },
+    { "id": "p6", "type": "ecoute-choisis", "cible": "q:99:7:6", "options": ["q:99:7:6", "q:79:36:4", "q:79:16:3"], "explication": "« yarahoû » : yâ, râ avec fatha, puis هُ allongé par le petit wâw. يَرَىٰ (« yarâ ») finit par un ى lu « â »." },
+    { "id": "p7", "type": "assemble", "consigne": "Remets les mots dans l'ordre de lecture.", "morceaux": ["q:101:9:1", "q:101:9:2"], "distracteurs": ["q:88:3:1"], "resultat": "q:101:9:1-2", "explication": "فَأُمُّهُۥ (« fa-ʾoummouhoû ») puis هَاوِيَةٌ (« hâwiyatoun ») : hamza, petit wâw et tâ marbouta réunis." },
+    { "id": "p8", "type": "lis-choisis-son", "cible": "q:2:255:9", "options": ["q:2:255:9", "q:2:255:42", "q:2:255:10"], "explication": "تَأْخُذُهُۥ : « taʾ » (hamza sur alif avec soukoun), « khou-dhou », puis « hoû » : « taʾkhoudhouhoû »." },
+    { "id": "p9", "type": "lis-verifie", "cible": "q:2:255:8-10", "explication": "« lâ taʾkhoudhouhoû sinatoun » : un coup de glotte, un petit wâw qui allonge, une tâ marbouta lue « t »." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "q:79:16:3", "options": ["q:79:16:3", "q:79:40:5", "q:2:255:42"], "explication": "رَبُّهُۥ : bâ avec damma (« rabbou »), puis « hoû » allongé : « rabbouhoû »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "q:92:19:3", "options": ["q:92:19:3", "q:92:18:3", "q:111:2:4"], "explication": "« ʿindahoû » : ʿayn avec kasra, noûn avec soukoun, dâl avec fatha, puis « hoû »." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "q:111:2:4", "options": ["q:111:2:4", "q:92:18:3", "q:113:2:3"], "explication": "مَالُهُۥ : le lâm porte une damma : « mâlouhoû » (sa richesse). Avec une fatha, ce serait « mâlahoû »." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "q:80:6:2", "options": ["q:80:6:2", "q:97:5:2", "q:112:1:6"], "explication": "لَهُۥ : lâm avec fatha, puis « hoû » allongé par le petit wâw : « lahoû »." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "q:101:9:1", "options": ["q:101:9:1", "q:79:16:3", "q:2:255:9"], "explication": "فَأُمُّهُۥ : « fa », hamza avec damma (ʾou), mîm doublé avec damma, puis « hoû » : « fa-ʾoummouhoû »." }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "e2-l01",
+  "etape": 2,
+  "ordre": 1,
+  "titre": "Les lettres se donnent la main : ب ت ث ن ي",
+  "resume": "Dans un mot, les lettres se lient et changent de forme selon leur place. Au début et au milieu, ب ت ث ن ي deviennent une même petite dent.",
+  "duree": 8,
+  "enseigne": ["notion-formes-liees"],
+  "elementsNouveaux": [
+    "forme-ba-debut", "forme-ba-milieu", "forme-ba-fin",
+    "forme-ta-debut", "forme-ta-milieu", "forme-ta-fin",
+    "forme-tha-debut", "forme-tha-milieu", "forme-tha-fin",
+    "forme-noun-debut", "forme-noun-milieu", "forme-noun-fin",
+    "forme-ya-debut", "forme-ya-milieu", "forme-ya-fin",
+    "mot-nv-bint", "mot-nv-bayt", "mot-nv-tin", "mot-nv-nabt", "mot-nv-bayn"
+  ],
+  "theorie": [
+    { "type": "texte", "texte": "Dans un mot, les lettres arabes **se lient** entre elles, comme l'écriture attachée en français. Pour se lier, elles changent un peu de forme selon leur place : **début**, **milieu** ou **fin** du mot. La forme que tu connais déjà est la forme **isolée**." },
+    { "type": "galerie", "elements": ["forme-ba-debut", "forme-ba-milieu", "forme-ba-fin", "lettre-ba"], "note": "ب au début, au milieu, à la fin, puis seule. Au début et au milieu, la cuvette disparaît : il reste une **petite dent** avec son point. Le trait ـ montre de quel côté la lettre se relie." },
+    { "type": "texte", "texte": "Au début et au milieu, ب ت ث ن ي deviennent **la même petite dent**. Seuls les **points** les distinguent : compte-les, et regarde s'ils sont dessus ou dessous." },
+    { "type": "galerie", "elements": ["forme-ba-milieu", "forme-ta-milieu", "forme-tha-milieu", "forme-noun-milieu", "forme-ya-milieu"], "note": "Cinq lettres, une seule dent : « b » (1 dessous), « t » (2 dessus), « th » (3 dessus), « n » (1 dessus), « y » (2 dessous)." },
+    { "type": "presentation", "element": "mot-nv-bint", "note": "Un premier mot : ب au début, ن au milieu, ت à la fin. On lit de droite à gauche : **b-n-t** (« bint », fille). Les voyelles viendront à l'étape 3 ; pour l'instant, on lit les lettres." },
+    { "type": "astuce", "texte": "À la fin du mot, la lettre retrouve presque sa forme isolée : ـن garde sa cuvette, ـي sa queue." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "forme-ta-milieu", "options": ["forme-ba-milieu", "forme-ta-milieu", "forme-noun-milieu"], "explication": "Deux points au-dessus de la dent : ـتـ, « t ». ـبـ a un point dessous, ـنـ un point dessus." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "forme-ya-debut", "options": ["forme-ya-debut", "forme-ba-debut", "forme-tha-debut"], "explication": "Deux points sous la dent : يـ, « y »." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "forme-noun-debut", "options": ["forme-noun-debut", "forme-ta-debut", "forme-ba-debut"], "explication": "« n » au début : une dent avec un point au-dessus, نـ." },
+    { "id": "p4", "type": "classe", "consigne": "Début, milieu ou fin ?", "categories": [{ "id": "debut", "label": "Début" }, { "id": "milieu", "label": "Milieu" }, { "id": "fin", "label": "Fin" }], "elements": [{ "ref": "forme-ba-debut", "categorie": "debut" }, { "ref": "forme-noun-debut", "categorie": "debut" }, { "ref": "forme-ta-milieu", "categorie": "milieu" }, { "ref": "forme-ya-milieu", "categorie": "milieu" }, { "ref": "forme-tha-fin", "categorie": "fin" }, { "ref": "forme-noun-fin", "categorie": "fin" }], "explication": "Regarde le trait ـ. Relié à gauche seulement : début (la suite du mot vient à gauche, puisqu'on lit de droite à gauche). Relié des deux côtés : milieu. Relié à droite seulement : fin." },
+    { "id": "p5", "type": "trouve-lettre", "mot": "mot-nv-bint", "lettre": "lettre-noun", "reponse": "milieu", "explication": "Dans بنت, ن est la dent du milieu, avec un point au-dessus." },
+    { "id": "p6", "type": "trouve-lettre", "mot": "mot-nv-bayt", "lettre": "lettre-ta", "reponse": "fin", "explication": "بيت se termine par ـت : deux points au-dessus et la cuvette de fin." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "mot-nv-tin", "options": ["mot-nv-tin", "mot-nv-bint", "mot-nv-bayt"], "explication": "Dent à deux points dessus (t), dent à deux points dessous (y), puis la cuvette finale de ن : t-y-n (« tîn », figues)." },
+    { "id": "p8", "type": "assemble", "morceaux": ["lettre-ba", "lettre-ya", "lettre-ta"], "distracteurs": ["lettre-noun"], "resultat": "mot-nv-bayt", "explication": "On place les lettres dans l'ordre de lecture, de droite à gauche : ب, puis ي, puis ت. Elles se lient et forment بيت (« bayt », maison)." },
+    { "id": "p9", "type": "trouve-lettre", "mot": "mot-nv-nabt", "lettre": "lettre-ya", "reponse": "absente", "explication": "نبت s'écrit n-b-t : aucune dent n'a deux points en dessous, donc pas de ي." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "forme-tha-milieu", "options": ["forme-tha-milieu", "forme-ta-milieu", "forme-ya-milieu"], "explication": "Trois points au-dessus de la dent : ـثـ, « th »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "forme-ya-fin", "options": ["forme-ya-fin", "forme-noun-fin", "forme-ba-fin"], "explication": "« y » en fin de mot : ـي, avec sa queue et ses deux points dessous." },
+    { "id": "t3", "type": "trouve-lettre", "mot": "mot-nv-tin", "lettre": "lettre-ta", "reponse": "debut", "explication": "تين commence par la dent à deux points au-dessus : تـ." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "mot-nv-nabt", "options": ["mot-nv-nabt", "mot-nv-bint", "mot-nv-bayn"], "explication": "Un point dessus (n), un point dessous (b), puis ـت : n-b-t." },
+    { "id": "t5", "type": "assemble", "morceaux": ["lettre-ba", "lettre-noun", "lettre-ta"], "distracteurs": ["lettre-ya"], "resultat": "mot-nv-bint", "explication": "De droite à gauche : ب, ن, ت. Cela donne بنت." },
+    { "id": "t6", "type": "trouve-lettre", "mot": "mot-nv-bayn", "lettre": "lettre-noun", "reponse": "fin", "explication": "بين finit par ـن : la cuvette de fin avec un point au-dessus." }
+  ]
+}

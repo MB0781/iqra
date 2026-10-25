@@ -1,0 +1,23 @@
+{
+  "etape": 2,
+  "titre": "Test de l'étape 2 : les lettres dans un mot",
+  "consigne": "Reconnais les lettres au début, au milieu et à la fin des mots. Il faut 85 % de bonnes réponses pour ouvrir l'étape 3.",
+  "questions": [
+    { "id": "q1", "type": "lis-choisis-son", "cible": "forme-ba-debut", "options": ["forme-ba-debut", "forme-noun-debut", "forme-ya-debut"], "explication": "Un point sous la dent : بـ, « b »." },
+    { "id": "q2", "type": "ecoute-choisis", "cible": "forme-ta-fin", "options": ["forme-ta-fin", "forme-tha-fin", "forme-noun-fin"], "explication": "« t » en fin de mot : ـت, deux points au-dessus." },
+    { "id": "q3", "type": "classe", "consigne": "S'attache-t-elle à la suivante ?", "categories": [{ "id": "attache", "label": "S'attache" }, { "id": "non", "label": "Ne s'attache pas" }], "elements": [{ "ref": "lettre-ra", "categorie": "non" }, { "ref": "lettre-dal", "categorie": "non" }, { "ref": "lettre-alif", "categorie": "non" }, { "ref": "lettre-jim", "categorie": "attache" }, { "ref": "lettre-lam", "categorie": "attache" }, { "ref": "lettre-mim", "categorie": "attache" }], "explication": "ر, د et ا font partie des six lettres qui ne s'attachent pas ; ج, ل et م s'attachent." },
+    { "id": "q4", "type": "classe", "consigne": "Début, milieu ou fin ?", "categories": [{ "id": "debut", "label": "Début" }, { "id": "milieu", "label": "Milieu" }, { "id": "fin", "label": "Fin" }], "elements": [{ "ref": "forme-qaf-debut", "categorie": "debut" }, { "ref": "forme-hha-debut", "categorie": "debut" }, { "ref": "forme-noun-milieu", "categorie": "milieu" }, { "ref": "forme-ayn-milieu", "categorie": "milieu" }, { "ref": "forme-waw-fin", "categorie": "fin" }, { "ref": "forme-ya-fin", "categorie": "fin" }], "explication": "Relié à gauche seulement : début. Des deux côtés : milieu. À droite seulement : fin." },
+    { "id": "q5", "type": "trouve-lettre", "mot": "mot-nv-bint", "lettre": "lettre-ba", "reponse": "debut", "explication": "بنت commence par بـ, la dent au point dessous." },
+    { "id": "q6", "type": "trouve-lettre", "mot": "mot-nv-qalb", "lettre": "lettre-qaf", "reponse": "debut", "explication": "قلب commence par قـ, la petite boucle à deux points." },
+    { "id": "q7", "type": "trouve-lettre", "mot": "mot-nv-ward", "lettre": "lettre-ra", "reponse": "milieu", "explication": "ورد : و, puis ر, puis د. ر est au milieu, même s'il n'est attaché à rien." },
+    { "id": "q8", "type": "trouve-lettre", "mot": "mot-nv-saghir", "lettre": "lettre-ya", "reponse": "milieu", "explication": "صغير : la dent à deux points dessous, avant ر, c'est ي." },
+    { "id": "q9", "type": "trouve-lettre", "mot": "mot-nv-kitab", "lettre": "lettre-noun", "reponse": "absente", "explication": "كتاب s'écrit k-t-a-b : la dent a deux points au-dessus, c'est ت, pas ن." },
+    { "id": "q10", "type": "lis-choisis-son", "cible": "mot-nv-jisr", "options": ["mot-nv-jisr", "mot-nv-sabt", "mot-nv-khubz"], "explication": "ج, les trois dents de س, puis ر : dj-s-r (« jisr », pont)." },
+    { "id": "q11", "type": "lis-choisis-son", "cible": "mot-nv-nahr", "options": ["mot-nv-nahr", "mot-nv-nour", "mot-nv-zahr"], "explication": "ن, ه au milieu (forme en huit), puis ر : n-h-r. نور a و au milieu, زهر commence par ز." },
+    { "id": "q12", "type": "assemble", "morceaux": ["lettre-qaf", "lettre-lam", "lettre-mim"], "distracteurs": ["lettre-fa"], "resultat": "mot-nv-qalam", "explication": "ق, ل, م : قلم (« qalam », stylo)." },
+    { "id": "q13", "type": "assemble", "morceaux": ["lettre-ba", "lettre-ayn", "lettre-dal"], "distracteurs": ["lettre-ghayn"], "resultat": "mot-nv-baad", "explication": "ب, ع (sans point), د : بعد." },
+    { "id": "q14", "type": "ecoute-choisis", "cible": "forme-sad-milieu", "options": ["forme-sad-milieu", "forme-sin-milieu", "forme-dad-milieu"], "explication": "Le « s » grave au milieu : ـصـ, boucle sans point." },
+    { "id": "q15", "type": "lis-choisis-son", "cible": "forme-mim-fin", "options": ["forme-mim-fin", "forme-ha-fin", "forme-waw-fin"], "explication": "Petite boucle et queue droite : ـم, « m »." },
+    { "id": "q16", "type": "trouve-lettre", "mot": "mot-nv-wajh", "lettre": "lettre-jim", "reponse": "milieu", "explication": "وجه : و seul, puis ج au milieu, puis ه." }
+  ]
+}

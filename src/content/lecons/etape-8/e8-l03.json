@@ -1,0 +1,35 @@
+{
+  "id": "e8-l03",
+  "etape": 8,
+  "ordre": 3,
+  "titre": "Al-Fatiha, verset 5",
+  "resume": "Un verset construit en miroir : « C'est Toi que nous adorons, c'est Toi dont nous implorons le secours ».",
+  "duree": 7,
+  "enseigne": [],
+  "elementsNouveaux": ["q:1:5:1", "q:1:5:2", "q:1:5:3", "q:1:5:4", "q:1:5"],
+  "theorie": [
+    { "type": "texte", "texte": "Sens global : « C'est Toi seul que nous adorons, et c'est Toi seul dont nous implorons le secours. » Le verset a **deux moitiés** qui se répondent, chacune commençant par le même mot." },
+    { "type": "presentation", "element": "q:1:5:1", "note": "**iyyâka** : hamza sous l'alif = « i », ي doublé par la chadda (« yy »), alif de prolongation (« â »), puis « ka »." },
+    { "type": "presentation", "element": "q:1:5:2", "note": "**naʿboudou** : ع porte un soukoun : on le prononce sans voyelle, collé à la syllabe « na » : « naʿ - bou - dou »." },
+    { "type": "presentation", "element": "q:1:5:4", "note": "**nastaʿîn** : deux syllabes fermées (« nas », « ta »), puis « ʿî » long. On s'arrête sur le n." },
+    { "type": "astuce", "texte": "Le troisième mot = « wa » (et) + le mot déjà lu « iyyâka ». Repérer un mot connu dans un mot plus long fait gagner beaucoup de temps." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "q:1:5:1", "options": ["q:1:5:1", "q:1:5:3", "q:1:4:2"], "explication": "Pas de وَ au début : c'est « iyyâka » seul." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "q:1:5:2", "options": ["q:1:5:2", "q:1:5:4", "q:1:2:1"], "explication": "ن, ع avec soukoun, ب avec damma, د avec damma : « naʿboudou »." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "q:1:5:4", "options": ["q:1:5:4", "q:1:5:2", "q:1:4:3"], "explication": "« nastaʿîn » : on entend s puis t, et le « î » long avant le n." },
+    { "id": "p4", "type": "ecoute-choisis", "cible": "q:1:5:3", "options": ["q:1:5:3", "q:1:5:1"], "explication": "On entend « wa » au début : c'est « wa-iyyâka »." },
+    { "id": "p5", "type": "assemble", "consigne": "Remets les mots du verset 5 dans l'ordre de lecture.", "morceaux": ["q:1:5:1", "q:1:5:2", "q:1:5:3", "q:1:5:4"], "distracteurs": ["q:1:4:2"], "resultat": "q:1:5", "explication": "iyyâka naʿboudou, puis wa-iyyâka nastaʿîn : chaque moitié commence par « iyyâka »." },
+    { "id": "p6", "type": "lis-verifie", "cible": "q:1:5:4", "explication": "nas - ta - ʿîn : trois syllabes, la dernière longue, sans voyelle finale à l'arrêt." },
+    { "id": "p7", "type": "lis-verifie", "cible": "q:1:4:1", "explication": "Révision : « mâliki », le petit alif allonge le premier « a »." },
+    { "id": "p8", "type": "lis-verifie", "cible": "q:1:5", "explication": "Lis tout le verset d'une traite, puis compare avec la récitation." },
+    { "id": "p9", "type": "lecture-guidee", "consigne": "Relis les versets 1 à 5. Le découpage en syllabes est retiré : à toi de le faire de tête.", "versets": "1:1-5", "aides": ["voyelles", "audio"], "explication": "Les couleurs des voyelles restent : elles t'aident encore à ne pas oublier un signe." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "q:1:5:4", "options": ["q:1:5:4", "q:1:5:2", "q:1:1:4"], "explication": "س avec soukoun puis ت : « nastaʿîn »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "q:1:5:1", "options": ["q:1:5:1", "q:1:5:3", "q:1:5:4"], "explication": "« iyyâka », sans le « wa » du début." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "q:1:5:3", "options": ["q:1:5:3", "q:1:5:1"], "explication": "وَ au début : « wa-iyyâka »." },
+    { "id": "t4", "type": "ecoute-choisis", "cible": "q:1:5:2", "options": ["q:1:5:2", "q:1:5:4", "q:1:2:1"], "explication": "« naʿboudou » : n, ʿ sans voyelle, b, d." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "q:1:5", "options": ["q:1:5", "q:1:4", "q:1:3"], "explication": "Le seul verset où « iyyâka » apparaît deux fois : le verset 5." }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "etape": 5,
+  "titre": "Test de l'étape 5 : lire des mots entiers",
+  "consigne": "Des mots que tu n'as jamais rencontrés, de 2 à 4 syllabes. Découpe si besoin, puis lis d'une traite : 85 % de bonnes réponses débloquent l'étape suivante.",
+  "questions": [
+    { "id": "q1", "type": "lis-choisis-son", "cible": "mot-mawzoun", "options": ["mot-mawzoun", "mot-laymunoun", "mot-djazaroun"], "explication": "مَوْ-زٌ : « mawzoun », des bananes. و avec soukoun après une fatha : « aw »." },
+    { "id": "q2", "type": "ecoute-choisis", "cible": "mot-laymunoun", "options": ["mot-laymunoun", "mot-mawzoun", "mot-sabounoun"], "explication": "لَيْ-مُو-نٌ : « laymoûnoun », un citron." },
+    { "id": "q3", "type": "assemble", "morceaux": ["syl-sin-ou-kaf", "syl-kaf-a", "syl-ra-oun"], "distracteurs": ["syl-sin-ouu"], "resultat": "mot-sukkaroun", "explication": "سُكْ (souk) + كَ (ka) + رٌ (roun) = « soukkaroun », du sucre. La chadda sur ك se partage entre deux syllabes." },
+    { "id": "q4", "type": "assemble", "morceaux": ["syl-mim-a-sin", "syl-jim-i", "syl-dal-oun"], "distracteurs": ["syl-mim-a-tta"], "resultat": "mot-masdjidoun", "explication": "مَسْ (mas) + جِ (dji) + دٌ (doun) = « masdjidoun », une mosquée." },
+    { "id": "q5", "type": "lis-choisis-son", "cible": "mot-qamisoun", "options": ["mot-qamisoun", "mot-sadiqoun", "mot-sariroun"], "explication": "قَ-مِي-صٌ : « qamîṣoun », une chemise." },
+    { "id": "q6", "type": "ecoute-choisis", "cible": "mot-sadiqoun", "options": ["mot-sadiqoun", "mot-qamisoun", "mot-sabounoun"], "explication": "صَ-دِي-قٌ : « ṣadîqoun », un ami." },
+    { "id": "q7", "type": "assemble", "morceaux": ["syl-mim-a-noun", "syl-zay-i", "syl-lam-oun"], "distracteurs": ["syl-mim-a-lam"], "resultat": "mot-manziloun", "explication": "مَنْ (man) + زِ (zi) + لٌ (loun) = « manziloun », une maison. مَلْ (mal) n'a pas le ن." },
+    { "id": "q8", "type": "lis-verifie", "cible": "mot-djazaroun", "explication": "جَ-زَ-رٌ : « djazaroun », des carottes. Trois syllabes ouvertes." },
+    { "id": "q9", "type": "trouve-lettre", "mot": "mot-kaakoun", "lettre": "lettre-ayn", "reponse": "milieu", "explication": "Dans كَعْكٌ (« kaʿkoun », des gâteaux), ع est au milieu, avec un soukoun." },
+    { "id": "q10", "type": "lis-choisis-son", "cible": "mot-chayoun", "options": ["mot-chayoun", "mot-djazaroun", "mot-mawzoun"], "explication": "شَا-يٌ : « châyoun », du thé." },
+    { "id": "q11", "type": "ecoute-choisis", "cible": "mot-hammamoun", "options": ["mot-hammamoun", "mot-dukkanoun", "mot-haliboun"], "explication": "حَمْ-مَا-مٌ : « ḥammâmoun », une salle de bain." },
+    { "id": "q12", "type": "lis-choisis-son", "cible": "mot-dukkanoun", "options": ["mot-dukkanoun", "mot-hammamoun", "mot-chubbakoun"], "explication": "دُكْ-كَا-نٌ : « doukkânoun », une boutique." },
+    { "id": "q13", "type": "lis-verifie", "cible": "expr-hadha-bayti", "explication": "هٰذَا بَيْتِي : « hâdhâ baytî », c'est ma maison." },
+    { "id": "q14", "type": "classe", "consigne": "Combien de syllabes ?", "categories": [{ "id": "deux", "label": "2 syllabes" }, { "id": "trois", "label": "3 syllabes" }, { "id": "quatre", "label": "4 syllabes" }], "elements": [{ "ref": "mot-mawzoun", "categorie": "deux" }, { "ref": "mot-chayoun", "categorie": "deux" }, { "ref": "mot-djazaroun", "categorie": "trois" }, { "ref": "mot-laymunoun", "categorie": "trois" }, { "ref": "mot-manziloun", "categorie": "trois" }, { "ref": "mot-muhandisoun", "categorie": "quatre" }], "explication": "Une voyelle = une syllabe : mawzoun (maw-zoun), châyoun (châ-youn), laymoûnoun (lay-moû-noun), mouhandisoun (mou-han-di-soun)." }
+  ]
+}

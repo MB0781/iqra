@@ -1,0 +1,35 @@
+{
+  "id": "e7-l04",
+  "etape": 7,
+  "ordre": 4,
+  "titre": "Les lettres écrites mais non prononcées : ۟",
+  "resume": "Un petit rond signale une lettre qu'on saute.",
+  "duree": 7,
+  "enseigne": ["signe-lettre-muette"],
+  "elementsNouveaux": ["q:103:3:3", "q:103:3:6", "q:2:5:1"],
+  "theorie": [
+    { "type": "texte", "texte": "Certaines lettres sont écrites mais **ne se prononcent jamais**. Le Mushaf les signale par un **petit rond** (۟) posé dessus. Quand tu vois ce rond, **saute la lettre**." },
+    { "type": "presentation", "element": "q:103:3:3", "note": "ءَامَنُوا۟ : « âmanoû » (ils ont cru). L'alif final porte le petit rond : on s'arrête sur le « oû »." },
+    { "type": "presentation", "element": "q:103:3:6", "note": "وَتَوَاصَوْا۟ : « wa-tawâṣaw » (et ils se sont recommandé). Encore un alif muet après le wâw." },
+    { "type": "presentation", "element": "q:2:5:1", "note": "أُو۟لَٰٓئِكَ : « oulâʾika » (ceux-là). Ici, c'est le **wâw** qui est muet : « ou » bref, puis « lâ » tenu, puis « ʾika »." },
+    { "type": "attention", "texte": "Ne confonds pas le petit rond (۟) avec le soukoun (ْ). Le soukoun est posé sur une lettre **qu'on prononce**, sans voyelle. Le rond est posé sur une lettre **qu'on saute**." },
+    { "type": "astuce", "texte": "Pourquoi écrire une lettre muette ? C'est l'orthographe du Mushaf, transmise telle quelle depuis des siècles. On la respecte à l'écrit, on la saute à l'oral." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "q:103:3:3", "options": ["q:103:3:3", "q:2:13:6", "q:103:3:4"], "explication": "ءَامَنُوا۟ : « âma », « noû », et l'alif final se tait : « âmanoû ». ءَامَنَ (sans wâw) se lit « âmana »." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "q:103:3:4", "options": ["q:103:3:4", "q:103:3:3", "q:103:3:6"], "explication": "« wa-ʿamiloû » : wa-ʿa-mi-loû ; l'alif marqué du rond ne se dit pas." },
+    { "id": "p3", "type": "lis-choisis-son", "cible": "q:2:5:1", "options": ["q:2:5:1", "q:2:5:2", "q:2:5:3"], "explication": "أُو۟لَٰٓئِكَ : le wâw porte le petit rond, on le saute : « ou-lâ-ʾi-ka »." },
+    { "id": "p4", "type": "classe", "consigne": "Le mot contient-il une lettre muette ?", "categories": [{ "id": "muette", "label": "Une lettre muette (۟)" }, { "id": "toutes", "label": "Toutes les lettres se lisent" }], "elements": [{ "ref": "q:103:3:3", "categorie": "muette" }, { "ref": "q:84:22:3", "categorie": "muette" }, { "ref": "q:113:1:6", "categorie": "toutes" }, { "ref": "q:112:3:4", "categorie": "toutes" }, { "ref": "q:2:5:1", "categorie": "muette" }, { "ref": "q:2:3:2", "categorie": "toutes" }, { "ref": "q:103:3:6", "categorie": "muette" }], "explication": "Cherche le petit rond. Le soukoun de يُولَدْ ou de يُؤْمِنُونَ est sur une lettre prononcée : ce n'est pas une lettre muette." },
+    { "id": "p5", "type": "lis-choisis-son", "cible": "q:84:22:3", "options": ["q:84:22:3", "q:113:2:4", "q:103:3:3"], "explication": "كَفَرُوا۟ : ka-fa-roû, alif muet : « kafaroû » (ils ont mécru)." },
+    { "id": "p6", "type": "assemble", "consigne": "Remets les mots dans l'ordre de lecture.", "morceaux": ["q:103:3:2", "q:103:3:3"], "distracteurs": ["q:103:3:4"], "resultat": "q:103:3:2-3", "explication": "ٱلَّذِينَ puis ءَامَنُوا۟ : « alladhîna âmanoû », ceux qui ont cru." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "q:103:3:7", "options": ["q:103:3:7", "q:103:3:9", "q:103:1:5"], "explication": "Révision : بِٱلْحَقِّ, l'alif de liaison se tait après بِ, le lâm (lunaire) se dit : « bi-l-ḥaqqi »." },
+    { "id": "p8", "type": "lis-verifie", "cible": "q:103:3", "explication": "« illâ lladhîna âmanoû wa-ʿamiloû ṣ-ṣâliḥâti wa-tawâṣaw bi-l-ḥaqqi wa-tawâṣaw bi-ṣ-ṣabr ». Quatre alifs muets, plusieurs alifs de liaison : prends ton temps." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "q:103:3:6", "options": ["q:103:3:6", "q:103:3:4", "q:2:5:1"], "explication": "وَتَوَاصَوْا۟ : wa-ta-wâ-ṣaw, alif muet : « wa-tawâṣaw »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "q:89:11:2", "options": ["q:89:11:2", "q:79:17:5", "q:84:22:3"], "explication": "« ṭaghaw » : le wâw porte un soukoun (« aw »), l'alif suivant est muet. طَغَىٰ, lui, se lit « ṭaghâ »." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "q:103:3:9", "options": ["q:103:3:9", "q:103:3:7", "q:103:3:5"], "explication": "بِٱلصَّبْرِ : alif de liaison muet, lâm muet (ṣâd solaire) : « bi-ṣ-ṣabri »." },
+    { "id": "t4", "type": "classe", "consigne": "Le mot contient-il une lettre muette ?", "categories": [{ "id": "muette", "label": "Une lettre muette (۟)" }, { "id": "toutes", "label": "Toutes les lettres se lisent" }], "elements": [{ "ref": "q:89:11:2", "categorie": "muette" }, { "ref": "q:79:17:5", "categorie": "toutes" }, { "ref": "q:103:3:4", "categorie": "muette" }, { "ref": "q:1:5:2", "categorie": "toutes" }, { "ref": "q:2:5:6", "categorie": "muette" }, { "ref": "q:112:3:2", "categorie": "toutes" }], "explication": "Seuls les mots avec le petit rond ont une lettre muette : طَغَوْا۟, وَعَمِلُوا۟, وَأُو۟لَٰٓئِكَ." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "q:103:3:5", "options": ["q:103:3:5", "q:113:4:3", "q:1:6:2"], "explication": "ٱلصَّٰلِحَٰتِ : ṣâd doublé (solaire), petits alifs : « aṣ-ṣâliḥâti », les bonnes œuvres." }
+  ]
+}

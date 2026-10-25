@@ -1,0 +1,34 @@
+{
+  "id": "e5-l04",
+  "etape": 5,
+  "ordre": 4,
+  "titre": "Lis, puis vérifie",
+  "resume": "Lire seul à voix haute, écouter la référence et s'auto-évaluer honnêtement.",
+  "duree": 9,
+  "enseigne": [],
+  "elementsNouveaux": ["mot-hasouboun", "mot-tilfazoun", "mot-findjanoun", "mot-malaboun", "mot-mataroun", "mot-sariroun", "expr-hadha-kitaboun", "expr-kayfa-haluka", "expr-choukran-djazilan"],
+  "theorie": [
+    { "type": "texte", "texte": "Dernière leçon de l'étape : tu lis **seul, à voix haute**, puis tu écoutes la référence et tu t'évalues : juste, hésitant ou faux. Personne ne te corrige : c'est toi qui compares." },
+    { "type": "astuce", "texte": "« Hésitant » n'est pas un échec : c'est le signal que ce mot mérite d'être revu. Les révisions s'adaptent à ta réponse." },
+    { "type": "presentation", "element": "expr-hadha-kitaboun", "note": "Deux mots : هٰذَا كِتَابٌ = « hâdhâ kitâboun », ceci est un livre. Lis chaque mot d'une traite, avec une courte pause entre les deux." },
+    { "type": "galerie", "elements": ["mot-hasouboun", "mot-tilfazoun", "mot-findjanoun", "mot-malaboun", "mot-mataroun", "mot-sariroun"], "note": "Ordinateur, télévision, tasse, stade, aéroport, lit." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-verifie", "cible": "mot-hasouboun", "explication": "حَا-سُو-بٌ : « ḥâsoûboun », un ordinateur. Deux voyelles longues de suite." },
+    { "id": "p2", "type": "lis-verifie", "cible": "mot-tilfazoun", "explication": "تِلْ-فَا-زٌ : « tilfâzoun », une télévision." },
+    { "id": "p3", "type": "lis-choisis-son", "cible": "mot-findjanoun", "options": ["mot-findjanoun", "mot-funduqoun", "mot-tilfazoun"], "explication": "فِنْ-جَا-نٌ : « findjânoun », une tasse. فُنْدُقٌ commence par « foun », avec une damma." },
+    { "id": "p4", "type": "lis-verifie", "cible": "mot-malaboun", "explication": "مَلْ-عَ-بٌ : « malʿaboun », un stade. Ferme bien le « l » avant le ع." },
+    { "id": "p5", "type": "ecoute-choisis", "cible": "mot-mataroun", "options": ["mot-mataroun", "mot-matamoun", "mot-malaboun"], "explication": "مَ-طَا-رٌ : « maṭâroun », un aéroport." },
+    { "id": "p6", "type": "lis-verifie", "cible": "mot-sariroun", "explication": "سَ-رِي-رٌ : « sarîroun », un lit. Deux « r » roulés." },
+    { "id": "p7", "type": "lis-verifie", "cible": "expr-hadha-kitaboun", "explication": "« hâdhâ kitâboun », ceci est un livre : le petit alif de هٰ se lit « hâ »." },
+    { "id": "p8", "type": "lis-verifie", "cible": "expr-kayfa-haluka", "explication": "كَيْ-فَ | حَا-لُ-كَ : « kayfa ḥâlouka », comment vas-tu ?" },
+    { "id": "p9", "type": "lis-verifie", "cible": "expr-choukran-djazilan", "explication": "شُكْ-رًا | جَ-زِي-لًا : « choukran djazîlan », merci beaucoup. Deux tanwin « an » avec leur alif muet." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "mot-hasouboun", "options": ["mot-hasouboun", "mot-sabounoun", "mot-haliboun"], "explication": "حَا-سُو-بٌ : « ḥâsoûboun », un ordinateur." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "mot-tilfazoun", "options": ["mot-tilfazoun", "mot-findjanoun", "mot-tilmidhoun"], "explication": "تِلْ-فَا-زٌ : « tilfâzoun ». تِلْمِيذٌ, « tilmîdhoun », continue avec مِي." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "expr-kayfa-haluka", "options": ["expr-kayfa-haluka", "expr-hadha-kitaboun", "expr-choukran-djazilan"], "explication": "كَيْفَ حَالُكَ : « kayfa ḥâlouka », comment vas-tu ?" },
+    { "id": "t4", "type": "ecoute-choisis", "cible": "mot-sariroun", "options": ["mot-sariroun", "mot-mataroun", "mot-tabiboun"], "explication": "سَ-رِي-رٌ : « sarîroun », un lit." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "mot-malaboun", "options": ["mot-malaboun", "mot-matamoun", "mot-mataroun"], "explication": "مَلْ-عَ-بٌ : « malʿaboun », un stade." }
+  ]
+}
