@@ -1,0 +1,5057 @@
+{
+  "description": "Manifeste audio d'Iqra'. Généré par `npm run audio:manifest` — ne pas modifier à la main.",
+  "sources": {
+    "quran.com-mot": "Audio mot par mot public de Quran.com : https://audio.qurancdn.com/wbw/SSS_AAA_WWW.mp3",
+    "quran.com-verset": "Audio verset par verset (Mishary Rashid Alafasy) : https://verses.quran.com/Alafasy/mp3/SSSAAA.mp3",
+    "enregistrement": "Enregistré par un récitateur via /studio, fichier dans public/audio/"
+  },
+  "total": 690,
+  "disponibles": 214,
+  "aEnregistrer": 476,
+  "elements": [
+    {
+      "id": "expr-choukran-djazilan",
+      "ar": "شُكْرًا جَزِيلًا",
+      "translit": "choukran djazîlan",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "expr-hadha-bayti",
+      "ar": "هٰذَا بَيْتِي",
+      "translit": "hâdhâ baytî",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "expr-hadha-kitaboun",
+      "ar": "هٰذَا كِتَابٌ",
+      "translit": "hâdhâ kitâboun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "expr-kayfa-haluka",
+      "ar": "كَيْفَ حَالُكَ",
+      "translit": "kayfa ḥâlouka",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-alif-fin",
+      "ar": "ـا",
+      "translit": "alif",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ayn-debut",
+      "ar": "عـ",
+      "translit": "ʿ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ayn-fin",
+      "ar": "ـع",
+      "translit": "ʿ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ayn-milieu",
+      "ar": "ـعـ",
+      "translit": "ʿ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ba-debut",
+      "ar": "بـ",
+      "translit": "b",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ba-fin",
+      "ar": "ـب",
+      "translit": "b",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ba-milieu",
+      "ar": "ـبـ",
+      "translit": "b",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-chin-debut",
+      "ar": "شـ",
+      "translit": "ch",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-chin-fin",
+      "ar": "ـش",
+      "translit": "ch",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-chin-milieu",
+      "ar": "ـشـ",
+      "translit": "ch",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-dad-debut",
+      "ar": "ضـ",
+      "translit": "ḍ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-dad-fin",
+      "ar": "ـض",
+      "translit": "ḍ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-dad-milieu",
+      "ar": "ـضـ",
+      "translit": "ḍ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-dal-fin",
+      "ar": "ـد",
+      "translit": "d",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-dha-debut",
+      "ar": "ظـ",
+      "translit": "ẓ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-dha-fin",
+      "ar": "ـظ",
+      "translit": "ẓ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-dha-milieu",
+      "ar": "ـظـ",
+      "translit": "ẓ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-dhal-fin",
+      "ar": "ـذ",
+      "translit": "dh",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-fa-debut",
+      "ar": "فـ",
+      "translit": "f",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-fa-fin",
+      "ar": "ـف",
+      "translit": "f",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-fa-milieu",
+      "ar": "ـفـ",
+      "translit": "f",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ghayn-debut",
+      "ar": "غـ",
+      "translit": "gh",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ghayn-fin",
+      "ar": "ـغ",
+      "translit": "gh",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ghayn-milieu",
+      "ar": "ـغـ",
+      "translit": "gh",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ha-debut",
+      "ar": "هـ",
+      "translit": "h",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ha-fin",
+      "ar": "ـه",
+      "translit": "h",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ha-milieu",
+      "ar": "ـهـ",
+      "translit": "h",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-hha-debut",
+      "ar": "حـ",
+      "translit": "ḥ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-hha-fin",
+      "ar": "ـح",
+      "translit": "ḥ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-hha-milieu",
+      "ar": "ـحـ",
+      "translit": "ḥ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-jim-debut",
+      "ar": "جـ",
+      "translit": "dj",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-jim-fin",
+      "ar": "ـج",
+      "translit": "dj",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-jim-milieu",
+      "ar": "ـجـ",
+      "translit": "dj",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-kaf-debut",
+      "ar": "كـ",
+      "translit": "k",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-kaf-fin",
+      "ar": "ـك",
+      "translit": "k",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-kaf-milieu",
+      "ar": "ـكـ",
+      "translit": "k",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-kha-debut",
+      "ar": "خـ",
+      "translit": "kh",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-kha-fin",
+      "ar": "ـخ",
+      "translit": "kh",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-kha-milieu",
+      "ar": "ـخـ",
+      "translit": "kh",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-lam-debut",
+      "ar": "لـ",
+      "translit": "l",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-lam-fin",
+      "ar": "ـل",
+      "translit": "l",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-lam-milieu",
+      "ar": "ـلـ",
+      "translit": "l",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-mim-debut",
+      "ar": "مـ",
+      "translit": "m",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-mim-fin",
+      "ar": "ـم",
+      "translit": "m",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-mim-milieu",
+      "ar": "ـمـ",
+      "translit": "m",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-noun-debut",
+      "ar": "نـ",
+      "translit": "n",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-noun-fin",
+      "ar": "ـن",
+      "translit": "n",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-noun-milieu",
+      "ar": "ـنـ",
+      "translit": "n",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-qaf-debut",
+      "ar": "قـ",
+      "translit": "q",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-qaf-fin",
+      "ar": "ـق",
+      "translit": "q",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-qaf-milieu",
+      "ar": "ـقـ",
+      "translit": "q",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ra-fin",
+      "ar": "ـر",
+      "translit": "r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-sad-debut",
+      "ar": "صـ",
+      "translit": "ṣ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-sad-fin",
+      "ar": "ـص",
+      "translit": "ṣ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-sad-milieu",
+      "ar": "ـصـ",
+      "translit": "ṣ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-sin-debut",
+      "ar": "سـ",
+      "translit": "s",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-sin-fin",
+      "ar": "ـس",
+      "translit": "s",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-sin-milieu",
+      "ar": "ـسـ",
+      "translit": "s",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ta-debut",
+      "ar": "تـ",
+      "translit": "t",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ta-fin",
+      "ar": "ـت",
+      "translit": "t",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ta-milieu",
+      "ar": "ـتـ",
+      "translit": "t",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-tha-debut",
+      "ar": "ثـ",
+      "translit": "th",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-tha-fin",
+      "ar": "ـث",
+      "translit": "th",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-tha-milieu",
+      "ar": "ـثـ",
+      "translit": "th",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-tta-debut",
+      "ar": "طـ",
+      "translit": "ṭ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-tta-fin",
+      "ar": "ـط",
+      "translit": "ṭ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-tta-milieu",
+      "ar": "ـطـ",
+      "translit": "ṭ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-waw-fin",
+      "ar": "ـو",
+      "translit": "w",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ya-debut",
+      "ar": "يـ",
+      "translit": "y",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ya-fin",
+      "ar": "ـي",
+      "translit": "y",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-ya-milieu",
+      "ar": "ـيـ",
+      "translit": "y",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "forme-zay-fin",
+      "ar": "ـز",
+      "translit": "z",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-alif",
+      "ar": "ا",
+      "translit": "alif",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-alif-hamza-bas",
+      "ar": "إ",
+      "translit": "ʾ (i)",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-alif-hamza-haut",
+      "ar": "أ",
+      "translit": "ʾ (a / ou)",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-alif-madda",
+      "ar": "آ",
+      "translit": "ʾâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-alif-maqsura",
+      "ar": "ى",
+      "translit": "â (ou î)",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-alif-wasla",
+      "ar": "ٱ",
+      "translit": "a (muet en liaison)",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-ayn",
+      "ar": "ع",
+      "translit": "ʿ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-ba",
+      "ar": "ب",
+      "translit": "b",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-chin",
+      "ar": "ش",
+      "translit": "ch",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-dad",
+      "ar": "ض",
+      "translit": "ḍ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-dal",
+      "ar": "د",
+      "translit": "d",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-dha",
+      "ar": "ظ",
+      "translit": "ẓ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-dhal",
+      "ar": "ذ",
+      "translit": "dh",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-fa",
+      "ar": "ف",
+      "translit": "f",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-ghayn",
+      "ar": "غ",
+      "translit": "gh",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-ha",
+      "ar": "ه",
+      "translit": "h",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-hamza",
+      "ar": "ء",
+      "translit": "ʾ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-hha",
+      "ar": "ح",
+      "translit": "ḥ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-jim",
+      "ar": "ج",
+      "translit": "dj",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-kaf",
+      "ar": "ك",
+      "translit": "k",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-kha",
+      "ar": "خ",
+      "translit": "kh",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-lam",
+      "ar": "ل",
+      "translit": "l",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-mim",
+      "ar": "م",
+      "translit": "m",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-noun",
+      "ar": "ن",
+      "translit": "n",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-qaf",
+      "ar": "ق",
+      "translit": "q",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-ra",
+      "ar": "ر",
+      "translit": "r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-sad",
+      "ar": "ص",
+      "translit": "ṣ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-sin",
+      "ar": "س",
+      "translit": "s",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-ta",
+      "ar": "ت",
+      "translit": "t",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-ta-marbuta",
+      "ar": "ة",
+      "translit": "t (h à la pause)",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-tha",
+      "ar": "ث",
+      "translit": "th",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-tta",
+      "ar": "ط",
+      "translit": "ṭ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-waw",
+      "ar": "و",
+      "translit": "w",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-waw-hamza",
+      "ar": "ؤ",
+      "translit": "ʾ sur wâw",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-ya",
+      "ar": "ي",
+      "translit": "y",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-ya-hamza",
+      "ar": "ئ",
+      "translit": "ʾ sur yâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "lettre-zay",
+      "ar": "ز",
+      "translit": "z",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-ach-chams",
+      "ar": "الشَّمْسُ",
+      "translit": "ach-chamsou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-ad-dars",
+      "ar": "الدَّرْسُ",
+      "translit": "ad-darsou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-adh-dhahab",
+      "ar": "الذَّهَبُ",
+      "translit": "adh-dhahabou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-afwan",
+      "ar": "عَفْوًا",
+      "translit": "ʿafwan",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-al-bab",
+      "ar": "الْبَابُ",
+      "translit": "al-bâbou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-al-bayt",
+      "ar": "الْبَيْتُ",
+      "translit": "al-baytou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-al-djamal",
+      "ar": "الْجَمَلُ",
+      "translit": "al-djamalou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-al-kitab",
+      "ar": "الْكِتَابُ",
+      "translit": "al-kitâbou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-al-qalam",
+      "ar": "الْقَلَمُ",
+      "translit": "al-qalamou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-al-qamar",
+      "ar": "الْقَمَرُ",
+      "translit": "al-qamarou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-al-walad",
+      "ar": "الْوَلَدُ",
+      "translit": "al-waladou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-alam-douleur",
+      "ar": "أَلَمٌ",
+      "translit": "alamoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-alam-drapeau",
+      "ar": "عَلَمٌ",
+      "translit": "ʿalamoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-alima",
+      "ar": "عَلِمَ",
+      "translit": "ʿalima",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-allama",
+      "ar": "عَلَّمَ",
+      "translit": "ʿallama",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-amal-espoir",
+      "ar": "أَمَلٌ",
+      "translit": "amaloun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-amal-travail",
+      "ar": "عَمَلٌ",
+      "translit": "ʿamaloun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-amana-courant",
+      "ar": "آمَنَ",
+      "translit": "âmana",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-ammi",
+      "ar": "عَمِّي",
+      "translit": "ʿammî",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-an",
+      "ar": "عَنْ",
+      "translit": "ʿan",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-an-nour",
+      "ar": "النُّورُ",
+      "translit": "an-noûrou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-ar-radjoul",
+      "ar": "الرَّجُلُ",
+      "translit": "ar-radjoulou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-as-salam",
+      "ar": "السَّلَامُ",
+      "translit": "as-salâmou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-at-tin",
+      "ar": "التِّينُ",
+      "translit": "at-tînou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-baka",
+      "ar": "بَكَى",
+      "translit": "bakâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-baouda",
+      "ar": "بَعُدَ",
+      "translit": "baʿouda",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-bayt-indef",
+      "ar": "بَيْتٌ",
+      "translit": "baytoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-bayti",
+      "ar": "بَيْتِي",
+      "translit": "baytî",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-baytoun",
+      "ar": "بَيْتٌ",
+      "translit": "baytoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-biir",
+      "ar": "بِئْرٌ",
+      "translit": "biʾroun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-bintoun",
+      "ar": "بِنْتٌ",
+      "translit": "bintoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-burtuqaloun",
+      "ar": "بُرْتُقَالٌ",
+      "translit": "bourtouqâloun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-chadjara",
+      "ar": "شَجَرَةٌ",
+      "translit": "chadjaratoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-chams-indef",
+      "ar": "شَمْسٌ",
+      "translit": "chamsoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-chariba",
+      "ar": "شَرِبَ",
+      "translit": "chariba",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-chayoun",
+      "ar": "شَايٌ",
+      "translit": "châyoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-choukran",
+      "ar": "شُكْرًا",
+      "translit": "choukran",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-chubbakoun",
+      "ar": "شُبَّاكٌ",
+      "translit": "choubbâkoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-daftaroun",
+      "ar": "دَفْتَرٌ",
+      "translit": "daftaroun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-dahika",
+      "ar": "ضَحِكَ",
+      "translit": "ḍaḥika",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-dakhala",
+      "ar": "دَخَلَ",
+      "translit": "dakhala",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-darasa",
+      "ar": "دَرَسَ",
+      "translit": "darasa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-darrasa",
+      "ar": "دَرَّسَ",
+      "translit": "darrasa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-dhahaba",
+      "ar": "ذَهَبَ",
+      "translit": "dhahaba",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-dhakara",
+      "ar": "ذَكَرَ",
+      "translit": "dhakara",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-dhalika",
+      "ar": "ذٰلِكَ",
+      "translit": "dhâlika",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-djaddi",
+      "ar": "جَدِّي",
+      "translit": "djaddî",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-djalasa",
+      "ar": "جَلَسَ",
+      "translit": "djalasa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-djamiloun",
+      "ar": "جَمِيلٌ",
+      "translit": "djamîloun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-djazaroun",
+      "ar": "جَزَرٌ",
+      "translit": "djazaroun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-djiddan",
+      "ar": "جِدًّا",
+      "translit": "djiddan",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-dukkanoun",
+      "ar": "دُكَّانٌ",
+      "translit": "doukkânoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-duna",
+      "ar": "دُونَ",
+      "translit": "doûna",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-fahima",
+      "ar": "فَهِمَ",
+      "translit": "fahima",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-fataha",
+      "ar": "فَتَحَ",
+      "translit": "fataḥa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-fihi",
+      "ar": "فِيهِ",
+      "translit": "fîhi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-findjanoun",
+      "ar": "فِنْجَانٌ",
+      "translit": "findjânoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-funduqoun",
+      "ar": "فُنْدُقٌ",
+      "translit": "foundouqoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-futiha",
+      "ar": "فُتِحَ",
+      "translit": "foutiḥa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-ghadiba",
+      "ar": "غَضِبَ",
+      "translit": "ghaḍiba",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-ghasala",
+      "ar": "غَسَلَ",
+      "translit": "ghasala",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-hadha",
+      "ar": "هٰذَا",
+      "translit": "hâdhâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-hadhihi",
+      "ar": "هٰذِهِ",
+      "translit": "hâdhihi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-hadhira",
+      "ar": "حَذِرَ",
+      "translit": "ḥadhira",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-hakadha",
+      "ar": "هٰكَذَا",
+      "translit": "hâkadhâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-haliboun",
+      "ar": "حَلِيبٌ",
+      "translit": "ḥalîboun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-hammamoun",
+      "ar": "حَمَّامٌ",
+      "translit": "ḥammâmoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-haraba",
+      "ar": "هَرَبَ",
+      "translit": "haraba",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-hasouboun",
+      "ar": "حَاسُوبٌ",
+      "translit": "ḥâsoûboun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-hasuna",
+      "ar": "حَسُنَ",
+      "translit": "ḥasouna",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-hatifoun",
+      "ar": "هَاتِفٌ",
+      "translit": "hâtifoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-hulwoun",
+      "ar": "حُلْوٌ",
+      "translit": "ḥoulwoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kaakoun",
+      "ar": "كَعْكٌ",
+      "translit": "kaʿkoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kabiroun",
+      "ar": "كَبِيرٌ",
+      "translit": "kabîroun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kabura",
+      "ar": "كَبُرَ",
+      "translit": "kaboura",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kana",
+      "ar": "كَانَ",
+      "translit": "kâna",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-karuma",
+      "ar": "كَرُمَ",
+      "translit": "karouma",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kasara",
+      "ar": "كَسَرَ",
+      "translit": "kasara",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kassara",
+      "ar": "كَسَّرَ",
+      "translit": "kassara",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kataba",
+      "ar": "كَتَبَ",
+      "translit": "kataba",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-katabtu",
+      "ar": "كَتَبْتُ",
+      "translit": "katabtou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kharadja",
+      "ar": "خَرَجَ",
+      "translit": "kharadja",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kitaban",
+      "ar": "كِتَابًا",
+      "translit": "kitâban",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kitabi",
+      "ar": "كِتَابِي",
+      "translit": "kitâbî",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kitabin",
+      "ar": "كِتَابٍ",
+      "translit": "kitâbin",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kitaboun",
+      "ar": "كِتَابٌ",
+      "translit": "kitâboun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kursiyyoun",
+      "ar": "كُرْسِيٌّ",
+      "translit": "koursiyyoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-kutiba",
+      "ar": "كُتِبَ",
+      "translit": "koutiba",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-laiba",
+      "ar": "لَعِبَ",
+      "translit": "laʿiba",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-lakin",
+      "ar": "لٰكِنْ",
+      "translit": "lâkin",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-lam",
+      "ar": "لَمْ",
+      "translit": "lam",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-laylan",
+      "ar": "لَيْلًا",
+      "translit": "laylan",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-laymunoun",
+      "ar": "لَيْمُونٌ",
+      "translit": "laymoûnoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-macha",
+      "ar": "مَشَى",
+      "translit": "machâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-madrasa",
+      "ar": "مَدْرَسَةٌ",
+      "translit": "madrasatoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-maktaboun",
+      "ar": "مَكْتَبٌ",
+      "translit": "maktaboun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-malaboun",
+      "ar": "مَلْعَبٌ",
+      "translit": "malʿaboun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-manziloun",
+      "ar": "مَنْزِلٌ",
+      "translit": "manziloun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-marra",
+      "ar": "مَرَّ",
+      "translit": "marra",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-masdjidoun",
+      "ar": "مَسْجِدٌ",
+      "translit": "masdjidoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-matamoun",
+      "ar": "مَطْعَمٌ",
+      "translit": "maṭʿamoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-mataroun",
+      "ar": "مَطَارٌ",
+      "translit": "maṭâroun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-matbakhoun",
+      "ar": "مَطْبَخٌ",
+      "translit": "maṭbakhoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-mawzoun",
+      "ar": "مَوْزٌ",
+      "translit": "mawzoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-miftahoun",
+      "ar": "مِفْتَاحٌ",
+      "translit": "miftâḥoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-min",
+      "ar": "مِنْ",
+      "translit": "min",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-muallimoun",
+      "ar": "مُعَلِّمٌ",
+      "translit": "mouʿallimoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-mudarrisi",
+      "ar": "مُدَرِّسِي",
+      "translit": "moudarrisî",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-muhandisoun",
+      "ar": "مُهَنْدِسٌ",
+      "translit": "mouhandisoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-mumtazoun",
+      "ar": "مُمْتَازٌ",
+      "translit": "moumtâzoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-naharan",
+      "ar": "نَهَارًا",
+      "translit": "nahâran",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nama",
+      "ar": "نَامَ",
+      "translit": "nâma",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nouroun",
+      "ar": "نُورٌ",
+      "translit": "noûroun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-ayn",
+      "ar": "عين",
+      "translit": "ʿ-y-n",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-baad",
+      "ar": "بعد",
+      "translit": "b-ʿ-d",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-bab",
+      "ar": "باب",
+      "translit": "b-a-b",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-bahr",
+      "ar": "بحر",
+      "translit": "b-ḥ-r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-bard",
+      "ar": "برد",
+      "translit": "b-r-d",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-batn",
+      "ar": "بطن",
+      "translit": "b-ṭ-n",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-bayn",
+      "ar": "بين",
+      "translit": "b-y-n",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-bayt",
+      "ar": "بيت",
+      "translit": "b-y-t",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-bint",
+      "ar": "بنت",
+      "translit": "b-n-t",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-chajar",
+      "ar": "شجر",
+      "translit": "ch-dj-r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-chams",
+      "ar": "شمس",
+      "translit": "ch-m-s",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-dar",
+      "ar": "دار",
+      "translit": "d-a-r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-darb",
+      "ar": "ضرب",
+      "translit": "ḍ-r-b",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-dhahab",
+      "ar": "ذهب",
+      "translit": "dh-h-b",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-dhanb",
+      "ar": "ذنب",
+      "translit": "dh-n-b",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-fil",
+      "ar": "فيل",
+      "translit": "f-y-l",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-funduq",
+      "ar": "فندق",
+      "translit": "f-n-d-q",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-gharb",
+      "ar": "غرب",
+      "translit": "gh-r-b",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-hajar",
+      "ar": "حجر",
+      "translit": "ḥ-dj-r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-jabal",
+      "ar": "جبل",
+      "translit": "dj-b-l",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-jisr",
+      "ar": "جسر",
+      "translit": "dj-s-r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-kalb",
+      "ar": "كلب",
+      "translit": "k-l-b",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-khachab",
+      "ar": "خشب",
+      "translit": "kh-ch-b",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-khubz",
+      "ar": "خبز",
+      "translit": "kh-b-z",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-kitab",
+      "ar": "كتاب",
+      "translit": "k-t-a-b",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-lahm",
+      "ar": "لحم",
+      "translit": "l-ḥ-m",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-malik",
+      "ar": "ملك",
+      "translit": "m-l-k",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-masjid",
+      "ar": "مسجد",
+      "translit": "m-s-dj-d",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-nabt",
+      "ar": "نبت",
+      "translit": "n-b-t",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-nahr",
+      "ar": "نهر",
+      "translit": "n-h-r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-nazar",
+      "ar": "نظر",
+      "translit": "n-ẓ-r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-nour",
+      "ar": "نور",
+      "translit": "n-w-r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-qalam",
+      "ar": "قلم",
+      "translit": "q-l-m",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-qalb",
+      "ar": "قلب",
+      "translit": "q-l-b",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-qamar",
+      "ar": "قمر",
+      "translit": "q-m-r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-qamis",
+      "ar": "قميص",
+      "translit": "q-m-y-ṣ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-sabaa",
+      "ar": "سبع",
+      "translit": "s-b-ʿ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-sabr",
+      "ar": "صبر",
+      "translit": "ṣ-b-r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-sabt",
+      "ar": "سبت",
+      "translit": "s-b-t",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-saghir",
+      "ar": "صغير",
+      "translit": "ṣ-gh-y-r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-samak",
+      "ar": "سمك",
+      "translit": "s-m-k",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-tayr",
+      "ar": "طير",
+      "translit": "ṭ-y-r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-tin",
+      "ar": "تين",
+      "translit": "t-y-n",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-wajh",
+      "ar": "وجه",
+      "translit": "w-dj-h",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-ward",
+      "ar": "ورد",
+      "translit": "w-r-d",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-zahr",
+      "ar": "زهر",
+      "translit": "z-h-r",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-nv-zayt",
+      "ar": "زيت",
+      "translit": "z-y-t",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-qala",
+      "ar": "قَالَ",
+      "translit": "qâla",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-qalamoun",
+      "ar": "قَلَمٌ",
+      "translit": "qalamoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-qamisoun",
+      "ar": "قَمِيصٌ",
+      "translit": "qamîṣoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-qaruba",
+      "ar": "قَرُبَ",
+      "translit": "qarouba",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-qasiroun",
+      "ar": "قَصِيرٌ",
+      "translit": "qaṣîroun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-qittoun",
+      "ar": "قِطٌّ",
+      "translit": "qiṭṭoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-qultu",
+      "ar": "قُلْتُ",
+      "translit": "qoultou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-rakiba",
+      "ar": "رَكِبَ",
+      "translit": "rakiba",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-rasama",
+      "ar": "رَسَمَ",
+      "translit": "rasama",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-saala",
+      "ar": "سَأَلَ",
+      "translit": "saʾala",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-sabounoun",
+      "ar": "صَابُونٌ",
+      "translit": "ṣâboûnoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-sadaqa",
+      "ar": "صَدَقَ",
+      "translit": "ṣadaqa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-sadiqoun",
+      "ar": "صَدِيقٌ",
+      "translit": "ṣadîqoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-safara",
+      "ar": "سَافَرَ",
+      "translit": "sâfara",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-saghiroun",
+      "ar": "صَغِيرٌ",
+      "translit": "ṣaghîroun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-saghura",
+      "ar": "صَغُرَ",
+      "translit": "ṣaghoura",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-sakana",
+      "ar": "سَكَنَ",
+      "translit": "sakana",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-sallama",
+      "ar": "سَلَّمَ",
+      "translit": "sallama",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-samakoun",
+      "ar": "سَمَكٌ",
+      "translit": "samakoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-samia",
+      "ar": "سَمِعَ",
+      "translit": "samiʿa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-sariroun",
+      "ar": "سَرِيرٌ",
+      "translit": "sarîroun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-souaal",
+      "ar": "سُؤَالٌ",
+      "translit": "souʾâloun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-sukkaroun",
+      "ar": "سُكَّرٌ",
+      "translit": "soukkaroun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-sumia",
+      "ar": "سُمِعَ",
+      "translit": "soumiʿa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-suriya",
+      "ar": "سُورِيَا",
+      "translit": "soûriyâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-tabakha",
+      "ar": "طَبَخَ",
+      "translit": "ṭabakha",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-tabiboun",
+      "ar": "طَبِيبٌ",
+      "translit": "ṭabîboun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-taraka",
+      "ar": "تَرَكَ",
+      "translit": "taraka",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-tawiloun",
+      "ar": "طَوِيلٌ",
+      "translit": "ṭawîloun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-thaqula",
+      "ar": "ثَقُلَ",
+      "translit": "thaqoula",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-tilfazoun",
+      "ar": "تِلْفَازٌ",
+      "translit": "tilfâzoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-tilmidhoun",
+      "ar": "تِلْمِيذٌ",
+      "translit": "tilmîdhoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-tuffahoun",
+      "ar": "تُفَّاحٌ",
+      "translit": "touffâḥoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-waladoun",
+      "ar": "وَلَدٌ",
+      "translit": "waladoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-yaftahu",
+      "ar": "يَفْتَحُ",
+      "translit": "yaftaḥou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-yaktubu",
+      "ar": "يَكْتُبُ",
+      "translit": "yaktoubou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-yalabu",
+      "ar": "يَلْعَبُ",
+      "translit": "yalʿabou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-yaqulu",
+      "ar": "يَقُولُ",
+      "translit": "yaqoûlou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-zaraa",
+      "ar": "زَرَعَ",
+      "translit": "zaraʿa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "mot-zurtu",
+      "ar": "زُرْتُ",
+      "translit": "zourtou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "q-1-1",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "translit": "bismi llâhi r-raḥmâni r-raḥîm",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/001001.mp3"
+    },
+    {
+      "id": "q-1-1-1",
+      "ar": "بِسْمِ",
+      "translit": "bismi",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_001_001.mp3"
+    },
+    {
+      "id": "q-1-1-2",
+      "ar": "ٱللَّهِ",
+      "translit": "allâhi",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_001_002.mp3"
+    },
+    {
+      "id": "q-1-1-3",
+      "ar": "ٱلرَّحْمَٰنِ",
+      "translit": "ar-raḥmâni",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_001_003.mp3"
+    },
+    {
+      "id": "q-1-1-4",
+      "ar": "ٱلرَّحِيمِ",
+      "translit": "ar-raḥîm",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_001_004.mp3"
+    },
+    {
+      "id": "q-1-2",
+      "ar": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "translit": "al-ḥamdou lillâhi rabbi l-ʿâlamîn",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/001002.mp3"
+    },
+    {
+      "id": "q-1-2-1",
+      "ar": "ٱلْحَمْدُ",
+      "translit": "al-ḥamdou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_002_001.mp3"
+    },
+    {
+      "id": "q-1-2-2",
+      "ar": "لِلَّهِ",
+      "translit": "lillâhi",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_002_002.mp3"
+    },
+    {
+      "id": "q-1-2-3",
+      "ar": "رَبِّ",
+      "translit": "rabbi",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_002_003.mp3"
+    },
+    {
+      "id": "q-1-2-4",
+      "ar": "ٱلْعَٰلَمِينَ",
+      "translit": "al-ʿâlamîn",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_002_004.mp3"
+    },
+    {
+      "id": "q-1-3",
+      "ar": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "translit": "ar-raḥmâni r-raḥîm",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/001003.mp3"
+    },
+    {
+      "id": "q-1-3-1",
+      "ar": "ٱلرَّحْمَٰنِ",
+      "translit": "ar-raḥmâni",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_003_001.mp3"
+    },
+    {
+      "id": "q-1-3-2",
+      "ar": "ٱلرَّحِيمِ",
+      "translit": "ar-raḥîm",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_003_002.mp3"
+    },
+    {
+      "id": "q-1-4",
+      "ar": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+      "translit": "mâliki yawmi d-dîn",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/001004.mp3"
+    },
+    {
+      "id": "q-1-4-1",
+      "ar": "مَٰلِكِ",
+      "translit": "mâliki",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_004_001.mp3"
+    },
+    {
+      "id": "q-1-4-2",
+      "ar": "يَوْمِ",
+      "translit": "yawmi",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_004_002.mp3"
+    },
+    {
+      "id": "q-1-4-3",
+      "ar": "ٱلدِّينِ",
+      "translit": "ad-dîn",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_004_003.mp3"
+    },
+    {
+      "id": "q-1-5",
+      "ar": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "translit": "iyyâka naʿboudou wa-iyyâka nastaʿîn",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/001005.mp3"
+    },
+    {
+      "id": "q-1-5-1",
+      "ar": "إِيَّاكَ",
+      "translit": "iyyâka",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_005_001.mp3"
+    },
+    {
+      "id": "q-1-5-2",
+      "ar": "نَعْبُدُ",
+      "translit": "naʿboudou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_005_002.mp3"
+    },
+    {
+      "id": "q-1-5-3",
+      "ar": "وَإِيَّاكَ",
+      "translit": "wa-iyyâka",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_005_003.mp3"
+    },
+    {
+      "id": "q-1-5-4",
+      "ar": "نَسْتَعِينُ",
+      "translit": "nastaʿîn",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_005_004.mp3"
+    },
+    {
+      "id": "q-1-6",
+      "ar": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+      "translit": "ihdinâ ṣ-ṣirâṭa l-moustaqîm",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/001006.mp3"
+    },
+    {
+      "id": "q-1-6-1",
+      "ar": "ٱهْدِنَا",
+      "translit": "ihdinâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_006_001.mp3"
+    },
+    {
+      "id": "q-1-6-2",
+      "ar": "ٱلصِّرَٰطَ",
+      "translit": "aṣ-ṣirâṭa",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_006_002.mp3"
+    },
+    {
+      "id": "q-1-6-3",
+      "ar": "ٱلْمُسْتَقِيمَ",
+      "translit": "al-moustaqîm",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_006_003.mp3"
+    },
+    {
+      "id": "q-1-7",
+      "ar": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+      "translit": "ṣirâṭa lladhîna anʿamta ʿalayhim ghayri l-maghḍoûbi ʿalayhim wa-lâ ḍ-ḍâllîn",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/001007.mp3"
+    },
+    {
+      "id": "q-1-7-1",
+      "ar": "صِرَٰطَ",
+      "translit": "ṣirâṭa",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_007_001.mp3"
+    },
+    {
+      "id": "q-1-7-2",
+      "ar": "ٱلَّذِينَ",
+      "translit": "alladhîna",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_007_002.mp3"
+    },
+    {
+      "id": "q-1-7-3",
+      "ar": "أَنْعَمْتَ",
+      "translit": "anʿamta",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_007_003.mp3"
+    },
+    {
+      "id": "q-1-7-4",
+      "ar": "عَلَيْهِمْ",
+      "translit": "ʿalayhim",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_007_004.mp3"
+    },
+    {
+      "id": "q-1-7-5",
+      "ar": "غَيْرِ",
+      "translit": "ghayri",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_007_005.mp3"
+    },
+    {
+      "id": "q-1-7-6",
+      "ar": "ٱلْمَغْضُوبِ",
+      "translit": "al-maghḍoûbi",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_007_006.mp3"
+    },
+    {
+      "id": "q-1-7-7",
+      "ar": "عَلَيْهِمْ",
+      "translit": "ʿalayhim",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_007_007.mp3"
+    },
+    {
+      "id": "q-1-7-8",
+      "ar": "وَلَا",
+      "translit": "wa-lâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_007_008.mp3"
+    },
+    {
+      "id": "q-1-7-9",
+      "ar": "ٱلضَّآلِّينَ",
+      "translit": "aḍ-ḍâllîn",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/001_007_009.mp3"
+    },
+    {
+      "id": "q-101-9-1",
+      "ar": "فَأُمُّهُۥ",
+      "translit": "fa-ʾoummouhoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/101_009_001.mp3"
+    },
+    {
+      "id": "q-101-9-1-2",
+      "ar": "فَأُمُّهُۥ هَاوِيَةٌ",
+      "translit": "fa-ʾoummouhoû hâwiyatoun",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/101009.mp3"
+    },
+    {
+      "id": "q-101-9-2",
+      "ar": "هَاوِيَةٌ",
+      "translit": "hâwiyatoun",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/101_009_002.mp3"
+    },
+    {
+      "id": "q-103-1",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ وَٱلْعَصْرِ",
+      "translit": "bismi llâhi r-raḥmâni r-raḥîm — wa-l-ʿaṣr",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/103001.mp3"
+    },
+    {
+      "id": "q-103-1-5",
+      "ar": "وَٱلْعَصْرِ",
+      "translit": "wa-l-ʿaṣr",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/103_001_001.mp3"
+    },
+    {
+      "id": "q-103-2",
+      "ar": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+      "translit": "inna l-insâna lafî khousr",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/103002.mp3"
+    },
+    {
+      "id": "q-103-2-1",
+      "ar": "إِنَّ",
+      "translit": "inna",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/103_002_001.mp3"
+    },
+    {
+      "id": "q-103-2-2",
+      "ar": "ٱلْإِنسَٰنَ",
+      "translit": "al-insâna",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/103_002_002.mp3"
+    },
+    {
+      "id": "q-103-2-3",
+      "ar": "لَفِى",
+      "translit": "lafî",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/103_002_003.mp3"
+    },
+    {
+      "id": "q-103-2-4",
+      "ar": "خُسْرٍ",
+      "translit": "khousr",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/103_002_004.mp3"
+    },
+    {
+      "id": "q-103-3",
+      "ar": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+      "translit": "illâ lladhîna âmanoû wa-ʿamiloû ṣ-ṣâliḥâti wa-tawâṣaw bi-l-ḥaqqi wa-tawâṣaw bi-ṣ-ṣabr",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/103003.mp3"
+    },
+    {
+      "id": "q-103-3-1",
+      "ar": "إِلَّا",
+      "translit": "illâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/103_003_001.mp3"
+    },
+    {
+      "id": "q-103-3-2",
+      "ar": "ٱلَّذِينَ",
+      "translit": "alladhîna",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/103_003_002.mp3"
+    },
+    {
+      "id": "q-103-3-3",
+      "ar": "ءَامَنُوا۟",
+      "translit": "âmanoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/103_003_003.mp3"
+    },
+    {
+      "id": "q-103-3-4",
+      "ar": "وَعَمِلُوا۟",
+      "translit": "wa-ʿamiloû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/103_003_004.mp3"
+    },
+    {
+      "id": "q-103-3-5",
+      "ar": "ٱلصَّٰلِحَٰتِ",
+      "translit": "aṣ-ṣâliḥâti",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/103_003_005.mp3"
+    },
+    {
+      "id": "q-103-3-6",
+      "ar": "وَتَوَاصَوْا۟",
+      "translit": "wa-tawâṣaw",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/103_003_006.mp3"
+    },
+    {
+      "id": "q-103-3-7",
+      "ar": "بِٱلْحَقِّ",
+      "translit": "bi-l-ḥaqqi",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/103_003_007.mp3"
+    },
+    {
+      "id": "q-103-3-9",
+      "ar": "بِٱلصَّبْرِ",
+      "translit": "bi-ṣ-ṣabr",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/103_003_009.mp3"
+    },
+    {
+      "id": "q-104-1-7",
+      "ar": "هُمَزَةٍ",
+      "translit": "houmazatin",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/104_001_003.mp3"
+    },
+    {
+      "id": "q-106-2-2",
+      "ar": "رِحْلَةَ",
+      "translit": "riḥlata",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/106_002_002.mp3"
+    },
+    {
+      "id": "q-108-1",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+      "translit": "bismi llâhi r-raḥmâni r-raḥîm — innâ aʿṭaynâka l-kawthar",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/108001.mp3"
+    },
+    {
+      "id": "q-108-1-5",
+      "ar": "إِنَّآ",
+      "translit": "innâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/108_001_001.mp3"
+    },
+    {
+      "id": "q-108-1-6",
+      "ar": "أَعْطَيْنَٰكَ",
+      "translit": "aʿṭaynâka",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/108_001_002.mp3"
+    },
+    {
+      "id": "q-108-1-7",
+      "ar": "ٱلْكَوْثَرَ",
+      "translit": "al-kawthar",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/108_001_003.mp3"
+    },
+    {
+      "id": "q-108-2",
+      "ar": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+      "translit": "faṣalli lirabbika wa-nḥar",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/108002.mp3"
+    },
+    {
+      "id": "q-108-2-1",
+      "ar": "فَصَلِّ",
+      "translit": "faṣalli",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/108_002_001.mp3"
+    },
+    {
+      "id": "q-108-2-2",
+      "ar": "لِرَبِّكَ",
+      "translit": "lirabbika",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/108_002_002.mp3"
+    },
+    {
+      "id": "q-108-2-3",
+      "ar": "وَٱنْحَرْ",
+      "translit": "wa-nḥar",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/108_002_003.mp3"
+    },
+    {
+      "id": "q-108-3",
+      "ar": "إِنَّ شَانِئَكَ هُوَ ٱلْأَبْتَرُ",
+      "translit": "inna châniʾaka houwa l-abtar",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/108003.mp3"
+    },
+    {
+      "id": "q-108-3-1",
+      "ar": "إِنَّ",
+      "translit": "inna",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/108_003_001.mp3"
+    },
+    {
+      "id": "q-108-3-2",
+      "ar": "شَانِئَكَ",
+      "translit": "châniʾaka",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/108_003_002.mp3"
+    },
+    {
+      "id": "q-108-3-4",
+      "ar": "ٱلْأَبْتَرُ",
+      "translit": "al-abtar",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/108_003_004.mp3"
+    },
+    {
+      "id": "q-109-2-2",
+      "ar": "أَعْبُدُ",
+      "translit": "aʿboudou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/109_002_002.mp3"
+    },
+    {
+      "id": "q-109-6-3",
+      "ar": "وَلِىَ",
+      "translit": "wa-liya",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/109_006_003.mp3"
+    },
+    {
+      "id": "q-110-1-6",
+      "ar": "جَآءَ",
+      "translit": "djâʾa",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/110_001_002.mp3"
+    },
+    {
+      "id": "q-111-1-7",
+      "ar": "أَبِى",
+      "translit": "abî",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/111_001_003.mp3"
+    },
+    {
+      "id": "q-111-2-4",
+      "ar": "مَالُهُۥ",
+      "translit": "mâlouhoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/111_002_004.mp3"
+    },
+    {
+      "id": "q-112-1",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+      "translit": "bismi llâhi r-raḥmâni r-raḥîm — qoul houwa llâhou aḥad",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/112001.mp3"
+    },
+    {
+      "id": "q-112-1-5",
+      "ar": "قُلْ",
+      "translit": "qoul",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/112_001_001.mp3"
+    },
+    {
+      "id": "q-112-1-6",
+      "ar": "هُوَ",
+      "translit": "houwa",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/112_001_002.mp3"
+    },
+    {
+      "id": "q-112-1-7",
+      "ar": "ٱللَّهُ",
+      "translit": "allâhou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/112_001_003.mp3"
+    },
+    {
+      "id": "q-112-1-8",
+      "ar": "أَحَدٌ",
+      "translit": "aḥad",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/112_001_004.mp3"
+    },
+    {
+      "id": "q-112-2",
+      "ar": "ٱللَّهُ ٱلصَّمَدُ",
+      "translit": "allâhou ṣ-ṣamad",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/112002.mp3"
+    },
+    {
+      "id": "q-112-2-1",
+      "ar": "ٱللَّهُ",
+      "translit": "allâhou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/112_002_001.mp3"
+    },
+    {
+      "id": "q-112-2-2",
+      "ar": "ٱلصَّمَدُ",
+      "translit": "aṣ-ṣamad",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/112_002_002.mp3"
+    },
+    {
+      "id": "q-112-3",
+      "ar": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "translit": "lam yalid wa-lam yoûlad",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/112003.mp3"
+    },
+    {
+      "id": "q-112-3-1",
+      "ar": "لَمْ",
+      "translit": "lam",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/112_003_001.mp3"
+    },
+    {
+      "id": "q-112-3-2",
+      "ar": "يَلِدْ",
+      "translit": "yalid",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/112_003_002.mp3"
+    },
+    {
+      "id": "q-112-3-4",
+      "ar": "يُولَدْ",
+      "translit": "yoûlad",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/112_003_004.mp3"
+    },
+    {
+      "id": "q-112-4",
+      "ar": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "translit": "wa-lam yakoul lahoû koufouwan aḥad",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/112004.mp3"
+    },
+    {
+      "id": "q-112-4-2",
+      "ar": "يَكُن",
+      "translit": "yakoun",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/112_004_002.mp3"
+    },
+    {
+      "id": "q-112-4-3",
+      "ar": "لَّهُۥ",
+      "translit": "lahoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/112_004_003.mp3"
+    },
+    {
+      "id": "q-112-4-4",
+      "ar": "كُفُوًا",
+      "translit": "koufouwan",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/112_004_004.mp3"
+    },
+    {
+      "id": "q-112-4-5",
+      "ar": "أَحَدٌۢ",
+      "translit": "aḥad",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/112_004_005.mp3"
+    },
+    {
+      "id": "q-113-1",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+      "translit": "bismi llâhi r-raḥmâni r-raḥîm — qoul aʿoûdhou birabbi l-falaq",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/113001.mp3"
+    },
+    {
+      "id": "q-113-1-5",
+      "ar": "قُلْ",
+      "translit": "qoul",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_001_001.mp3"
+    },
+    {
+      "id": "q-113-1-6",
+      "ar": "أَعُوذُ",
+      "translit": "aʿoûdhou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_001_002.mp3"
+    },
+    {
+      "id": "q-113-1-7",
+      "ar": "بِرَبِّ",
+      "translit": "birabbi",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_001_003.mp3"
+    },
+    {
+      "id": "q-113-1-8",
+      "ar": "ٱلْفَلَقِ",
+      "translit": "al-falaq",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_001_004.mp3"
+    },
+    {
+      "id": "q-113-2",
+      "ar": "مِن شَرِّ مَا خَلَقَ",
+      "translit": "min charri mâ khalaq",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/113002.mp3"
+    },
+    {
+      "id": "q-113-2-2",
+      "ar": "شَرِّ",
+      "translit": "charri",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_002_002.mp3"
+    },
+    {
+      "id": "q-113-2-3",
+      "ar": "مَا",
+      "translit": "mâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_002_003.mp3"
+    },
+    {
+      "id": "q-113-2-4",
+      "ar": "خَلَقَ",
+      "translit": "khalaq",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_002_004.mp3"
+    },
+    {
+      "id": "q-113-3",
+      "ar": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "translit": "wa-min charri ghâsiqin idhâ waqab",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/113003.mp3"
+    },
+    {
+      "id": "q-113-3-3",
+      "ar": "غَاسِقٍ",
+      "translit": "ghâsiqin",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_003_003.mp3"
+    },
+    {
+      "id": "q-113-3-4",
+      "ar": "إِذَا",
+      "translit": "idhâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_003_004.mp3"
+    },
+    {
+      "id": "q-113-3-5",
+      "ar": "وَقَبَ",
+      "translit": "waqab",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_003_005.mp3"
+    },
+    {
+      "id": "q-113-4",
+      "ar": "وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِى ٱلْعُقَدِ",
+      "translit": "wa-min charri n-naffâthâti fi l-ʿouqad",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/113004.mp3"
+    },
+    {
+      "id": "q-113-4-3",
+      "ar": "ٱلنَّفَّٰثَٰتِ",
+      "translit": "an-naffâthâti",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_004_003.mp3"
+    },
+    {
+      "id": "q-113-4-4",
+      "ar": "فِى",
+      "translit": "fî",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_004_004.mp3"
+    },
+    {
+      "id": "q-113-4-5",
+      "ar": "ٱلْعُقَدِ",
+      "translit": "al-ʿouqad",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_004_005.mp3"
+    },
+    {
+      "id": "q-113-5",
+      "ar": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "translit": "wa-min charri ḥâsidin idhâ ḥasad",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/113005.mp3"
+    },
+    {
+      "id": "q-113-5-3",
+      "ar": "حَاسِدٍ",
+      "translit": "ḥâsidin",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_005_003.mp3"
+    },
+    {
+      "id": "q-113-5-5",
+      "ar": "حَسَدَ",
+      "translit": "ḥasad",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/113_005_005.mp3"
+    },
+    {
+      "id": "q-114-1",
+      "ar": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+      "translit": "bismi llâhi r-raḥmâni r-raḥîm — qoul aʿoûdhou birabbi n-nâs",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/114001.mp3"
+    },
+    {
+      "id": "q-114-1-8",
+      "ar": "ٱلنَّاسِ",
+      "translit": "an-nâs",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/114_001_004.mp3"
+    },
+    {
+      "id": "q-114-2",
+      "ar": "مَلِكِ ٱلنَّاسِ",
+      "translit": "maliki n-nâs",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/114002.mp3"
+    },
+    {
+      "id": "q-114-2-1",
+      "ar": "مَلِكِ",
+      "translit": "maliki",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/114_002_001.mp3"
+    },
+    {
+      "id": "q-114-2-1-2",
+      "ar": "مَلِكِ ٱلنَّاسِ",
+      "translit": "maliki n-nâs",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/114002.mp3"
+    },
+    {
+      "id": "q-114-3",
+      "ar": "إِلَٰهِ ٱلنَّاسِ",
+      "translit": "ilâhi n-nâs",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/114003.mp3"
+    },
+    {
+      "id": "q-114-3-1",
+      "ar": "إِلَٰهِ",
+      "translit": "ilâhi",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/114_003_001.mp3"
+    },
+    {
+      "id": "q-114-3-1-2",
+      "ar": "إِلَٰهِ ٱلنَّاسِ",
+      "translit": "ilâhi n-nâs",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/114003.mp3"
+    },
+    {
+      "id": "q-114-4",
+      "ar": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+      "translit": "min charri l-waswâsi l-khannâs",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/114004.mp3"
+    },
+    {
+      "id": "q-114-4-3",
+      "ar": "ٱلْوَسْوَاسِ",
+      "translit": "al-waswâsi",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/114_004_003.mp3"
+    },
+    {
+      "id": "q-114-4-4",
+      "ar": "ٱلْخَنَّاسِ",
+      "translit": "al-khannâs",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/114_004_004.mp3"
+    },
+    {
+      "id": "q-114-5",
+      "ar": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+      "translit": "alladhî youwaswisou fî ṣoudoûri n-nâs",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/114005.mp3"
+    },
+    {
+      "id": "q-114-5-1",
+      "ar": "ٱلَّذِى",
+      "translit": "alladhî",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/114_005_001.mp3"
+    },
+    {
+      "id": "q-114-5-2",
+      "ar": "يُوَسْوِسُ",
+      "translit": "youwaswisou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/114_005_002.mp3"
+    },
+    {
+      "id": "q-114-5-4",
+      "ar": "صُدُورِ",
+      "translit": "ṣoudoûri",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/114_005_004.mp3"
+    },
+    {
+      "id": "q-114-6",
+      "ar": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+      "translit": "mina l-djinnati wa-n-nâs",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/114006.mp3"
+    },
+    {
+      "id": "q-114-6-1",
+      "ar": "مِنَ",
+      "translit": "mina",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/114_006_001.mp3"
+    },
+    {
+      "id": "q-114-6-2",
+      "ar": "ٱلْجِنَّةِ",
+      "translit": "al-djinnati",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/114_006_002.mp3"
+    },
+    {
+      "id": "q-114-6-3",
+      "ar": "وَٱلنَّاسِ",
+      "translit": "wa-n-nâs",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/114_006_003.mp3"
+    },
+    {
+      "id": "q-2-10-11",
+      "ar": "كَانُوا۟",
+      "translit": "kânoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_010_011.mp3"
+    },
+    {
+      "id": "q-2-13-6",
+      "ar": "ءَامَنَ",
+      "translit": "âmana",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_013_006.mp3"
+    },
+    {
+      "id": "q-2-13-9",
+      "ar": "أَنُؤْمِنُ",
+      "translit": "a-nouʾminou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_013_009.mp3"
+    },
+    {
+      "id": "q-2-2-6",
+      "ar": "هُدًى",
+      "translit": "houdan",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_002_006.mp3"
+    },
+    {
+      "id": "q-2-20-24",
+      "ar": "شَىْءٍ",
+      "translit": "chayʾin",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_020_024.mp3"
+    },
+    {
+      "id": "q-2-255-10",
+      "ar": "سِنَةٌ",
+      "translit": "sinatoun",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_010.mp3"
+    },
+    {
+      "id": "q-2-255-16",
+      "ar": "ٱلسَّمَٰوَٰتِ",
+      "translit": "as-samâwâti",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_016.mp3"
+    },
+    {
+      "id": "q-2-255-19",
+      "ar": "ٱلْأَرْضِ",
+      "translit": "al-arḍi",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_019.mp3"
+    },
+    {
+      "id": "q-2-255-2",
+      "ar": "لَآ",
+      "translit": "lâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_002.mp3"
+    },
+    {
+      "id": "q-2-255-24",
+      "ar": "عِندَهُۥٓ",
+      "translit": "ʿindahoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_024.mp3"
+    },
+    {
+      "id": "q-2-255-26",
+      "ar": "بِإِذْنِهِۦ",
+      "translit": "bi-ʾidhnihî",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_026.mp3"
+    },
+    {
+      "id": "q-2-255-27",
+      "ar": "يَعْلَمُ",
+      "translit": "yaʿlamou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_027.mp3"
+    },
+    {
+      "id": "q-2-255-3",
+      "ar": "إِلَٰهَ",
+      "translit": "ilâha",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_003.mp3"
+    },
+    {
+      "id": "q-2-255-37",
+      "ar": "عِلْمِهِۦٓ",
+      "translit": "ʿilmihî",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_037.mp3"
+    },
+    {
+      "id": "q-2-255-40",
+      "ar": "شَآءَ",
+      "translit": "châʾa",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_040.mp3"
+    },
+    {
+      "id": "q-2-255-42",
+      "ar": "كُرْسِيُّهُ",
+      "translit": "koursiyyouhou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_042.mp3"
+    },
+    {
+      "id": "q-2-255-50",
+      "ar": "ٱلْعَظِيمُ",
+      "translit": "al-ʿaẓîm",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_050.mp3"
+    },
+    {
+      "id": "q-2-255-6",
+      "ar": "ٱلْحَىُّ",
+      "translit": "al-ḥayyou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_006.mp3"
+    },
+    {
+      "id": "q-2-255-7",
+      "ar": "ٱلْقَيُّومُ",
+      "translit": "al-qayyoûmou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_007.mp3"
+    },
+    {
+      "id": "q-2-255-9",
+      "ar": "تَأْخُذُهُۥ",
+      "translit": "taʾkhoudhouhoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_255_009.mp3"
+    },
+    {
+      "id": "q-2-3-2",
+      "ar": "يُؤْمِنُونَ",
+      "translit": "youʾminoûna",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_003_002.mp3"
+    },
+    {
+      "id": "q-2-3-4",
+      "ar": "وَيُقِيمُونَ",
+      "translit": "wa-youqîmoûna",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_003_004.mp3"
+    },
+    {
+      "id": "q-2-3-5",
+      "ar": "ٱلصَّلَوٰةَ",
+      "translit": "aṣ-ṣalâta",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_003_005.mp3"
+    },
+    {
+      "id": "q-2-3-8",
+      "ar": "يُنفِقُونَ",
+      "translit": "younfiqoûna",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_003_008.mp3"
+    },
+    {
+      "id": "q-2-4-4",
+      "ar": "أُنزِلَ",
+      "translit": "ounzila",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_004_004.mp3"
+    },
+    {
+      "id": "q-2-5-1",
+      "ar": "أُو۟لَٰٓئِكَ",
+      "translit": "oulâʾika",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_005_001.mp3"
+    },
+    {
+      "id": "q-2-5-2",
+      "ar": "عَلَىٰ",
+      "translit": "ʿalâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_005_002.mp3"
+    },
+    {
+      "id": "q-2-5-3",
+      "ar": "هُدًى",
+      "translit": "houdan",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_005_003.mp3"
+    },
+    {
+      "id": "q-2-5-6",
+      "ar": "وَأُو۟لَٰٓئِكَ",
+      "translit": "wa-ʾoulâʾika",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_005_006.mp3"
+    },
+    {
+      "id": "q-2-6-4",
+      "ar": "سَوَآءٌ",
+      "translit": "sawâʾoun",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/002_006_004.mp3"
+    },
+    {
+      "id": "q-78-14-4",
+      "ar": "مَآءً",
+      "translit": "mâʾan",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/078_014_004.mp3"
+    },
+    {
+      "id": "q-78-15-2",
+      "ar": "بِهِۦ",
+      "translit": "bihî",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/078_015_002.mp3"
+    },
+    {
+      "id": "q-79-16-3",
+      "ar": "رَبُّهُۥ",
+      "translit": "rabbouhoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/079_016_003.mp3"
+    },
+    {
+      "id": "q-79-17-2",
+      "ar": "إِلَىٰ",
+      "translit": "ilâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/079_017_002.mp3"
+    },
+    {
+      "id": "q-79-17-4",
+      "ar": "إِنَّهُۥ",
+      "translit": "innahoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/079_017_004.mp3"
+    },
+    {
+      "id": "q-79-17-5",
+      "ar": "طَغَىٰ",
+      "translit": "ṭaghâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/079_017_005.mp3"
+    },
+    {
+      "id": "q-79-34-2",
+      "ar": "جَآءَتِ",
+      "translit": "djâʾati",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/079_034_002.mp3"
+    },
+    {
+      "id": "q-79-36-4",
+      "ar": "يَرَىٰ",
+      "translit": "yarâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/079_036_004.mp3"
+    },
+    {
+      "id": "q-79-38-1",
+      "ar": "وَءَاثَرَ",
+      "translit": "wa-ʾâthara",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/079_038_001.mp3"
+    },
+    {
+      "id": "q-79-40-5",
+      "ar": "رَبِّهِۦ",
+      "translit": "rabbihî",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/079_040_005.mp3"
+    },
+    {
+      "id": "q-79-8-2",
+      "ar": "يَوْمَئِذٍ",
+      "translit": "yawmaʾidhin",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/079_008_002.mp3"
+    },
+    {
+      "id": "q-80-18-4",
+      "ar": "خَلَقَهُۥ",
+      "translit": "khalaqahoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/080_018_004.mp3"
+    },
+    {
+      "id": "q-80-2-2",
+      "ar": "جَآءَهُ",
+      "translit": "djâʾahou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/080_002_002.mp3"
+    },
+    {
+      "id": "q-80-35-1",
+      "ar": "وَأُمِّهِۦ",
+      "translit": "wa-ʾoummihî",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/080_035_001.mp3"
+    },
+    {
+      "id": "q-80-6-2",
+      "ar": "لَهُۥ",
+      "translit": "lahoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/080_006_002.mp3"
+    },
+    {
+      "id": "q-80-9-2",
+      "ar": "يَخْشَىٰ",
+      "translit": "yakhchâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/080_009_002.mp3"
+    },
+    {
+      "id": "q-81-15-2",
+      "ar": "أُقْسِمُ",
+      "translit": "ouqsimou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/081_015_002.mp3"
+    },
+    {
+      "id": "q-81-20-2",
+      "ar": "قُوَّةٍ",
+      "translit": "qouwwatin",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/081_020_002.mp3"
+    },
+    {
+      "id": "q-81-8-3",
+      "ar": "سُئِلَتْ",
+      "translit": "souʾilat",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/081_008_003.mp3"
+    },
+    {
+      "id": "q-84-22-3",
+      "ar": "كَفَرُوا۟",
+      "translit": "kafaroû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/084_022_003.mp3"
+    },
+    {
+      "id": "q-84-9-3",
+      "ar": "أَهْلِهِۦ",
+      "translit": "ahlihî",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/084_009_003.mp3"
+    },
+    {
+      "id": "q-85-11-8",
+      "ar": "تَجْرِى",
+      "translit": "tadjrî",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/085_011_008.mp3"
+    },
+    {
+      "id": "q-85-21-3",
+      "ar": "قُرْءَانٌ",
+      "translit": "qourʾânoun",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/085_021_003.mp3"
+    },
+    {
+      "id": "q-87-16-2",
+      "ar": "تُؤْثِرُونَ",
+      "translit": "touʾthiroûna",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/087_016_002.mp3"
+    },
+    {
+      "id": "q-87-3-3",
+      "ar": "فَهَدَىٰ",
+      "translit": "fa-hadâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/087_003_003.mp3"
+    },
+    {
+      "id": "q-88-10-2",
+      "ar": "جَنَّةٍ",
+      "translit": "djannatin",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/088_010_002.mp3"
+    },
+    {
+      "id": "q-88-12-3",
+      "ar": "جَارِيَةٌ",
+      "translit": "djâriyatoun",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/088_012_003.mp3"
+    },
+    {
+      "id": "q-88-3",
+      "ar": "عَامِلَةٌ نَّاصِبَةٌ",
+      "translit": "ʿâmilatoun nâṣibah",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/088003.mp3"
+    },
+    {
+      "id": "q-88-3-1",
+      "ar": "عَامِلَةٌ",
+      "translit": "ʿâmilatoun",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/088_003_001.mp3"
+    },
+    {
+      "id": "q-88-7-4",
+      "ar": "يُغْنِى",
+      "translit": "youghnî",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/088_007_004.mp3"
+    },
+    {
+      "id": "q-89-11-2",
+      "ar": "طَغَوْا۟",
+      "translit": "ṭaghaw",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/089_011_002.mp3"
+    },
+    {
+      "id": "q-91-13-5",
+      "ar": "نَاقَةَ",
+      "translit": "nâqata",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/091_013_005.mp3"
+    },
+    {
+      "id": "q-92-18-3",
+      "ar": "مَالَهُۥ",
+      "translit": "mâlahoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/092_018_003.mp3"
+    },
+    {
+      "id": "q-92-19-3",
+      "ar": "عِندَهُۥ",
+      "translit": "ʿindahoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/092_019_003.mp3"
+    },
+    {
+      "id": "q-93-2-3",
+      "ar": "سَجَىٰ",
+      "translit": "sadjâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/093_002_003.mp3"
+    },
+    {
+      "id": "q-93-3",
+      "ar": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "translit": "mâ waddaʿaka rabbouka wa-mâ qalâ",
+      "source": "quran.com-verset",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/093003.mp3"
+    },
+    {
+      "id": "q-93-3-5",
+      "ar": "قَلَىٰ",
+      "translit": "qalâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/093_003_005.mp3"
+    },
+    {
+      "id": "q-96-16-1",
+      "ar": "نَاصِيَةٍ",
+      "translit": "nâṣiyatin",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/096_016_001.mp3"
+    },
+    {
+      "id": "q-96-16-1-3",
+      "ar": "نَاصِيَةٍ كَٰذِبَةٍ خَاطِئَةٍ",
+      "translit": "nâṣiyatin kâdhibatin khâṭiʾah",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://verses.quran.com/Alafasy/mp3/096016.mp3"
+    },
+    {
+      "id": "q-96-16-2",
+      "ar": "كَٰذِبَةٍ",
+      "translit": "kâdhibatin",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/096_016_002.mp3"
+    },
+    {
+      "id": "q-96-16-3",
+      "ar": "خَاطِئَةٍ",
+      "translit": "khâṭiʾatin",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/096_016_003.mp3"
+    },
+    {
+      "id": "q-97-1-6",
+      "ar": "أَنزَلْنَٰهُ",
+      "translit": "anzalnâhou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/097_001_006.mp3"
+    },
+    {
+      "id": "q-97-1-8",
+      "ar": "لَيْلَةِ",
+      "translit": "laylati",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/097_001_008.mp3"
+    },
+    {
+      "id": "q-97-1-9",
+      "ar": "ٱلْقَدْرِ",
+      "translit": "al-qadri",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/097_001_009.mp3"
+    },
+    {
+      "id": "q-97-2-4",
+      "ar": "لَيْلَةُ",
+      "translit": "laylatou",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/097_002_004.mp3"
+    },
+    {
+      "id": "q-97-3-5",
+      "ar": "أَلْفِ",
+      "translit": "alfi",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/097_003_005.mp3"
+    },
+    {
+      "id": "q-97-4-5",
+      "ar": "بِإِذْنِ",
+      "translit": "bi-ʾidhni",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/097_004_005.mp3"
+    },
+    {
+      "id": "q-97-4-9",
+      "ar": "أَمْرٍ",
+      "translit": "amrin",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/097_004_009.mp3"
+    },
+    {
+      "id": "q-97-5-2",
+      "ar": "هِىَ",
+      "translit": "hiya",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/097_005_002.mp3"
+    },
+    {
+      "id": "q-97-5-3",
+      "ar": "حَتَّىٰ",
+      "translit": "ḥattâ",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/097_005_003.mp3"
+    },
+    {
+      "id": "q-97-5-5",
+      "ar": "ٱلْفَجْرِ",
+      "translit": "al-fadjri",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/097_005_005.mp3"
+    },
+    {
+      "id": "q-98-3-3",
+      "ar": "قَيِّمَةٌ",
+      "translit": "qayyimatoun",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/098_003_003.mp3"
+    },
+    {
+      "id": "q-99-7-4",
+      "ar": "ذَرَّةٍ",
+      "translit": "dharratin",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/099_007_004.mp3"
+    },
+    {
+      "id": "q-99-7-6",
+      "ar": "يَرَهُۥ",
+      "translit": "yarahoû",
+      "source": "quran.com-mot",
+      "statut": "disponible",
+      "url": "https://audio.qurancdn.com/wbw/099_007_006.mp3"
+    },
+    {
+      "id": "syl-alif-a",
+      "ar": "اَ",
+      "translit": "a",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-alif-a-ba",
+      "ar": "اَبْ",
+      "translit": "ab",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-alif-i",
+      "ar": "اِ",
+      "translit": "i",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-alif-ou",
+      "ar": "اُ",
+      "translit": "ou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ayn-a",
+      "ar": "عَ",
+      "translit": "ʿa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ayn-a-noun",
+      "ar": "عَنْ",
+      "translit": "ʿan",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ayn-aa",
+      "ar": "عَا",
+      "translit": "ʿâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ayn-i",
+      "ar": "عِ",
+      "translit": "ʿi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ayn-ou",
+      "ar": "عُ",
+      "translit": "ʿou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ayn-oun",
+      "ar": "عٌ",
+      "translit": "ʿoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ba-a",
+      "ar": "بَ",
+      "translit": "ba",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ba-aa",
+      "ar": "بَا",
+      "translit": "bâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ba-an",
+      "ar": "بًا",
+      "translit": "ban",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ba-i",
+      "ar": "بِ",
+      "translit": "bi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ba-i-noun",
+      "ar": "بِنْ",
+      "translit": "bin",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ba-ii",
+      "ar": "بِي",
+      "translit": "bî",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ba-in",
+      "ar": "بٍ",
+      "translit": "bin",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ba-ou",
+      "ar": "بُ",
+      "translit": "bou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ba-ou-ra",
+      "ar": "بُرْ",
+      "translit": "bour",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ba-oun",
+      "ar": "بٌ",
+      "translit": "boun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ba-ouu",
+      "ar": "بُو",
+      "translit": "boû",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-chin-a",
+      "ar": "شَ",
+      "translit": "cha",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-chin-ou-ba",
+      "ar": "شُبْ",
+      "translit": "choub",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-chin-ou-kaf",
+      "ar": "شُكْ",
+      "translit": "chouk",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dad-a",
+      "ar": "ضَ",
+      "translit": "ḍa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dad-i",
+      "ar": "ضِ",
+      "translit": "ḍi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dad-ou",
+      "ar": "ضُ",
+      "translit": "ḍou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dad-ouu",
+      "ar": "ضُو",
+      "translit": "ḍoû",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dal-a",
+      "ar": "دَ",
+      "translit": "da",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dal-a-fa",
+      "ar": "دَفْ",
+      "translit": "daf",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dal-aa",
+      "ar": "دَا",
+      "translit": "dâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dal-an",
+      "ar": "دًا",
+      "translit": "dan",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dal-i",
+      "ar": "دِ",
+      "translit": "di",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dal-in",
+      "ar": "دٍ",
+      "translit": "din",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dal-ou",
+      "ar": "دُ",
+      "translit": "dou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dal-oun",
+      "ar": "دٌ",
+      "translit": "doun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dal-ouu",
+      "ar": "دُو",
+      "translit": "doû",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dha-a",
+      "ar": "ظَ",
+      "translit": "ẓa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dha-aa",
+      "ar": "ظَا",
+      "translit": "ẓâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dha-i",
+      "ar": "ظِ",
+      "translit": "ẓi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dha-ou",
+      "ar": "ظُ",
+      "translit": "ẓou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dhal-a",
+      "ar": "ذَ",
+      "translit": "dha",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dhal-i",
+      "ar": "ذِ",
+      "translit": "dhi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dhal-ou",
+      "ar": "ذُ",
+      "translit": "dhou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-dhal-oun",
+      "ar": "ذٌ",
+      "translit": "dhoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-fa-a",
+      "ar": "فَ",
+      "translit": "fa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-fa-aa",
+      "ar": "فَا",
+      "translit": "fâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-fa-i",
+      "ar": "فِ",
+      "translit": "fi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-fa-ou",
+      "ar": "فُ",
+      "translit": "fou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-fa-ou-noun",
+      "ar": "فُنْ",
+      "translit": "foun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-fa-oun",
+      "ar": "فٌ",
+      "translit": "foun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ghayn-a",
+      "ar": "غَ",
+      "translit": "gha",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ghayn-aa",
+      "ar": "غَا",
+      "translit": "ghâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ghayn-i",
+      "ar": "غِ",
+      "translit": "ghi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ghayn-ou",
+      "ar": "غُ",
+      "translit": "ghou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ha-a",
+      "ar": "هَ",
+      "translit": "ha",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ha-a-noun",
+      "ar": "هَنْ",
+      "translit": "han",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ha-aa",
+      "ar": "هَا",
+      "translit": "hâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ha-i",
+      "ar": "هِ",
+      "translit": "hi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ha-ou",
+      "ar": "هُ",
+      "translit": "hou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-hamza-a",
+      "ar": "أَ",
+      "translit": "ʾa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-hamza-i",
+      "ar": "إِ",
+      "translit": "ʾi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-hamza-ou",
+      "ar": "أُ",
+      "translit": "ʾou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-hha-a",
+      "ar": "حَ",
+      "translit": "ḥa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-hha-aa",
+      "ar": "حَا",
+      "translit": "ḥâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-hha-i",
+      "ar": "حِ",
+      "translit": "ḥi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-hha-ou",
+      "ar": "حُ",
+      "translit": "ḥou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-hha-oun",
+      "ar": "حٌ",
+      "translit": "ḥoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-jim-a",
+      "ar": "جَ",
+      "translit": "dja",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-jim-i",
+      "ar": "جِ",
+      "translit": "dji",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-kaf-a",
+      "ar": "كَ",
+      "translit": "ka",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-kaf-a-ta",
+      "ar": "كَتْ",
+      "translit": "kat",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-kaf-aa",
+      "ar": "كَا",
+      "translit": "kâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-kaf-i",
+      "ar": "كِ",
+      "translit": "ki",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-kaf-ou",
+      "ar": "كُ",
+      "translit": "kou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-kaf-oun",
+      "ar": "كٌ",
+      "translit": "koun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-kha-a",
+      "ar": "خَ",
+      "translit": "kha",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-kha-i",
+      "ar": "خِ",
+      "translit": "khi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-kha-oun",
+      "ar": "خٌ",
+      "translit": "khoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-lam-a",
+      "ar": "لَ",
+      "translit": "la",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-lam-a-mim",
+      "ar": "لَمْ",
+      "translit": "lam",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-lam-a-ya",
+      "ar": "لَيْ",
+      "translit": "lay",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-lam-aa",
+      "ar": "لَا",
+      "translit": "lâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-lam-an",
+      "ar": "لًا",
+      "translit": "lan",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-lam-i",
+      "ar": "لِ",
+      "translit": "li",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-lam-ii",
+      "ar": "لِي",
+      "translit": "lî",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-lam-ou",
+      "ar": "لُ",
+      "translit": "lou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-lam-oun",
+      "ar": "لٌ",
+      "translit": "loun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-a",
+      "ar": "مَ",
+      "translit": "ma",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-a-kaf",
+      "ar": "مَكْ",
+      "translit": "mak",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-a-lam",
+      "ar": "مَلْ",
+      "translit": "mal",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-a-noun",
+      "ar": "مَنْ",
+      "translit": "man",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-a-ra",
+      "ar": "مَرْ",
+      "translit": "mar",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-a-sin",
+      "ar": "مَسْ",
+      "translit": "mas",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-a-tta",
+      "ar": "مَطْ",
+      "translit": "maṭ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-aa",
+      "ar": "مَا",
+      "translit": "mâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-an",
+      "ar": "مًا",
+      "translit": "man",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-i",
+      "ar": "مِ",
+      "translit": "mi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-i-fa",
+      "ar": "مِفْ",
+      "translit": "mif",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-i-noun",
+      "ar": "مِنْ",
+      "translit": "min",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-ii",
+      "ar": "مِي",
+      "translit": "mî",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-ou",
+      "ar": "مُ",
+      "translit": "mou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-mim-ou-mim",
+      "ar": "مُمْ",
+      "translit": "moum",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-noun-a",
+      "ar": "نَ",
+      "translit": "na",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-noun-aa",
+      "ar": "نَا",
+      "translit": "nâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-noun-i",
+      "ar": "نِ",
+      "translit": "ni",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-noun-ii",
+      "ar": "نِي",
+      "translit": "nî",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-noun-in",
+      "ar": "نٍ",
+      "translit": "nin",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-noun-ou",
+      "ar": "نُ",
+      "translit": "nou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-noun-oun",
+      "ar": "نٌ",
+      "translit": "noun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-noun-ouu",
+      "ar": "نُو",
+      "translit": "noû",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-qaf-a",
+      "ar": "قَ",
+      "translit": "qa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-qaf-aa",
+      "ar": "قَا",
+      "translit": "qâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-qaf-i",
+      "ar": "قِ",
+      "translit": "qi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-qaf-i-tta",
+      "ar": "قِطْ",
+      "translit": "qiṭ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-qaf-ou",
+      "ar": "قُ",
+      "translit": "qou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-qaf-ou-lam",
+      "ar": "قُلْ",
+      "translit": "qoul",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-qaf-oun",
+      "ar": "قٌ",
+      "translit": "qoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ra-a",
+      "ar": "رَ",
+      "translit": "ra",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ra-aa",
+      "ar": "رَا",
+      "translit": "râ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ra-an",
+      "ar": "رًا",
+      "translit": "ran",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ra-i",
+      "ar": "رِ",
+      "translit": "ri",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ra-in",
+      "ar": "رٍ",
+      "translit": "rin",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ra-ou",
+      "ar": "رُ",
+      "translit": "rou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ra-oun",
+      "ar": "رٌ",
+      "translit": "roun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sad-a",
+      "ar": "صَ",
+      "translit": "ṣa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sad-aa",
+      "ar": "صَا",
+      "translit": "ṣâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sad-i",
+      "ar": "صِ",
+      "translit": "ṣi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sad-ou",
+      "ar": "صُ",
+      "translit": "ṣou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sad-ou-mim",
+      "ar": "صُمْ",
+      "translit": "ṣoum",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sin-a",
+      "ar": "سَ",
+      "translit": "sa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sin-aa",
+      "ar": "سَا",
+      "translit": "sâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sin-i",
+      "ar": "سِ",
+      "translit": "si",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sin-ii",
+      "ar": "سِي",
+      "translit": "sî",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sin-in",
+      "ar": "سٍ",
+      "translit": "sin",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sin-ou",
+      "ar": "سُ",
+      "translit": "sou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sin-ou-kaf",
+      "ar": "سُكْ",
+      "translit": "souk",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sin-oun",
+      "ar": "سٌ",
+      "translit": "soun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-sin-ouu",
+      "ar": "سُو",
+      "translit": "soû",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ta-a",
+      "ar": "تَ",
+      "translit": "ta",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ta-aa",
+      "ar": "تَا",
+      "translit": "tâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ta-i",
+      "ar": "تِ",
+      "translit": "ti",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ta-i-lam",
+      "ar": "تِلْ",
+      "translit": "til",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ta-ou",
+      "ar": "تُ",
+      "translit": "tou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ta-ou-fa",
+      "ar": "تُفْ",
+      "translit": "touf",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ta-ouu",
+      "ar": "تُو",
+      "translit": "toû",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-tha-a",
+      "ar": "ثَ",
+      "translit": "tha",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-tha-i",
+      "ar": "ثِ",
+      "translit": "thi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-tha-ou",
+      "ar": "ثُ",
+      "translit": "thou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-tta-a",
+      "ar": "طَ",
+      "translit": "ṭa",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-tta-aa",
+      "ar": "طَا",
+      "translit": "ṭâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-tta-i",
+      "ar": "طِ",
+      "translit": "ṭi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-tta-ii",
+      "ar": "طِي",
+      "translit": "ṭî",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-tta-ou",
+      "ar": "طُ",
+      "translit": "ṭou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-tta-oun",
+      "ar": "طٌ",
+      "translit": "ṭoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ya-a",
+      "ar": "يَ",
+      "translit": "ya",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ya-a-kaf",
+      "ar": "يَكْ",
+      "translit": "yak",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-ya-aa",
+      "ar": "يَا",
+      "translit": "yâ",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-zay-a",
+      "ar": "زَ",
+      "translit": "za",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-zay-i",
+      "ar": "زِ",
+      "translit": "zi",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-zay-ou",
+      "ar": "زُ",
+      "translit": "zou",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-zay-oun",
+      "ar": "زٌ",
+      "translit": "zoun",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    },
+    {
+      "id": "syl-zay-ouu",
+      "ar": "زُو",
+      "translit": "zoû",
+      "source": "enregistrement",
+      "statut": "à enregistrer"
+    }
+  ]
+}

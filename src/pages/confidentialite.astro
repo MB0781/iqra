@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import { lien } from '../lib/liens';
+---
+<Base titre="Confidentialité" description="Iqra' ne collecte aucune donnée : pas de compte, pas de traqueur, pas de publicité. Ta progression reste dans ton navigateur.">
+  <article class="conteneur pt-10 sm:pt-14">
+    <div class="prose-iqra">
+      <h1 class="text-3xl font-semibold">Confidentialité</h1>
+      <p class="mt-3 text-lg text-encre-2">Rien à déclarer, au sens propre : le site ne collecte aucune donnée personnelle.</p>
+      <h2>Ce qui est enregistré, et où</h2>
+      <p>Tes réponses, tes leçons validées, tes révisions et tes réglages sont enregistrés <strong>dans ton navigateur uniquement</strong> (IndexedDB, ou localStorage si IndexedDB n’est pas disponible). Ils ne quittent jamais ton appareil, sauf si tu télécharges toi-même une sauvegarde depuis le <a href={lien('tableau-de-bord/')}>tableau de bord</a>.</p>
+      <h2>Ce qui n’existe pas</h2>
+      <ul>
+        <li>Pas de compte, pas d’adresse e-mail.</li>
+        <li>Pas de mesure d’audience, pas de traqueur, pas de cookie publicitaire.</li>
+        <li>Pas de publicité.</li>
+      </ul>
+      <h2>Services tiers</h2>
+      <p>Quand tu écoutes un mot ou un verset du Coran, ton navigateur télécharge le fichier audio depuis les serveurs de Quran.com (audio.qurancdn.com, verses.quran.com), qui voient alors ton adresse IP comme pour toute page web. Le site lui-même est hébergé par GitHub Pages.</p>
+      <h2>Effacer tes données</h2>
+      <p>Supprime les données du site dans les réglages de ton navigateur (rubrique « données de sites »). Pense à télécharger une sauvegarde avant si tu veux la garder.</p>
+    </div>
+  </article>
+</Base>

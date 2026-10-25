@@ -1,0 +1,17 @@
+{
+  "name": "Iqra' — apprendre à lire l'arabe",
+  "short_name": "Iqra'",
+  "description": "Apprendre à lire l'arabe, lettre après lettre, jusqu'aux courtes sourates.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "/iqra/",
+  "scope": "/iqra/",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#1f5f4f",
+  "icons": [
+    { "src": "/iqra/icones/icone-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/iqra/icones/icone-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/iqra/icones/icone-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,94 @@
+---
+import Base from '../layouts/Base.astro';
+import BoutonAudio from '../components/ui/BoutonAudio.tsx';
+import { contenus, itemsPour } from '../content/charger';
+import { NON_ATTACHANTES, ZWJ } from '../lib/arabe';
+
+const lettres = [...contenus().elements.values()].filter((e) => e.type === 'lettre');
+const audio = itemsPour(lettres.map((l) => l.id));
+const formes = (c: string) => {
+  const attache = !NON_ATTACHANTES.has(c);
+  return {
+    isolee: c,
+    debut: attache ? c + ZWJ : c,
+    milieu: attache ? ZWJ + c + ZWJ : ZWJ + c,
+    fin: ZWJ + c,
+  };
+};
+const parId = Object.fromEntries(lettres.map((l) => [l.id, l]));
+const paires: [string, string, string][] = [
+  ['lettre-hha', 'lettre-ha', 'ح est un souffle serré au milieu de la gorge ; ه est un souffle léger et ouvert, comme en anglais « hello ».'],
+  ['lettre-ayn', 'lettre-alif', 'ع se fait en contractant le fond de la gorge avec la voix ; l’alif porteur de hamza est un simple coup de glotte, comme entre les deux « a » de « extra-ordinaire ».'],
+  ['lettre-qaf', 'lettre-kaf', 'ق se prononce tout au fond, contre la luette ; ك au même endroit que le « k » français.'],
+  ['lettre-sad', 'lettre-sin', 'ص est un s emphatique : langue abaissée, son plus grave ; س est le « s » français.'],
+  ['lettre-tta', 'lettre-ta', 'ط est un t emphatique, plus grave et plus appuyé ; ت est le « t » français.'],
+  ['lettre-dad', 'lettre-dal', 'ض est un d emphatique, prononcé avec les côtés de la langue ; د est le « d » français.'],
+  ['lettre-dha', 'lettre-dhal', 'ظ est la version emphatique de ذ : même place (langue entre les dents), son plus grave.'],
+  ['lettre-tha', 'lettre-sin', 'ث se dit la langue entre les dents (anglais « think ») ; س, langue derrière les dents.'],
+  ['lettre-dhal', 'lettre-zay', 'ذ se dit la langue entre les dents (anglais « this ») ; ز est le « z » français.'],
+  ['lettre-ghayn', 'lettre-ra', 'غ ressemble au « r » grasseyé de « Paris » ; ر est roulé du bout de la langue.'],
+];
+---
+<Base titre="Alphabet de référence" description="Les 28 lettres arabes sous leurs quatre formes, avec leur son, des repères de prononciation pour francophones et les paires difficiles.">
+  <div class="conteneur max-w-3xl pt-10 sm:pt-14">
+    <h1 class="text-3xl font-semibold">Alphabet de référence</h1>
+    <p class="mt-2 text-lg text-encre-2">Les 28 lettres, dans l’ordre traditionnel. On lit de droite à gauche : le début d’un mot est à droite.</p>
+    <p class="mt-2 text-sm text-encre-3">Six lettres (ا د ذ ر ز و) ne s’attachent jamais à la lettre suivante : elles n’ont pas de forme « début » distincte.</p>
+
+    <table class="mt-8 w-full border-collapse text-start">
+      <caption class="sr-only">Les 28 lettres et leurs formes selon la position</caption>
+      <thead>
+        <tr class="border-b border-trait-fort text-xs text-encre-2">
+          <th scope="col" class="py-2 pe-2 text-start font-semibold">Lettre et son</th>
+          <th scope="col" class="px-1 py-2 font-semibold">Isolée</th>
+          <th scope="col" class="px-1 py-2 font-semibold">Début</th>
+          <th scope="col" class="px-1 py-2 font-semibold">Milieu</th>
+          <th scope="col" class="px-1 py-2 font-semibold">Fin</th>
+        </tr>
+      </thead>
+      <tbody>
+        {lettres.map((l) => {
+          const f = formes(l.ar);
+          return (
+            <tr class="border-b border-trait align-middle" id={l.id}>
+              <th scope="row" class="py-3 pe-2 text-start font-normal">
+                <span class="block font-semibold">{l.nom}</span>
+                <span class="text-sm text-encre-2">« {l.translit} »</span>
+              </th>
+              {[f.isolee, f.debut, f.milieu, f.fin].map((x) => (
+                <td class="px-1 text-center"><span lang="ar" dir="rtl" class="ar !text-[1.75rem] sm:!text-[2.25rem]">{x}</span></td>
+              ))}
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+
+    <h2 class="mt-16 text-2xl font-semibold">Conseils de prononciation</h2>
+    <ul class="mt-6 divide-y divide-trait">
+      {lettres.map((l) => (
+        <li class="flex flex-wrap items-center gap-x-4 gap-y-1 py-3">
+          <span lang="ar" dir="rtl" class="ar w-12 text-center !text-[2rem]">{l.ar}</span>
+          <span class="min-w-0 flex-1">
+            <span class="font-semibold">{l.nom}</span> <span class="text-encre-2">: {l.prononciation}</span>
+          </span>
+          <BoutonAudio client:visible url={audio[l.id].audio} libelle={l.nom ?? l.translit} lent={false} />
+        </li>
+      ))}
+    </ul>
+
+    <h2 class="mt-16 text-2xl font-semibold">Les paires difficiles</h2>
+    <p class="mt-2 text-encre-2">Ces sons n’existent pas en français, ou s’y confondent. On les apprend toujours deux par deux.</p>
+    <ul class="mt-6 space-y-4">
+      {paires.map(([a, b, t]) => (
+        <li class="flex gap-4 rounded-[var(--radius-md)] border border-trait bg-surface p-4">
+          <span class="flex shrink-0 gap-3" lang="ar" dir="rtl">
+            <span class="ar !text-[2rem]">{parId[a].ar}</span>
+            <span class="ar !text-[2rem] text-encre-3">{parId[b].ar}</span>
+          </span>
+          <span class="text-encre-2"><span class="font-semibold text-encre">{parId[a].nom} et {parId[b].nom}.</span> {t}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</Base>

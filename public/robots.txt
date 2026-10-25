@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /iqra/studio/
+Disallow: /iqra/design/
+
+Sitemap: https://mb0781.github.io/iqra/sitemap-index.xml

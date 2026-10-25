@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import Revision from '../components/pages/Revision.tsx';
+import { contenus } from '../content/charger';
+---
+<Base titre="Révision du jour" description="Cinq minutes pour revoir ce qui risque de s'oublier, au bon moment.">
+  <div class="conteneur max-w-2xl pt-10 sm:pt-14">
+    <h1 class="text-3xl font-semibold">Révision du jour</h1>
+    <p class="mt-2 text-lg text-encre-2">Cinq minutes au plus. Les éléments reviennent juste avant d’être oubliés ; tes confusions passent en premier.</p>
+    <div class="mt-10">
+      <Revision client:load etapesTotal={contenus().etapes.length} />
+    </div>
+  </div>
+</Base>

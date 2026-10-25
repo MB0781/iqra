@@ -19,35 +19,13 @@ export function noteDe(e: Evaluation): Grade {
 }
 
 export function versCarte(c: CarteStockee): Card {
-  return {
-    due: new Date(c.due),
-    stability: c.stability,
-    difficulty: c.difficulty,
-    elapsed_days: c.elapsed_days,
-    scheduled_days: c.scheduled_days,
-    learning_steps: c.learning_steps,
-    reps: c.reps,
-    lapses: c.lapses,
-    state: c.state as State,
-    last_review: c.last_review ? new Date(c.last_review) : undefined,
-  };
+  const { element: _e, prioritaire: _p, due, last_review, ...reste } = c;
+  return { ...reste, due: new Date(due), state: c.state as State, last_review: last_review ? new Date(last_review) : undefined };
 }
 
 export function versStockage(element: string, c: Card, prioritaire = false): CarteStockee {
-  return {
-    element,
-    due: c.due.getTime(),
-    stability: c.stability,
-    difficulty: c.difficulty,
-    elapsed_days: c.elapsed_days,
-    scheduled_days: c.scheduled_days,
-    learning_steps: c.learning_steps,
-    reps: c.reps,
-    lapses: c.lapses,
-    state: c.state,
-    last_review: c.last_review?.getTime(),
-    prioritaire,
-  };
+  const { due, last_review, ...reste } = c;
+  return { ...reste, element, due: due.getTime(), last_review: last_review?.getTime(), prioritaire };
 }
 
 export function nouvelleCarte(element: string, maintenant: Date): CarteStockee {

@@ -119,7 +119,7 @@ export function verifierExercice(ex: Exercice, ou: string): Probleme[] {
     if (lettre.type !== 'lettre') pb.push({ ou, message: 'trouve-lettre : « lettre » doit être un élément de type lettre' });
     const base = lettre.ar;
     const mot = item(ex.mot).ar;
-    const lettres = Array.from(mot).filter((c) => /[ء-يٱ]/.test(c));
+    const lettres = Array.from(mot).filter(estLettre);
     const pos = lettres.indexOf(base);
     const attendu = pos === -1 ? 'absente' : pos === 0 ? 'debut' : pos === lettres.length - 1 ? 'fin' : 'milieu';
     if (lettres.filter((c) => c === base).length > 1) pb.push({ ou, message: 'trouve-lettre : la lettre apparaît plusieurs fois, réponse ambiguë' });

@@ -42,7 +42,7 @@ export function importer(texte: string): Donnees {
   const vide = donneesVides();
   const res = { ...vide } as Donnees;
   for (const k of Object.keys(vide) as (keyof Donnees)[]) {
-    (res as Record<string, unknown[]>)[k] = Array.isArray(donnees[k]) ? donnees[k] : [];
+    (res as unknown as Record<string, unknown[]>)[k] = Array.isArray(donnees[k]) ? donnees[k] : [];
   }
   return res;
 }

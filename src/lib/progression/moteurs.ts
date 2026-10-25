@@ -82,7 +82,7 @@ export class MoteurMemoire implements Moteur {
   async lire<T extends NomTable>(table: T, cle: string | number) {
     const k = CLES[table];
     const v = (this.d[table] as unknown as Record<string, unknown>[]).find((x) => x[k] === cle);
-    return v ? (structuredClone(v) as Donnees[T][number]) : undefined;
+    return v ? (structuredClone(v) as unknown as Donnees[T][number]) : undefined;
   }
   async ecrire<T extends NomTable>(table: T, valeur: Donnees[T][number]) {
     const k = CLES[table];

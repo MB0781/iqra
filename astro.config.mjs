@@ -13,6 +13,7 @@ export default defineConfig({
     react(),
     sitemap({ filter: (page) => !page.includes('/studio') && !page.includes('/design') }),
   ],
-  vite: { plugins: [tailwindcss()] },
+  // Cast : Astro et Tailwind embarquent deux versions de types Vite compatibles à l'exécution.
+  vite: { plugins: [/** @type {any} */ (tailwindcss())] },
   build: { inlineStylesheets: 'always' },
 });
