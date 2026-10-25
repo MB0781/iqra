@@ -1,0 +1,60 @@
+[
+  {
+    "numero": 1,
+    "titre": "Découvrir les lettres",
+    "objectif": "Reconnaître les 28 lettres sous leur forme isolée et associer chacune à son son.",
+    "description": "On commence par le son, puis le nom. Les lettres sont groupées par familles de même dessin, qui ne se distinguent que par leurs points."
+  },
+  {
+    "numero": 2,
+    "titre": "Les lettres dans un mot",
+    "objectif": "Reconnaître une lettre au début, au milieu et à la fin d'un mot.",
+    "description": "Les lettres se lient entre elles et changent un peu de forme. Six lettres ne s'attachent jamais à la suivante : ا د ذ ر ز و."
+  },
+  {
+    "numero": 3,
+    "titre": "Les voyelles courtes",
+    "objectif": "Lire une lettre avec fatha, kasra ou damma.",
+    "description": "Trois petits signes au-dessus ou au-dessous des lettres donnent les sons a, i et ou. C'est le premier pas vers la lecture."
+  },
+  {
+    "numero": 4,
+    "titre": "Voyelles longues et signes",
+    "objectif": "Lire les voyelles longues, le soukoun, la chadda et le tanwin.",
+    "description": "Allonger une voyelle, arrêter un son, doubler une lettre, ajouter un « n » final : quatre signes qui suffisent à lire la plupart des mots."
+  },
+  {
+    "numero": 5,
+    "titre": "Assembler des syllabes",
+    "objectif": "Lire sans aide des mots de deux à quatre syllabes.",
+    "description": "On découpe, on lit syllabe par syllabe, puis d'une traite. L'œil apprend à voir le mot entier."
+  },
+  {
+    "numero": 6,
+    "titre": "Premiers mots du Coran",
+    "objectif": "Lire des mots coraniques fréquents, avec la hamza, la tâ marbouta et l'alif maqsoura.",
+    "description": "Les mots viennent directement du texte coranique. On y découvre aussi les petits signes propres à l'écriture du Mushaf.",
+    "palier": "Premiers mots d'Al-Ikhlas et d'Al-Fatiha"
+  },
+  {
+    "numero": 7,
+    "titre": "Expressions et liaisons",
+    "objectif": "Lire l'article al-, distinguer lettres solaires et lunaires, enchaîner les mots avec l'alif de liaison.",
+    "description": "On lit des groupes de mots comme on les prononce, jusqu'à la basmala complète.",
+    "palier": "La basmala"
+  },
+  {
+    "numero": 8,
+    "titre": "Al-Fatiha, verset par verset",
+    "objectif": "Lire seul les sept versets d'Al-Fatiha.",
+    "description": "Lecture guidée avec des aides que l'on retire au fur et à mesure : espacement, couleurs des voyelles, syllabes. On lit d'abord, on écoute ensuite.",
+    "palier": "Al-Fatiha"
+  },
+  {
+    "numero": 9,
+    "titre": "Sourates courtes, en autonomie",
+    "objectif": "Lire seul cinq sourates courtes.",
+    "description": "Al-Ikhlas, Al-Falaq, An-Nas, Al-Kawthar, Al-'Asr. Chaque sourate est un palier : lecture d'abord, écoute ensuite.",
+    "palier": "Cinq sourates courtes"
+  }
+]
