@@ -2,6 +2,7 @@
 @import '@fontsource/noto-naskh-arabic/arabic-400.css';
 @import '@fontsource/noto-naskh-arabic/arabic-600.css';
 @import '@fontsource/amiri-quran/arabic-400.css';
+@import '@fontsource/amiri/arabic-400.css';
 
 /*
  * Design system Iqra' — voir docs/DESIGN.md.
@@ -349,28 +350,51 @@
   .aide-syllabes .syllabe[data-ap]::after {
     content: '\200D';
   }
-  .aide-voyelles .s-fatha {
+  .aide-voyelles .g-fatha {
     color: var(--v-fatha);
   }
-  .aide-voyelles .s-kasra {
+  .aide-voyelles .g-kasra {
     color: var(--v-kasra);
   }
-  .aide-voyelles .s-damma {
+  .aide-voyelles .g-damma {
     color: var(--v-damma);
   }
-  .aide-voyelles .s-soukoun,
-  .aide-voyelles .s-chadda,
-  .aide-voyelles .s-tanwin {
+  .aide-voyelles .g-soukoun {
     color: var(--v-signe);
-  }
-  .aide-voyelles .s-madd {
-    color: var(--v-madd);
   }
   .mot-maitrise {
     text-decoration: underline dotted var(--accent);
     text-underline-offset: 0.45em;
     text-decoration-thickness: 2px;
   }
+}
+
+/*
+ * Amiri Quran contient des glyphes en couleur (table COLR, 4 couleurs).
+ * On les ramène à la couleur de l'encre pour un texte sobre, comme le Mushaf imprimé.
+ */
+@font-palette-values --encre-claire {
+  font-family: 'Amiri Quran';
+  override-colors: 0 #1c1a17, 1 #1c1a17, 2 #1c1a17, 3 #1c1a17;
+}
+@font-palette-values --encre-sombre {
+  font-family: 'Amiri Quran';
+  override-colors: 0 #eee9df, 1 #eee9df, 2 #eee9df, 3 #eee9df;
+}
+[data-coran] {
+  font-palette: --encre-claire;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='clair']) [data-coran] {
+    font-palette: --encre-sombre;
+  }
+}
+:root[data-theme='sombre'] [data-coran] {
+  font-palette: --encre-sombre;
+}
+/* Aide « couleur des voyelles » sur le texte coranique : Amiri (même dessin, sans couleurs intégrées). */
+.ar.aide-voyelles[data-coran] {
+  font-family: 'Amiri', var(--font-arabe);
 }
 
 @media (prefers-reduced-motion: reduce) {

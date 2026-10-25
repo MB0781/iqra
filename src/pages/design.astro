@@ -15,7 +15,7 @@ const couleurs = [
   ['papier', 'Fond de page'], ['surface', 'Panneaux'], ['surface-2', 'Zones en retrait'], ['encre', 'Texte'], ['encre-2', 'Texte secondaire'],
   ['trait', 'Filets'], ['accent', 'Accent unique'], ['accent-doux', 'Accent doux'], ['erreur', 'Erreur'], ['attention', 'Attention'],
 ];
-const voyelles = [['v-fatha', 'fatha'], ['v-kasra', 'kasra'], ['v-damma', 'damma'], ['v-signe', 'soukoun, chadda, tanwin'], ['v-madd', 'prolongation']];
+const voyelles = [['v-fatha', 'lettre avec fatha (ou tanwin an)'], ['v-kasra', 'avec kasra (ou in)'], ['v-damma', 'avec damma (ou oun)'], ['v-signe', 'avec soukoun']];
 const tailles = [['text-4xl', '52 px'], ['text-3xl', '40 px'], ['text-2xl', '30 px'], ['text-xl', '24 px'], ['text-lg', '20 px'], ['text-base', '17 px'], ['text-sm', '15 px'], ['text-xs', '13 px']];
 ---
 <Base titre="Design system" description="Les tokens et composants d'Iqra'." noindex>
@@ -33,7 +33,7 @@ const tailles = [['text-4xl', '52 px'], ['text-3xl', '40 px'], ['text-2xl', '30 
           </li>
         ))}
       </ul>
-      <h3 class="mt-8 font-semibold">Couleurs fonctionnelles des voyelles (aide)</h3>
+      <h3 class="mt-8 font-semibold">Aide « couleur des voyelles » : chaque lettre prend la couleur de sa voyelle</h3>
       <ul class="mt-3 flex flex-wrap gap-4">
         {voyelles.map(([t, n]) => (
           <li class="flex items-center gap-2 text-sm"><span class="h-4 w-4 rounded-full" style={`background: var(--${t})`}></span>{n}</li>

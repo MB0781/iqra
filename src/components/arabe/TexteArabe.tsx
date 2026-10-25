@@ -4,7 +4,7 @@
  * à la source (les ZWJ d'espacement sont ajoutés par des pseudo-éléments CSS).
  */
 import type { CSSProperties, ReactNode } from 'react';
-import { CLASSE_SIGNE, grappes, liaisons, syllabes, type Grappe } from '../../lib/arabe';
+import { CLASSE_SIGNE, DAMMA, FATHA, KASRA, TANWIN_DAMM, TANWIN_FATH, TANWIN_KASR, grappes, liaisons, syllabes, type Grappe } from '../../lib/arabe';
 
 export interface Aides {
   espacement?: boolean;
@@ -27,18 +27,23 @@ interface Props {
   as?: 'span' | 'p' | 'div';
 }
 
+/**
+ * Classe de couleur d'une grappe selon sa voyelle. On colore la lettre entière avec son signe :
+ * les navigateurs ne savent pas peindre un signe d'une autre couleur que sa lettre.
+ */
+export function classeVoyelle(signes: string): string | null {
+  for (const c of Array.from(signes)) {
+    if (c === FATHA || c === TANWIN_FATH) return 'g-fatha';
+    if (c === KASRA || c === TANWIN_KASR) return 'g-kasra';
+    if (c === DAMMA || c === TANWIN_DAMM) return 'g-damma';
+  }
+  for (const c of Array.from(signes)) if (CLASSE_SIGNE[c] === 'soukoun') return 'g-soukoun';
+  return null;
+}
+
 function rendreGrappe(g: Grappe, voyelles: boolean): ReactNode {
-  if (!voyelles || !g.signes) return g.texte;
-  return (
-    <>
-      {g.base}
-      {Array.from(g.signes).map((s, i) => (
-        <span key={i} className={`s-${CLASSE_SIGNE[s] ?? 'autre'}`}>
-          {s}
-        </span>
-      ))}
-    </>
-  );
+  const classe = voyelles ? classeVoyelle(g.signes) : null;
+  return classe ? <span className={classe}>{g.texte}</span> : g.texte;
 }
 
 function rendreMot(mot: string, aides: Aides): ReactNode {
