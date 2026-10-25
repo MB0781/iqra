@@ -36,32 +36,8 @@ function parse<T>(schema: { safeParse: (v: unknown) => { success: true; data: T 
   return r.data;
 }
 
-/** Élément prêt à afficher. */
-export interface Item {
-  ref: string;
-  /** Identifiant stable utilisé pour la progression et l'audio. */
-  id: string;
-  ar: string;
-  translit: string;
-  type: Element['type'] | 'coran';
-  coran: boolean;
-  /** Pour une référence coranique : « S:A:W1-W2 » en jetons Tanzil. */
-  coranRef?: string;
-  nom?: string;
-  prononciation?: string;
-  sens?: string;
-  audio: string | null;
-}
-
-export interface ManifesteEntree {
-  id: string;
-  ar: string;
-  translit: string;
-  source: 'quran.com-mot' | 'quran.com-verset' | 'enregistrement';
-  statut: 'disponible' | 'à enregistrer';
-  url?: string;
-  fichier?: string;
-}
+import type { Item, ManifesteEntree } from './types';
+export type { Item, ManifesteEntree };
 
 let memo: ReturnType<typeof chargerTout> | null = null;
 

@@ -259,3 +259,22 @@ export const CLASSE_SIGNE: Record<string, string> = {
   [PETIT_WAW]: 'madd',
   [PETIT_YA]: 'madd',
 };
+
+/**
+ * Découpage en syllabes (aide visuelle) : une syllabe commence à chaque lettre
+ * qui porte une voyelle (courte, tanwin ou alif suscrit) ; les lettres sans voyelle
+ * (soukoun, prolongation, alif de liaison, lâm solaire) restent avec la syllabe en cours.
+ * Renvoie des groupes d'indices de grappes.
+ */
+export function syllabes(gs: Grappe[]): number[][] {
+  const res: number[][] = [];
+  const porteVoyelle = (g: Grappe) =>
+    estLettre(g.base) && Array.from(g.signes).some((c) => VOYELLES_COURTES.has(c) || TANWINS.has(c) || c === ALIF_SUSCRIT);
+  gs.forEach((g, i) => {
+    const courante = res[res.length - 1];
+    const couranteAVoyelle = courante?.some((j) => porteVoyelle(gs[j]));
+    if (!courante || (porteVoyelle(g) && couranteAVoyelle)) res.push([i]);
+    else courante.push(i);
+  });
+  return res;
+}
