@@ -1,5 +1,5 @@
 /** Vérification rapide des contenus pédagogiques (sans construire le site). */
-import { toutVerifier } from '../src/content/verification';
+import { toutVerifier } from '../src/contenus/verification';
 
 const res = toutVerifier();
 let total = 0;

@@ -5,12 +5,13 @@
  */
 import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { Check, X, RotateCcw } from 'lucide-react';
-import type { Exercice } from '../../content/schema';
-import type { Item } from '../../content/types';
+import type { Exercice } from '../../contenus/schema';
+import type { Item } from '../../contenus/types';
 import type { Evaluation } from '../../lib/progression/revision';
 import TexteArabe, { type Aides } from '../arabe/TexteArabe';
 import BoutonAudio from '../ui/BoutonAudio';
 import { CONSIGNES, melanger } from './outils';
+import TexteMixte from '../ui/TexteMixte';
 import LectureGuidee from './LectureGuidee';
 
 export interface ReponseElement {
@@ -47,7 +48,9 @@ function Retour({ correct, explication, suite, onSuite, partiel }: { correct: bo
         {correct ? <Check aria-hidden size={20} className="text-accent" /> : <X aria-hidden size={20} className="text-erreur" />}
         {correct ? (partiel ? 'Presque.' : 'Juste.') : 'Pas tout à fait.'}
       </p>
-      <p className="mt-1 text-encre-2">{explication}</p>
+      <p className="mt-1 text-encre-2">
+        <TexteMixte texte={explication} />
+      </p>
       <button ref={ref} type="button" className="bouton bouton-principal mt-4 w-full sm:w-auto" onClick={onSuite} data-action="continuer">
         {suite}
       </button>
@@ -56,7 +59,11 @@ function Retour({ correct, explication, suite, onSuite, partiel }: { correct: bo
 }
 
 function Consigne({ ex }: { ex: Exercice }) {
-  return <h2 className="text-lg font-semibold text-encre">{ex.consigne ?? CONSIGNES[ex.type]}</h2>;
+  return (
+    <h2 className="text-lg font-semibold text-encre">
+      <TexteMixte texte={ex.consigne ?? CONSIGNES[ex.type]} />
+    </h2>
+  );
 }
 
 /** Bouton d'option réutilisable. */

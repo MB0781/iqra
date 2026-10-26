@@ -1,7 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Lecon from '../../components/exercices/Lecon.tsx';
-import { contenus, itemsPour, refsLecon } from '../../content/charger';
+import TexteMixte from '../../components/ui/TexteMixte.tsx';
+import { contenus, itemsPour, refsLecon } from '../../contenus/charger';
 import { lien } from '../../lib/liens';
 
 export function getStaticPaths() {
@@ -28,8 +29,8 @@ const nbLecons = lecons.filter((l) => l.etape === lecon.etape).length;
     </nav>
     <header class="mt-4">
       <p class="text-sm text-encre-2">Leçon {lecon.ordre} sur {nbLecons}, environ {lecon.duree} minutes</p>
-      <h1 class="mt-1 text-2xl font-semibold sm:text-3xl">{lecon.titre}</h1>
-      <p class="mt-2 text-lg text-encre-2">{lecon.resume}</p>
+      <h1 class="mt-1 text-2xl font-semibold sm:text-3xl"><TexteMixte texte={lecon.titre} /></h1>
+      <p class="mt-2 text-lg text-encre-2"><TexteMixte texte={lecon.resume} /></p>
     </header>
     <div class="mt-10">
       <Lecon client:load lecon={lecon} items={items} toutes={toutes} suivante={suiv ? { id: suiv.id, titre: suiv.titre } : null} precedente={prec ? { id: prec.id, titre: prec.titre } : null} nouveaux={nouveaux} />

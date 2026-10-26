@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Parcours from '../components/pages/Parcours.tsx';
-import { contenus } from '../content/charger';
+import { contenus } from '../contenus/charger';
 
 const { etapes, lecons, tests } = contenus();
 const vue = etapes.map((e) => ({

@@ -10,7 +10,7 @@ import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { JSDOM } from 'jsdom';
 import { texteVerset } from '../src/lib/coran';
-import { toutVerifier } from '../src/content/verification';
+import { toutVerifier } from '../src/contenus/verification';
 
 const DIST = join(process.cwd(), 'dist');
 const sansReseau = process.argv.includes('--sans-reseau');

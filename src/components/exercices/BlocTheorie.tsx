@@ -1,17 +1,17 @@
 import { Lightbulb, TriangleAlert } from 'lucide-react';
-import type { Bloc } from '../../content/schema';
-import type { Item } from '../../content/types';
+import type { Bloc } from '../../contenus/schema';
+import type { Item } from '../../contenus/types';
 import TexteArabe from '../arabe/TexteArabe';
 import BoutonAudio from '../ui/BoutonAudio';
 import TexteRiche from '../ui/TexteRiche';
 
 function Carte({ it, note }: { it: Item; note?: string }) {
   return (
-    <div className="flex flex-col items-center gap-2 rounded-[var(--radius-lg)] border border-trait bg-surface px-4 py-6 text-center sm:flex-row sm:items-center sm:gap-6 sm:text-start">
-      <TexteArabe texte={it.ar} coranRef={it.coranRef} etude className="min-w-24 text-center" />
+    <div className="grid gap-2 rounded-[var(--radius-lg)] border border-trait bg-surface px-4 py-5 sm:grid-cols-[8.5rem_1fr] sm:items-center sm:gap-6">
+      <TexteArabe texte={it.ar} coranRef={it.coranRef} etude className="text-center" />
       <div className="flex-1">
         <p className="font-semibold">
-          {it.nom ? `${it.nom}, ` : ''}« {it.translit} »{it.sens ? <span className="font-normal text-encre-2"> ({it.sens})</span> : null}
+          {it.nom ? `${it.nom}, ` : ''}«&#8239;{it.translit}&#8239;»{it.sens ? <span className="font-normal text-encre-2"> ({it.sens})</span> : null}
         </p>
         {note ? <TexteRiche texte={note} className="mt-1 text-encre-2" /> : it.prononciation ? <p className="mt-1 text-encre-2">{it.prononciation}</p> : null}
         <div className="mt-2">

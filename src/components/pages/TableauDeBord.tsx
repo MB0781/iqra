@@ -2,13 +2,14 @@
 import { useEffect, useRef, useState } from 'react';
 import { AlertDialog } from 'radix-ui';
 import { Download, Upload } from 'lucide-react';
-import type { Item } from '../../content/types';
+import type { Item } from '../../contenus/types';
 import { depot } from '../../lib/progression/depot';
 import { estMaitrise, principalesConfusions } from '../../lib/progression/revision';
 import { prochaineLecon, etapeCourante, type LeconRef } from '../../lib/progression/regles';
 import type { Donnees } from '../../lib/progression/types';
 import { lien } from '../../lib/liens';
 import TexteArabe from '../arabe/TexteArabe';
+import TexteMixte from '../ui/TexteMixte';
 
 interface Props {
   lecons: (LeconRef & { titre: string })[];
@@ -67,9 +68,19 @@ export default function TableauDeBord({ lecons, etapes }: Props) {
   const courante = etapeCourante(etapes.length, d.etapes);
   const leconsFaites = d.lecons.filter((l) => l.reussie).length;
 
+  const vide = d.reponses.length === 0;
   return (
     <div className="space-y-12">
-      <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-[var(--radius-lg)] border border-trait bg-trait sm:grid-cols-4">
+      {vide ? (
+        <section data-tableau="vide">
+          <p className="text-lg">Ta progression apparaîtra ici après ta première leçon.</p>
+          <p className="mt-1 text-encre-2">Jours actifs, éléments maîtrisés, confusions fréquentes : tout reste dans ce navigateur.</p>
+          <a className="bouton bouton-principal mt-6" href={lien(suivante ? `lecon/${suivante.id}/` : 'parcours/')}>
+            Commencer la première leçon
+          </a>
+        </section>
+      ) : null}
+      <dl hidden={vide} className="grid grid-cols-2 gap-px overflow-hidden rounded-[var(--radius-lg)] border border-trait bg-trait sm:grid-cols-4">
         {[
           { v: jours, l: jours > 1 ? 'jours actifs' : 'jour actif' },
           { v: leconsFaites, l: `leçons validées sur ${lecons.length}` },
@@ -83,14 +94,14 @@ export default function TableauDeBord({ lecons, etapes }: Props) {
         ))}
       </dl>
 
-      <section aria-labelledby="tb-suite">
+      <section aria-labelledby="tb-suite" hidden={vide}>
         <h2 id="tb-suite" className="text-xl font-semibold">
-          Prochaine étape
+          Prochaine leçon
         </h2>
         {suivante ? (
           <p className="mt-2">
             <a className="lien" href={lien(`lecon/${suivante.id}/`)}>
-              {lecons.find((l) => l.id === suivante.id)?.titre}
+              <TexteMixte texte={lecons.find((l) => l.id === suivante.id)?.titre ?? ''} />
             </a>{' '}
             <span className="text-encre-2">(étape {suivante.etape})</span>
           </p>
@@ -101,7 +112,7 @@ export default function TableauDeBord({ lecons, etapes }: Props) {
         )}
       </section>
 
-      <section aria-labelledby="tb-conf">
+      <section aria-labelledby="tb-conf" hidden={vide}>
         <h2 id="tb-conf" className="text-xl font-semibold">
           Confusions principales
         </h2>

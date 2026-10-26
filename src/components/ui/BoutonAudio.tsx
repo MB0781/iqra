@@ -40,7 +40,7 @@ export default function BoutonAudio({ url, libelle, taille = 'normale', lent = t
           <span className="text-sm">0,75×</span>
         </button>
       ) : null}
-      {etat === 'erreur' ? <span className="text-xs text-erreur">Audio indisponible pour l'instant.</span> : null}
+      {etat === 'erreur' ? <span className="text-xs text-encre-3">audio indisponible</span> : null}
     </span>
   );
 }

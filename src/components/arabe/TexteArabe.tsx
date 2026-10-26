@@ -3,7 +3,7 @@
  * Le texte source n'est jamais modifié : la concaténation du textContent reste identique
  * à la source (les ZWJ d'espacement sont ajoutés par des pseudo-éléments CSS).
  */
-import type { CSSProperties, ReactNode } from 'react';
+import { Fragment, type CSSProperties, type ReactNode } from 'react';
 import { CLASSE_SIGNE, DAMMA, FATHA, KASRA, TANWIN_DAMM, TANWIN_FATH, TANWIN_KASR, grappes, liaisons, syllabes, type Grappe } from '../../lib/arabe';
 
 export interface Aides {
@@ -91,10 +91,10 @@ export default function TexteArabe({ texte, coranRef, aides = {}, etude, classNa
         if (motsMaitrises?.has(i)) contenu = <span className="mot-maitrise">{contenu}</span>;
         if (rendu) contenu = rendu(contenu, i, m);
         return (
-          <span key={i}>
+          <Fragment key={i}>
             {i > 0 ? ' ' : ''}
-            {contenu}
-          </span>
+            <span className="mot">{contenu}</span>
+          </Fragment>
         );
       })}
     </Balise>

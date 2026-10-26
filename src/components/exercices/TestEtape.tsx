@@ -1,8 +1,8 @@
 /** Test de fin d'étape : 85 % pour débloquer l'étape suivante. */
 import { useEffect, useState } from 'react';
 import { Lock } from 'lucide-react';
-import type { Exercice } from '../../content/schema';
-import type { Item } from '../../content/types';
+import type { Exercice } from '../../contenus/schema';
+import type { Item } from '../../contenus/types';
 import { depot } from '../../lib/progression/depot';
 import { SEUIL_ETAPE, testEtapeDisponible, etapeTerminee, type LeconRef } from '../../lib/progression/regles';
 import { lien } from '../../lib/liens';
@@ -48,8 +48,7 @@ export default function TestEtape({ etape, questions, items, toutes, aSuivante }
       {phase === 'intro' ? (
         <section>
           <p className="text-encre-2">
-            {questions.length} questions sur des éléments que tu n’as pas encore vus en exercice, construits avec ce que tu as appris. Il faut{' '}
-            {Math.round(SEUIL_ETAPE * 100)} % pour ouvrir l’étape suivante.
+            {questions.length}&nbsp;questions sur des éléments que tu n’as pas encore vus en exercice, construits avec ce que tu as appris.
           </p>
           {dispo && !leconsFaites ? (
             <p className="mt-3 rounded-[var(--radius-md)] bg-attention-doux p-3 text-sm">

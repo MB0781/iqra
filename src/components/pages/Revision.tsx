@@ -2,8 +2,8 @@
  * Révision du jour : confusions ciblées, puis cartes dues (5 minutes maximum).
  */
 import { useEffect, useState } from 'react';
-import type { Exercice } from '../../content/schema';
-import type { Item } from '../../content/types';
+import type { Exercice } from '../../contenus/schema';
+import type { Item } from '../../contenus/types';
 import { depot } from '../../lib/progression/depot';
 import { cartesDues, principalesConfusions, proposerRetour, MAX_REVISION } from '../../lib/progression/revision';
 import { etapeCourante } from '../../lib/progression/regles';

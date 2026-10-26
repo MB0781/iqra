@@ -8,8 +8,8 @@
  */
 import { existsSync, readdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { contenus, refsBloc, refsExercice } from '../src/content/charger';
-import type { ManifesteEntree } from '../src/content/types';
+import { contenus, refsBloc, refsExercice } from '../src/contenus/charger';
+import type { ManifesteEntree } from '../src/contenus/types';
 import { estRefCoran, nombreVersets } from '../src/lib/coran';
 
 const { lecons, tests, item } = contenus();

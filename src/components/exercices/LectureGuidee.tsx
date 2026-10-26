@@ -4,8 +4,9 @@
  */
 import { useState } from 'react';
 import { Switch } from 'radix-ui';
-import type { Exercice } from '../../content/schema';
-import type { Item } from '../../content/types';
+import { ChevronDown } from 'lucide-react';
+import type { Exercice } from '../../contenus/schema';
+import type { Item } from '../../contenus/types';
 import type { Evaluation } from '../../lib/progression/revision';
 import TexteArabe from '../arabe/TexteArabe';
 import BoutonAudio from '../ui/BoutonAudio';
@@ -42,9 +43,9 @@ export function Interrupteur({ id, libelle, actif, onChange }: { id: string; lib
         id={id}
         checked={actif}
         onCheckedChange={onChange}
-        className="relative h-7 w-12 shrink-0 cursor-pointer rounded-full border border-trait-fort bg-surface-2 transition-colors duration-200 data-[state=checked]:border-accent data-[state=checked]:bg-accent"
+        className="relative h-7 w-12 shrink-0 cursor-pointer rounded-full border-2 border-encre-3 bg-surface transition-colors duration-200 data-[state=checked]:border-accent data-[state=checked]:bg-accent"
       >
-        <Switch.Thumb className="block h-5 w-5 translate-x-1 rounded-full bg-surface shadow-1 transition-transform duration-200 data-[state=checked]:translate-x-6" />
+        <Switch.Thumb className="block h-4 w-4 translate-x-1 rounded-full bg-encre-3 transition-transform duration-200 data-[state=checked]:translate-x-6 data-[state=checked]:bg-sur-accent" />
       </Switch.Root>
     </div>
   );
@@ -81,8 +82,11 @@ export default function LectureGuidee({ ex, items, onFini, maitrises = [] }: Pro
   return (
     <div>
       <h2 className="text-lg font-semibold">{ex.consigne ?? CONSIGNES['lecture-guidee']}</h2>
-      <details className="mt-4 rounded-[var(--radius-md)] border border-trait bg-surface-2/60 px-4 py-2" open={ex.aides.length > 0}>
-        <summary className="min-h-11 cursor-pointer content-center text-sm font-semibold">Aides à la lecture</summary>
+      <details className="aides mt-4 rounded-[var(--radius-md)] border border-trait bg-surface-2/60 px-4 py-2" open={ex.aides.length > 0}>
+        <summary className="flex min-h-11 cursor-pointer items-center justify-between text-sm font-semibold">
+          Aides à la lecture
+          <ChevronDown aria-hidden size={18} className="chevron text-encre-2 transition-transform duration-150" />
+        </summary>
         <div className="divide-y divide-trait pb-2">
           {(Object.keys(LIBELLES) as NomAide[]).map((a) => (
             <Interrupteur key={a} id={`${ex.id}-${a}`} libelle={LIBELLES[a]} actif={aides[a]} onChange={(v) => setAides({ ...aides, [a]: v })} />
@@ -100,13 +104,13 @@ export default function LectureGuidee({ ex, items, onFini, maitrises = [] }: Pro
           );
           return (
             <li key={r} className="flex flex-col gap-2">
-              <div className="flex items-start gap-3">
-                <span className="mt-4 shrink-0 text-sm tabular-nums text-encre-3" aria-label={`Verset ${a}`}>
+              <div className="flex items-start gap-3" dir="rtl">
+                <span className="mt-4 grid h-7 w-7 shrink-0 place-items-center rounded-full border border-trait-fort text-xs tabular-nums text-encre-2" aria-label={`Verset ${a}`}>
                   {a}
                 </span>
                 <TexteArabe
                   as="p"
-                  className="flex-1 text-right"
+                  className="flex-1"
                   texte={it.ar}
                   coranRef={it.coranRef}
                   aides={aides}
@@ -119,7 +123,7 @@ export default function LectureGuidee({ ex, items, onFini, maitrises = [] }: Pro
                 />
               </div>
               {phase !== 'lire' && aides.audio ? (
-                <div className="ps-7">
+                <div className="pe-10" dir="rtl">
                   <BoutonAudio url={it.audio} libelle={`le verset ${a}`} />
                 </div>
               ) : null}

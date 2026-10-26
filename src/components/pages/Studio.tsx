@@ -6,7 +6,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { zipSync } from 'fflate';
 import { Mic, Square, Play, RotateCcw, Download } from 'lucide-react';
-import type { ManifesteEntree } from '../../content/types';
+import type { ManifesteEntree } from '../../contenus/types';
 import { lien } from '../../lib/liens';
 
 interface Prise {

@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { lien } from '../lib/liens';
+import TexteMixte from '../components/ui/TexteMixte.tsx';
 ---
 <Base titre="La méthode" description="Déchiffrage, prononciation, tajwid : ce qu'Iqra' enseigne, comment, et pourquoi dans cet ordre.">
   <article class="conteneur pt-10 sm:pt-14">
@@ -10,7 +11,7 @@ import { lien } from '../lib/liens';
 
       <h2>Déchiffrage, prononciation, tajwid</h2>
       <p><strong>Le déchiffrage</strong> est le but. Reconnaître une lettre, sa voyelle, ses signes, et assembler le tout en syllabes puis en mots. Chaque exercice du site y sert.</p>
-      <p><strong>La prononciation</strong> est expliquée, avec des repères tirés du français et des paires pour les sons qui n’y existent pas (ح et ه, ع et l’alif, ق et ك…). Elle n’est jamais « corrigée » par une machine : tu t’écoutes, tu compares à la référence, tu t’évalues. Pour aller plus loin, rien ne remplace l’oreille d’un enseignant.</p>
+      <p><strong>La prononciation</strong> est expliquée, avec des repères tirés du français et des paires pour les sons qui n’y existent pas (<TexteMixte texte="ح et ه, ع et l’alif, ق et ك…" />). Elle n’est jamais « corrigée » par une machine : tu t’écoutes, tu compares à la référence, tu t’évalues. Pour aller plus loin, rien ne remplace l’oreille d’un enseignant.</p>
       <p><strong>Le tajwid</strong>, l’art de la récitation, n’apparaît que là où il est indispensable pour lire juste : lettres solaires, alif de liaison, lettres écrites mais non prononcées. Chaque fois, le site le signale.</p>
 
       <h2>Le son avant le nom</h2>
@@ -30,7 +31,7 @@ import { lien } from '../lib/liens';
       <p>Chaque élément appris devient une carte de révision. Un algorithme de répétition espacée (FSRS) la fait revenir juste avant que tu l’oublies. Les révisions passent en début de séance et durent cinq minutes au plus.</p>
       <ul>
         <li>Un élément raté deux fois dans la même séance revient en priorité.</li>
-        <li>Les confusions (par exemple ح choisi au lieu de ه) sont mémorisées et donnent des exercices ciblés.</li>
+        <li>Les confusions (<TexteMixte texte="par exemple ح choisi au lieu de ه" />) sont mémorisées et donnent des exercices ciblés.</li>
         <li>Si la réussite en révision reste sous 70 % pendant trois séances, le site te propose de reprendre l’étape précédente.</li>
       </ul>
 

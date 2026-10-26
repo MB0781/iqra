@@ -267,6 +267,11 @@
     cursor: pointer;
     user-select: none;
   }
+  @media (max-width: 639px) {
+    .bouton-principal {
+      width: 100%;
+    }
+  }
   .bouton:active {
     transform: scale(0.98);
   }
@@ -337,8 +342,16 @@
   .aide-espacement .grappe[data-ap]::after {
     content: '\200D';
   }
+  /* Un mot ne se coupe jamais ; l'espace entre mots reste nettement plus grand que l'écart entre syllabes. */
+  .ar .mot {
+    white-space: nowrap;
+  }
+  .aide-espacement,
+  .aide-syllabes {
+    word-spacing: 0.6em;
+  }
   .aide-syllabes .syllabe + .syllabe {
-    margin-inline-start: 0.35em;
+    margin-inline-start: 0.14em;
   }
   .aide-syllabes .syllabe {
     display: inline-block;
@@ -361,6 +374,24 @@
   }
   .aide-voyelles .g-soukoun {
     color: var(--v-signe);
+  }
+  /* Arabe cité dans une phrase française */
+  .ar-inline {
+    font-family: var(--font-arabe);
+    font-size: 1.4em;
+    line-height: 1;
+    unicode-bidi: isolate;
+    white-space: nowrap;
+    vertical-align: -0.08em;
+  }
+  details.aides > summary {
+    list-style: none;
+  }
+  details.aides > summary::-webkit-details-marker {
+    display: none;
+  }
+  details.aides[open] .chevron {
+    transform: rotate(180deg);
   }
   .mot-maitrise {
     text-decoration: underline dotted var(--accent);

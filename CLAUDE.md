@@ -27,13 +27,13 @@ data/audio/manifest.json         manifeste audio (généré : npm run audio:mani
 src/lib/arabe.ts                 analyse de l'arabe (grappes, notions requises, vocalisation)
 src/lib/coran.ts                 lecture Tanzil, références q:…, URL audio (serveur uniquement)
 src/lib/progression/             stockage Dexie, FSRS, déblocage, confusions, export/import (client)
-src/content/schema.ts            schémas Zod des contenus
-src/content/notions.ts           catalogue des notions + répartition par étape
-src/content/etapes.json          les 9 étapes
-src/content/elements/etape-N.json  lettres, formes, syllabes, mots (pédagogiques)
-src/content/coran-translit/*.json  translittération des références coraniques
-src/content/lecons/etape-N/eN-lXX.json  une leçon par fichier ; test-etape.json = test de fin d'étape
-src/content/verification.ts      contrôles automatiques (ordre des notions, tests inédits, vocalisation…)
+src/contenus/schema.ts            schémas Zod des contenus
+src/contenus/notions.ts           catalogue des notions + répartition par étape
+src/contenus/etapes.json          les 9 étapes
+src/contenus/elements/etape-N.json  lettres, formes, syllabes, mots (pédagogiques)
+src/contenus/coran-translit/*.json  translittération des références coraniques
+src/contenus/lecons/etape-N/eN-lXX.json  une leçon par fichier ; test-etape.json = test de fin d'étape
+src/contenus/verification.ts      contrôles automatiques (ordre des notions, tests inédits, vocalisation…)
 src/components/                  composants Astro et îlots React (exercices, lecture guidée, studio…)
 src/pages/                       pages du site
 scripts/                         vérification, manifeste audio, captures, image de partage

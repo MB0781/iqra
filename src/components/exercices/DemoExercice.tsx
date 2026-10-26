@@ -1,7 +1,7 @@
 /** Exercice de démonstration (page /design) : recommence après la réponse. */
 import { useState } from 'react';
-import type { Exercice } from '../../content/schema';
-import type { Item } from '../../content/types';
+import type { Exercice } from '../../contenus/schema';
+import type { Item } from '../../contenus/types';
 import ExerciceVue from './Exercice';
 
 export default function DemoExercice({ ex, items }: { ex: Exercice; items: Record<string, Item> }) {

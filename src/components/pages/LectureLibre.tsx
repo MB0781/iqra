@@ -1,6 +1,6 @@
 /** Lecture libre d'une sourate entière, avec les aides par défaut des réglages. */
 import { useEffect, useState } from 'react';
-import type { Item } from '../../content/types';
+import type { Item } from '../../contenus/types';
 import { depot } from '../../lib/progression/depot';
 import { estMaitrise } from '../../lib/progression/revision';
 import LectureGuidee from '../exercices/LectureGuidee';

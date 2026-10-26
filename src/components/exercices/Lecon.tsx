@@ -3,14 +3,15 @@
  */
 import { useEffect, useState } from 'react';
 import { Lock } from 'lucide-react';
-import type { Lecon as LeconT } from '../../content/schema';
-import type { Item } from '../../content/types';
+import type { Lecon as LeconT } from '../../contenus/schema';
+import type { Item } from '../../contenus/types';
 import { depot } from '../../lib/progression/depot';
 import { leconDebloquee, SEUIL_LECON, type LeconRef } from '../../lib/progression/regles';
 import { estMaitrise } from '../../lib/progression/revision';
 import { lien } from '../../lib/liens';
 import BlocTheorie from './BlocTheorie';
 import Seance from './Seance';
+import TexteMixte from '../ui/TexteMixte';
 
 interface Props {
   lecon: LeconT;
@@ -76,7 +77,7 @@ export default function Lecon({ lecon, items, toutes, suivante, precedente, nouv
                     Tu peux lire l’explication dès maintenant.{' '}
                     {precedente ? (
                       <a className="lien" href={lien(`lecon/${precedente.id}/`)}>
-                        Aller à « {precedente.titre} »
+                        Aller à la leçon précédente
                       </a>
                     ) : (
                       <a className="lien" href={lien('parcours/')}>
@@ -132,7 +133,7 @@ export default function Lecon({ lecon, items, toutes, suivante, precedente, nouv
             {score >= SEUIL_LECON ? (
               suivante ? (
                 <a className="bouton bouton-principal" href={lien(`lecon/${suivante.id}/`)} data-action="lecon-suivante">
-                  Leçon suivante : {suivante.titre}
+                  Leçon suivante : <TexteMixte texte={suivante.titre} />
                 </a>
               ) : (
                 <a className="bouton bouton-principal" href={lien(`test/${lecon.etape}/`)} data-action="test-etape">

@@ -47,5 +47,21 @@ for (const f of formats) {
     await ctx.close();
   }
 }
+// Exercice en cours et retour après réponse
+for (const f of formats) {
+  for (const theme of ['light', 'dark'] as const) {
+    const ctx = await navigateur.newContext({ ...f.options, colorScheme: theme, serviceWorkers: 'block' });
+    const page = await ctx.newPage();
+    const suffixe = `${f.nom}-${theme === 'light' ? 'clair' : 'sombre'}`;
+    await page.goto(BASE + 'lecon/e3-l01/', { waitUntil: 'load' });
+    await page.locator('[data-action="commencer-pratique"]').click();
+    await page.waitForTimeout(400);
+    await page.screenshot({ path: join(dossier, `exercice-question-${suffixe}.png`) });
+    await page.locator('[data-option]').first().click();
+    await page.waitForTimeout(300);
+    await page.screenshot({ path: join(dossier, `exercice-retour-${suffixe}.png`) });
+    await ctx.close();
+  }
+}
 await navigateur.close();
 console.log(`${pages.length * 4} captures dans ${dossier}`);

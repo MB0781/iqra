@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { toutVerifier } from '../../src/content/verification';
-import { contenus } from '../../src/content/charger';
+import { toutVerifier } from '../../src/contenus/verification';
+import { contenus } from '../../src/contenus/charger';
 
 describe('contenus pédagogiques', () => {
   const res = toutVerifier();
@@ -19,5 +19,19 @@ describe('contenus pédagogiques', () => {
       lecons.filter((l) => l.etape === 9).flatMap((l) => [...l.pratique, ...l.test]).filter((x) => x.type === 'lecture-guidee').map((x) => (x as { versets: string }).versets.split(':')[0]),
     );
     for (const s of ['112', '113', '114', '108', '103']) expect(sourates9.has(s)).toBe(true);
+  });
+});
+
+import { motsCoranEnDur } from '../../src/contenus/coran-en-dur';
+import { resoudreMarqueurs } from '../../src/contenus/charger';
+
+describe('citations coraniques dans les textes', () => {
+  it('un mot du Coran recopié est détecté, une balise ne l’est pas', () => {
+    expect(motsCoranEnDur('Lis ٱلْحَمْدُ à voix haute')).toEqual(['ٱلْحَمْدُ']);
+    expect(motsCoranEnDur('Lis [[q:1:2:1]] à voix haute')).toEqual([]);
+    expect(motsCoranEnDur('La lettre ب et la syllabe بَ')).toEqual([]);
+  });
+  it('une balise est résolue depuis Tanzil', () => {
+    expect(resoudreMarqueurs('Lis [[q:1:2:1]].')).toBe('Lis [[1:2:1-1|ٱلْحَمْدُ]].');
   });
 });

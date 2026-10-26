@@ -14,16 +14,16 @@ export default function PremiereLettre() {
   const [choix, setChoix] = useState<string | null>(null);
   const juste = OPTIONS.find((o) => o.son === choix)?.juste;
   return (
-    <div className="relative rounded-[var(--radius-lg)] border border-trait bg-surface p-6 shadow-2 sm:p-8" data-essai="premiere-lettre">
+    <div className="relative rounded-[var(--radius-lg)] border border-trait bg-surface p-5 shadow-2 sm:p-8" data-essai="premiere-lettre">
       <p className="text-sm text-encre-2">Essaie, sans rien savoir :</p>
       <div className="mt-2 flex items-end justify-center gap-6">
-        <span lang="ar" dir="rtl" className="font-arabe text-[7.5rem] leading-[1.3] text-encre sm:text-[9rem]" aria-describedby="indice-ba">
+        <span lang="ar" dir="rtl" className="font-arabe text-[6rem] leading-[1.25] text-encre sm:text-[9rem]" aria-describedby="indice-ba">
           ب
         </span>
       </div>
       <p id="indice-ba" className="text-center text-encre-2">
         Cette lettre a <strong className="text-encre">un point en dessous</strong>.<br />
-        Son voisin ت en a deux au-dessus et se lit « t ».
+        Son voisin <span lang="ar" dir="rtl" className="ar-inline">ت</span> en a deux au-dessus et se lit «&#8239;t&#8239;».
       </p>
       <p className="mt-6 font-semibold">Alors, quel son ?</p>
       <div className="mt-3 grid grid-cols-2 gap-3" role="group" aria-label="Choisis le son">

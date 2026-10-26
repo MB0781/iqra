@@ -1,15 +1,15 @@
 # Guide de rédaction des leçons
 
-Ce guide est la référence pour écrire ou modifier une leçon. Les schémas exacts sont dans `src/content/schema.ts`.
+Ce guide est la référence pour écrire ou modifier une leçon. Les schémas exacts sont dans `src/contenus/schema.ts`.
 
 ## Fichiers
 
-- Une leçon = `src/content/lecons/etape-N/eN-lXX.json` (ex. `e3-l02.json`). `ordre` = 1, 2, 3… sans trou.
-- Le test de fin d'étape = `src/content/lecons/etape-N/test-etape.json` (au moins 12 questions ; obligatoire étapes 1 à 8).
-- Les éléments (lettres, formes, syllabes, mots) = `src/content/elements/etape-N.json` (tableau). Un élément créé à une
+- Une leçon = `src/contenus/lecons/etape-N/eN-lXX.json` (ex. `e3-l02.json`). `ordre` = 1, 2, 3… sans trou.
+- Le test de fin d'étape = `src/contenus/lecons/etape-N/test-etape.json` (au moins 12 questions ; obligatoire étapes 1 à 8).
+- Les éléments (lettres, formes, syllabes, mots) = `src/contenus/elements/etape-N.json` (tableau). Un élément créé à une
   étape peut être réutilisé dans toutes les étapes suivantes. Avant de créer un identifiant, vérifie qu'il n'existe pas
-  déjà (`grep -r '"id": "mot-xxx"' src/content/elements`).
-- Translittération des références coraniques = `src/content/coran-translit/etape-N.json` : `{ "q:1:2:1": "al-ḥamdou" }`.
+  déjà (`grep -r '"id": "mot-xxx"' src/contenus/elements`).
+- Translittération des références coraniques = `src/contenus/coran-translit/etape-N.json` : `{ "q:1:2:1": "al-ḥamdou" }`.
 
 ## Identifiants stables
 
@@ -21,6 +21,14 @@ Ce guide est la référence pour écrire ou modifier une leçon. Les schémas ex
   Ex. `q:112:1:5` = قُلْ ; `q:1:2:1` = ٱلْحَمْدُ. Ne recopie **jamais** un mot coranique dans un élément : utilise la référence.
   Pour lister les jetons : `npx tsx scripts/jetons.ts 112 1`.
 
+## Citer le Coran dans un texte (notes, explications, consignes)
+
+Jamais de mot coranique tapé dans un texte. On écrit une balise : `Le mot [[q:1:2:1]] commence par l'article.`
+À la construction, la balise est remplacée par le texte lu dans Tanzil et affichée avec `data-q` (vérifiée comme le
+reste). Le contrôle `coranEnDur` refuse, aux étapes 6 à 9, tout mot du Coran recopié dans un texte.
+`npx tsx scripts/detecter-coran-en-dur.ts --corriger` remplace automatiquement les mots recopiés par des balises.
+Les lettres et syllabes isolées (ب, بَ) s'écrivent normalement : elles sont affichées en arabe isolé, 1,4 em.
+
 ## Translittération (pour francophones)
 
 Simple et constante : a, i, ou ; longues â, î, oû ; ḥ (ح), kh, ʿ (ع), gh, q, ṣ, ḍ, ṭ, ẓ, th (ث), dh (ذ), ch (ش), dj (ج) ;
@@ -30,7 +38,7 @@ hamza = ʾ ; lettre doublée = consonne doublée (« rabbi »). Exemple : بِس
 
 Chaque texte arabe « demande » des notions, déduites automatiquement (lettres, voyelles, signes, formes liées si au moins
 deux lettres, madd si voyelle longue, article al-…). Une notion doit être déclarée dans `enseigne` d'une leçon antérieure
-ou de la leçon elle-même. Répartition (`src/content/notions.ts`) :
+ou de la leçon elle-même. Répartition (`src/contenus/notions.ts`) :
 
 | Étape | Notions |
 |---|---|

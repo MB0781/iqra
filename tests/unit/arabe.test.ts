@@ -76,3 +76,18 @@ describe('vérification des textes pédagogiques', () => {
     expect(verifierTextePedagogique('باب')).toEqual([]);
   });
 });
+
+import { segments, typo } from '../../src/components/ui/TexteMixte';
+
+describe('texte français mêlé d’arabe', () => {
+  it('isole les passages arabes, espaces comprises', () => {
+    expect(segments('Trois sons : ب ت ث, puis la suite')).toEqual([
+      { arabe: false, t: 'Trois sons : ' },
+      { arabe: true, t: 'ب ت ث' },
+      { arabe: false, t: ', puis la suite' },
+    ]);
+  });
+  it('applique la typographie française', () => {
+    expect(typo("L'arabe : « b » à 85 %, étape 2")).toBe('L’arabe\u202F: «\u202Fb\u202F» à 85\u202F%, étape\u00A02');
+  });
+});

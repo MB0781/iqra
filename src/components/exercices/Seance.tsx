@@ -2,8 +2,8 @@
  * Enchaîne une série d'exercices, enregistre chaque réponse et calcule le score.
  */
 import { useEffect, useRef, useState } from 'react';
-import type { Exercice } from '../../content/schema';
-import type { Item } from '../../content/types';
+import type { Exercice } from '../../contenus/schema';
+import type { Item } from '../../contenus/types';
 import type { Contexte } from '../../lib/progression/types';
 import { depot } from '../../lib/progression/depot';
 import ExerciceVue, { type ResultatExercice } from './Exercice';

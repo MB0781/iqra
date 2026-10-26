@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { JSDOM } from 'jsdom';
 import TexteArabe from '../../src/components/arabe/TexteArabe';
-import { contenus, refsBloc, refsExercice } from '../../src/content/charger';
+import { contenus, refsBloc, refsExercice } from '../../src/contenus/charger';
 import { estRefCoran, resoudreRef, texteVerset } from '../../src/lib/coran';
 
 const combinaisons = [

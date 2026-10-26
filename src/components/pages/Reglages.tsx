@@ -67,9 +67,9 @@ export default function Reglages() {
           valeur={r.tailleArabe}
           onChange={(v) => maj({ ...r, tailleArabe: v })}
           options={[
-            { v: 'normale', label: 'Normale', extra: <span lang="ar" dir="rtl" className="ar" style={{ fontSize: '1.75rem', lineHeight: 1.6 }}>بَ</span> },
-            { v: 'grande', label: 'Grande', extra: <span lang="ar" dir="rtl" className="ar" style={{ fontSize: '2.125rem', lineHeight: 1.6 }}>بَ</span> },
-            { v: 'tres-grande', label: 'Très grande', extra: <span lang="ar" dir="rtl" className="ar" style={{ fontSize: '2.5rem', lineHeight: 1.6 }}>بَ</span> },
+            { v: 'normale', label: 'Normale', extra: <span lang="ar" dir="rtl" className="ar" style={{ fontSize: '2.25rem', lineHeight: 1.6 }}>بَ</span> },
+            { v: 'grande', label: 'Grande', extra: <span lang="ar" dir="rtl" className="ar" style={{ fontSize: '2.75rem', lineHeight: 1.6 }}>بَ</span> },
+            { v: 'tres-grande', label: 'Très grande', extra: <span lang="ar" dir="rtl" className="ar" style={{ fontSize: '3.25rem', lineHeight: 1.6 }}>بَ</span> },
           ]}
         />
       </section>

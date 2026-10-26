@@ -1,0 +1,235 @@
+{
+  "id": "e6-l04",
+  "etape": 6,
+  "ordre": 4,
+  "titre": "L'alif maqsoura : ى",
+  "resume": "Un yâ sans points en fin de mot : « â », « î » ou « y » selon la voyelle d'avant.",
+  "duree": 8,
+  "enseigne": [
+    "signe-alif-maqsura"
+  ],
+  "elementsNouveaux": [
+    "lettre-alif-maqsura",
+    "mot-macha",
+    "q:2:5:2",
+    "q:79:17:2",
+    "q:113:4:4",
+    "q:97:5:2"
+  ],
+  "theorie": [
+    {
+      "type": "texte",
+      "texte": "En fin de mot, tu verras souvent un **yâ sans ses deux points** : ى. On l'appelle **alif maqsoura**. Pour savoir comment le lire, **regarde la voyelle de la lettre d'avant**."
+    },
+    {
+      "type": "presentation",
+      "element": "q:2:5:2",
+      "note": "**Après une fatha : « â » long.** Souvent, un petit alif ٰ posé dessus te le rappelle : [[q:2:5:2]], « ʿalâ »."
+    },
+    {
+      "type": "presentation",
+      "element": "mot-macha",
+      "note": "مَشَى : « machâ » (il a marché). Dans l'écriture courante, pas de petit alif : la fatha suffit à indiquer « â »."
+    },
+    {
+      "type": "presentation",
+      "element": "q:113:4:4",
+      "note": "**Après une kasra : « î » long.** Dans le Mushaf, le yâ de fin de mot est souvent écrit sans points : [[q:113:4:4]], « fî »."
+    },
+    {
+      "type": "presentation",
+      "element": "q:97:5:2",
+      "note": "**Avec sa propre voyelle ou un soukoun : la consonne « y ».** [[q:97:5:2]] : « hiya »."
+    },
+    {
+      "type": "astuce",
+      "texte": "Résumé : fatha avant → « â » ; kasra avant → « î » ; voyelle ou soukoun dessus → « y ». C'est la même logique que les voyelles longues que tu connais déjà, seuls les points manquent."
+    }
+  ],
+  "pratique": [
+    {
+      "id": "p1",
+      "type": "lis-choisis-son",
+      "cible": "q:2:5:2",
+      "options": [
+        "q:2:5:2",
+        "q:79:17:2",
+        "q:97:5:3"
+      ],
+      "explication": "[[q:2:5:2]] : ʿayn avec fatha, lâm avec fatha, puis ى (avec petit alif) qui allonge : « ʿalâ »."
+    },
+    {
+      "id": "p2",
+      "type": "classe",
+      "consigne": "Comment se lit le ى final ?",
+      "categories": [
+        {
+          "id": "aa",
+          "label": "« â » (fatha avant)"
+        },
+        {
+          "id": "ii",
+          "label": "« î » (kasra avant)"
+        }
+      ],
+      "elements": [
+        {
+          "ref": "q:2:5:2",
+          "categorie": "aa"
+        },
+        {
+          "ref": "q:97:5:3",
+          "categorie": "aa"
+        },
+        {
+          "ref": "q:79:17:5",
+          "categorie": "aa"
+        },
+        {
+          "ref": "q:113:4:4",
+          "categorie": "ii"
+        },
+        {
+          "ref": "q:111:1:7",
+          "categorie": "ii"
+        },
+        {
+          "ref": "q:103:2:3",
+          "categorie": "ii"
+        },
+        {
+          "ref": "q:79:36:4",
+          "categorie": "aa"
+        },
+        {
+          "ref": "q:88:7:4",
+          "categorie": "ii"
+        }
+      ],
+      "explication": "Regarde la lettre juste avant ى : une fatha donne « â » (souvent avec le petit alif ٰ), une kasra donne « î »."
+    },
+    {
+      "id": "p3",
+      "type": "ecoute-choisis",
+      "cible": "q:79:17:2",
+      "options": [
+        "q:79:17:2",
+        "q:2:5:2",
+        "q:113:3:4"
+      ],
+      "explication": "« ilâ » : hamza sous l'alif (i), lâm avec fatha, puis ى lu « â »."
+    },
+    {
+      "id": "p4",
+      "type": "lis-choisis-son",
+      "cible": "q:97:5:2",
+      "options": [
+        "q:97:5:2",
+        "q:113:4:4",
+        "q:112:1:6"
+      ],
+      "explication": "Ici, ى porte une fatha : c'est la consonne « y ». [[q:97:5:2]] se lit « hiya »."
+    },
+    {
+      "id": "p5",
+      "type": "lis-choisis-son",
+      "cible": "q:2:20:24",
+      "options": [
+        "q:2:20:24",
+        "q:1:7:5",
+        "q:113:2:2"
+      ],
+      "explication": "[[q:2:20:24]] : chîn avec fatha, ى avec soukoun (« y »), hamza seule avec tanwin kasra (« ʾin ») : « chayʾin » (une chose)."
+    },
+    {
+      "id": "p6",
+      "type": "trouve-lettre",
+      "mot": "q:97:5:3",
+      "lettre": "lettre-alif-maqsura",
+      "reponse": "fin",
+      "explication": "[[q:97:5:3]], « ḥattâ » : l'alif maqsoura est à la fin du mot, après le tâ doublé avec fatha."
+    },
+    {
+      "id": "p7",
+      "type": "ecoute-choisis",
+      "cible": "q:87:3:3",
+      "options": [
+        "q:87:3:3",
+        "q:79:17:5",
+        "q:79:36:4"
+      ],
+      "explication": "« fa-hadâ » : fâ, hâ, dâl, chacun avec fatha, puis ى lu « â »."
+    },
+    {
+      "id": "p8",
+      "type": "lis-choisis-son",
+      "cible": "q:2:2:6",
+      "options": [
+        "q:2:2:6",
+        "q:87:3:3",
+        "q:112:1:6"
+      ],
+      "explication": "[[q:2:2:6]] : le dâl porte un tanwin fatha : « houdan » (une guidance). Le ى final sert de support au tanwin."
+    },
+    {
+      "id": "p9",
+      "type": "lis-verifie",
+      "cible": "q:93:3",
+      "explication": "« mâ waddaʿaka rabbouka wa-mâ qalâ ». Le dernier mot finit par ى après une fatha : « qalâ »."
+    }
+  ],
+  "test": [
+    {
+      "id": "t1",
+      "type": "lis-choisis-son",
+      "cible": "q:79:17:5",
+      "options": [
+        "q:79:17:5",
+        "q:2:5:2",
+        "q:93:3:5"
+      ],
+      "explication": "[[q:79:17:5]] : ṭâ et ghayn avec fatha, puis ى lu « â » : « ṭaghâ »."
+    },
+    {
+      "id": "t2",
+      "type": "ecoute-choisis",
+      "cible": "q:103:2:3",
+      "options": [
+        "q:103:2:3",
+        "q:113:4:4",
+        "q:111:1:7"
+      ],
+      "explication": "« lafî » : lâm avec fatha, fâ avec kasra, puis ى lu « î »."
+    },
+    {
+      "id": "t3",
+      "type": "lis-choisis-son",
+      "cible": "q:80:9:2",
+      "options": [
+        "q:80:9:2",
+        "q:88:7:4",
+        "q:79:36:4"
+      ],
+      "explication": "[[q:80:9:2]] : yakh-châ. Le chîn porte une fatha, donc ى se lit « â » : « yakhchâ »."
+    },
+    {
+      "id": "t4",
+      "type": "lis-choisis-son",
+      "cible": "q:109:6:3",
+      "options": [
+        "q:109:6:3",
+        "q:103:2:3",
+        "q:2:2:6"
+      ],
+      "explication": "[[q:109:6:3]] : ى porte une fatha, c'est la consonne « y » : « wa-liya »."
+    },
+    {
+      "id": "t5",
+      "type": "trouve-lettre",
+      "mot": "q:111:1:7",
+      "lettre": "lettre-alif-maqsura",
+      "reponse": "fin",
+      "explication": "[[q:111:1:7]], « abî » : le yâ sans points est en fin de mot, après une kasra, donc « î »."
+    }
+  ]
+}

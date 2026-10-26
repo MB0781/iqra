@@ -5,6 +5,7 @@ import { depot } from '../../lib/progression/depot';
 import { etapeDebloquee, etapeValidee, leconDebloquee, prochaineLecon, type LeconRef } from '../../lib/progression/regles';
 import type { EtatEtape, EtatLecon } from '../../lib/progression/types';
 import { lien } from '../../lib/liens';
+import TexteMixte from '../ui/TexteMixte';
 
 interface EtapeVue {
   numero: number;
@@ -66,7 +67,9 @@ export default function Parcours({ etapes }: { etapes: EtapeVue[] }) {
                     <>
                       <Icone aria-hidden size={18} className={`shrink-0 ${faite || estProchaine ? 'text-accent' : 'text-encre-3'}`} />
                       <span className="flex-1">
-                        <span className={`block ${estProchaine ? 'font-semibold' : ''}`}>{l.titre}</span>
+                        <span className={`block ${estProchaine ? 'font-semibold' : ''}`}>
+                          <TexteMixte texte={l.titre} />
+                        </span>
                         <span className="text-xs text-encre-3">
                           {l.duree} min{faite ? ', validée' : estProchaine ? ', à faire maintenant' : !dispo ? ', fermée' : ''}
                         </span>
