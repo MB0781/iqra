@@ -67,8 +67,10 @@ export function verset(s: number, a: number): Verset {
   const texte = texteVerset(s, a);
   const bruts = texte.split(' ');
   const basm = jetonsBasmala();
+  // On compare les lettres seules : Tanzil écrit parfois la basmala avec un signe de plus (ex. 97:1 « بِّسْمِ »).
+  const lettres = (t: string) => Array.from(t).filter(estLettre).join('');
   const prefixeBasmala =
-    a === 1 && s !== 1 && s !== 9 && basm.every((b, i) => bruts[i] === b) ? basm.length : 0;
+    a === 1 && s !== 1 && s !== 9 && basm.every((b, i) => bruts[i] !== undefined && lettres(bruts[i]) === lettres(b)) ? basm.length : 0;
   let pos = 0;
   const jetons = bruts.map((t, i) => {
     const basmala = i < prefixeBasmala;

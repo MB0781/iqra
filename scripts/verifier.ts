@@ -79,10 +79,10 @@ const urls = manifeste.elements.filter((e) => e.statut === 'disponible' && e.url
 if (sansReseau) {
   console.log(`… URL audio distantes : ${urls.length} non testées (--sans-reseau)`);
 } else {
-  const domaines = new Map<string, { ok: number; ko: number; bloque: number; exemple?: string }>();
+  const domaines = new Map<string, { ok: number; ko: number; bloque: number; exemple?: string; erreurs: string[] }>();
   async function tester(u: string) {
     const d = new URL(u).host;
-    const s = domaines.get(d) ?? { ok: 0, ko: 0, bloque: 0 };
+    const s = domaines.get(d) ?? { ok: 0, ko: 0, bloque: 0, erreurs: [] };
     domaines.set(d, s);
     try {
       const r = await fetch(u, { headers: { Range: 'bytes=0-0' }, signal: AbortSignal.timeout(15000) });
@@ -90,7 +90,7 @@ if (sansReseau) {
       if (r.ok) s.ok++;
       else {
         s.ko++;
-        s.exemple ??= `${u} → HTTP ${r.status}`;
+        s.erreurs.push(`${u} → HTTP ${r.status}`);
       }
     } catch (e) {
       s.bloque++;
@@ -103,6 +103,7 @@ if (sansReseau) {
     const ok = s.ko === 0 && s.bloque === 0;
     console.log(`${ok ? '✔' : '✘'} URL audio ${d} : ${s.ok} répondent, ${s.ko} en erreur, ${s.bloque} injoignables${s.bloque ? ' (domaine bloqué par le réseau ?)' : ''}`);
     if (s.exemple) console.log(`   - exemple : ${s.exemple}`);
+    s.erreurs.forEach((e) => console.log(`   - ${e}`));
     echecs += s.ko + s.bloque;
   }
 }

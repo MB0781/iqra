@@ -270,3 +270,29 @@ pages de `dist/` pour trouver l'arabe placé hors de `lang="ar"`.
 
 **Verdict global : BLOQUÉ**, jusqu'à la correction des 10 mots et de `normaliserMot`. Une fois ces deux points
 corrigés et `npm run verifier` relancé, rien d'autre ne s'oppose à la validation.
+
+---
+
+## Contrôle final (commit `5ef9daf`, `dist/` reconstruit)
+
+- `npm test` : `Test Files 7 passed (7)` · `Tests 92 passed (92)`.
+- `npx tsx scripts/verifier.ts --sans-reseau` : `121 blocs affichés sur 27 pages, 121 identiques à Tanzil (100.0 %)` ;
+  structure, ordreNotions, testsInedits, texteArabe, refsCoran et coranEnDur à 0 problème ; `Tout est conforme.`
+- Contrôle indépendant : j'ai comparé chaque mot des textes libres aux jetons Tanzil, après décomposition Unicode (NFD).
+  **Aucun mot coranique en dur dans les étapes 6 à 9.** Il ne reste que les 28 mots d'arabe courant des étapes 4 et 5,
+  jugés acceptables plus haut.
+- Le contrôle automatique détecte maintenant les mots avec madd : `motsCoranEnDur('جَآءَ')` renvoie `['جَآءَ']`, et
+  `motsCoranEnDur('ٱلضَّآلِّينَ ont')` renvoie `['ٱلضَّآلِّينَ']`.
+- Analyse du HTML de toutes les pages de `dist/` : **0 page** avec de l'arabe hors `lang="ar"`.
+- Reste sans effet visuel et non bloquant : l'ordre voyelle puis chadda dans quelques mots d'entraînement des textes
+  libres (étapes 4, 5 et 7).
+
+| Écran | Verdict |
+|---|---|
+| Leçons | **VALIDÉ** |
+| Tests de fin d'étape | **VALIDÉ** |
+| Lecture guidée | **VALIDÉ** |
+| Accueil | **VALIDÉ** |
+| Alphabet | **VALIDÉ** |
+
+**Verdict global : VALIDÉ.** Les points de la section 5 restent à soumettre à une personne qualifiée. Aucun ne bloque.

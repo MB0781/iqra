@@ -31,6 +31,12 @@ describe('références', () => {
     expect(v.jetons.slice(0, 4).every((j) => j.basmala && j.mot === null)).toBe(true);
     expect(v.jetons[4].mot).toBe(1);
   });
+  it('basmala reconnue même écrite avec un signe de plus (97:1)', () => {
+    const v = verset(97, 1);
+    expect(v.jetons.slice(0, 4).every((j) => j.basmala)).toBe(true);
+    expect(v.jetons[4].mot).toBe(1);
+    expect(v.jetons.filter((j) => j.mot !== null)).toHaveLength(5);
+  });
   it('plage de jetons et verset entier', () => {
     expect(resoudreRef('q:112:1:5-8').texte.split(' ')).toHaveLength(4);
     expect(resoudreRef('q:1:1').texte).toBe(texteVerset(1, 1));
