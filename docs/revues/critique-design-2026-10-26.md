@@ -247,3 +247,57 @@ corrigent en quelques composants, sans refonte.
 13. Deux gabarits de page (large / lecture) au lieu de quatre bords gauches différents.
 14. Détails : triangle natif du `<details>`, seuil de 85 % répété dans le test, descriptions des étapes 6 à 9 sur
     l'accueil, explications centrées dans les cartes-lettres sur mobile, largeur des boutons principaux sur mobile.
+
+---
+
+## Revue de contrôle (26 octobre 2026, après le commit 79c223e)
+
+Base : les nouvelles captures `docs/captures/*.jpg` (mobile ×2), dont `exercice-question-*` et `exercice-retour-*`,
+en clair et en sombre, en mobile et en ordinateur.
+
+### Les trois bloquantes
+
+1. **Aide syllabes — levée.** Les mots ne sont plus coupés (sur mobile, la basmala passe sur deux lignes, deux mots
+   par ligne, sans couper ٱلرَّحِيمِ). Les limites de mots se voient nettement en ordinateur.
+   Reste un détail : sur mobile, le soulignement de la ligne 1 touche presque l'alif suscrit de ٱلرَّحْمَٰنِ sur la
+   ligne 2. Il faut monter l'interligne du bloc `.aide-syllabes` à environ 2,4 (souhaitable).
+2. **Arabe dans le texte français — levée.** Les titres de leçons (parcours, h1, tableau de bord), les paires
+   difficiles, l'explication de l'étape 8 et la méthode affichent l'arabe isolé, à la bonne taille, insécable. Le
+   bidi de la méthode est corrigé (« ح et ه, ع et l’alif… »).
+3. **Interrupteurs éteints — levée.** Le curseur `--encre-3` se lit nettement en clair comme en sombre (lecture
+   guidée, réglages).
+
+### Statut final par écran
+
+| Écran | Statut | Commentaire |
+|---|---|---|
+| Accueil | **VALIDÉ** | Exercice juste sous le titre sur mobile, basmala lisible. Reste environ 120 px vides au bas de la carte du héros (place du retour) : détail. |
+| Parcours | **VALIDÉ** | Arabe lisible et insécable. Le repli des étapes fermées n'est pas fait, par choix assumé : accepté. Le chapeau de `parcours.astro` garde « 85 % » avec une espace normale, d'où « 85 / % » coupé sur mobile : à reprendre au passage. |
+| Leçon | **VALIDÉ** | Typographie corrigée (« Son : « b », comme dans « bateau » »), explication alignée à gauche. |
+| Leçon étape 8 | **VALIDÉ** | Textes alignés (colonne fixe), mention « audio indisponible » neutre. |
+| Exercice (question / retour) | **VALIDÉ** | Options larges, retour clair (✓ / ✗ et panneau), bouton « Continuer » pleine largeur sur mobile, sombre soigné. Souhaitable : dans les titres, l'arabe en `.ar-inline` (1,4 em d'un h1) est presque aussi grand que la lettre à lire de l'exercice (56 px), ce qui brouille la hiérarchie. Ramener l'arabe des titres à **1,15 em** pour que la lettre étudiée reste le sujet de la page. |
+| Test d'étape | **À CORRIGER (mineur)** | Le h1 et le chapeau ne passent pas par la typographie française : « Test de l'étape / 1 : » est coupé sur mobile, avec des apostrophes droites (« l'étape 2 ») et « 85 % » sans espace insécable. Il faut appliquer le même filtre au titre et au chapeau du test. Le seuil n'est plus répété : correct. |
+| Révision | **VALIDÉ** | Inchangé. |
+| Alphabet | **VALIDÉ** | Colonnes dans l'ordre de lecture (Fin, Milieu, Début, Isolée), une seule mention audio, paires alignées. Détails : la liste « Conseils de prononciation » garde des espaces normales dans les guillemets (« « b » ») alors que les paires ont des espaces fines, et le chapeau parle de « boutons d’écoute » que la liste n'affiche pas. |
+| Lecture Al-Fatiha | **VALIDÉ** | Numéros cerclés à droite, chevron dessiné, interrupteurs lisibles. Détail : « L'Ouverture » avec une apostrophe droite. |
+| Lecture (liste) | **VALIDÉ** | Inchangé. |
+| Tableau de bord | **VALIDÉ** | L'état vide est maintenant une phrase et une action, sans les quatre zéros : bien. |
+| Réglages | **VALIDÉ** | Aperçus à la vraie taille, interrupteurs conformes. Détail : le lien « Réglages » de l'en-tête n'est toujours pas marqué comme page active. |
+| Méthode | **VALIDÉ** | Bidi corrigé. Détail : l'arabe en ligne agrandit l'interligne de sa ligne (saut visible dans le paragraphe « La prononciation »). Mettre `line-height: 1` sur `.ar-inline` dans la prose. L'unification des gabarits n'est pas faite, par choix assumé : accepté. |
+| 404 | **VALIDÉ** | Détail : sur mobile, les deux boutons ne sont pas en pleine largeur, contrairement à la règle « < 640 px » appliquée ailleurs. |
+
+### Verdict global de la revue de contrôle
+
+**VALIDÉ.** Les trois corrections bloquantes sont levées et vérifiées sur les captures, en clair et en sombre, en
+mobile et en ordinateur. La plupart des corrections souhaitables sont appliquées sans régression visible. Les deux
+refus assumés (repli du parcours, gabarits unifiés) relèvent du confort et ne gênent pas l'apprentissage. Le site
+garde une identité propre et calme, qui ne fait pas « généré par une IA ».
+
+Reste un seul point à corriger, mineur et non bloquant : la typographie française du titre et du chapeau du test
+d'étape (et du chapeau du parcours). Suivent quelques détails optionnels :
+- interligne de `.aide-syllabes` à environ 2,4 ;
+- arabe des titres à 1,15 em ;
+- `line-height: 1` pour `.ar-inline` dans la prose ;
+- état actif de « Réglages » dans l'en-tête ;
+- boutons de la 404 en pleine largeur sur mobile ;
+- apostrophe de « L'Ouverture ».

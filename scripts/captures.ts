@@ -31,7 +31,7 @@ const pages: [string, string][] = [
   ['404', 'nexiste-pas/'],
 ];
 const formats = [
-  { nom: 'mobile', options: devices['Pixel 7'] },
+  { nom: 'mobile', options: { ...devices['Pixel 7'], deviceScaleFactor: 2 } },
   { nom: 'ordinateur', options: { viewport: { width: 1280, height: 800 } } },
 ];
 const navigateur = await chromium.launch();
@@ -42,7 +42,7 @@ for (const f of formats) {
     for (const [nom, chemin] of pages) {
       await page.goto(BASE + chemin, { waitUntil: 'networkidle' });
       await page.evaluate(() => document.fonts.ready);
-      await page.screenshot({ path: join(dossier, `${nom}-${f.nom}-${theme === 'light' ? 'clair' : 'sombre'}.png`), fullPage: true });
+      await page.screenshot({ path: join(dossier, `${nom}-${f.nom}-${theme === 'light' ? 'clair' : 'sombre'}.jpg`), fullPage: true, type: 'jpeg', quality: 72 });
     }
     await ctx.close();
   }
@@ -53,15 +53,23 @@ for (const f of formats) {
     const ctx = await navigateur.newContext({ ...f.options, colorScheme: theme, serviceWorkers: 'block' });
     const page = await ctx.newPage();
     const suffixe = `${f.nom}-${theme === 'light' ? 'clair' : 'sombre'}`;
-    await page.goto(BASE + 'lecon/e3-l01/', { waitUntil: 'load' });
+    await page.goto(BASE + 'lecon/e1-l01/', { waitUntil: 'load' });
     await page.locator('[data-action="commencer-pratique"]').click();
     await page.waitForTimeout(400);
-    await page.screenshot({ path: join(dossier, `exercice-question-${suffixe}.png`) });
+    await page.screenshot({ path: join(dossier, `exercice-question-${suffixe}.jpg`), type: 'jpeg', quality: 72 });
+    // Avancer jusqu'à un exercice à choix (boutons d'option)
+    for (let i = 0; i < 6 && (await page.locator('[data-option]').count()) === 0; i++) {
+      if (await page.locator('[data-action="j-ai-lu"]').count()) {
+        await page.locator('[data-action="j-ai-lu"]').click();
+        await page.locator('[data-eval="juste"]').click();
+      } else break;
+      await page.locator('[data-action="continuer"]').click();
+    }
     await page.locator('[data-option]').first().click();
     await page.waitForTimeout(300);
-    await page.screenshot({ path: join(dossier, `exercice-retour-${suffixe}.png`) });
+    await page.screenshot({ path: join(dossier, `exercice-retour-${suffixe}.jpg`), type: 'jpeg', quality: 72 });
     await ctx.close();
   }
 }
 await navigateur.close();
-console.log(`${pages.length * 4} captures dans ${dossier}`);
+console.log(`${pages.length * 4 + 8} captures dans ${dossier}`);

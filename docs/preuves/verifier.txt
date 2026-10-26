@@ -1,0 +1,14 @@
+✔ Texte coranique : 120 blocs affichés sur 27 pages, 120 identiques à Tanzil (100.0 %)
+✔ Contenus / structure : 0 problème(s)
+✔ Contenus / ordreNotions : 0 problème(s)
+✔ Contenus / testsInedits : 0 problème(s)
+✔ Contenus / texteArabe : 0 problème(s)
+✔ Contenus / refsCoran : 0 problème(s)
+✔ Contenus / coranEnDur : 0 problème(s)
+✔ Manifeste audio : 690 entrées, toutes avec un statut valide
+✘ URL audio verses.quran.com : 0 répondent, 0 en erreur, 34 injoignables (domaine bloqué par le réseau ?)
+   - exemple : https://verses.quran.com/Alafasy/mp3/001001.mp3 → Error: getaddrinfo ENOTFOUND verses.quran.com
+✘ URL audio audio.qurancdn.com : 0 répondent, 0 en erreur, 180 injoignables (domaine bloqué par le réseau ?)
+   - exemple : https://audio.qurancdn.com/wbw/001_001_001.mp3 → Error: getaddrinfo ENOTFOUND audio.qurancdn.com
+
+214 problème(s).

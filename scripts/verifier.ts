@@ -85,7 +85,8 @@ if (sansReseau) {
     const s = domaines.get(d) ?? { ok: 0, ko: 0, bloque: 0 };
     domaines.set(d, s);
     try {
-      const r = await fetch(u, { method: 'HEAD', signal: AbortSignal.timeout(15000) });
+      const r = await fetch(u, { headers: { Range: 'bytes=0-0' }, signal: AbortSignal.timeout(15000) });
+      await r.body?.cancel();
       if (r.ok) s.ok++;
       else {
         s.ko++;
