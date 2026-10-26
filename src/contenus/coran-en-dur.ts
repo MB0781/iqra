@@ -9,7 +9,8 @@ export const RE_PASSAGE_ARABE = /[؀-ۿݐ-ݿࢠ-ࣿ]+(?:\s+[؀-ۿݐ-ݿࢠ-ࣿ]+)
 
 /** Forme comparable d'un mot : signes triés dans chaque grappe, ponctuation retirée. */
 export function normaliserMot(mot: string): string {
-  return grappes(mot.replace(/[،؛؟.,]/g, ''))
+  // NFD : آ précomposé (U+0622) devient ا + ٓ, comme dans Tanzil.
+  return grappes(mot.normalize('NFD').replace(/[،؛؟.,]/g, ''))
     .map((g) => g.base + Array.from(g.signes).sort().join(''))
     .join('');
 }

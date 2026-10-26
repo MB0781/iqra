@@ -12,6 +12,7 @@ import TexteArabe from '../arabe/TexteArabe';
 import BoutonAudio from '../ui/BoutonAudio';
 import { useAudio } from '../ui/useAudio';
 import { CONSIGNES } from './outils';
+import TexteMixte from '../ui/TexteMixte';
 import type { ResultatExercice } from './Exercice';
 import { AutoEvaluation, SCORE_EVAL } from './Exercice';
 
@@ -81,7 +82,9 @@ export default function LectureGuidee({ ex, items, onFini, maitrises = [] }: Pro
 
   return (
     <div>
-      <h2 className="text-lg font-semibold">{ex.consigne ?? CONSIGNES['lecture-guidee']}</h2>
+      <h2 className="text-lg font-semibold">
+        <TexteMixte texte={ex.consigne ?? CONSIGNES['lecture-guidee']} />
+      </h2>
       <details className="aides mt-4 rounded-[var(--radius-md)] border border-trait bg-surface-2/60 px-4 py-2" open={ex.aides.length > 0}>
         <summary className="flex min-h-11 cursor-pointer items-center justify-between text-sm font-semibold">
           Aides à la lecture
@@ -143,7 +146,9 @@ export default function LectureGuidee({ ex, items, onFini, maitrises = [] }: Pro
         </>
       ) : (
         <div role="status" className="mt-6 rounded-[var(--radius-md)] border border-accent/40 bg-accent-doux p-4">
-          <p className="text-encre-2">{ex.explication}</p>
+          <p className="text-encre-2">
+            <TexteMixte texte={ex.explication} />
+          </p>
           <button
             type="button"
             className="bouton bouton-principal mt-4"

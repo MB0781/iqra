@@ -47,7 +47,7 @@
     {
       "type": "presentation",
       "element": "q:110:1:6",
-      "note": "جَآءَ : « djâʾa ». Le « â » est long et tenu, puis vient le coup de glotte et « a »."
+      "note": "[[q:110:1:6]] : « djâʾa ». Le « â » est long et tenu, puis vient le coup de glotte et « a »."
     },
     {
       "type": "paire",
@@ -148,7 +148,7 @@
         "q:2:255:40",
         "q:113:2:4"
       ],
-      "explication": "جَآءَ : jîm + « â » long marqué de la vague (on le tient), puis hamza avec fatha : « djâʾa ». شَآءَ commence par ش (ch)."
+      "explication": "[[q:110:1:6]] : jîm + « â » long marqué de la vague (on le tient), puis hamza avec fatha : « djâʾa ». [[q:2:255:40]] commence par ش (ch)."
     },
     {
       "id": "p6",
@@ -159,7 +159,7 @@
         "q:103:2:1",
         "q:1:5:1"
       ],
-      "explication": "إِنَّآ, « innâ » : comme [[q:103:2:1]] (« inna »), mais avec un alif long surmonté de la vague du madd."
+      "explication": "[[q:108:1:5]], « innâ » : comme [[q:103:2:1]] (« inna »), mais avec un alif long surmonté de la vague du madd."
     },
     {
       "id": "p7",
@@ -170,7 +170,7 @@
         "q:2:255:40",
         "q:2:13:6"
       ],
-      "explication": "مَآءً, « mâʾan » (de l'eau) : le « â » porte la vague, on le tient ; puis la hamza seule avec tanwin fatha : « ʾan »."
+      "explication": "[[q:78:14:4]], « mâʾan » (de l'eau) : le « â » porte la vague, on le tient ; puis la hamza seule avec tanwin fatha : « ʾan »."
     },
     {
       "id": "p8",
@@ -184,7 +184,7 @@
         "q:103:2:1"
       ],
       "resultat": "q:2:255:2-3",
-      "explication": "لَآ (« lâ », tenu grâce à la vague, car un coup de glotte suit) puis [[q:2:255:3]] (« ilâha ») : « lâ ilâha »."
+      "explication": "[[q:2:255:2]] (« lâ », tenu grâce à la vague, car un coup de glotte suit) puis [[q:2:255:3]] (« ilâha ») : « lâ ilâha »."
     },
     {
       "id": "p9",
@@ -255,7 +255,7 @@
         "q:110:1:6",
         "q:2:255:40"
       ],
-      "explication": "جَآءَتِ : même début que جَآءَ (« djâʾa »), avec en plus تِ : « djâʾati »."
+      "explication": "[[q:79:34:2]] : même début que [[q:110:1:6]] (« djâʾa »), avec en plus تِ : « djâʾati »."
     }
   ]
 }

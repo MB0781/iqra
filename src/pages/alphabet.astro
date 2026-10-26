@@ -72,7 +72,7 @@ const paires: [string, string, string][] = [
         <li class="flex flex-wrap items-center gap-x-4 gap-y-1 py-3">
           <span lang="ar" dir="rtl" class="ar w-12 text-center !text-[2rem]">{l.ar}</span>
           <span class="min-w-0 flex-1">
-            <span class="font-semibold">{l.nom}</span> <span class="text-encre-2">: {l.prononciation}</span>
+            <span class="font-semibold">{l.nom}</span> <span class="text-encre-2">&#8239;: <TexteMixte texte={l.prononciation ?? ''} /></span>
           </span>
           {audio[l.id].audio ? <BoutonAudio client:visible url={audio[l.id].audio} libelle={l.nom ?? l.translit} lent={false} /> : null}
         </li>

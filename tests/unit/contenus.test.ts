@@ -30,6 +30,8 @@ describe('citations coraniques dans les textes', () => {
     expect(motsCoranEnDur('Lis ٱلْحَمْدُ à voix haute')).toEqual(['ٱلْحَمْدُ']);
     expect(motsCoranEnDur('Lis [[q:1:2:1]] à voix haute')).toEqual([]);
     expect(motsCoranEnDur('La lettre ب et la syllabe بَ')).toEqual([]);
+    // آ précomposé alors que Tanzil écrit ا + ٓ
+    expect(motsCoranEnDur('Le mot جَآءَ')).toHaveLength(1);
   });
   it('une balise est résolue depuis Tanzil', () => {
     expect(resoudreMarqueurs('Lis [[q:1:2:1]].')).toBe('Lis [[1:2:1-1|ٱلْحَمْدُ]].');

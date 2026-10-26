@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
 import TestEtape from '../../components/exercices/TestEtape.tsx';
+import TexteMixte from '../../components/ui/TexteMixte.tsx';
 import { contenus, itemsPour, refsExercice } from '../../contenus/charger';
 import { lien } from '../../lib/liens';
 
@@ -21,8 +22,8 @@ const toutes = lecons.map((l) => ({ id: l.id, etape: l.etape, ordre: l.ordre }))
       <span aria-hidden="true" class="mx-1.5 text-encre-3">/</span>
       <a class="hover:text-encre" href={lien(`parcours/#etape-${n}`)}>Étape {n}</a>
     </nav>
-    <h1 class="mt-4 text-2xl font-semibold sm:text-3xl">{test.titre}</h1>
-    <p class="mt-2 text-lg text-encre-2">{test.consigne}</p>
+    <h1 class="mt-4 text-2xl font-semibold sm:text-3xl"><TexteMixte texte={test.titre} /></h1>
+    <p class="mt-2 text-lg text-encre-2"><TexteMixte texte={test.consigne} /></p>
     <div class="mt-8">
       <TestEtape client:load etape={n} questions={test.questions} items={items} toutes={toutes} aSuivante={n < etapes.length} />
     </div>

@@ -4,6 +4,7 @@ import type { Item } from '../../contenus/types';
 import TexteArabe from '../arabe/TexteArabe';
 import BoutonAudio from '../ui/BoutonAudio';
 import TexteRiche from '../ui/TexteRiche';
+import TexteMixte from '../ui/TexteMixte';
 
 function Carte({ it, note }: { it: Item; note?: string }) {
   return (
@@ -13,7 +14,9 @@ function Carte({ it, note }: { it: Item; note?: string }) {
         <p className="font-semibold">
           {it.nom ? `${it.nom}, ` : ''}«&#8239;{it.translit}&#8239;»{it.sens ? <span className="font-normal text-encre-2"> ({it.sens})</span> : null}
         </p>
-        {note ? <TexteRiche texte={note} className="mt-1 text-encre-2" /> : it.prononciation ? <p className="mt-1 text-encre-2">{it.prononciation}</p> : null}
+        {note ? <TexteRiche texte={note} className="mt-1 text-encre-2" /> : it.prononciation ? <p className="mt-1 text-encre-2">
+            <TexteMixte texte={it.prononciation} />
+          </p> : null}
         <div className="mt-2">
           <BoutonAudio url={it.audio} libelle={it.translit} />
         </div>

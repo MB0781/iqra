@@ -1,4 +1,4 @@
-✔ Texte coranique : 120 blocs affichés sur 27 pages, 120 identiques à Tanzil (100.0 %)
+✔ Texte coranique : 121 blocs affichés sur 27 pages, 121 identiques à Tanzil (100.0 %)
 ✔ Contenus / structure : 0 problème(s)
 ✔ Contenus / ordreNotions : 0 problème(s)
 ✔ Contenus / testsInedits : 0 problème(s)

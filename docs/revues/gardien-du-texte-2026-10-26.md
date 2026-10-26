@@ -192,3 +192,81 @@ fichiers de code (lettres de `arabe.ts`, بَ des réglages, ب et ت de `Premie
 
 Pour lever le blocage : corriger A (balise de référence, remplacement, contrôle automatique), puis relancer
 `npm run build`, `npm run verifier` et cette revue.
+
+---
+
+## Revue de contrôle (après corrections, commit `79c223e`, `dist/` reconstruit)
+
+### Sorties des commandes
+
+`npm test` : `Test Files 7 passed (7)` · `Tests 92 passed (92)` (dont 9 tests dans `contenus.test.ts`).
+
+`npx tsx scripts/verifier.ts --sans-reseau` :
+
+```
+✔ Texte coranique : 120 blocs affichés sur 27 pages, 120 identiques à Tanzil (100.0 %)
+✔ Contenus / structure : 0 problème(s)
+✔ Contenus / ordreNotions : 0 problème(s)
+✔ Contenus / testsInedits : 0 problème(s)
+✔ Contenus / texteArabe : 0 problème(s)
+✔ Contenus / refsCoran : 0 problème(s)
+✔ Contenus / coranEnDur : 0 problème(s)
+✔ Manifeste audio : 690 entrées, toutes avec un statut valide
+Tout est conforme.
+```
+
+### Contrôle indépendant
+
+Mes scripts ont été relancés sur `src/contenus/`. Ils comparent chaque mot arabe des textes libres aux jetons Tanzil,
+après décomposition Unicode (NFD) et remise des signes dans l'ordre canonique. J'ai aussi analysé le HTML de toutes les
+pages de `dist/` pour trouver l'arabe placé hors de `lang="ar"`.
+
+- **A, en grande partie corrigé** : sur 167 mots retapés, il en reste **10** dans les étapes 6 et 7. Ce sont tous des
+  mots avec la vague du madd :
+  - `etape-6/e6-l02.json` : جَآءَ (ligne 50, note de théorie ; lignes 151 et 258), شَآءَ (151), إِنَّآ (162), مَآءً (173),
+    لَآ (187), جَآءَتِ (258) ;
+  - `etape-6/e6-l03.json` : جَآءَهُ (ligne 114) ;
+  - `etape-7/e7-l05.json` : ٱلضَّآلِّينَ (ligne 141).
+
+  Ces mots sont tapés avec **آ précomposé (U+0622)**. Tanzil écrit **ا + ٓ (U+0627 U+0653)**. Ce ne sont donc pas les
+  caractères de Tanzil. ٱلضَّآلِّينَ a aussi la fatha placée avant la chadda. Ils s'affichent sans `data-q`. Exemple dans
+  `dist/lecon/e6-l02/index.html` : `<span lang="ar" dir="rtl" class="ar-inline">جَآءَ</span> : « djâʾa »`.
+
+  **Pourquoi `coranEnDur` ne les voit pas** : `normaliserMot` (`src/contenus/coran-en-dur.ts`) trie les signes mais
+  ne décompose pas آ. Vérifié avec tsx : `motsCoranEnDur('جَآءَ')` renvoie `[]`.
+
+  Corrections :
+  1. Appliquer `.normalize('NFD')` (ou remplacer آ par ا + ٓ) dans `normaliserMot`, puis ajouter un test avec جَآءَ.
+  2. Remplacer les 10 mots par des balises : جَآءَ → `[[q:110:1:6]]`, شَآءَ → `[[q:2:255:40]]`, إِنَّآ → `[[q:108:1:5]]`,
+     مَآءً → `[[q:78:14:4]]`, لَآ → `[[q:2:255:2]]`, جَآءَتِ → `[[q:79:34:2]]`, جَآءَهُ → `[[q:80:2:2]]`,
+     ٱلضَّآلِّينَ → `[[q:1:7:9]]`.
+- **28 mots des étapes 4 et 5** qui existent aussi dans le Coran (كَتَبَ, مِنْ, قُلْ, كَانَ, كِتَابٌ, شُكْرًا, مَرَّ, عَلَّمَ…) :
+  **acceptable**. Ce sont des mots d'arabe courant, en orthographe standard, sans signe propre au Mushaf. Ils sont
+  utilisés comme vocabulaire d'entraînement, pas comme citations.
+- **B, corrigé**. Aucune page de leçon, de test, de lecture ni l'accueil n'affiche d'arabe hors `lang="ar"`.
+  Deux restes mineurs, non bloquants :
+  - `src/pages/alphabet.astro` ligne 75 et `src/components/exercices/BlocTheorie.tsx` ligne 16 affichent le champ
+    `prononciation` sans `TexteMixte`. Conséquence : ت (dans la fiche de ṭâ) et ذ (dans celle de ẓâ) n'ont pas
+    `lang="ar"` sur `/alphabet`.
+  - `src/components/exercices/LectureGuidee.tsx` ligne 146 affiche `ex.explication` en texte brut. Aucun arabe n'y
+    figure aujourd'hui, mais une balise `[[q:…]]` y apparaîtrait telle quelle. Il faut passer par `TexteMixte`.
+- **C, corrigé dans les éléments** : les 24 chaddas des éléments viennent maintenant avant la voyelle. Dans les textes
+  libres, l'ordre voyelle puis chadda reste dans des mots d'entraînement (`e4-l03`, `e4-l05`, `e5-l01..03`, الشَّمْسُ dans
+  `e7-l02`) et dans ٱللَّه (`e7-l03` ligne 45). Rien ne change à l'écran : non bloquant.
+- **À faire valider** : ٱللَّه, cité sans voyelle finale dans `e7-l03` ligne 45, est le nom divin pris comme exemple, pas un
+  jeton de verset. C'est acceptable, ou on peut le remplacer par `[[q:112:1:7]]`.
+- Rien n'a changé : le fichier Tanzil est intact (le test d'empreinte passe), et les éléments et translittérations n'ont
+  pas d'écart nouveau.
+
+### Verdict final par type d'écran
+
+| Écran | Verdict | Motif |
+|---|---|---|
+| Leçons (`/lecon/…`) | **BLOQUÉ** | 10 mots coraniques retapés avec آ précomposé, sans `data-q`, dans `e6-l02`, `e6-l03` et `e7-l05` |
+| Tests de fin d'étape (`/test/…`) | **VALIDÉ** | aucun mot coranique en dur, blocs `data-q` identiques à Tanzil |
+| Lecture guidée (`/lecture/…`) | **VALIDÉ** | 100 % identique à Tanzil ; prévoir `TexteMixte` pour les explications (préventif) |
+| Accueil (`/`) | **VALIDÉ** | le bloc coranique est vérifié et identique à Tanzil |
+| Alphabet (`/alphabet`) | **VALIDÉ** | lettres correctes ; `lang="ar"` manque sur ت et ذ dans deux conseils (mineur) |
+
+**Verdict global : BLOQUÉ**, jusqu'à la correction des 10 mots et de `normaliserMot`. Une fois ces deux points
+corrigés et `npm run verifier` relancé, rien d'autre ne s'oppose à la validation.

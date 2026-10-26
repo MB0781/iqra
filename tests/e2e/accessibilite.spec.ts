@@ -74,12 +74,14 @@ test('navigation complète au clavier : de l’accueil à la première réponse'
   await expect(page.locator(':focus')).toHaveText('Commencer gratuitement');
   await page.keyboard.press('Enter');
   await expect(page).toHaveURL(/commencer\//);
+  await expect(page.locator('astro-island[ssr]')).toHaveCount(0); // îlot interactif prêt
   for (let i = 0; i < 25; i++) {
     await page.keyboard.press('Tab');
     if ((await page.locator(':focus').getAttribute('data-reponse')) === 'non') break;
   }
   await page.keyboard.press('Enter');
   await expect(page).toHaveURL(/lecon\/e1-l01\//);
+  await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
   for (let i = 0; i < 40; i++) {
     await page.keyboard.press('Tab');
     if ((await page.locator(':focus').getAttribute('data-action')) === 'commencer-pratique') break;
