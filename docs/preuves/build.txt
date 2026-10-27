@@ -1,0 +1,164 @@
+
+> iqra@1.0.0 build
+> astro check && astro build
+
+00:21:13 [content] Syncing content
+00:21:13 [content] Synced content
+00:21:13 [types] Generated 42ms
+00:21:13 [check] Getting diagnostics for Astro files in /home/user/iqra...
+Result (81 files): 
+- 0 errors
+- 0 warnings
+- 0 hints
+
+00:21:18 [content] Syncing content
+00:21:18 [content] Synced content
+00:21:18 [types] Generated 35ms
+00:21:18 [build] output: "static"
+00:21:18 [build] mode: "static"
+00:21:18 [build] directory: /home/user/iqra/dist/
+00:21:18 [build] Collecting build info...
+00:21:18 [build] ✓ Completed in 59ms.
+00:21:18 [build] Building static entrypoints...
+00:21:19 [vite] ✓ built in 1.00s
+00:21:19 [build] ✓ Completed in 1.03s.
+
+ building client (vite) 
+00:21:19 [vite] transforming...
+00:21:21 [vite] ✓ 1833 modules transformed.
+00:21:21 [vite] rendering chunks...
+00:21:21 [vite] computing gzip size...
+00:21:21 [vite] dist/_astro/liens.WxyGQtWG.js               0.10 kB │ gzip:  0.11 kB
+00:21:21 [vite] dist/_astro/BoutonAudio.CNOt72el.js         0.17 kB │ gzip:  0.15 kB
+00:21:21 [vite] dist/_astro/check.BfqDYep1.js               0.30 kB │ gzip:  0.25 kB
+00:21:21 [vite] dist/_astro/rotate-ccw.DrrpsOth.js          0.38 kB │ gzip:  0.29 kB
+00:21:21 [vite] dist/_astro/lock.DF6HZb85.js                0.39 kB │ gzip:  0.30 kB
+00:21:21 [vite] dist/_astro/download.Cc6_FHpe.js            0.42 kB │ gzip:  0.30 kB
+00:21:21 [vite] dist/_astro/DemoExercice.Cw6wkNeL.js        0.48 kB │ gzip:  0.31 kB
+00:21:21 [vite] dist/_astro/jsx-runtime.D_zvdyIk.js         0.73 kB │ gzip:  0.46 kB
+00:21:21 [vite] dist/_astro/LectureLibre.DB4Wpnw_.js        1.09 kB │ gzip:  0.69 kB
+00:21:21 [vite] dist/_astro/TexteMixte.BOoF0Mea.js          1.23 kB │ gzip:  0.71 kB
+00:21:21 [vite] dist/_astro/Seance.6qLWlv-o.js              1.40 kB │ gzip:  0.78 kB
+00:21:21 [vite] dist/_astro/createLucideIcon.D2AFwedw.js    1.86 kB │ gzip:  0.80 kB
+00:21:21 [vite] dist/_astro/PremiereLettre.DET4fD-s.js      2.22 kB │ gzip:  1.09 kB
+00:21:21 [vite] dist/_astro/index.ByuCVD-E.js               2.36 kB │ gzip:  1.05 kB
+00:21:21 [vite] dist/_astro/Accueil.DIc_Adn7.js             2.39 kB │ gzip:  1.00 kB
+00:21:21 [vite] dist/_astro/TestEtape.C7IaB07n.js           3.06 kB │ gzip:  1.52 kB
+00:21:21 [vite] dist/_astro/BoutonAudio.CXwGSqIf.js         3.34 kB │ gzip:  1.46 kB
+00:21:21 [vite] dist/_astro/index.CZ6zXlHd.js               3.89 kB │ gzip:  1.52 kB
+00:21:21 [vite] dist/_astro/Parcours.u9bFx-jP.js            3.99 kB │ gzip:  1.61 kB
+00:21:21 [vite] dist/_astro/Revision.BvyI-DKJ.js            4.14 kB │ gzip:  1.95 kB
+00:21:21 [vite] dist/_astro/Lecon.Krn2U9Tu.js               8.09 kB │ gzip:  2.95 kB
+00:21:21 [vite] dist/_astro/index.Qsb_z7da.js               8.53 kB │ gzip:  3.33 kB
+00:21:21 [vite] dist/_astro/index.DLV60JC2.js               8.65 kB │ gzip:  3.60 kB
+00:21:21 [vite] dist/_astro/Reglages.DtCvVcya.js           11.88 kB │ gzip:  4.59 kB
+00:21:21 [vite] dist/_astro/Studio.g1KyN5ic.js             14.17 kB │ gzip:  6.85 kB
+00:21:21 [vite] dist/_astro/Exercice.CbUVOazA.js           18.74 kB │ gzip:  6.28 kB
+00:21:21 [vite] dist/_astro/TableauDeBord.CX6T5stO.js      34.46 kB │ gzip: 12.04 kB
+00:21:21 [vite] dist/_astro/client.DvXUb1gm.js            175.55 kB │ gzip: 55.67 kB
+00:21:21 [vite] dist/_astro/depot.B-CZntfw.js             179.63 kB │ gzip: 53.42 kB
+00:21:21 [vite] ✓ built in 2.08s
+
+ generating static routes 
+00:21:21 ▶ src/pages/404.astro
+00:21:21   └─ /404.html (+16ms) 
+00:21:21 ▶ src/pages/alphabet.astro
+00:21:21   └─ /alphabet/index.html (+61ms) 
+00:21:21 λ src/pages/catalogue.json.ts
+00:21:21   └─ /catalogue.json (+8ms) 
+00:21:21 ▶ src/pages/commencer.astro
+00:21:21   └─ /commencer/index.html (+5ms) 
+00:21:21 ▶ src/pages/confidentialite.astro
+00:21:21   └─ /confidentialite/index.html (+3ms) 
+00:21:21 ▶ src/pages/design.astro
+00:21:21   └─ /design/index.html (+12ms) 
+00:21:21 ▶ src/pages/index.astro
+00:21:21   └─ /index.html (+5ms) 
+00:21:21 ▶ src/pages/lecon/[id].astro
+00:21:21   ├─ /lecon/e1-l01/index.html (+8ms) 
+00:21:21   ├─ /lecon/e1-l02/index.html (+10ms) 
+00:21:21   ├─ /lecon/e1-l03/index.html (+6ms) 
+00:21:21   ├─ /lecon/e1-l04/index.html (+6ms) 
+00:21:21   ├─ /lecon/e1-l05/index.html (+6ms) 
+00:21:21   ├─ /lecon/e1-l06/index.html (+6ms) 
+00:21:21   ├─ /lecon/e1-l07/index.html (+7ms) 
+00:21:21   ├─ /lecon/e1-l08/index.html (+5ms) 
+00:21:21   ├─ /lecon/e1-l09/index.html (+5ms) 
+00:21:21   ├─ /lecon/e2-l01/index.html (+5ms) 
+00:21:21   ├─ /lecon/e2-l02/index.html (+8ms) 
+00:21:21   ├─ /lecon/e2-l03/index.html (+5ms) 
+00:21:21   ├─ /lecon/e2-l04/index.html (+8ms) 
+00:21:21   ├─ /lecon/e2-l05/index.html (+5ms) 
+00:21:21   ├─ /lecon/e2-l06/index.html (+4ms) 
+00:21:21   ├─ /lecon/e3-l01/index.html (+5ms) 
+00:21:21   ├─ /lecon/e3-l02/index.html (+5ms) 
+00:21:21   ├─ /lecon/e3-l03/index.html (+7ms) 
+00:21:21   ├─ /lecon/e3-l04/index.html (+6ms) 
+00:21:21   ├─ /lecon/e4-l01/index.html (+5ms) 
+00:21:21   ├─ /lecon/e4-l02/index.html (+5ms) 
+00:21:21   ├─ /lecon/e4-l03/index.html (+4ms) 
+00:21:21   ├─ /lecon/e4-l04/index.html (+5ms) 
+00:21:21   ├─ /lecon/e4-l05/index.html (+4ms) 
+00:21:21   ├─ /lecon/e5-l01/index.html (+8ms) 
+00:21:21   ├─ /lecon/e5-l02/index.html (+5ms) 
+00:21:21   ├─ /lecon/e5-l03/index.html (+10ms) 
+00:21:21   ├─ /lecon/e5-l04/index.html (+4ms) 
+00:21:21   ├─ /lecon/e6-l01/index.html (+4ms) 
+00:21:21   ├─ /lecon/e6-l02/index.html (+5ms) 
+00:21:21   ├─ /lecon/e6-l03/index.html (+7ms) 
+00:21:21   ├─ /lecon/e6-l04/index.html (+4ms) 
+00:21:21   ├─ /lecon/e6-l05/index.html (+4ms) 
+00:21:21   ├─ /lecon/e7-l01/index.html (+4ms) 
+00:21:21   ├─ /lecon/e7-l02/index.html (+5ms) 
+00:21:22   ├─ /lecon/e7-l03/index.html (+5ms) 
+00:21:22   ├─ /lecon/e7-l04/index.html (+4ms) 
+00:21:22   ├─ /lecon/e7-l05/index.html (+4ms) 
+00:21:22   ├─ /lecon/e8-l01/index.html (+4ms) 
+00:21:22   ├─ /lecon/e8-l02/index.html (+4ms) 
+00:21:22   ├─ /lecon/e8-l03/index.html (+4ms) 
+00:21:22   ├─ /lecon/e8-l04/index.html (+5ms) 
+00:21:22   ├─ /lecon/e8-l05/index.html (+4ms) 
+00:21:22   ├─ /lecon/e9-l01/index.html (+5ms) 
+00:21:22   ├─ /lecon/e9-l02/index.html (+5ms) 
+00:21:22   ├─ /lecon/e9-l03/index.html (+4ms) 
+00:21:22   ├─ /lecon/e9-l04/index.html (+4ms) 
+00:21:22   └─ /lecon/e9-l05/index.html (+4ms) 
+00:21:22 ▶ src/pages/lecture/[sourate].astro
+00:21:22   ├─ /lecture/1/index.html (+6ms) 
+00:21:22   ├─ /lecture/103/index.html (+4ms) 
+00:21:22   ├─ /lecture/108/index.html (+4ms) 
+00:21:22   ├─ /lecture/112/index.html (+4ms) 
+00:21:22   ├─ /lecture/113/index.html (+4ms) 
+00:21:22   └─ /lecture/114/index.html (+4ms) 
+00:21:22 ▶ src/pages/lecture/index.astro
+00:21:22   └─ /lecture/index.html (+2ms) 
+00:21:22 λ src/pages/manifeste-audio.json.ts
+00:21:22   └─ /manifeste-audio.json (+2ms) 
+00:21:22 ▶ src/pages/methode.astro
+00:21:22   └─ /methode/index.html (+3ms) 
+00:21:22 ▶ src/pages/parcours.astro
+00:21:22   └─ /parcours/index.html (+10ms) 
+00:21:22 ▶ src/pages/reglages.astro
+00:21:22   └─ /reglages/index.html (+6ms) 
+00:21:22 ▶ src/pages/revision.astro
+00:21:22   └─ /revision/index.html (+9ms) 
+00:21:22 ▶ src/pages/sources.astro
+00:21:22   └─ /sources/index.html (+2ms) 
+00:21:22 ▶ src/pages/studio.astro
+00:21:22   └─ /studio/index.html (+4ms) 
+00:21:22 ▶ src/pages/tableau-de-bord.astro
+00:21:22   └─ /tableau-de-bord/index.html (+3ms) 
+00:21:22 ▶ src/pages/test/[etape].astro
+00:21:22   ├─ /test/1/index.html (+5ms) 
+00:21:22   ├─ /test/2/index.html (+6ms) 
+00:21:22   ├─ /test/3/index.html (+4ms) 
+00:21:22   ├─ /test/4/index.html (+4ms) 
+00:21:22   ├─ /test/5/index.html (+5ms) 
+00:21:22   ├─ /test/6/index.html (+4ms) 
+00:21:22   ├─ /test/7/index.html (+4ms) 
+00:21:22   └─ /test/8/index.html (+4ms) 
+00:21:22 ✓ Completed in 769ms.
+
+00:21:22 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+00:21:22 [build] 76 page(s) built in 4.01s
+00:21:22 [build] Complete!

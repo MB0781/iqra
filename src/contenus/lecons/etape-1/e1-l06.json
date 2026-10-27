@@ -1,0 +1,36 @@
+{
+  "id": "e1-l06",
+  "etape": 1,
+  "ordre": 6,
+  "titre": "Hastes et gorge : ط ظ ع غ",
+  "resume": "Deux lettres avec un trait vertical, deux lettres qui viennent de la gorge, chaque fois distinguées par un point.",
+  "duree": 7,
+  "enseigne": ["lettre-tta", "lettre-dha", "lettre-ayn", "lettre-ghayn"],
+  "elementsNouveaux": ["lettre-tta", "lettre-dha", "lettre-ayn", "lettre-ghayn"],
+  "theorie": [
+    { "type": "texte", "texte": "Encore deux paires. Dans chacune, la seconde lettre porte **un point au-dessus**." },
+    { "type": "paire", "elements": ["lettre-tta", "lettre-dha"], "note": "**ط** : une boucle posée sur la ligne, surmontée d'une **haste** (un trait vertical). Son « ṭ », un t emphatique. **ظ** : la même avec un point, son « ẓ », un « dh » emphatique." },
+    { "type": "paire", "elements": ["lettre-ayn", "lettre-ghayn"], "note": "**ع** : une petite tête ouverte en haut, puis une grande courbe sous la ligne. Son « ʿ ». **غ** : la même avec un point, son « gh », proche du « r » français de « Paris »." },
+    { "type": "texte", "texte": "Le son **ʿ** n'existe pas en français : on serre le fond de la gorge en laissant passer la voix. On le note avec une petite apostrophe ouvrante : ʿ." },
+    { "type": "astuce", "texte": "Bonne nouvelle : ton « r » français existe en arabe, c'est غ. Le « r » roulé, lui, c'est ر." },
+    { "type": "attention", "texte": "Ces sons demandent du temps. Ici, ton but est de **reconnaître** chaque lettre à coup sûr. La prononciation viendra en écoutant et en répétant." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "lettre-tta", "options": ["lettre-tta", "lettre-dha"], "explication": "Boucle et haste, sans point : ط, « ṭ ». ظ porte un point." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "lettre-ayn", "options": ["lettre-ayn", "lettre-ghayn", "lettre-hha"], "explication": "Petite tête ouverte, sans point : ع, « ʿ ». ح, lui, a la forme du crochet." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "lettre-ghayn", "options": ["lettre-ayn", "lettre-ghayn", "lettre-kha"], "explication": "Le son « gh » : غ. خ a aussi un point au-dessus, mais c'est le crochet de ج ح خ, pas la petite tête ouverte." },
+    { "id": "p4", "type": "paires-minimales", "paire": ["lettre-tta", "lettre-dha"], "cible": "lettre-dha", "explication": "Même dessin : ط sans point (« ṭ »), ظ avec un point (« ẓ », langue entre les dents)." },
+    { "id": "p5", "type": "paires-minimales", "paire": ["lettre-ayn", "lettre-ghayn"], "cible": "lettre-ayn", "explication": "ع (« ʿ ») serre la gorge sans frotter ; غ (« gh ») frotte comme un r français. À l'écrit, seul غ a un point." },
+    { "id": "p6", "type": "ecoute-choisis", "cible": "lettre-tta", "options": ["lettre-sad", "lettre-tta", "lettre-dad"], "explication": "Le « t » grave : ط, avec sa haste. ص et ض ont une boucle aussi, mais sans haste, suivie d'une cuvette." },
+    { "id": "p7", "type": "classe", "consigne": "Avec ou sans haste ?", "categories": [{ "id": "haste", "label": "Avec une haste (trait vertical)" }, { "id": "sans", "label": "Sans haste" }], "elements": [{ "ref": "lettre-tta", "categorie": "haste" }, { "ref": "lettre-dha", "categorie": "haste" }, { "ref": "lettre-sad", "categorie": "sans" }, { "ref": "lettre-dad", "categorie": "sans" }, { "ref": "lettre-ayn", "categorie": "sans" }, { "ref": "lettre-ghayn", "categorie": "sans" }], "explication": "ط et ظ ressemblent à ص et ض, mais leur boucle porte un trait vertical et n'a pas de cuvette. ع et غ n'ont pas de haste." },
+    { "id": "p8", "type": "lis-choisis-son", "cible": "lettre-dha", "options": ["lettre-dha", "lettre-dhal", "lettre-zay", "lettre-tta"], "explication": "Boucle, haste et un point : ظ, « ẓ ». ذ (« dh ») est le petit angle avec un point." },
+    { "id": "p9", "type": "lis-verifie", "cible": "lettre-ayn", "explication": "Serre le fond de la gorge et laisse passer la voix, comme une surprise étouffée. C'est un son nouveau : il s'apprivoise avec le temps." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "lettre-ayn", "options": ["lettre-ayn", "lettre-hha", "lettre-ghayn"], "explication": "Le son « ʿ » : ع, petite tête ouverte sans point." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "lettre-ghayn", "options": ["lettre-ghayn", "lettre-kha", "lettre-ra"], "explication": "Petite tête ouverte avec un point : غ, « gh »." },
+    { "id": "t3", "type": "ecoute-choisis", "cible": "lettre-dha", "options": ["lettre-tta", "lettre-dha", "lettre-dad"], "explication": "Le « dh » grave : ظ, boucle, haste et point." },
+    { "id": "t4", "type": "paires-minimales", "paire": ["lettre-ghayn", "lettre-kha"], "cible": "lettre-ghayn", "explication": "Deux sons frottés au fond de la bouche : « gh » vibre avec la voix (غ), « kh » est sans voix (خ)." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "lettre-tta", "options": ["lettre-tta", "lettre-ta", "lettre-dad"], "explication": "Boucle et haste sans point : ط, « ṭ », le t grave. ت est le « t » clair." }
+  ]
+}

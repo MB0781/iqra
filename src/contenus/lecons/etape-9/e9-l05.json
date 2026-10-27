@@ -1,0 +1,37 @@
+{
+  "id": "e9-l05",
+  "etape": 9,
+  "ordre": 5,
+  "titre": "An-Nas (sourate 114)",
+  "resume": "Six versets qui finissent presque tous par le même mot. Tu lis seul.",
+  "duree": 9,
+  "enseigne": [],
+  "elementsNouveaux": ["q:114:1:8", "q:114:2:1", "q:114:3:1", "q:114:4:3", "q:114:4:4", "q:114:5:1", "q:114:5:2", "q:114:5:4", "q:114:6:2", "q:114:1", "q:114:2", "q:114:3", "q:114:4", "q:114:5", "q:114:6"],
+  "theorie": [
+    { "type": "texte", "texte": "Sens global d'An-Nas : « Dis : Je cherche protection auprès du Seigneur des hommes, Roi des hommes, Dieu des hommes, contre le mal du tentateur qui se dérobe, qui souffle le mal dans les poitrines des hommes, qu'il soit parmi les djinns ou les hommes. » Le début ressemble à Al-Falaq : tu le reconnaîtras." },
+    { "type": "presentation", "element": "q:114:1:8", "note": "**an-nâs**, « les hommes » : ن solaire doublé, « â » long. Ce mot termine presque chaque verset ; à l'arrêt, on lit « an-nâs »." },
+    { "type": "paire", "elements": ["q:114:2:1", "q:1:4:1"], "note": "Ne les confonds pas : **maliki** (« Roi », م avec fatha simple, court) et **mâliki** d'Al-Fatiha (« Maître », petit alif : « mâ » long)." },
+    { "type": "presentation", "element": "q:114:5:2", "note": "**youwaswisou** : you - was - wi - sou. Deux syllabes fermées par un soukoun alternent avec des voyelles." },
+    { "type": "attention", "texte": "Au verset 5, le premier mot finit par un yâ sans points après une kasra : il se lit « î » (« alladhî »)." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lecture-guidee", "consigne": "Lis la sourate seul, sans aucune aide. Écoute seulement après.", "versets": "114:1-6", "aides": [], "explication": "C'est la dernière sourate du Mushaf. Si tu la lis seul, tu as atteint le but du parcours." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "q:114:2:1", "options": ["q:114:2:1", "q:1:4:1", "q:114:3:1"], "explication": "Pas de petit alif sur le م : « maliki », court." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "q:114:4:3", "options": ["q:114:4:3", "q:114:4:4", "q:114:5:2"], "explication": "« al-waswâsi » : article lunaire, « was », puis « wâ » long et « si »." },
+    { "id": "p4", "type": "lis-choisis-son", "cible": "q:114:5:2", "options": ["q:114:5:2", "q:114:4:3", "q:114:5:4"], "explication": "ي avec damma, و avec fatha, س avec soukoun, و avec kasra, س avec damma : « youwaswisou »." },
+    { "id": "p5", "type": "lis-verifie", "cible": "q:114:1", "explication": "Basmala, puis « qoul aʿoûdhou birabbi n-nâs »." },
+    { "id": "p6", "type": "lis-verifie", "cible": "q:114:2", "explication": "« maliki n-nâs », avec un « a » court sur le m." },
+    { "id": "p7", "type": "lis-verifie", "cible": "q:114:3", "explication": "« ilâhi n-nâs » : le petit alif sur le lâm donne « lâ »." },
+    { "id": "p8", "type": "lis-verifie", "cible": "q:114:4", "explication": "« min charri l-waswâsi l-khannâs » : le n de « khannâs » est doublé." },
+    { "id": "p9", "type": "lis-verifie", "cible": "q:114:5", "explication": "« alladhî youwaswisou fî ṣoudoûri n-nâs »." },
+    { "id": "p10", "type": "lis-verifie", "cible": "q:114:6", "explication": "« mina l-djinnati wa-n-nâs » : la tâ marbouta se lit « t » quand on enchaîne." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "q:114:4:4", "options": ["q:114:4:4", "q:114:4:3", "q:114:6:2"], "explication": "Article lunaire, خ, ن doublé, « â » long, س : « al-khannâs »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "q:114:3:1", "options": ["q:114:3:1", "q:114:2:1"], "explication": "« ilâhi » commence par la hamza avec kasra." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "q:114:6:2", "options": ["q:114:6:2", "q:114:6:3", "q:114:6:1"], "explication": "Article lunaire, ج avec kasra, ن doublé, tâ marbouta : « al-djinnati »." },
+    { "id": "t4", "type": "ecoute-choisis", "cible": "q:114:5:4", "options": ["q:114:5:4", "q:114:5:2", "q:114:5:1"], "explication": "« ṣoudoûri » : ص emphatique, damma, « doû » long, ر." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "q:114:5:1", "options": ["q:114:5:1", "q:1:7:2"], "explication": "Sans noûn final : « alladhî » (An-Nas). Avec noûn : « alladhîna » (Al-Fatiha)." },
+    { "id": "t6", "type": "ecoute-choisis", "cible": "q:114:1:8", "options": ["q:114:1:8", "q:113:1:8"], "explication": "« an-nâs » termine le verset 1 d'An-Nas ; « al-falaq » celui d'Al-Falaq." }
+  ]
+}

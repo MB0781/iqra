@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import LectureLibre from '../../components/pages/LectureLibre.tsx';
+import { itemsPour } from '../../contenus/charger';
+import { SOURATES, nombreVersets } from '../../lib/coran';
+import { lien } from '../../lib/liens';
+
+export function getStaticPaths() {
+  return [1, 103, 108, 112, 113, 114].map((s) => ({ params: { sourate: String(s) } }));
+}
+const s = Number(Astro.params.sourate);
+const n = nombreVersets(s);
+const items = itemsPour(Array.from({ length: n }, (_, i) => `q:${s}:${i + 1}`));
+const info = SOURATES[s];
+---
+<Base titre={`${info.nom}, lecture guidée`} description={`Lire la sourate ${info.nom} (${info.sens}) avec des aides à la lecture et l'audio mot par mot.`}>
+  <div class="conteneur max-w-3xl pt-10 sm:pt-14">
+    <nav aria-label="Fil d’Ariane" class="text-sm text-encre-2"><a class="hover:text-encre" href={lien('lecture/')}>Lecture guidée</a></nav>
+    <h1 class="mt-4 text-3xl font-semibold">{info.nom}</h1>
+    <p class="mt-1 text-lg text-encre-2">{info.sens}, {n} versets</p>
+    <div class="mt-8">
+      <LectureLibre client:load sourate={s} nbVersets={n} items={items} />
+    </div>
+    <p class="mt-12 text-xs text-encre-3">Texte : Tanzil Project (uthmani), reproduit sans modification, <a class="lien" href="https://tanzil.net">tanzil.net</a>. Audio : Quran.com.</p>
+  </div>
+</Base>

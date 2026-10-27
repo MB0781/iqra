@@ -1,0 +1,17 @@
+
+ RUN  v3.2.4 /home/user/iqra
+
+ ✓ tests/unit/coran.test.ts (10 tests) 59ms
+ ✓ tests/unit/depot.test.ts (32 tests) 53ms
+ ✓ tests/unit/revision.test.ts (12 tests) 19ms
+ ✓ tests/unit/arabe.test.ts (16 tests) 8ms
+ ✓ tests/unit/regles.test.ts (12 tests) 8ms
+ ✓ tests/unit/contenus.test.ts (9 tests) 4ms
+ ✓ tests/unit/texte-coran.test.tsx (2 tests) 4536ms
+   ✓ affichage du texte coranique > chaque référence, avec chaque combinaison d’aides, affiche exactement le texte Tanzil  4534ms
+
+ Test Files  7 passed (7)
+      Tests  93 passed (93)
+   Start at  00:21:22
+   Duration  5.29s (transform 307ms, setup 0ms, collect 1.44s, tests 4.69s, environment 1ms, prepare 445ms)
+

@@ -1,0 +1,36 @@
+{
+  "id": "e1-l08",
+  "etape": 1,
+  "ordre": 8,
+  "titre": "Les quatre dernières : م ه و ا",
+  "resume": "Quatre lettres sans aucun point, qu'on reconnaît à leur seul dessin. Avec elles, l'alphabet est complet.",
+  "duree": 7,
+  "enseigne": ["lettre-mim", "lettre-ha", "lettre-waw", "lettre-alif"],
+  "elementsNouveaux": ["lettre-mim", "lettre-ha", "lettre-waw", "lettre-alif"],
+  "theorie": [
+    { "type": "texte", "texte": "Les quatre dernières lettres. Aucune ne porte de point : ici, c'est **le dessin seul** qui compte. Avec elles, tu connaîtras les **28 lettres**." },
+    { "type": "presentation", "element": "lettre-mim", "note": "Une petite **boucle fermée** et une queue droite qui descend sous la ligne. Son « m », comme dans « mer »." },
+    { "type": "presentation", "element": "lettre-ha", "note": "Une forme **ronde**, sans point. Son « h », un souffle léger, comme dans l'anglais « hello ». Ce n'est pas ح (« ḥ »), plus serré." },
+    { "type": "presentation", "element": "lettre-waw", "note": "Une petite tête ronde et une queue courbe qui descend sous la ligne, un peu comme un 9. Son « w », comme dans « week-end »." },
+    { "type": "presentation", "element": "lettre-alif", "note": "Un simple **trait vertical**. Il ne se prononce pas seul : il porte une voyelle ou allonge le son « a ». Tu verras comment plus tard." },
+    { "type": "astuce", "texte": "م et و ont toutes deux une boucle et une queue qui descend : la queue de م tombe droit, celle de و se courbe. Et ا est un trait tout droit, alors que ل finit en crochet." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "lettre-mim", "options": ["lettre-mim", "lettre-waw"], "explication": "Petite boucle et queue droite : م, « m ». La queue de و se courbe." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "lettre-ha", "options": ["lettre-ha", "lettre-hha", "lettre-kha"], "explication": "La forme ronde : ه, « h » léger. ح et خ ont le dessin en crochet." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "lettre-waw", "options": ["lettre-waw", "lettre-ra", "lettre-mim"], "explication": "Le son « w » : و, petite tête ronde et queue courbe. ر n'a pas de tête ronde." },
+    { "id": "p4", "type": "ecoute-choisis", "cible": "lettre-alif", "options": ["lettre-alif", "lettre-lam", "lettre-dal"], "explication": "L'alif : un trait vertical tout droit. ل a le même trait, mais finit en crochet sous la ligne." },
+    { "id": "p5", "type": "paires-minimales", "paire": ["lettre-mim", "lettre-noun"], "cible": "lettre-mim", "explication": "« m » se fait lèvres fermées (م, une boucle) ; « n », langue contre les dents (ن, une cuvette et un point)." },
+    { "id": "p6", "type": "classe", "consigne": "Une boucle, ou un trait ?", "categories": [{ "id": "boucle", "label": "Avec une boucle" }, { "id": "trait", "label": "Un trait ou une haste" }], "elements": [{ "ref": "lettre-mim", "categorie": "boucle" }, { "ref": "lettre-waw", "categorie": "boucle" }, { "ref": "lettre-fa", "categorie": "boucle" }, { "ref": "lettre-qaf", "categorie": "boucle" }, { "ref": "lettre-alif", "categorie": "trait" }, { "ref": "lettre-lam", "categorie": "trait" }, { "ref": "lettre-kaf", "categorie": "trait" }], "explication": "م, و, ف et ق ont une petite boucle ; ا, ل et ك sont construits sur un grand trait vertical." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "lettre-alif", "options": ["lettre-alif", "lettre-lam", "lettre-waw"], "explication": "Le trait vertical seul : ا, l'alif." },
+    { "id": "p8", "type": "classe", "consigne": "Avec ou sans point ?", "categories": [{ "id": "sans", "label": "Sans point" }, { "id": "avec", "label": "Avec point(s)" }], "elements": [{ "ref": "lettre-mim", "categorie": "sans" }, { "ref": "lettre-ha", "categorie": "sans" }, { "ref": "lettre-waw", "categorie": "sans" }, { "ref": "lettre-alif", "categorie": "sans" }, { "ref": "lettre-ba", "categorie": "avec" }, { "ref": "lettre-ya", "categorie": "avec" }, { "ref": "lettre-fa", "categorie": "avec" }, { "ref": "lettre-qaf", "categorie": "avec" }], "explication": "م ه و ا : aucune de ces quatre lettres ne porte de point. Si tu vois un point, cherche ailleurs." },
+    { "id": "p9", "type": "lis-verifie", "cible": "lettre-ha", "explication": "Un souffle léger et ouvert, comme « hello ». Pas de resserrement dans la gorge : ça, c'est ح." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "lettre-mim", "options": ["lettre-mim", "lettre-noun", "lettre-waw"], "explication": "Le son « m » : م, boucle et queue droite." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "lettre-waw", "options": ["lettre-waw", "lettre-mim", "lettre-ra"], "explication": "Tête ronde et queue courbe : و, « w »." },
+    { "id": "t3", "type": "ecoute-choisis", "cible": "lettre-ha", "options": ["lettre-ha", "lettre-ayn", "lettre-hha"], "explication": "Le « h » léger : ه, la forme ronde." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "lettre-alif", "options": ["lettre-alif", "lettre-kaf", "lettre-lam"], "explication": "Un trait vertical tout seul : ا." },
+    { "id": "t5", "type": "ecoute-choisis", "cible": "lettre-lam", "options": ["lettre-alif", "lettre-lam", "lettre-kaf"], "explication": "Le son « l » : ل, la haste qui finit en crochet. Révision de la leçon précédente." }
+  ]
+}

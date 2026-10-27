@@ -1,0 +1,34 @@
+{
+  "id": "e1-l02",
+  "etape": 1,
+  "ordre": 2,
+  "titre": "Deux lettres de plus : ن ي",
+  "resume": "ن et ي rejoignent ب ت ث : on les distingue toujours par le nombre et la place des points.",
+  "duree": 6,
+  "enseigne": ["lettre-noun", "lettre-ya"],
+  "elementsNouveaux": ["lettre-noun", "lettre-ya"],
+  "theorie": [
+    { "type": "texte", "texte": "Voici deux nouvelles lettres. Comme pour ب ت ث, regarde d'abord les **points** : combien il y en a, et s'ils sont **au-dessus** ou **en dessous**." },
+    { "type": "presentation", "element": "lettre-noun", "note": "**Un point au-dessus**, et une cuvette plus ronde et plus profonde que celle de ب. Son : « n », comme dans « nez »." },
+    { "type": "presentation", "element": "lettre-ya", "note": "**Deux points en dessous**, et une queue qui revient vers la droite sous la ligne. Son : « y », comme dans « yoga »." },
+    { "type": "paire", "elements": ["lettre-ba", "lettre-noun"], "note": "Un seul point chacune : ب l'a **en dessous**, ن **au-dessus**. Et la cuvette de ن est plus creuse." },
+    { "type": "astuce", "texte": "Pour ces cinq lettres, une seule question : combien de points, et où ? 1 dessous = « b », 2 dessous = « y », 1 dessus = « n », 2 dessus = « t », 3 dessus = « th »." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "lettre-noun", "options": ["lettre-noun", "lettre-ba"], "explication": "Un point au-dessus et une cuvette profonde : c'est ن, le son « n ». ب a son point en dessous." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "lettre-ya", "options": ["lettre-ta", "lettre-ya", "lettre-noun"], "explication": "Deux points en dessous : c'est ي, le son « y ». ت a aussi deux points, mais au-dessus." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "lettre-noun", "options": ["lettre-ta", "lettre-noun", "lettre-tha"], "explication": "Le son « n » s'écrit ن : un seul point, au-dessus. ت en a deux, ث trois." },
+    { "id": "p4", "type": "paires-minimales", "paire": ["lettre-ba", "lettre-noun"], "cible": "lettre-ba", "explication": "ب : un point en dessous, son « b », lèvres fermées. ن : un point au-dessus, son « n », qui passe par le nez." },
+    { "id": "p5", "type": "ecoute-choisis", "cible": "lettre-ya", "options": ["lettre-ya", "lettre-ba", "lettre-noun"], "explication": "Le son « y » : deux points sous la lettre, ي. ب n'a qu'un point en dessous." },
+    { "id": "p6", "type": "classe", "consigne": "Classe les lettres selon leur nombre de points.", "categories": [{ "id": "un", "label": "Un point" }, { "id": "deux", "label": "Deux points" }, { "id": "trois", "label": "Trois points" }], "elements": [{ "ref": "lettre-ba", "categorie": "un" }, { "ref": "lettre-noun", "categorie": "un" }, { "ref": "lettre-ta", "categorie": "deux" }, { "ref": "lettre-ya", "categorie": "deux" }, { "ref": "lettre-tha", "categorie": "trois" }], "explication": "Compter les points suffit presque : ب et ن en ont un, ت et ي deux, ث trois. Ensuite, leur place (dessus ou dessous) finit de les départager." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "lettre-tha", "options": ["lettre-tha", "lettre-noun", "lettre-ta", "lettre-ya"], "explication": "Trois points au-dessus : c'est ث, le son « th », langue entre les dents." },
+    { "id": "p8", "type": "lis-verifie", "cible": "lettre-noun", "explication": "« n » comme dans « nez ». Lis le son, pas le nom de la lettre." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "lettre-ba", "options": ["lettre-noun", "lettre-ba", "lettre-ya"], "explication": "Le son « b » : un seul point, en dessous, ب. ي a deux points en dessous." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "lettre-noun", "options": ["lettre-noun", "lettre-ta", "lettre-ya"], "explication": "Un point au-dessus : ن, le son « n »." },
+    { "id": "t3", "type": "paires-minimales", "paire": ["lettre-ta", "lettre-ya"], "cible": "lettre-ya", "explication": "Deux points dans les deux cas : au-dessus pour ت (« t »), en dessous pour ي (« y »)." },
+    { "id": "t4", "type": "ecoute-choisis", "cible": "lettre-ya", "options": ["lettre-ta", "lettre-ya"], "explication": "Le son « y » s'écrit ي, deux points en dessous." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "lettre-ba", "options": ["lettre-ba", "lettre-noun", "lettre-tha"], "explication": "Un point en dessous : ب, le son « b »." }
+  ]
+}

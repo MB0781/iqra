@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base titre="Sources et licences" description="D'où viennent le texte coranique, l'audio, les polices et les bibliothèques utilisées par Iqra', et sous quelles licences.">
+  <article class="conteneur pt-10 sm:pt-14">
+    <div class="prose-iqra">
+      <h1 class="text-3xl font-semibold">Sources et licences</h1>
+
+      <h2>Texte coranique</h2>
+      <p>Tanzil Quran Text (Uthmani, version 1.1), Copyright © 2007-2026 Tanzil Project, licence <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a>. Source : <a href="https://tanzil.net">tanzil.net</a> (mises à jour : <a href="https://tanzil.net/updates/">tanzil.net/updates</a>).</p>
+      <p>Le texte est reproduit à l’identique, avec son bloc de licence, dans le fichier <code>data/quran/quran-uthmani.txt</code> du projet. Les couleurs, l’espacement et le découpage en syllabes sont appliqués à l’affichage seulement. Un programme vérifie à chaque publication que le texte affiché est identique au fichier Tanzil.</p>
+
+      <h2>Audio</h2>
+      <ul>
+        <li>Audio mot par mot : fichiers publics de <a href="https://quran.com">Quran.com</a> (Quran Foundation), servis par audio.qurancdn.com.</li>
+        <li>Audio verset par verset : récitation de Mishary Rashid Alafasy, via Quran.com (verses.quran.com).</li>
+        <li>Lettres, syllabes et mots d’entraînement : à enregistrer par un récitateur. En attendant, le site l’indique par « audio en préparation ». Aucune voix de synthèse n’est utilisée pour l’arabe.</li>
+      </ul>
+
+      <h2>Polices</h2>
+      <ul>
+        <li>Amiri Quran (Khaled Hosny), pour le texte coranique, licence SIL Open Font License 1.1.</li>
+        <li>Noto Naskh Arabic (Google), pour les exercices, licence SIL Open Font License 1.1.</li>
+        <li>Texte latin : police système de ton appareil (aucune police n’est téléchargée).</li>
+      </ul>
+      <p>Les polices sont hébergées par le site lui-même (paquets Fontsource), sans appel à un service tiers.</p>
+
+      <h2>Bibliothèques</h2>
+      <ul>
+        <li>Astro, React, Tailwind CSS, Radix UI, Lucide, Dexie, Zod, fflate : licence MIT (Lucide : ISC).</li>
+        <li>ts-fsrs (répétition espacée FSRS) : licence MIT.</li>
+      </ul>
+
+      <h2>Contenus pédagogiques</h2>
+      <p>Les leçons, exercices, explications et le design ont été écrits pour ce projet. Aucun texte, image ni code n’a été repris d’une autre application. Les translittérations et les sens donnés en français sont des aides, pas des traductions du Coran.</p>
+    </div>
+  </article>
+</Base>

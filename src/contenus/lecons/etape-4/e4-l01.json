@@ -1,0 +1,37 @@
+{
+  "id": "e4-l01",
+  "etape": 4,
+  "ordre": 1,
+  "titre": "Les voyelles longues : â, î, oû",
+  "resume": "ا après une fatha, ي après une kasra, و après une damma allongent la voyelle ; le petit alif ٰ aussi.",
+  "duree": 8,
+  "enseigne": ["madd-naturel", "signe-alif-suscrit"],
+  "elementsNouveaux": ["syl-ba-aa", "syl-ba-ii", "syl-ba-ouu", "syl-noun-aa", "syl-mim-ii", "syl-dal-ouu", "syl-qaf-aa", "syl-hha-aa", "mot-kana", "mot-qala", "mot-nama", "mot-safara", "mot-kitabi", "mot-fihi", "mot-duna", "mot-suriya", "mot-hadha", "mot-dhalika", "mot-hakadha"],
+  "theorie": [
+    { "type": "texte", "texte": "Une voyelle courte dure **un temps**. Pour l'allonger à **deux temps**, l'arabe écrit une lettre après elle : c'est le **madd naturel** (la prolongation naturelle). Trois lettres servent à prolonger : **ا و ي**." },
+    { "type": "galerie", "elements": ["syl-ba-aa", "syl-ba-ii", "syl-ba-ouu"], "note": "Fatha + ا = « bâ ». Kasra + ي = « bî ». Damma + و = « boû ». La lettre de prolongation ne porte **aucun signe** : elle sert seulement à allonger." },
+    { "type": "paire", "elements": ["syl-ba-a", "syl-ba-aa"], "note": "« ba » est bref ; « bâ » dure deux fois plus longtemps. Tiens le son comme si tu comptais « un, deux »." },
+    { "type": "presentation", "element": "mot-qala", "note": "قَا + لَ = « qâla », il a dit." },
+    { "type": "presentation", "element": "mot-hadha", "note": "Le **petit alif** dressé au-dessus d'une lettre ( ٰ ) remplace un alif qu'on n'écrit pas : il se lit comme une fatha longue. هٰ = « hâ », donc هٰذَا = « hâdhâ », ceci." },
+    { "type": "attention", "texte": "و et ي ne prolongent que s'ils **n'ont pas de signe** et suivent la bonne voyelle (damma avant و, kasra avant ي). Avec leur propre voyelle, ce sont des consonnes : وَ = « wa », يَ = « ya »." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "ecoute-choisis", "cible": "syl-noun-aa", "options": ["syl-noun-a", "syl-noun-aa"], "explication": "« nâ » est long : on voit l'alif après la fatha. نَ seul serait bref." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "syl-mim-ii", "options": ["syl-mim-ii", "syl-mim-i", "syl-mim-a"], "explication": "Kasra suivie d'un ي sans signe : « mî », long." },
+    { "id": "p3", "type": "lis-choisis-son", "cible": "syl-dal-ouu", "options": ["syl-dal-ouu", "syl-dal-ou", "syl-zay-ouu"], "explication": "Damma suivie d'un و sans signe : « doû », long. د n'a pas de point, ز en a un." },
+    { "id": "p4", "type": "classe", "categories": [{ "id": "court", "label": "Court (1 temps)" }, { "id": "long", "label": "Long (2 temps)" }], "elements": [{ "ref": "syl-kaf-aa", "categorie": "long" }, { "ref": "syl-kaf-a", "categorie": "court" }, { "ref": "syl-sin-ii", "categorie": "long" }, { "ref": "syl-sin-i", "categorie": "court" }, { "ref": "syl-ta-ouu", "categorie": "long" }, { "ref": "syl-ta-ou", "categorie": "court" }, { "ref": "syl-hha-aa", "categorie": "long" }, { "ref": "syl-ra-i", "categorie": "court" }], "explication": "Une voyelle suivie de ا, و ou ي sans signe est longue. Sans lettre après elle, elle reste courte." },
+    { "id": "p5", "type": "paires-minimales", "paire": ["syl-ha-aa", "syl-hha-aa"], "cible": "syl-hha-aa", "explication": "حَا : souffle serré, « ḥâ ». هَا : « h » léger, « hâ ». Les voyelles longues gardent les mêmes consonnes difficiles." },
+    { "id": "p6", "type": "assemble", "morceaux": ["syl-sin-aa", "syl-fa-a", "syl-ra-a"], "distracteurs": ["syl-sin-a"], "resultat": "mot-safara", "explication": "سَا (sâ, long) + فَ (fa) + رَ (ra) = « sâfara », il a voyagé. سَ sans alif serait bref." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "mot-kana", "options": ["mot-kana", "mot-qala", "mot-nama"], "explication": "كَا + نَ = « kâna », il était. C'est ك, pas ق (qui a deux points)." },
+    { "id": "p8", "type": "trouve-lettre", "mot": "mot-kitabi", "lettre": "lettre-alif", "reponse": "milieu", "explication": "Dans كِتَابِي, l'alif est au milieu : il prolonge la fatha de تَ (« tâ »). Comme à l'étape 2, il ne se relie pas à la lettre qui suit." },
+    { "id": "p9", "type": "ecoute-choisis", "cible": "mot-dhalika", "options": ["mot-dhalika", "mot-hadha", "mot-hakadha"], "explication": "ذٰ + لِ + كَ = « dhâlika », cela. Le petit alif sur ذ allonge le « a »." },
+    { "id": "p10", "type": "lis-verifie", "cible": "mot-suriya", "explication": "سُو + رِ + يَا = « soûriyâ », la Syrie. Deux voyelles longues, une courte au milieu." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "syl-qaf-aa", "options": ["syl-qaf-aa", "syl-kaf-aa", "syl-qaf-a"], "explication": "Deux points, une fatha et un alif : « qâ », long." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "mot-fihi", "options": ["mot-fihi", "mot-duna", "mot-kitabi"], "explication": "فِي (fî) + هِ (hi) = « fîhi », dedans." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "mot-hakadha", "options": ["mot-hakadha", "mot-hadha", "mot-dhalika"], "explication": "هٰ + كَ + ذَا = « hâkadhâ », ainsi : petit alif au début, alif à la fin." },
+    { "id": "t4", "type": "paires-minimales", "paire": ["syl-ba-ouu", "syl-ba-ou"], "cible": "syl-ba-ouu", "explication": "بُو : long, deux temps. بُ : bref, un temps." },
+    { "id": "t5", "type": "ecoute-choisis", "cible": "mot-nama", "options": ["mot-nama", "mot-kana", "mot-duna"], "explication": "نَا + مَ = « nâma », il a dormi." }
+  ]
+}

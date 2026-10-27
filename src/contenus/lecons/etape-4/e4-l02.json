@@ -1,0 +1,36 @@
+{
+  "id": "e4-l02",
+  "etape": 4,
+  "ordre": 2,
+  "titre": "Le soukoun : pas de voyelle",
+  "resume": "Un petit rond sur une lettre indique qu'elle ne porte pas de voyelle : مِنْ = « min ».",
+  "duree": 8,
+  "enseigne": ["signe-soukoun"],
+  "elementsNouveaux": ["syl-alif-a-ba", "syl-mim-i-noun", "syl-ayn-a-noun", "syl-lam-a-mim", "syl-qaf-ou-lam", "syl-ba-i-noun", "mot-min", "mot-an", "mot-lam", "mot-katabtu", "mot-yaktubu", "mot-yaftahu", "mot-yalabu", "mot-bayti", "mot-qultu"],
+  "theorie": [
+    { "type": "texte", "texte": "Le **soukoun** est un petit rond ( ْ ) au-dessus d'une lettre. Il signifie : **pas de voyelle**. La lettre se prononce seule et ferme la syllabe d'avant." },
+    { "type": "presentation", "element": "syl-alif-a-ba", "note": "اَ + بْ = « ab ». Le ب ne porte pas de voyelle : il ferme la syllabe." },
+    { "type": "galerie", "elements": ["syl-mim-i-noun", "syl-ayn-a-noun", "syl-lam-a-mim", "syl-qaf-ou-lam"], "note": "« min, ʿan, lam, qoul » : une voyelle, puis une consonne fermée par le soukoun." },
+    { "type": "presentation", "element": "mot-yaktubu", "note": "يَكْ + تُ + بُ = « yak-tou-bou », il écrit. Le soukoun sur ك découpe le mot en syllabes." },
+    { "type": "attention", "texte": "Ne confonds pas le soukoun (petit **rond** fermé) avec la damma (petite boucle en forme de و, qui se lit « ou »)." },
+    { "type": "astuce", "texte": "Après une fatha, ي ou و avec un soukoun donnent un son double : بَيْ = « bay », comme dans « paille ». Exemple : بَيْتِي, « baytî », ma maison." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "syl-mim-i-noun", "options": ["syl-mim-i-noun", "syl-mim-i", "syl-mim-ii"], "explication": "مِ + نْ = « min ». Le soukoun sur ن ferme la syllabe." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "syl-ayn-a-noun", "options": ["syl-ayn-a-noun", "syl-alif-a-ba", "syl-ayn-aa"], "explication": "« ʿan » : ع avec une fatha, puis ن avec un soukoun." },
+    { "id": "p3", "type": "classe", "categories": [{ "id": "avec", "label": "Avec soukoun" }, { "id": "sans", "label": "Sans soukoun" }], "elements": [{ "ref": "syl-lam-a-mim", "categorie": "avec" }, { "ref": "syl-lam-a", "categorie": "sans" }, { "ref": "syl-ya-a-kaf", "categorie": "avec" }, { "ref": "syl-ya-aa", "categorie": "sans" }, { "ref": "syl-kaf-a-ta", "categorie": "avec" }, { "ref": "syl-ba-i", "categorie": "sans" }, { "ref": "syl-ba-i-noun", "categorie": "avec" }, { "ref": "syl-sad-ou-mim", "categorie": "avec" }], "explication": "Le petit rond fermé, c'est le soukoun. يَا n'en a pas : c'est une voyelle longue." },
+    { "id": "p4", "type": "assemble", "morceaux": ["syl-ya-a-kaf", "syl-ta-ou", "syl-ba-ou"], "distracteurs": ["syl-ya-a"], "resultat": "mot-yaktubu", "explication": "يَكْ (yak) + تُ (tou) + بُ (bou) = « yaktoubou ». يَ seul se lirait « ya », sans le « k »." },
+    { "id": "p5", "type": "lis-choisis-son", "cible": "mot-katabtu", "options": ["mot-katabtu", "mot-kataba", "mot-kutiba"], "explication": "كَ + تَبْ + تُ = « katabtou », j'ai écrit. Compare avec كَتَبَ, « kataba » : le soukoun sur ب change tout." },
+    { "id": "p6", "type": "ecoute-choisis", "cible": "mot-yaftahu", "options": ["mot-yaftahu", "mot-yalabu", "mot-yaktubu"], "explication": "يَفْ + تَ + حُ = « yaftaḥou », il ouvre." },
+    { "id": "p7", "type": "trouve-lettre", "mot": "mot-bayti", "lettre": "lettre-ta", "reponse": "milieu", "explication": "Dans بَيْتِي, ت est au milieu (forme médiane, deux points). Le premier ي a un soukoun (« bay »), le second prolonge la kasra (« tî »)." },
+    { "id": "p8", "type": "lis-choisis-son", "cible": "mot-qultu", "options": ["mot-qultu", "mot-qala", "mot-katabtu"], "explication": "قُلْ + تُ = « qoultou », j'ai dit. Le soukoun sur ل : aucune voyelle entre « l » et « t »." },
+    { "id": "p9", "type": "lis-verifie", "cible": "mot-yalabu", "explication": "يَلْ + عَ + بُ = « yal-ʿa-bou », il joue. Arrête-toi net sur le « l », puis contracte la gorge pour ع." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "mot-min", "options": ["mot-min", "mot-an", "mot-lam"], "explication": "مِنْ = « min », de : م avec kasra, ن avec soukoun." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "mot-lam", "options": ["mot-lam", "mot-min", "mot-an"], "explication": "« lam » : لَ, puis مْ avec soukoun." },
+    { "id": "t3", "type": "paires-minimales", "paire": ["syl-ba-i-noun", "syl-ba-ii"], "cible": "syl-ba-i-noun", "explication": "بِنْ : « bin », fermé par un « n ». بِي : « bî », un « i » long sans « n »." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "mot-bayti", "options": ["mot-bayti", "mot-kitabi", "mot-katabtu"], "explication": "بَيْ + تِي = « baytî », ma maison." },
+    { "id": "t5", "type": "ecoute-choisis", "cible": "syl-sad-ou-mim", "options": ["syl-sad-ou-mim", "syl-sad-aa", "syl-sin-i"], "explication": "« ṣoum » : ص (emphatique) avec une damma, puis مْ avec soukoun." }
+  ]
+}

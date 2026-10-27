@@ -1,0 +1,102 @@
+---
+import Base from '../layouts/Base.astro';
+import PremiereLettre from '../components/pages/PremiereLettre.tsx';
+import TexteArabe from '../components/arabe/TexteArabe.tsx';
+import { contenus } from '../contenus/charger';
+import { resoudreRef } from '../lib/coran';
+import { lien } from '../lib/liens';
+
+const { etapes, lecons } = contenus();
+const basmala = resoudreRef('q:1:1');
+const urlSite = new URL(lien(), Astro.site).toString();
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'Course',
+  name: "Iqra' : apprendre à lire l'arabe jusqu'aux courtes sourates",
+  description: "Parcours gratuit en neuf étapes pour adultes francophones débutants : de la première lettre à la lecture d'Al-Fatiha et de cinq sourates courtes.",
+  inLanguage: 'fr',
+  url: urlSite,
+  isAccessibleForFree: true,
+  educationalLevel: 'Débutant',
+  provider: { '@type': 'Organization', name: "Iqra'", url: urlSite },
+  hasCourseInstance: { '@type': 'CourseInstance', courseMode: 'online', courseWorkload: 'PT10M' },
+  offers: { '@type': 'Offer', price: 0, priceCurrency: 'EUR', category: 'Free' },
+};
+---
+<Base titre="Iqra'" description="Apprends à lire l'arabe, lettre après lettre, jusqu'à lire Al-Fatiha seul. Gratuit, sans publicité, sans compte : des séances de cinq à dix minutes." jsonld={jsonld}>
+  <section class="conteneur grid gap-x-16 gap-y-8 pt-8 pb-16 sm:pt-16 lg:grid-cols-[1.1fr_1fr] lg:grid-rows-[auto_auto_1fr] lg:pt-24">
+    <h1 class="text-[2.125rem] font-semibold leading-[1.08] tracking-tight sm:text-5xl lg:self-end">Lire l’arabe, lettre après lettre, jusqu’à lire Al‑Fatiha seul.</h1>
+    <div class="lg:col-start-2 lg:row-span-3 lg:row-start-1 lg:self-center"><PremiereLettre client:load /></div>
+    <div class="lg:col-start-1 lg:row-start-2">
+      <p class="max-w-lg text-lg text-encre-2">Un parcours pour adultes qui partent de zéro : le son de chaque lettre, puis les voyelles, les mots, et enfin les versets. Cinq à dix minutes par jour, sans compte et sans publicité.</p>
+      <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+        <a class="bouton bouton-principal" href={lien('commencer/')}>Commencer gratuitement</a>
+        <a class="bouton bouton-secondaire" href={lien('parcours/')}>Voir les {etapes.length} étapes</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="border-y border-trait/70 bg-surface py-16 sm:py-20" aria-labelledby="but">
+    <div class="conteneur grid gap-10 lg:grid-cols-[1fr_1.4fr] lg:items-center">
+      <div>
+        <h2 id="but" class="text-2xl font-semibold sm:text-3xl">Ta première sourate, objectif annoncé</h2>
+        <p class="mt-3 text-encre-2">Chaque étape te rapproche d’un texte précis. À la fin de l’étape 7, tu lis la basmala ci-contre. À l’étape 8, les sept versets d’Al-Fatiha. Puis une sourate courte par palier.</p>
+        <p class="mt-3 text-sm text-encre-3">Ici avec l’aide « syllabes », que tu retireras peu à peu.</p>
+      </div>
+      <figure class="rounded-[var(--radius-lg)] border border-trait bg-papier px-4 py-8 text-center sm:px-8">
+        <TexteArabe texte={basmala.texte} coranRef={`1:1:${basmala.de}-${basmala.a}`} aides={{ syllabes: true, voyelles: true }} as="p" className="!text-[2.25rem] sm:!text-[2.75rem]" />
+        <figcaption class="mt-4 text-sm text-encre-2">« Bismi llâhi r-raḥmâni r-raḥîm », Al-Fatiha, verset 1.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="conteneur py-16 sm:py-24" aria-labelledby="chemin">
+    <div class="grid gap-10 lg:grid-cols-[1fr_2fr]">
+      <div>
+        <h2 id="chemin" class="text-2xl font-semibold sm:text-3xl">Le chemin</h2>
+        <p class="mt-3 text-encre-2">{lecons.length} leçons courtes. Chaque notion suit le même rythme : une explication brève, de la pratique, un mini-test. Une étape s’ouvre seulement quand la précédente est acquise.</p>
+        <a class="lien mt-4 inline-block" href={lien('parcours/')}>Le parcours en détail</a>
+      </div>
+      <ol class="grid gap-x-8 sm:grid-cols-2">
+        {etapes.map((e) => (
+          <li class="flex gap-4 border-t border-trait py-4">
+            <span class="w-6 shrink-0 text-lg font-semibold tabular-nums text-accent">{e.numero}</span>
+            <span>
+              <span class="block font-semibold">{e.titre}</span>
+              <span class="text-sm text-encre-2">{e.palier ?? e.objectif}</span>
+            </span>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="conteneur pb-8" aria-labelledby="methode">
+    <div class="rounded-[var(--radius-lg)] bg-accent-doux p-6 sm:p-10">
+      <h2 id="methode" class="text-2xl font-semibold sm:text-3xl">Trois choses distinctes</h2>
+      <dl class="mt-6 grid gap-6 md:grid-cols-3">
+        <div>
+          <dt class="font-semibold">Déchiffrer</dt>
+          <dd class="mt-1 text-encre-2">Le but du site : passer du signe écrit au son, seul, sans translittération. Tout est construit pour ça.</dd>
+        </div>
+        <div>
+          <dt class="font-semibold">Prononcer</dt>
+          <dd class="mt-1 text-encre-2">Expliquée avec des repères du français, et des paires pour les sons qui n’y existent pas. Jamais notée par une machine.</dd>
+        </div>
+        <div>
+          <dt class="font-semibold">Tajwid</dt>
+          <dd class="mt-1 text-encre-2">Seulement les règles indispensables pour lire juste. Le reste s’apprend ensuite, idéalement avec un enseignant.</dd>
+        </div>
+      </dl>
+      <a class="lien mt-6 inline-block" href={lien('methode/')}>Comment fonctionne la méthode</a>
+    </div>
+  </section>
+
+  <section class="conteneur py-16" aria-labelledby="sources">
+    <div class="prose-iqra">
+      <h2 id="sources" class="!mt-0 text-2xl font-semibold">D’où vient le texte</h2>
+      <p class="text-encre-2">Le texte coranique est celui du projet <a class="lien" href="https://tanzil.net">Tanzil</a> (écriture uthmani, Mushaf de Médine), reproduit sans aucune modification. L’audio des mots et des versets vient de Quran.com. Aucune voix de synthèse : les sons des lettres seront enregistrés par un récitateur.</p>
+      <p class="mt-3"><a class="lien" href={lien('sources/')}>Sources et licences</a></p>
+    </div>
+  </section>
+</Base>

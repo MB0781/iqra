@@ -1,0 +1,174 @@
+{
+  "etape": 6,
+  "titre": "Test de fin d'étape 6 : hamza, madd, tâ marbouta, alif maqsoura, petites lettres",
+  "consigne": "Des mots que tu n'as pas encore rencontrés en exercice. Prends ton temps : repère chaque signe avant de répondre.",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "lis-choisis-son",
+      "cible": "q:2:4:4",
+      "options": [
+        "q:2:4:4",
+        "q:97:1:6",
+        "q:109:2:2"
+      ],
+      "explication": "[[q:2:4:4]] : hamza au-dessus avec damma (ʾou), noûn avec soukoun, puis « zila » : « ounzila »."
+    },
+    {
+      "id": "q2",
+      "type": "ecoute-choisis",
+      "cible": "q:81:15:2",
+      "options": [
+        "q:81:15:2",
+        "q:113:1:6",
+        "q:1:7:3"
+      ],
+      "explication": "« ouqsimou » : hamza avec damma, qâf avec soukoun, puis « simou »."
+    },
+    {
+      "id": "q3",
+      "type": "paires-minimales",
+      "paire": [
+        "mot-alam-douleur",
+        "mot-alam-drapeau"
+      ],
+      "cible": "mot-alam-drapeau",
+      "explication": "عَلَمٌ (« ʿalamoun », drapeau) commence par ع, serré dans la gorge. أَلَمٌ (douleur) commence par un simple coup de glotte."
+    },
+    {
+      "id": "q4",
+      "type": "lis-choisis-son",
+      "cible": "q:87:16:2",
+      "options": [
+        "q:87:16:2",
+        "q:2:3:2",
+        "q:2:3:8"
+      ],
+      "explication": "[[q:87:16:2]] : tâ avec damma, hamza sur wâw avec soukoun, thâ, puis « roûna » : « touʾthiroûna »."
+    },
+    {
+      "id": "q5",
+      "type": "lis-choisis-son",
+      "cible": "q:85:21:3",
+      "options": [
+        "q:85:21:3",
+        "q:2:13:6",
+        "q:78:14:4"
+      ],
+      "explication": "[[q:85:21:3]] : « qour », hamza seule avec fatha suivie d'un alif (ʾâ), puis « noun » : « qourʾânoun »."
+    },
+    {
+      "id": "q6",
+      "type": "ecoute-choisis",
+      "cible": "q:2:6:4",
+      "options": [
+        "q:2:6:4",
+        "q:78:14:4",
+        "q:110:1:6"
+      ],
+      "explication": "« sawâʾoun » : « sa », « wâ » tenu (vague du madd), hamza seule avec tanwin damma."
+    },
+    {
+      "id": "q7",
+      "type": "lis-choisis-son",
+      "cible": "q:88:12:3",
+      "options": [
+        "q:88:12:3",
+        "q:101:9:2",
+        "q:88:3:1"
+      ],
+      "explication": "[[q:88:12:3]] : « djâ », « ri », « ya », puis ة avec tanwin damma : « djâriyatoun »."
+    },
+    {
+      "id": "q8",
+      "type": "trouve-lettre",
+      "mot": "q:98:3:3",
+      "lettre": "lettre-ta-marbuta",
+      "reponse": "fin",
+      "explication": "[[q:98:3:3]] : la tâ marbouta est toujours en fin de mot."
+    },
+    {
+      "id": "q9",
+      "type": "lis-choisis-son",
+      "cible": "q:93:2:3",
+      "options": [
+        "q:93:2:3",
+        "q:93:3:5",
+        "q:113:4:4"
+      ],
+      "explication": "[[q:93:2:3]] : sîn et jîm avec fatha, donc ى se lit « â » : « sadjâ »."
+    },
+    {
+      "id": "q10",
+      "type": "ecoute-choisis",
+      "cible": "q:85:11:8",
+      "options": [
+        "q:85:11:8",
+        "q:88:7:4",
+        "q:79:36:4"
+      ],
+      "explication": "« tadjrî » : le râ porte une kasra, donc le ى final se lit « î »."
+    },
+    {
+      "id": "q11",
+      "type": "lis-choisis-son",
+      "cible": "q:84:9:3",
+      "options": [
+        "q:84:9:3",
+        "q:79:40:5",
+        "q:2:255:26"
+      ],
+      "explication": "[[q:84:9:3]] : « ah », « li », puis « hî » allongé par le petit yâ : « ahlihî »."
+    },
+    {
+      "id": "q12",
+      "type": "lis-choisis-son",
+      "cible": "q:2:255:26",
+      "options": [
+        "q:2:255:26",
+        "q:84:9:3",
+        "q:2:255:9"
+      ],
+      "explication": "[[q:2:255:26]] : « bi », hamza sous l'alif (ʾi), « dh » avec soukoun, « ni », puis « hî » : « bi-ʾidhnihî »."
+    },
+    {
+      "id": "q13",
+      "type": "lis-choisis-son",
+      "cible": "mot-souaal",
+      "options": [
+        "mot-souaal",
+        "mot-biir",
+        "mot-saala"
+      ],
+      "explication": "سُؤَالٌ : sîn avec damma, hamza sur wâw avec fatha suivie d'un alif (ʾâ), puis « loun » : « souʾâloun »."
+    },
+    {
+      "id": "q14",
+      "type": "lis-choisis-son",
+      "cible": "mot-chadjara",
+      "options": [
+        "mot-chadjara",
+        "mot-madrasa",
+        "mot-baka"
+      ],
+      "explication": "[[q:37:64:2]] : cha-dja-ra, puis ة avec tanwin damma : « chadjaratoun »."
+    },
+    {
+      "id": "q15",
+      "type": "ecoute-choisis",
+      "cible": "q:80:35:1",
+      "options": [
+        "q:80:35:1",
+        "q:101:9:1",
+        "q:79:40:5"
+      ],
+      "explication": "« wa-ʾoummihî » : wâw, hamza avec damma, mîm doublé avec kasra, puis « hî » allongé par le petit yâ."
+    },
+    {
+      "id": "q16",
+      "type": "lis-verifie",
+      "cible": "q:1:5:3-4",
+      "explication": "« wa-iyyâka nastaʿînou » : hamza sous l'alif après وَ, yâ doublé, puis « nas-ta-ʿî-nou »."
+    }
+  ]
+}

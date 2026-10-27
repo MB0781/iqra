@@ -1,0 +1,24 @@
+{
+  "etape": 3,
+  "titre": "Test de l'étape 3 : les voyelles courtes",
+  "consigne": "Des syllabes et des mots que tu n'as encore jamais lus, avec les trois voyelles courtes. Prends ton temps : 85 % de bonnes réponses débloquent l'étape suivante.",
+  "questions": [
+    { "id": "q1", "type": "lis-choisis-son", "cible": "syl-ha-ou", "options": ["syl-ha-ou", "syl-hha-ou", "syl-ha-i"], "explication": "ه (le « h » léger) avec une damma : « hou »." },
+    { "id": "q2", "type": "paires-minimales", "paire": ["syl-hha-ou", "syl-ha-ou"], "cible": "syl-hha-ou", "explication": "حُ : souffle serré dans la gorge. هُ : « h » léger." },
+    { "id": "q3", "type": "paires-minimales", "paire": ["syl-ayn-i", "syl-alif-i"], "cible": "syl-alif-i", "explication": "اِ : la voyelle « i » seule. عِ : la gorge se contracte avant." },
+    { "id": "q4", "type": "paires-minimales", "paire": ["syl-qaf-a", "syl-kaf-a"], "cible": "syl-qaf-a", "explication": "قَ : du fond de la gorge, deux points. كَ : le « k » français." },
+    { "id": "q5", "type": "paires-minimales", "paire": ["syl-sad-i", "syl-sin-i"], "cible": "syl-sad-i", "explication": "صِ : « s » emphatique, grave. سِ : « s » français." },
+    { "id": "q6", "type": "paires-minimales", "paire": ["syl-ta-ou", "syl-tta-ou"], "cible": "syl-tta-ou", "explication": "طُ : « t » emphatique. تُ : « t » français, deux points." },
+    { "id": "q7", "type": "paires-minimales", "paire": ["syl-dal-a", "syl-dad-a"], "cible": "syl-dal-a", "explication": "دَ : « d » français, sans point. ضَ : « d » emphatique." },
+    { "id": "q8", "type": "paires-minimales", "paire": ["syl-zay-i", "syl-dhal-i"], "cible": "syl-dhal-i", "explication": "ذِ : la langue entre les dents. زِ : « z » français." },
+    { "id": "q9", "type": "paires-minimales", "paire": ["syl-ra-i", "syl-ghayn-i"], "cible": "syl-ghayn-i", "explication": "غِ : au fond de la gorge, avec un point. رِ : « r » roulé." },
+    { "id": "q10", "type": "lis-choisis-son", "cible": "syl-dha-ou", "options": ["syl-dha-ou", "syl-dha-i", "syl-tta-ou"], "explication": "ظ (dessin de ط avec un point) et une damma : « ẓou »." },
+    { "id": "q11", "type": "lis-choisis-son", "cible": "mot-rasama", "options": ["mot-rasama", "mot-darasa", "mot-sakana"], "explication": "رَ + سَ + مَ = « rasama », il a dessiné." },
+    { "id": "q12", "type": "ecoute-choisis", "cible": "mot-ghasala", "options": ["mot-ghasala", "mot-ghadiba", "mot-tabakha"], "explication": "غَ + سَ + لَ = « ghasala », il a lavé." },
+    { "id": "q13", "type": "lis-choisis-son", "cible": "mot-hasuna", "options": ["mot-hasuna", "mot-karuma", "mot-sumia"], "explication": "حَ + سُ + نَ = « ḥasouna », il est devenu beau. La damma est sur س." },
+    { "id": "q14", "type": "assemble", "morceaux": ["syl-tta-a", "syl-ba-a", "syl-kha-a"], "distracteurs": ["syl-kha-i", "syl-ta-a"], "resultat": "mot-tabakha", "explication": "طَ (ṭa) + بَ (ba) + خَ (kha) = « ṭabakha », il a cuisiné. Toutes les voyelles sont des fatha." },
+    { "id": "q15", "type": "ecoute-choisis", "cible": "mot-dahika", "options": ["mot-dahika", "mot-ghadiba", "mot-darasa"], "explication": "ضَ + حِ + كَ = « ḍaḥika », il a ri." },
+    { "id": "q16", "type": "trouve-lettre", "mot": "mot-sakana", "lettre": "lettre-kaf", "reponse": "milieu", "explication": "Dans سَكَنَ (« sakana », il a habité), le ك est au milieu, sous sa forme médiane." },
+    { "id": "q17", "type": "lis-verifie", "cible": "mot-sumia", "explication": "سُ + مِ + عَ = « soumiʿa », il a été entendu : damma, kasra, fatha." }
+  ]
+}

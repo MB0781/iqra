@@ -1,0 +1,46 @@
+{
+  "id": "e2-l05",
+  "etape": 2,
+  "ordre": 5,
+  "titre": "Les dernières formes : ف ق ك ل م ه",
+  "resume": "ف ق م perdent leur queue, ك et ل se simplifient, et ه change complètement de visage.",
+  "duree": 9,
+  "enseigne": [],
+  "elementsNouveaux": [
+    "forme-fa-debut", "forme-fa-milieu", "forme-fa-fin",
+    "forme-qaf-debut", "forme-qaf-milieu", "forme-qaf-fin",
+    "forme-kaf-debut", "forme-kaf-milieu", "forme-kaf-fin",
+    "forme-lam-debut", "forme-lam-milieu", "forme-lam-fin",
+    "forme-mim-debut", "forme-mim-milieu", "forme-mim-fin",
+    "forme-ha-debut", "forme-ha-milieu", "forme-ha-fin",
+    "mot-nv-qalb", "mot-nv-kalb", "mot-nv-qamar", "mot-nv-malik", "mot-nv-fil", "mot-nv-nahr", "mot-nv-wajh", "mot-nv-qalam", "mot-nv-chams", "mot-nv-lahm"
+  ],
+  "theorie": [
+    { "type": "texte", "texte": "ف et ق perdent leur queue au début et au milieu : il reste la **petite boucle** et ses points (un pour ف, deux pour ق). م garde sa petite boucle ; sa queue n'apparaît qu'à la fin." },
+    { "type": "galerie", "elements": ["forme-kaf-debut", "forme-kaf-milieu", "forme-kaf-fin", "lettre-kaf"], "note": "ك : au début et au milieu, le petit signe ondulé disparaît ; la lettre devient un trait oblique sur une base. À la fin, il revient." },
+    { "type": "galerie", "elements": ["forme-lam-debut", "forme-lam-milieu", "forme-lam-fin", "lettre-lam"], "note": "ل : une simple haste au début et au milieu ; le crochet sous la ligne n'apparaît qu'à la fin." },
+    { "type": "galerie", "elements": ["forme-ha-debut", "forme-ha-milieu", "forme-ha-fin", "lettre-ha"], "note": "ه change beaucoup : une boucle double au début, une forme en huit au milieu, une petite boucle à la fin. Jamais de point." },
+    { "type": "presentation", "element": "mot-nv-qalb", "note": "**q-l-b** (« qalb », cœur) : ق au début (boucle à deux points), ل au milieu (une haste), ب à la fin." },
+    { "type": "attention", "texte": "Quand ل est suivi de ا, les deux lettres se fondent en un signe spécial. Tu le rencontreras plus tard ; dans cette étape, les mots l'évitent." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "forme-qaf-milieu", "options": ["forme-qaf-milieu", "forme-fa-milieu", "forme-ghayn-milieu"], "explication": "Petite boucle ronde, deux points : ـقـ, « q ». ـفـ n'a qu'un point ; ـغـ a un point et une boucle plus pointue." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "forme-lam-debut", "options": ["forme-lam-debut", "forme-kaf-debut", "forme-tta-debut"], "explication": "« l » au début : une simple haste, لـ. كـ a un trait oblique, طـ une boucle sous sa haste." },
+    { "id": "p3", "type": "lis-choisis-son", "cible": "forme-ha-milieu", "options": ["forme-ha-milieu", "forme-ayn-milieu", "forme-mim-milieu"], "explication": "La forme en huit, sans point : ـهـ, « h »." },
+    { "id": "p4", "type": "classe", "consigne": "Début, milieu ou fin ?", "categories": [{ "id": "debut", "label": "Début" }, { "id": "milieu", "label": "Milieu" }, { "id": "fin", "label": "Fin" }], "elements": [{ "ref": "forme-ha-debut", "categorie": "debut" }, { "ref": "forme-mim-debut", "categorie": "debut" }, { "ref": "forme-ha-milieu", "categorie": "milieu" }, { "ref": "forme-kaf-milieu", "categorie": "milieu" }, { "ref": "forme-ha-fin", "categorie": "fin" }, { "ref": "forme-lam-fin", "categorie": "fin" }], "explication": "Pour ه, la forme seule suffit à dire la position. Pour les autres, regarde le trait ـ et la présence d'une queue ou d'un crochet final." },
+    { "id": "p5", "type": "trouve-lettre", "mot": "mot-nv-qalb", "lettre": "lettre-lam", "reponse": "milieu", "explication": "قلب : la haste du milieu, entre ق et ب, c'est ل." },
+    { "id": "p6", "type": "trouve-lettre", "mot": "mot-nv-nahr", "lettre": "lettre-ha", "reponse": "milieu", "explication": "نهر : ن, puis ه sous sa forme du milieu, puis ر." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "mot-nv-kalb", "options": ["mot-nv-kalb", "mot-nv-qalb", "mot-nv-qalam"], "explication": "Un trait oblique (k), une haste (l), puis ـب : k-l-b (« kalb », chien). قلب commence par une boucle à deux points." },
+    { "id": "p8", "type": "assemble", "morceaux": ["lettre-waw", "lettre-jim", "lettre-ha"], "distracteurs": ["lettre-hha"], "resultat": "mot-nv-wajh", "explication": "و, ج, ه. و ne s'attache pas : petit blanc, puis جه liés. Cela donne وجه (« wajh », visage)." },
+    { "id": "p9", "type": "trouve-lettre", "mot": "mot-nv-fil", "lettre": "lettre-fa", "reponse": "debut", "explication": "فيل commence par la petite boucle à un point : فـ." },
+    { "id": "p10", "type": "trouve-lettre", "mot": "mot-nv-malik", "lettre": "lettre-kaf", "reponse": "fin", "explication": "ملك se termine par ـك, où le petit signe ondulé réapparaît." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "forme-fa-debut", "options": ["forme-fa-debut", "forme-qaf-debut", "forme-ghayn-debut"], "explication": "« f » au début : petite boucle à un point, فـ." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "forme-kaf-fin", "options": ["forme-kaf-fin", "forme-lam-fin", "forme-mim-fin"], "explication": "Base plate et signe ondulé : ـك, « k »." },
+    { "id": "t3", "type": "trouve-lettre", "mot": "mot-nv-qamar", "lettre": "lettre-mim", "reponse": "milieu", "explication": "قمر : ق, puis la petite boucle de م, puis ر." },
+    { "id": "t4", "type": "trouve-lettre", "mot": "mot-nv-wajh", "lettre": "lettre-ha", "reponse": "fin", "explication": "وجه se termine par ـه, petite boucle de fin." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "mot-nv-chams", "options": ["mot-nv-chams", "mot-nv-malik", "mot-nv-fil"], "explication": "ش (trois dents, trois points), م, puis س : ch-m-s (« chams », soleil)." },
+    { "id": "t6", "type": "assemble", "morceaux": ["lettre-lam", "lettre-hha", "lettre-mim"], "distracteurs": ["lettre-ha"], "resultat": "mot-nv-lahm", "explication": "ل, ح, م : لحم (« laḥm », viande). Le son du milieu est « ḥ » (ح), pas « h » (ه)." }
+  ]
+}

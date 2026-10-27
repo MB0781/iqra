@@ -1,0 +1,34 @@
+{
+  "id": "e5-l01",
+  "etape": 5,
+  "ordre": 1,
+  "titre": "Découper un mot en syllabes",
+  "resume": "Chaque voyelle ouvre une syllabe ; une lettre avec soukoun ferme la syllabe d'avant.",
+  "duree": 8,
+  "enseigne": [],
+  "elementsNouveaux": ["syl-mim-a-kaf", "syl-dal-a-fa", "syl-ta-i-lam", "syl-qaf-i-tta", "mot-maktaboun", "mot-daftaroun", "mot-samakoun", "mot-tilmidhoun", "mot-hatifoun", "mot-qittoun"],
+  "theorie": [
+    { "type": "texte", "texte": "Un mot long se lit plus facilement en **syllabes**. Règle simple : une syllabe commence par **une consonne avec sa voyelle**. Une lettre avec **soukoun** termine la syllabe d'avant." },
+    { "type": "presentation", "element": "mot-maktaboun", "note": "مَكْ | تَ | بٌ : « mak-ta-boun », un bureau. Le ك avec soukoun ferme la première syllabe." },
+    { "type": "presentation", "element": "mot-hatifoun", "note": "هَا | تِ | فٌ : « hâ-ti-foun », un téléphone. La lettre de prolongation ا reste dans sa syllabe : « hâ »." },
+    { "type": "presentation", "element": "mot-qittoun", "note": "قِطْ | طٌ : « qiṭ-ṭoun », un chat. La chadda se partage : la lettre ferme une syllabe et ouvre la suivante." },
+    { "type": "astuce", "texte": "Compte les voyelles : chaque voyelle (courte, longue ou tanwin) fait une syllabe. مَكْتَبٌ en a trois, donc trois syllabes." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "assemble", "morceaux": ["syl-mim-a-kaf", "syl-ta-a", "syl-ba-oun"], "distracteurs": ["syl-mim-a"], "resultat": "mot-maktaboun", "explication": "مَكْ (mak) + تَ (ta) + بٌ (boun). مَ seul ne contient pas le « k »." },
+    { "id": "p2", "type": "classe", "consigne": "Combien de syllabes ?", "categories": [{ "id": "deux", "label": "2 syllabes" }, { "id": "trois", "label": "3 syllabes" }], "elements": [{ "ref": "mot-qittoun", "categorie": "deux" }, { "ref": "mot-samakoun", "categorie": "trois" }, { "ref": "mot-maktaboun", "categorie": "trois" }, { "ref": "mot-kana", "categorie": "deux" }, { "ref": "mot-djiddan", "categorie": "deux" }, { "ref": "mot-hatifoun", "categorie": "trois" }, { "ref": "mot-bayti", "categorie": "deux" }, { "ref": "mot-daftaroun", "categorie": "trois" }], "explication": "Compte les voyelles : قِطٌّ (qiṭ-ṭoun) en a deux, سَمَكٌ (sa-ma-koun) trois, كَانَ (kâ-na) deux, بَيْتِي (bay-tî) deux." },
+    { "id": "p3", "type": "assemble", "morceaux": ["syl-dal-a-fa", "syl-ta-a", "syl-ra-oun"], "distracteurs": ["syl-dal-aa"], "resultat": "mot-daftaroun", "explication": "دَفْ (daf) + تَ (ta) + رٌ (roun) = « daftaroun », un cahier. دَا serait « dâ », sans le « f »." },
+    { "id": "p4", "type": "lis-choisis-son", "cible": "mot-samakoun", "options": ["mot-samakoun", "mot-maktaboun", "mot-qalamoun"], "explication": "سَ | مَ | كٌ : trois syllabes ouvertes, « sa-ma-koun », un poisson." },
+    { "id": "p5", "type": "assemble", "morceaux": ["syl-ta-i-lam", "syl-mim-ii", "syl-dhal-oun"], "distracteurs": ["syl-ta-i"], "resultat": "mot-tilmidhoun", "explication": "تِلْ (til) + مِي (mî) + ذٌ (dhoun) = « tilmîdhoun », un élève." },
+    { "id": "p6", "type": "assemble", "morceaux": ["syl-qaf-i-tta", "syl-tta-oun"], "distracteurs": ["syl-qaf-i"], "resultat": "mot-qittoun", "explication": "La chadda se coupe en deux : قِطْ (qiṭ) + طٌ (ṭoun) = « qiṭṭoun »." },
+    { "id": "p7", "type": "ecoute-choisis", "cible": "mot-hatifoun", "options": ["mot-hatifoun", "mot-samakoun", "mot-daftaroun"], "explication": "هَا | تِ | فٌ : « hâtifoun », un téléphone." },
+    { "id": "p8", "type": "lis-verifie", "cible": "mot-mudarrisi", "explication": "مُ | دَرْ | رِ | سِي : quatre syllabes, « mou-dar-ri-sî ». Lis-les une à une, puis d'une traite." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "mot-tilmidhoun", "options": ["mot-tilmidhoun", "mot-daftaroun", "mot-hatifoun"], "explication": "تِلْ | مِي | ذٌ = « tilmîdhoun », un élève." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "mot-qittoun", "options": ["mot-qittoun", "mot-samakoun", "mot-baytoun"], "explication": "قِطْ | طٌ = « qiṭṭoun », un chat." },
+    { "id": "t3", "type": "assemble", "morceaux": ["syl-ha-aa", "syl-ta-i", "syl-fa-oun"], "distracteurs": ["syl-ha-a"], "resultat": "mot-hatifoun", "explication": "هَا (hâ) + تِ (ti) + فٌ (foun). La première syllabe est longue : هَا, pas هَ." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "mot-daftaroun", "options": ["mot-daftaroun", "mot-maktaboun", "mot-tilmidhoun"], "explication": "دَفْ | تَ | رٌ = « daftaroun », un cahier." },
+    { "id": "t5", "type": "ecoute-choisis", "cible": "mot-maktaboun", "options": ["mot-maktaboun", "mot-samakoun", "mot-qalamoun"], "explication": "مَكْ | تَ | بٌ = « maktaboun », un bureau." }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "e8-l05",
+  "etape": 8,
+  "ordre": 5,
+  "titre": "Al-Fatiha en entier, sans aide",
+  "resume": "Tu lis les sept versets d'une traite, sans béquille. On écoute seulement après.",
+  "duree": 8,
+  "enseigne": [],
+  "elementsNouveaux": ["q:1:7:5", "q:1:7:8"],
+  "theorie": [
+    { "type": "texte", "texte": "Tu as lu chaque verset séparément. Maintenant, **la sourate entière, sans aucune aide** : ni espacement, ni couleurs, ni syllabes. **Lis d'abord, écoute ensuite** : l'écoute sert à vérifier, pas à répéter." },
+    { "type": "galerie", "elements": ["q:1:1", "q:1:2", "q:1:3", "q:1:4", "q:1:5", "q:1:6", "q:1:7"], "note": "Les sept versets d'Al-Fatiha." },
+    { "type": "astuce", "texte": "Si tu bloques sur un mot, découpe-le toi-même en syllabes, lentement, puis relis-le d'une traite. Ce n'est pas grave d'aller lentement." },
+    { "type": "attention", "texte": "Marque un **arrêt à la fin de chaque verset** et laisse tomber la dernière voyelle. Au milieu d'un verset, les alifs de liaison ne se prononcent pas." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lecture-guidee", "consigne": "Lis toute la sourate, sans aide. Prends ton temps.", "versets": "1:1-7", "aides": [], "explication": "Tu lis le texte exactement comme dans le Mushaf. C'est le but de toute cette étape." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "q:1:1", "options": ["q:1:1", "q:1:3", "q:1:4"], "explication": "« bismi » au début : c'est la basmala, verset 1." },
+    { "id": "p3", "type": "assemble", "consigne": "Remets dans l'ordre la fin du verset 7.", "morceaux": ["q:1:7:5", "q:1:7:6", "q:1:7:7", "q:1:7:8", "q:1:7:9"], "resultat": "q:1:7:5-9", "explication": "ghayri l-maghḍoûbi ʿalayhim wa-lâ ḍ-ḍâllîn : « non pas de ceux qui ont encouru la colère, ni des égarés »." },
+    { "id": "p4", "type": "lis-verifie", "cible": "q:1:2", "explication": "« al-ḥamdou lillâhi rabbi l-ʿâlamîn »." },
+    { "id": "p5", "type": "lis-verifie", "cible": "q:1:4", "explication": "« mâliki yawmi d-dîn » : n'oublie pas le â long de مَٰ." },
+    { "id": "p6", "type": "lis-verifie", "cible": "q:1:5", "explication": "« iyyâka naʿboudou wa-iyyâka nastaʿîn »." },
+    { "id": "p7", "type": "lis-verifie", "cible": "q:1:6", "explication": "« ihdinâ ṣ-ṣirâṭa l-moustaqîm »." },
+    { "id": "p8", "type": "lis-verifie", "cible": "q:1:7", "explication": "Le verset le plus long : lis-le par groupes, puis d'une traite." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "q:1:4", "options": ["q:1:4", "q:1:3", "q:1:6"], "explication": "Trois mots : « mâliki yawmi d-dîn »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "q:1:7", "options": ["q:1:7", "q:1:6", "q:1:5"], "explication": "Le dernier verset, le plus long, finit par « aḍ-ḍâllîn »." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "q:1:6:2", "options": ["q:1:6:2", "q:1:7:1"], "explication": "Avec l'article (alif de liaison et ص doublé) : « aṣ-ṣirâṭa »." },
+    { "id": "t4", "type": "ecoute-choisis", "cible": "q:1:5:3", "options": ["q:1:5:3", "q:1:7:8", "q:1:5:1"], "explication": "« wa-iyyâka » : « wa » suivi de « iyyâka »." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "q:1:2", "options": ["q:1:2", "q:1:1", "q:1:5"], "explication": "Le verset de la louange commence par « al-ḥamdou »." }
+  ]
+}

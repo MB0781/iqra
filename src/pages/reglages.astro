@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import Reglages from '../components/pages/Reglages.tsx';
+---
+<Base titre="Réglages" description="Taille du texte arabe, vitesse de l'audio, aides à la lecture et thème.">
+  <div class="conteneur max-w-2xl pt-10 sm:pt-14">
+    <h1 class="text-3xl font-semibold">Réglages</h1>
+    <div class="mt-10"><Reglages client:load /></div>
+  </div>
+</Base>

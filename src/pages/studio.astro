@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import Studio from '../components/pages/Studio.tsx';
+import { lien } from '../lib/liens';
+---
+<Base titre="Studio d’enregistrement" description="Page réservée au récitateur : enregistrer les lettres, syllabes et mots." noindex>
+  <div class="conteneur max-w-3xl pt-10">
+    <h1 class="text-3xl font-semibold">Studio d’enregistrement</h1>
+    <div class="prose-iqra mt-3 text-encre-2">
+      <p>Pour le récitateur. Enregistre chaque élément, réécoute, refais si besoin, puis télécharge le ZIP. Les fichiers portent déjà le bon nom. Mode d’emploi complet : <a href="https://github.com/mb0781/iqra/blob/main/docs/GUIDE-ENREGISTREMENT.md">guide d’enregistrement</a>.</p>
+      <p>Rien n’est envoyé sur internet : les enregistrements restent dans cette page jusqu’au téléchargement. <a href={lien()}>Retour au site</a></p>
+    </div>
+    <div class="mt-8"><Studio client:only="react" /></div>
+  </div>
+</Base>

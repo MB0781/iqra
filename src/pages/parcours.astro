@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import Parcours from '../components/pages/Parcours.tsx';
+import { contenus } from '../contenus/charger';
+
+const { etapes, lecons, tests } = contenus();
+const vue = etapes.map((e) => ({
+  numero: e.numero,
+  titre: e.titre,
+  objectif: e.objectif,
+  palier: e.palier,
+  aTest: tests.has(e.numero),
+  lecons: lecons.filter((l) => l.etape === e.numero).map((l) => ({ id: l.id, etape: l.etape, ordre: l.ordre, titre: l.titre, duree: l.duree })),
+}));
+---
+<Base titre="Le parcours" description="Les neuf étapes d'Iqra', de la première lettre à la lecture autonome de cinq sourates courtes.">
+  <div class="conteneur pt-10 sm:pt-14">
+    <h1 class="text-3xl font-semibold">Le parcours</h1>
+    <p class="mt-2 max-w-xl text-lg text-encre-2">Neuf étapes, {lecons.length} leçons de 5 à 10 minutes. Chaque étape s’ouvre avec 85&#8239;% au test de la précédente.</p>
+    <div class="mt-12">
+      <Parcours client:load etapes={vue} />
+    </div>
+  </div>
+</Base>

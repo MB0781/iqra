@@ -1,0 +1,40 @@
+{
+  "id": "e2-l02",
+  "etape": 2,
+  "ordre": 2,
+  "titre": "Six lettres qui ne s'attachent pas : ا د ذ ر ز و",
+  "resume": "Ces six lettres se lient à la lettre d'avant, jamais à celle d'après. D'où les petits blancs au milieu des mots.",
+  "duree": 8,
+  "enseigne": [],
+  "elementsNouveaux": [
+    "forme-alif-fin", "forme-dal-fin", "forme-dhal-fin", "forme-ra-fin", "forme-zay-fin", "forme-waw-fin",
+    "mot-nv-bab", "mot-nv-dar", "mot-nv-ward", "mot-nv-zayt", "mot-nv-nour", "mot-nv-dhanb", "mot-nv-bard"
+  ],
+  "theorie": [
+    { "type": "texte", "texte": "Six lettres ne s'attachent **jamais à la lettre qui suit** (celle de gauche) : **ا د ذ ر ز و**. Elles se lient à la lettre d'avant, puis laissent un petit blanc." },
+    { "type": "galerie", "elements": ["lettre-alif", "lettre-dal", "lettre-dhal", "lettre-ra", "lettre-zay", "lettre-waw"], "note": "Les six lettres « qui ne donnent pas la main à gauche ». Retiens-les bien : ce sont elles qui expliquent les blancs à l'intérieur des mots." },
+    { "type": "texte", "texte": "Elles n'ont donc que **deux formes** : la forme isolée (en début de mot, ou après une autre lettre de ce groupe) et la forme de fin, reliée à droite seulement." },
+    { "type": "galerie", "elements": ["forme-alif-fin", "forme-dal-fin", "forme-ra-fin", "forme-waw-fin"], "note": "Reliées à droite, ouvertes à gauche. Après elles, la lettre suivante recommence comme en début de mot." },
+    { "type": "presentation", "element": "mot-nv-dar", "note": "**d-a-r** (« dâr », demeure) : د ne se lie pas à ا, et ا ne se lie pas à ر. Trois morceaux séparés, mais un seul mot." },
+    { "type": "attention", "texte": "Un blanc à l'intérieur d'un mot ne veut pas dire qu'un nouveau mot commence. L'espace entre deux mots est nettement plus large." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "classe", "consigne": "Cette lettre s'attache-t-elle à la suivante ?", "categories": [{ "id": "attache", "label": "S'attache à la suivante" }, { "id": "non", "label": "Ne s'attache pas" }], "elements": [{ "ref": "lettre-ba", "categorie": "attache" }, { "ref": "lettre-noun", "categorie": "attache" }, { "ref": "lettre-ya", "categorie": "attache" }, { "ref": "lettre-ta", "categorie": "attache" }, { "ref": "lettre-alif", "categorie": "non" }, { "ref": "lettre-dal", "categorie": "non" }, { "ref": "lettre-ra", "categorie": "non" }, { "ref": "lettre-waw", "categorie": "non" }], "explication": "Seules ا د ذ ر ز و refusent de s'attacher à la suivante. Toutes les autres lettres s'attachent des deux côtés." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "forme-dal-fin", "options": ["forme-dal-fin", "forme-ra-fin", "forme-dhal-fin"], "explication": "Petit angle posé sur la ligne, sans point : ـد, « d ». ـر descend sous la ligne, ـذ a un point." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "forme-zay-fin", "options": ["forme-zay-fin", "forme-ra-fin", "forme-waw-fin"], "explication": "« z » en fin de mot : ـز, courbe qui descend, avec un point." },
+    { "id": "p4", "type": "trouve-lettre", "mot": "mot-nv-dar", "lettre": "lettre-alif", "reponse": "milieu", "explication": "Dans دار, ا est entre د et ر. Il ne se lie à aucune des deux, mais il est bien au milieu du mot." },
+    { "id": "p5", "type": "trouve-lettre", "mot": "mot-nv-ward", "lettre": "lettre-waw", "reponse": "debut", "explication": "ورد commence par و (lecture de droite à gauche). و ne s'attache pas à ر : petit blanc." },
+    { "id": "p6", "type": "lis-choisis-son", "cible": "mot-nv-nour", "options": ["mot-nv-nour", "mot-nv-bard", "mot-nv-ward"], "explication": "نـ lié à و, puis ر séparé : n-w-r (« noûr », lumière)." },
+    { "id": "p7", "type": "assemble", "morceaux": ["lettre-zay", "lettre-ya", "lettre-ta"], "distracteurs": ["lettre-ra"], "resultat": "mot-nv-zayt", "explication": "ز, puis ي, puis ت. ز ne s'attache pas à ي : petit blanc, puis يت liés. Cela donne زيت (« zayt », huile)." },
+    { "id": "p8", "type": "trouve-lettre", "mot": "mot-nv-dhanb", "lettre": "lettre-noun", "reponse": "milieu", "explication": "ذنب : ذ seul (il ne s'attache pas), puis نـ et ـب liés. ن est au milieu." },
+    { "id": "p9", "type": "lis-choisis-son", "cible": "mot-nv-bab", "options": ["mot-nv-bab", "mot-nv-dar", "mot-nv-nabt"], "explication": "بـ lié à ا, puis un blanc, puis ب isolé : b-a-b (« bâb », porte). Le second ب est isolé parce que ا ne s'attache pas à lui." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "forme-alif-fin", "options": ["forme-alif-fin", "forme-dal-fin", "forme-waw-fin"], "explication": "Le trait vertical relié à droite : ـا." },
+    { "id": "t2", "type": "classe", "consigne": "S'attache-t-elle à la suivante ?", "categories": [{ "id": "attache", "label": "S'attache" }, { "id": "non", "label": "Ne s'attache pas" }], "elements": [{ "ref": "lettre-zay", "categorie": "non" }, { "ref": "lettre-dhal", "categorie": "non" }, { "ref": "lettre-ra", "categorie": "non" }, { "ref": "lettre-tha", "categorie": "attache" }, { "ref": "lettre-ya", "categorie": "attache" }, { "ref": "lettre-ba", "categorie": "attache" }], "explication": "ز ذ ر font partie des six lettres qui ne s'attachent pas ; ث ي ب s'attachent." },
+    { "id": "t3", "type": "trouve-lettre", "mot": "mot-nv-nour", "lettre": "lettre-ra", "reponse": "fin", "explication": "نور se termine par ر, séparé de و." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "mot-nv-dhanb", "options": ["mot-nv-dhanb", "mot-nv-zayt", "mot-nv-bint"], "explication": "ذ (angle et point), puis نب liés : dh-n-b." },
+    { "id": "t5", "type": "assemble", "morceaux": ["lettre-dal", "lettre-alif", "lettre-ra"], "distracteurs": ["lettre-waw"], "resultat": "mot-nv-dar", "explication": "د, ا, ر : trois lettres qui ne s'attachent pas, d'où trois morceaux séparés." },
+    { "id": "t6", "type": "trouve-lettre", "mot": "mot-nv-zayt", "lettre": "lettre-noun", "reponse": "absente", "explication": "زيت s'écrit z-y-t : la dent du milieu a deux points en dessous, c'est ي, pas ن." }
+  ]
+}

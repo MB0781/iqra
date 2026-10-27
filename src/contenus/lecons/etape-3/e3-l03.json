@@ -1,0 +1,37 @@
+{
+  "id": "e3-l03",
+  "etape": 3,
+  "ordre": 3,
+  "titre": "La damma : le son « ou »",
+  "resume": "Un petit wâw au-dessus de la lettre donne le son « ou » : بُ = « bou ».",
+  "duree": 7,
+  "enseigne": ["voyelle-damma"],
+  "elementsNouveaux": ["syl-ba-ou", "syl-ta-ou", "syl-mim-ou", "syl-dal-ou", "syl-dad-ou", "syl-dhal-ou", "syl-dha-ou", "syl-ghayn-ou", "syl-ra-ou", "syl-zay-ou", "mot-kutiba", "mot-kabura", "mot-qaruba", "mot-futiha", "mot-baouda", "mot-saghura"],
+  "theorie": [
+    { "type": "texte", "texte": "La **damma** est un petit **wâw** (و) miniature posé **au-dessus** de la lettre. Elle se lit « ou », comme dans « loup », mais **bref**." },
+    { "type": "presentation", "element": "syl-ba-ou", "note": "ب + damma = « bou ». La petite boucle au-dessus, c'est la damma." },
+    { "type": "galerie", "elements": ["syl-ba-a", "syl-ba-i", "syl-ba-ou"], "note": "Les trois voyelles courtes sur la même lettre : « ba, bi, bou ». Trait au-dessus : a. Trait en dessous : i. Petit و au-dessus : ou." },
+    { "type": "galerie", "elements": ["syl-ta-ou", "syl-noun-ou", "syl-kaf-ou", "syl-lam-ou", "syl-mim-ou", "syl-dal-ou", "syl-ra-ou", "syl-sin-ou"], "note": "« tou, nou, kou, lou, mou, dou, rou, sou »." },
+    { "type": "attention", "texte": "La fatha et la damma sont toutes les deux **au-dessus**. Regarde leur forme : un trait droit pour « a », une petite boucle pour « ou »." },
+    { "type": "presentation", "element": "mot-kutiba", "note": "كُ + تِ + بَ = « koutiba », il a été écrit. Compare avec كَتَبَ « kataba » : mêmes lettres, autres voyelles, autre sens. D'où l'importance de bien lire chaque voyelle." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "syl-ta-ou", "options": ["syl-ta-ou", "syl-ta-a", "syl-ta-i"], "explication": "Petite boucle au-dessus : c'est la damma, donc « tou »." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "syl-mim-ou", "options": ["syl-mim-ou", "syl-noun-ou", "syl-mim-i"], "explication": "« mou » : la boucle de م, avec la damma au-dessus." },
+    { "id": "p3", "type": "paires-minimales", "paire": ["syl-dal-ou", "syl-dad-ou"], "cible": "syl-dad-ou", "explication": "ض est le « d » emphatique : langue large, son grave. د est le « d » français. ض porte un point, د n'en a pas." },
+    { "id": "p4", "type": "paires-minimales", "paire": ["syl-dhal-ou", "syl-dha-ou"], "cible": "syl-dhal-ou", "explication": "ذ : langue entre les dents, son léger. ظ : même position mais emphatique, plus grave. Le dessin aide : ذ ressemble à د, ظ ressemble à ط." },
+    { "id": "p5", "type": "lis-choisis-son", "cible": "mot-kabura", "options": ["mot-kabura", "mot-kataba", "mot-qaruba"], "explication": "كَ + بُ + رَ = « kaboura », il a grandi. La damma est sur ب." },
+    { "id": "p6", "type": "assemble", "morceaux": ["syl-fa-ou", "syl-ta-i", "syl-hha-a"], "distracteurs": ["syl-fa-a"], "resultat": "mot-futiha", "explication": "فُ (fou) + تِ (ti) + حَ (ḥa) = « foutiḥa », il a été ouvert. فَ, avec une fatha, se lirait « fa »." },
+    { "id": "p7", "type": "paires-minimales", "paire": ["syl-ghayn-ou", "syl-ra-ou"], "cible": "syl-ghayn-ou", "explication": "غ se fait au fond de la gorge, comme le « r » grasseyé du français. ر est roulé du bout de la langue. À l'écrit, غ porte un point." },
+    { "id": "p8", "type": "classe", "categories": [{ "id": "a", "label": "« a »" }, { "id": "i", "label": "« i »" }, { "id": "ou", "label": "« ou »" }], "elements": [{ "ref": "syl-sad-ou", "categorie": "ou" }, { "ref": "syl-kha-i", "categorie": "i" }, { "ref": "syl-tta-a", "categorie": "a" }, { "ref": "syl-qaf-ou", "categorie": "ou" }, { "ref": "syl-zay-i", "categorie": "i" }, { "ref": "syl-chin-a", "categorie": "a" }], "explication": "Trait au-dessus : « a ». Trait en dessous : « i ». Petite boucle au-dessus : « ou »." },
+    { "id": "p9", "type": "trouve-lettre", "mot": "mot-baouda", "lettre": "lettre-ayn", "reponse": "milieu", "explication": "Dans بَعُدَ, le ع est au milieu : sa forme médiane est une petite boucle fermée, qui porte ici la damma (« ba-ʿou-da »)." },
+    { "id": "p10", "type": "lis-verifie", "cible": "mot-saghura", "explication": "صَ + غُ + رَ = « ṣaghoura », il est devenu petit. ص et غ sont des sons graves : prends ton temps." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "syl-noun-ou", "options": ["syl-noun-ou", "syl-noun-a", "syl-ba-ou"], "explication": "Un point au-dessus et une petite boucle : « nou »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "mot-kutiba", "options": ["mot-kutiba", "mot-kataba", "mot-futiha"], "explication": "« koutiba » : كُ porte la damma, puis تِ la kasra, et بَ la fatha." },
+    { "id": "t3", "type": "paires-minimales", "paire": ["syl-dhal-ou", "syl-zay-ou"], "cible": "syl-zay-ou", "explication": "ز : le « z » français. ذ : la langue entre les dents. Les deux ont un point : c'est le dessin (ز descend sous la ligne) qui les distingue." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "mot-qaruba", "options": ["mot-qaruba", "mot-kabura", "mot-saghura"], "explication": "قَ + رُ + بَ = « qarouba », il s'est approché." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "syl-ayn-ou", "options": ["syl-ayn-ou", "syl-ghayn-ou", "syl-alif-ou"], "explication": "ع sans point, avec une damma : « ʿou ». Avec un point, ce serait غُ « ghou »." }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "etape": 1,
+  "titre": "Test de l'étape 1 : les 28 lettres",
+  "consigne": "Reconnais chaque lettre seule et associe-la à son son. Il faut 85 % de bonnes réponses pour ouvrir l'étape 2.",
+  "questions": [
+    { "id": "q1", "type": "lis-choisis-son", "cible": "lettre-ya", "options": ["lettre-ya", "lettre-ba", "lettre-noun", "lettre-ta"], "explication": "Deux points en dessous : ي, « y »." },
+    { "id": "q2", "type": "ecoute-choisis", "cible": "lettre-kha", "options": ["lettre-kha", "lettre-ghayn", "lettre-fa"], "explication": "Le son « kh » : خ, le crochet avec un point au-dessus. غ a un point aussi, mais c'est la petite tête ouverte." },
+    { "id": "q3", "type": "lis-choisis-son", "cible": "lettre-hha", "options": ["lettre-hha", "lettre-ha", "lettre-ayn"], "explication": "Le crochet sans point : ح, « ḥ »." },
+    { "id": "q4", "type": "ecoute-choisis", "cible": "lettre-zay", "options": ["lettre-zay", "lettre-ra", "lettre-dhal", "lettre-dal"], "explication": "Le son « z » : ز, la courbe qui descend avec un point." },
+    { "id": "q5", "type": "paires-minimales", "paire": ["lettre-sin", "lettre-sad"], "cible": "lettre-sin", "explication": "Le « s » clair : س, trois dents. ص est le « s » grave." },
+    { "id": "q6", "type": "paires-minimales", "paire": ["lettre-ta", "lettre-tta"], "cible": "lettre-tta", "explication": "Le « t » grave, langue plaquée : ط, avec sa haste." },
+    { "id": "q7", "type": "paires-minimales", "paire": ["lettre-dal", "lettre-dad"], "cible": "lettre-dal", "explication": "Le « d » clair, comme en français : د." },
+    { "id": "q8", "type": "paires-minimales", "paire": ["lettre-ayn", "lettre-alif"], "cible": "lettre-alif", "explication": "Aucun resserrement de la gorge : c'est ا, simple support de la voyelle." },
+    { "id": "q9", "type": "classe", "consigne": "Combien de points ?", "categories": [{ "id": "un", "label": "Un point" }, { "id": "deux", "label": "Deux points" }, { "id": "trois", "label": "Trois points" }], "elements": [{ "ref": "lettre-noun", "categorie": "un" }, { "ref": "lettre-fa", "categorie": "un" }, { "ref": "lettre-zay", "categorie": "un" }, { "ref": "lettre-qaf", "categorie": "deux" }, { "ref": "lettre-ya", "categorie": "deux" }, { "ref": "lettre-ta", "categorie": "deux" }, { "ref": "lettre-chin", "categorie": "trois" }, { "ref": "lettre-tha", "categorie": "trois" }], "explication": "ن, ف et ز ont un point ; ق, ي et ت deux ; ش et ث trois. Seules ces deux-là en ont trois." },
+    { "id": "q10", "type": "lis-choisis-son", "cible": "lettre-ghayn", "options": ["lettre-ghayn", "lettre-ayn", "lettre-qaf"], "explication": "Petite tête ouverte avec un point : غ, « gh »." },
+    { "id": "q11", "type": "ecoute-choisis", "cible": "lettre-waw", "options": ["lettre-waw", "lettre-fa", "lettre-mim"], "explication": "Le son « w » : و, tête ronde sans point et queue courbe." },
+    { "id": "q12", "type": "lis-choisis-son", "cible": "lettre-dhal", "options": ["lettre-dhal", "lettre-dha", "lettre-zay"], "explication": "Le petit angle avec un point : ذ, « dh »." },
+    { "id": "q13", "type": "ecoute-choisis", "cible": "lettre-chin", "options": ["lettre-chin", "lettre-sin", "lettre-sad"], "explication": "Le son « ch » : ش, trois dents et trois points." },
+    { "id": "q14", "type": "lis-choisis-son", "cible": "lettre-kaf", "options": ["lettre-kaf", "lettre-qaf", "lettre-lam", "lettre-tta"], "explication": "Haste, base plate et signe ondulé : ك, « k »." },
+    { "id": "q15", "type": "ecoute-choisis", "cible": "lettre-jim", "options": ["lettre-jim", "lettre-kha", "lettre-hha"], "explication": "Le son « dj » : ج, point dans le creux du crochet." },
+    { "id": "q16", "type": "paires-minimales", "paire": ["lettre-tha", "lettre-sin"], "cible": "lettre-sin", "explication": "Langue derrière les dents : « s », س. ث se dit langue entre les dents." },
+    { "id": "q17", "type": "lis-verifie", "cible": "lettre-dad", "explication": "ض : un « d » grave, bouche creusée. Ce qui compte d'abord, c'est de l'avoir reconnu." },
+    { "id": "q18", "type": "ecoute-choisis", "cible": "lettre-ha", "options": ["lettre-ha", "lettre-mim", "lettre-waw"], "explication": "Le « h » léger : ه, la forme ronde sans queue." }
+  ]
+}

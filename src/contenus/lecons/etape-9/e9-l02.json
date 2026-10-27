@@ -1,0 +1,35 @@
+{
+  "id": "e9-l02",
+  "etape": 9,
+  "ordre": 2,
+  "titre": "Al-Kawthar (sourate 108)",
+  "resume": "La plus courte sourate du Coran : trois versets.",
+  "duree": 7,
+  "enseigne": [],
+  "elementsNouveaux": ["q:108:1:5", "q:108:1:6", "q:108:1:7", "q:108:2:1", "q:108:2:2", "q:108:2:3", "q:108:3:2", "q:108:3:4", "q:108:1", "q:108:2", "q:108:3"],
+  "theorie": [
+    { "type": "texte", "texte": "Sens global d'Al-Kawthar : « Nous t'avons accordé l'Abondance ; prie donc ton Seigneur et sacrifie ; c'est celui qui te hait qui sera sans postérité. » Commence par lire seul, puis passe aux mots." },
+    { "type": "presentation", "element": "q:108:1:7", "note": "**al-kawthar** : article lunaire, و avec soukoun après fatha (« aw »), ث (« th » de l'anglais « think »)." },
+    { "type": "presentation", "element": "q:108:2:3", "note": "**wa-nḥar** : l'alif de liaison est **au milieu** de la lecture, il ne se prononce pas. On passe directement de « wa » au n." },
+    { "type": "presentation", "element": "q:108:3:2", "note": "**châniʾaka** : la hamza est posée sur un support en forme de yâ sans points ; elle se lit comme un léger coup de glotte : « châ - ni - ʾa - ka »." },
+    { "type": "astuce", "texte": "Le premier mot du verset 1 porte le signe madd sur son alif : on prolonge le « â » un peu plus longtemps que d'habitude." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lecture-guidee", "consigne": "Lis la sourate seul, d'abord. Écoute ensuite.", "versets": "108:1-3", "aides": ["audio"], "explication": "Plus de couleurs : tu lis le texte du Mushaf tel quel, puis tu compares avec la récitation." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "q:108:1:6", "options": ["q:108:1:6", "q:108:1:5", "q:108:3:2"], "explication": "Hamza + fatha, ع avec soukoun, ط, ي avec soukoun (« ay »), « nâ » avec le petit alif, « ka » : « aʿṭaynâka »." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "q:108:2:3", "options": ["q:108:2:3", "q:108:2:1", "q:108:1:7"], "explication": "« wa-nḥar » : wâw, alif de liaison muet, ن avec soukoun, ح, ر." },
+    { "id": "p4", "type": "lis-choisis-son", "cible": "q:108:3:4", "options": ["q:108:3:4", "q:108:1:7", "q:108:2:3"], "explication": "Article lunaire, hamza, ب avec soukoun, ت, ر : « al-abtar »." },
+    { "id": "p5", "type": "ecoute-choisis", "cible": "q:108:2:2", "options": ["q:108:2:2", "q:1:2:3", "q:108:2:1"], "explication": "« lirabbika » = li + rabbi + ka : le mot « rabbi » d'Al-Fatiha, avec « li » devant et « ka » à la fin." },
+    { "id": "p6", "type": "lis-verifie", "cible": "q:108:1", "explication": "Basmala, puis « innâ aʿṭaynâka l-kawthar »." },
+    { "id": "p7", "type": "lis-verifie", "cible": "q:108:2", "explication": "« faṣalli lirabbika wa-nḥar » : le l de « faṣalli » est doublé par la chadda." },
+    { "id": "p8", "type": "lis-verifie", "cible": "q:108:3", "explication": "« inna châniʾaka houwa l-abtar » : l'alif de liaison de l'article tombe après « houwa »." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "q:108:3:2", "options": ["q:108:3:2", "q:108:1:6", "q:108:3:1"], "explication": "ش, alif long, ن, hamza, ك : « châniʾaka »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "q:108:1:7", "options": ["q:108:1:7", "q:108:3:4"], "explication": "« al-kawthar » : on entend « kaw » puis « th »." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "q:108:2:1", "options": ["q:108:2:1", "q:108:2:2", "q:108:2:3"], "explication": "ف, ص, ل avec chadda : « faṣalli »." },
+    { "id": "t4", "type": "ecoute-choisis", "cible": "q:108:1:5", "options": ["q:108:1:5", "q:108:3:1"], "explication": "« innâ », avec le â prolongé (signe madd), et non « inna », court." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "q:108:3", "options": ["q:108:3", "q:108:2"], "explication": "Le verset 3 commence par « inna » et finit par « al-abtar »." },
+    { "id": "t6", "type": "lis-choisis-son", "cible": "q:112:2", "options": ["q:112:2", "q:108:2"], "explication": "Révision d'Al-Ikhlas : « allâhou ṣ-ṣamad »." }
+  ]
+}

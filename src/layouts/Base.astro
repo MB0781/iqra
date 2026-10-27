@@ -1,0 +1,126 @@
+---
+import '../styles/global.css';
+import { BookOpen, RotateCcw, Type, ScrollText, ChartNoAxesColumn } from 'lucide-react';
+import Marque from '../components/ui/Marque.astro';
+import { lien } from '../lib/liens';
+
+interface Props {
+  titre: string;
+  description: string;
+  /** Masque la page des moteurs de recherche (studio, design). */
+  noindex?: boolean;
+  /** Données structurées JSON-LD. */
+  jsonld?: Record<string, unknown>;
+}
+const { titre, description, noindex = false, jsonld } = Astro.props;
+const titreComplet = titre === "Iqra'" ? "Iqra' — apprendre à lire l'arabe jusqu'aux courtes sourates" : `${titre} | Iqra'`;
+const canonique = new URL(Astro.url.pathname, Astro.site).toString();
+const image = new URL(lien('og.png'), Astro.site).toString();
+const chemin = Astro.url.pathname;
+const nav = [
+  { href: lien('parcours/'), label: 'Parcours', icone: BookOpen },
+  { href: lien('revision/'), label: 'Révision', icone: RotateCcw },
+  { href: lien('alphabet/'), label: 'Alphabet', icone: Type },
+  { href: lien('lecture/'), label: 'Lecture', icone: ScrollText },
+  { href: lien('tableau-de-bord/'), label: 'Progrès', icone: ChartNoAxesColumn },
+];
+const actif = (href: string) => chemin.startsWith(href) || (href.endsWith('parcours/') && (chemin.includes('/lecon/') || chemin.includes('/test/')));
+---
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{titreComplet}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonique} />
+    {noindex ? <meta name="robots" content="noindex, nofollow" /> : null}
+    <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#181612" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href={lien('favicon.svg')} type="image/svg+xml" />
+    <link rel="apple-touch-icon" href={lien('icones/apple-touch-icon.png')} />
+    <link rel="manifest" href={lien('manifest.webmanifest')} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Iqra'" />
+    <meta property="og:title" content={titreComplet} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonique} />
+    <meta property="og:image" content={image} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Iqra' : la lettre bâ et la promesse du site, apprendre à lire l'arabe jusqu'à Al-Fatiha." />
+    <meta name="twitter:card" content="summary_large_image" />
+    {jsonld ? <script type="application/ld+json" set:html={JSON.stringify(jsonld)} /> : null}
+    <script is:inline>
+      try {
+        var t = localStorage.getItem('iqra:theme');
+        if (t === 'clair' || t === 'sombre') document.documentElement.dataset.theme = t;
+        var a = localStorage.getItem('iqra:taille-ar');
+        if (a) document.documentElement.dataset.tailleAr = a;
+      } catch (e) {}
+    </script>
+  </head>
+  <body class="flex min-h-dvh flex-col bg-papier pb-[calc(4.25rem+env(safe-area-inset-bottom))] md:pb-0">
+    <a href="#contenu" class="sr-only focus:not-sr-only focus:fixed focus:start-3 focus:top-3 focus:z-50 focus:rounded-[var(--radius-md)] focus:bg-surface focus:px-4 focus:py-3 focus:shadow-2">Aller au contenu</a>
+    <header class="border-b border-trait/70">
+      <div class="conteneur flex h-14 items-center justify-between gap-4">
+        <a href={lien()} class="flex min-h-11 items-center gap-2 text-encre no-underline" aria-label="Iqra', accueil">
+          <Marque taille={22} class="text-accent" />
+          <span class="text-lg font-semibold tracking-tight">Iqra’</span>
+        </a>
+        <nav aria-label="Navigation principale" class="hidden md:block">
+          <ul class="flex items-center gap-1">
+            {nav.map((n) => (
+              <li>
+                <a href={n.href} aria-current={actif(n.href) ? 'page' : undefined} class="flex min-h-11 items-center rounded-[var(--radius-sm)] px-3 text-sm text-encre-2 no-underline hover:text-encre aria-[current=page]:font-semibold aria-[current=page]:text-encre">
+                  {n.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <a href={lien('reglages/')} class="flex min-h-11 items-center rounded-[var(--radius-sm)] px-2 text-sm text-encre-2 no-underline hover:text-encre md:px-3">Réglages</a>
+      </div>
+    </header>
+    <main id="contenu" class="flex-1">
+      <slot />
+    </main>
+    <footer class="mt-20 border-t border-trait/70 py-10 text-sm text-encre-2">
+      <div class="conteneur flex flex-col gap-6 sm:flex-row sm:justify-between">
+        <div class="max-w-sm">
+          <p class="flex items-center gap-2 font-semibold text-encre"><Marque taille={18} class="text-accent" /> Iqra’</p>
+          <p class="mt-2">Gratuit, sans publicité, sans compte. Ta progression reste dans ce navigateur.</p>
+          <p class="mt-2">Texte coranique : <a class="lien" href="https://tanzil.net">Tanzil Project</a> (CC BY 3.0), reproduit sans modification.</p>
+        </div>
+        <nav aria-label="Pied de page">
+          <ul class="grid grid-cols-2 gap-x-8 gap-y-1">
+            <li><a class="inline-flex min-h-11 items-center hover:text-encre" href={lien('methode/')}>La méthode</a></li>
+            <li><a class="inline-flex min-h-11 items-center hover:text-encre" href={lien('sources/')}>Sources et licences</a></li>
+            <li><a class="inline-flex min-h-11 items-center hover:text-encre" href={lien('confidentialite/')}>Confidentialité</a></li>
+            <li><a class="inline-flex min-h-11 items-center hover:text-encre" href={lien('reglages/')}>Réglages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <nav aria-label="Navigation principale (mobile)" class="fixed inset-x-0 bottom-0 z-40 border-t border-trait bg-papier/95 pb-[env(safe-area-inset-bottom)] backdrop-blur-sm md:hidden">
+      <ul class="grid grid-cols-5">
+        {nav.map((n) => (
+          <li>
+            <a href={n.href} aria-current={actif(n.href) ? 'page' : undefined} class="flex min-h-[4.25rem] flex-col items-center justify-center gap-1 text-[0.6875rem] text-encre-2 no-underline aria-[current=page]:text-accent">
+              <n.icone aria-hidden="true" size={22} strokeWidth={1.75} />
+              {n.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+    <script>
+      if ('serviceWorker' in navigator && import.meta.env.PROD) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`, { scope: import.meta.env.BASE_URL }).catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>

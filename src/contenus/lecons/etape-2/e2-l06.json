@@ -1,0 +1,36 @@
+{
+  "id": "e2-l06",
+  "etape": 2,
+  "ordre": 6,
+  "titre": "Lire des mots entiers",
+  "resume": "Toutes les lettres, toutes les formes : on déchiffre des mots complets, lettre par lettre.",
+  "duree": 8,
+  "enseigne": [],
+  "elementsNouveaux": ["mot-nv-masjid", "mot-nv-kitab", "mot-nv-funduq", "mot-nv-dhahab", "mot-nv-jabal", "mot-nv-samak", "mot-nv-qamis", "mot-nv-zahr"],
+  "theorie": [
+    { "type": "texte", "texte": "Tu connais maintenant toutes les lettres et leurs formes. Dans cette leçon, on lit des mots entiers, lettre par lettre, de droite à gauche." },
+    { "type": "astuce", "texte": "Méthode en trois temps : 1) repère les blancs, laissés par ا د ذ ر ز و ; 2) dans chaque morceau, compte les lettres en suivant dents, boucles et hastes ; 3) vérifie les points." },
+    { "type": "presentation", "element": "mot-nv-masjid", "note": "**m-s-dj-d** (« masjid », mosquée) : م au début, les trois dents de س, la tête de ج, puis د à la fin." },
+    { "type": "presentation", "element": "mot-nv-kitab", "note": "**k-t-a-b** (« kitâb », livre) : ا ne s'attache pas à la suite, d'où le blanc avant le ب final, qui prend alors sa forme isolée." },
+    { "type": "attention", "texte": "Sans voyelles, un même squelette peut se lire de plusieurs façons. C'est pour ça que l'étape 3 ajoute les voyelles. Ici, ton seul but est de reconnaître chaque lettre." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "trouve-lettre", "mot": "mot-nv-masjid", "lettre": "lettre-sin", "reponse": "milieu", "explication": "مسجد : les trois dents sans point, après م, c'est س." },
+    { "id": "p2", "type": "trouve-lettre", "mot": "mot-nv-funduq", "lettre": "lettre-qaf", "reponse": "fin", "explication": "فندق se termine par ق isolé : د ne s'attache pas à lui." },
+    { "id": "p3", "type": "lis-choisis-son", "cible": "mot-nv-dhahab", "options": ["mot-nv-dhahab", "mot-nv-zahr", "mot-nv-jabal"], "explication": "ذ (angle et point), ه au début du morceau suivant, puis ـب : dh-h-b (« dhahab », or)." },
+    { "id": "p4", "type": "assemble", "morceaux": ["lettre-kaf", "lettre-ta", "lettre-alif", "lettre-ba"], "distracteurs": ["lettre-tha"], "resultat": "mot-nv-kitab", "explication": "ك, ت, ا, ب : كتاب. ا ne s'attache pas au ب, qui reste isolé." },
+    { "id": "p5", "type": "classe", "consigne": "S'attache-t-elle à la suivante ?", "categories": [{ "id": "attache", "label": "S'attache" }, { "id": "non", "label": "Ne s'attache pas" }], "elements": [{ "ref": "lettre-fa", "categorie": "attache" }, { "ref": "lettre-qaf", "categorie": "attache" }, { "ref": "lettre-ghayn", "categorie": "attache" }, { "ref": "lettre-sad", "categorie": "attache" }, { "ref": "lettre-dhal", "categorie": "non" }, { "ref": "lettre-zay", "categorie": "non" }, { "ref": "lettre-waw", "categorie": "non" }, { "ref": "lettre-dal", "categorie": "non" }], "explication": "Toujours les six mêmes : ا د ذ ر ز و ne s'attachent pas. Toutes les autres, oui." },
+    { "id": "p6", "type": "trouve-lettre", "mot": "mot-nv-samak", "lettre": "lettre-kaf", "reponse": "fin", "explication": "سمك se termine par ـك, avec son petit signe ondulé." },
+    { "id": "p7", "type": "lis-choisis-son", "cible": "mot-nv-qamis", "options": ["mot-nv-qamis", "mot-nv-samak", "mot-nv-masjid"], "explication": "ق, م, ي (deux points dessous), puis ص : q-m-y-ṣ (« qamîṣ », chemise)." },
+    { "id": "p8", "type": "assemble", "morceaux": ["lettre-zay", "lettre-ha", "lettre-ra"], "distracteurs": ["lettre-dhal"], "resultat": "mot-nv-zahr", "explication": "ز (courbe et point), ه, ر : زهر (« zahr », fleurs)." },
+    { "id": "p9", "type": "trouve-lettre", "mot": "mot-nv-dhahab", "lettre": "lettre-dal", "reponse": "absente", "explication": "ذهب commence par ذ, avec un point : ce n'est pas د." }
+  ],
+  "test": [
+    { "id": "t1", "type": "trouve-lettre", "mot": "mot-nv-qamis", "lettre": "lettre-sad", "reponse": "fin", "explication": "قميص se termine par ـص, avec sa cuvette de fin." },
+    { "id": "t2", "type": "trouve-lettre", "mot": "mot-nv-jabal", "lettre": "lettre-jim", "reponse": "debut", "explication": "جبل commence par جـ, tête au point dessous." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "mot-nv-funduq", "options": ["mot-nv-funduq", "mot-nv-qamis", "mot-nv-kitab"], "explication": "ف, ن, د, puis ق isolé : f-n-d-q (« founduq », hôtel)." },
+    { "id": "t4", "type": "assemble", "morceaux": ["lettre-mim", "lettre-sin", "lettre-jim", "lettre-dal"], "distracteurs": ["lettre-hha"], "resultat": "mot-nv-masjid", "explication": "م, س, ج, د : مسجد." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "forme-noun-milieu", "options": ["forme-noun-milieu", "forme-ba-milieu", "forme-ya-milieu", "forme-ta-milieu"], "explication": "Un point au-dessus de la dent : ـنـ, « n »." },
+    { "id": "t6", "type": "trouve-lettre", "mot": "mot-nv-samak", "lettre": "lettre-mim", "reponse": "milieu", "explication": "سمك : la petite boucle entre س et ك, c'est م." }
+  ]
+}

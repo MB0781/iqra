@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import Marque from '../components/ui/Marque.astro';
+import { lien } from '../lib/liens';
+---
+<Base titre="Page introuvable" description="Cette page n'existe pas." noindex>
+  <div class="conteneur flex max-w-xl flex-col items-start pt-16 sm:pt-24">
+    <Marque taille={48} class="text-accent" />
+    <h1 class="mt-6 text-3xl font-semibold">Cette page n’existe pas</h1>
+    <p class="mt-3 text-lg text-encre-2">L’adresse est peut-être incomplète, ou la page a changé de place. Ta progression, elle, n’a pas bougé.</p>
+    <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+      <a class="bouton bouton-principal" href={lien('parcours/')}>Reprendre le parcours</a>
+      <a class="bouton bouton-secondaire" href={lien()}>Accueil</a>
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,297 @@
+{
+  "id": "e7-l02",
+  "etape": 7,
+  "ordre": 2,
+  "titre": "Les lettres solaires",
+  "resume": "Le lâm de l'article s'efface et la lettre suivante se double.",
+  "duree": 7,
+  "enseigne": [
+    "notion-lettres-solaires"
+  ],
+  "elementsNouveaux": [
+    "mot-chams-indef",
+    "mot-ach-chams",
+    "mot-an-nour",
+    "mot-as-salam",
+    "mot-ad-dars",
+    "mot-ar-radjoul"
+  ],
+  "theorie": [
+    {
+      "type": "texte",
+      "texte": "Devant 14 autres lettres, le lâm de l'article **s'écrit mais ne se prononce pas**. La lettre suivante porte alors une **chadda** : on la double. Ce sont les **lettres solaires** : ت ث د ذ ر ز س ش ص ض ط ظ ل ن."
+    },
+    {
+      "type": "presentation",
+      "element": "mot-ach-chams",
+      "note": "الشَّمْسُ : « ach-chamsou », le soleil. On ne dit pas « al-chamsou » : le lâm se fond dans le « ch » doublé."
+    },
+    {
+      "type": "paire",
+      "elements": [
+        "mot-al-qamar",
+        "mot-ach-chams"
+      ],
+      "note": "Lunaire : soukoun sur le lâm, on dit « al- ». Solaire : lâm sans signe et chadda sur la lettre suivante, on dit « ach- », « an- », « as- »…"
+    },
+    {
+      "type": "galerie",
+      "elements": [
+        "mot-an-nour",
+        "mot-as-salam",
+        "mot-ad-dars",
+        "mot-ar-radjoul"
+      ],
+      "note": "« an-noûrou », « as-salâmou », « ad-darsou », « ar-radjoulou »."
+    },
+    {
+      "type": "astuce",
+      "texte": "Inutile d'apprendre la liste par cœur : **regarde le lâm**. Soukoun sur le lâm : lunaire, on le dit. Lâm nu et chadda juste après : solaire, on le saute."
+    }
+  ],
+  "pratique": [
+    {
+      "id": "p1",
+      "type": "lis-choisis-son",
+      "cible": "mot-ach-chams",
+      "options": [
+        "mot-ach-chams",
+        "mot-chams-indef",
+        "mot-as-salam"
+      ],
+      "explication": "Lâm sans signe, chîn avec chadda : le lâm se tait et le « ch » se double : « ach-chamsou »."
+    },
+    {
+      "id": "p2",
+      "type": "classe",
+      "consigne": "Lettre solaire ou lunaire ?",
+      "categories": [
+        {
+          "id": "solaire",
+          "label": "Solaire (lâm muet)"
+        },
+        {
+          "id": "lunaire",
+          "label": "Lunaire (lâm prononcé)"
+        }
+      ],
+      "elements": [
+        {
+          "ref": "mot-ach-chams",
+          "categorie": "solaire"
+        },
+        {
+          "ref": "mot-al-qamar",
+          "categorie": "lunaire"
+        },
+        {
+          "ref": "mot-an-nour",
+          "categorie": "solaire"
+        },
+        {
+          "ref": "mot-al-kitab",
+          "categorie": "lunaire"
+        },
+        {
+          "ref": "mot-ad-dars",
+          "categorie": "solaire"
+        },
+        {
+          "ref": "mot-al-bab",
+          "categorie": "lunaire"
+        },
+        {
+          "ref": "mot-as-salam",
+          "categorie": "solaire"
+        },
+        {
+          "ref": "mot-al-qalam",
+          "categorie": "lunaire"
+        }
+      ],
+      "explication": "Chadda sur la lettre après le lâm : solaire. Soukoun sur le lâm : lunaire."
+    },
+    {
+      "id": "p3",
+      "type": "lis-choisis-son",
+      "cible": "mot-an-nour",
+      "options": [
+        "mot-an-nour",
+        "mot-ad-dars",
+        "mot-al-walad"
+      ],
+      "explication": "Noûn avec chadda : « an-noûrou », la lumière. Le wâw après la damma allonge le « oû »."
+    },
+    {
+      "id": "p4",
+      "type": "ecoute-choisis",
+      "cible": "mot-as-salam",
+      "options": [
+        "mot-as-salam",
+        "mot-ach-chams",
+        "mot-al-bayt"
+      ],
+      "explication": "« as-salâmou » : le sîn est doublé, le lâm de l'article ne s'entend pas."
+    },
+    {
+      "id": "p5",
+      "type": "lis-choisis-son",
+      "cible": "mot-ar-radjoul",
+      "options": [
+        "mot-ar-radjoul",
+        "mot-an-nour",
+        "mot-al-qamar"
+      ],
+      "explication": "Râ avec chadda : « ar-radjoulou », l'homme."
+    },
+    {
+      "id": "p6",
+      "type": "lis-choisis-son",
+      "cible": "mot-chams-indef",
+      "options": [
+        "mot-chams-indef",
+        "mot-ach-chams",
+        "mot-bayt-indef"
+      ],
+      "explication": "Pas d'article, un tanwin final : « chamsoun », un soleil."
+    },
+    {
+      "id": "p7",
+      "type": "lis-choisis-son",
+      "cible": "q:1:7:4",
+      "options": [
+        "q:1:7:4",
+        "q:2:5:2",
+        "q:1:7:5"
+      ],
+      "explication": "Révision : [[q:1:7:4]], « ʿalayhim ». Le yâ avec soukoun fait « ay », le mîm final avec soukoun « m »."
+    },
+    {
+      "id": "p8",
+      "type": "classe",
+      "consigne": "Le lâm de l'article se prononce-t-il ?",
+      "categories": [
+        {
+          "id": "oui",
+          "label": "On prononce le lâm"
+        },
+        {
+          "id": "non",
+          "label": "On ne prononce pas le lâm"
+        }
+      ],
+      "elements": [
+        {
+          "ref": "mot-ar-radjoul",
+          "categorie": "non"
+        },
+        {
+          "ref": "mot-al-walad",
+          "categorie": "oui"
+        },
+        {
+          "ref": "mot-as-salam",
+          "categorie": "non"
+        },
+        {
+          "ref": "mot-al-bayt",
+          "categorie": "oui"
+        },
+        {
+          "ref": "mot-ad-dars",
+          "categorie": "non"
+        },
+        {
+          "ref": "mot-al-qalam",
+          "categorie": "oui"
+        }
+      ],
+      "explication": "Le lâm se prononce quand il porte un soukoun. Il se tait quand la lettre suivante porte une chadda."
+    },
+    {
+      "id": "p9",
+      "type": "lis-verifie",
+      "cible": "mot-ad-dars",
+      "explication": "« ad-darsou » : on saute le lâm, on double le dâl."
+    }
+  ],
+  "test": [
+    {
+      "id": "t1",
+      "type": "lis-choisis-son",
+      "cible": "mot-ad-dars",
+      "options": [
+        "mot-ad-dars",
+        "mot-ar-radjoul",
+        "mot-al-bab"
+      ],
+      "explication": "Dâl avec chadda : « ad-darsou », la leçon."
+    },
+    {
+      "id": "t2",
+      "type": "ecoute-choisis",
+      "cible": "mot-an-nour",
+      "options": [
+        "mot-an-nour",
+        "mot-as-salam",
+        "mot-al-qamar"
+      ],
+      "explication": "« an-noûrou » : noûn doublé, lâm muet."
+    },
+    {
+      "id": "t3",
+      "type": "classe",
+      "consigne": "Lettre solaire ou lunaire ?",
+      "categories": [
+        {
+          "id": "solaire",
+          "label": "Solaire (lâm muet)"
+        },
+        {
+          "id": "lunaire",
+          "label": "Lunaire (lâm prononcé)"
+        }
+      ],
+      "elements": [
+        {
+          "ref": "mot-ach-chams",
+          "categorie": "solaire"
+        },
+        {
+          "ref": "mot-al-walad",
+          "categorie": "lunaire"
+        },
+        {
+          "ref": "mot-ar-radjoul",
+          "categorie": "solaire"
+        },
+        {
+          "ref": "mot-al-bayt",
+          "categorie": "lunaire"
+        },
+        {
+          "ref": "mot-an-nour",
+          "categorie": "solaire"
+        }
+      ],
+      "explication": "Regarde le lâm : soukoun = lunaire ; lâm nu suivi d'une chadda = solaire."
+    },
+    {
+      "id": "t4",
+      "type": "lis-choisis-son",
+      "cible": "mot-as-salam",
+      "options": [
+        "mot-as-salam",
+        "mot-ach-chams",
+        "mot-al-kitab"
+      ],
+      "explication": "Sîn avec chadda : « as-salâmou », la paix."
+    },
+    {
+      "id": "t5",
+      "type": "lis-verifie",
+      "cible": "mot-ach-chams",
+      "explication": "« ach-chamsou » : pas de « l », un « ch » doublé."
+    }
+  ]
+}

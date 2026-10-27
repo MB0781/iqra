@@ -1,0 +1,34 @@
+{
+  "id": "e8-l01",
+  "etape": 8,
+  "ordre": 1,
+  "titre": "Al-Fatiha, versets 1 et 2",
+  "resume": "La basmala que tu connais déjà, puis le verset de la louange, mot par mot.",
+  "duree": 8,
+  "enseigne": [],
+  "elementsNouveaux": ["q:1:2:1", "q:1:2:2", "q:1:2:3", "q:1:2:4", "q:1:2"],
+  "theorie": [
+    { "type": "texte", "texte": "Al-Fatiha, « l'Ouverture », compte **sept versets**. Le verset 1 est la **basmala** : tu sais déjà la lire. Tu ne vas rien apprendre de nouveau ici : tous les signes sont connus. Il s'agit de **lire seul**, avec des aides que l'on retirera peu à peu. Sens global du verset 2 : « La louange est à Allah, Seigneur des mondes. »" },
+    { "type": "presentation", "element": "q:1:2:1", "note": "**al-ḥamdou** : article avec lâm lunaire (soukoun sur ل), puis ḥ, le souffle serré de la gorge. Ne le confonds pas avec le h léger de ه." },
+    { "type": "presentation", "element": "q:1:2:2", "note": "**lillâhi** : li + Allah. Le lâm porte une chadda : on le double. Le â long du nom d'Allah se prononce même si aucun signe ne l'écrit ici." },
+    { "type": "presentation", "element": "q:1:2:4", "note": "**al-ʿâlamîn** : le petit alif suscrit après ع donne « ʿâ » long ; la kasra suivie de ي donne « î » long." },
+    { "type": "attention", "texte": "**À la fin d'un verset, on s'arrête** : la dernière voyelle ne se prononce pas. On lit donc « al-ʿâlamîn » et non « al-ʿâlamîna ». C'est la seule règle de récitation (tajwid) utile ici." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "q:1:2:1", "options": ["q:1:2:1", "q:1:2:3", "q:1:2:2"], "explication": "L'article (lâm avec soukoun) suivi de ح : « al-ḥamdou ». La damma finale donne « ou »." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "q:1:2:4", "options": ["q:1:2:4", "q:1:1:4", "q:1:2:1"], "explication": "On reconnaît ع après l'article, le petit alif qui allonge en « â », et le noûn final : « al-ʿâlamîn »." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "q:1:2:2", "options": ["q:1:2:2", "q:1:1:2", "q:1:2:3"], "explication": "« lillâhi » commence par ل avec kasra (« li ») : pas d'alif de liaison au début, contrairement à « allâhi » de la basmala." },
+    { "id": "p4", "type": "ecoute-choisis", "cible": "q:1:2:3", "options": ["q:1:2:3", "q:1:1:1", "q:1:2:4"], "explication": "« rabbi » : ر, puis ب avec chadda (doublé) et kasra. Un mot court de trois lettres." },
+    { "id": "p5", "type": "assemble", "consigne": "Remets les mots du verset 2 dans l'ordre de lecture.", "morceaux": ["q:1:2:1", "q:1:2:2", "q:1:2:3", "q:1:2:4"], "distracteurs": ["q:1:1:3"], "resultat": "q:1:2", "explication": "Le verset se lit de droite à gauche : al-ḥamdou, lillâhi, rabbi, al-ʿâlamîn. « ar-raḥmâni » appartient à la basmala." },
+    { "id": "p6", "type": "lis-verifie", "cible": "q:1:2:4", "explication": "Lis d'abord seul, syllabe par syllabe : al - ʿâ - la - mîn. Puis écoute. On s'arrête sur le n final." },
+    { "id": "p7", "type": "lis-verifie", "cible": "q:1:2", "explication": "En enchaînant, l'alif de liaison de « al-ʿâlamîn » ne se prononce pas : « rabbi l-ʿâlamîn »." },
+    { "id": "p8", "type": "lecture-guidee", "consigne": "Lis les versets 1 et 2 avec toutes les aides. Lis d'abord, écoute ensuite.", "versets": "1:1-2", "aides": ["espacement", "voyelles", "syllabes", "audio"], "explication": "Les aides (espacement, couleurs des voyelles, découpage en syllabes) servent de béquilles : on les retirera dans les leçons suivantes." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "q:1:2:3", "options": ["q:1:2:3", "q:1:2:2", "q:1:1:1"], "explication": "ر puis ب doublé par la chadda : « rabbi »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "q:1:2:1", "options": ["q:1:2:1", "q:1:2:4", "q:1:1:3"], "explication": "« al-ḥamdou » : article lunaire (on entend le l), puis ح." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "q:1:1", "options": ["q:1:1", "q:1:2"], "explication": "Le verset qui commence par « bismi » est la basmala, le verset 1." },
+    { "id": "t4", "type": "ecoute-choisis", "cible": "q:1:2", "options": ["q:1:2", "q:1:1"], "explication": "Le verset 2 commence par « al-ḥamdou » et finit par « al-ʿâlamîn »." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "q:1:2:2", "options": ["q:1:2:2", "q:1:1:2"], "explication": "« lillâhi » commence par ل avec kasra. « allâhi » commence par l'alif de liaison : « allâhi »." }
+  ]
+}

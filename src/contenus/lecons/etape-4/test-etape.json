@@ -1,0 +1,23 @@
+{
+  "etape": 4,
+  "titre": "Test de l'étape 4 : voyelles longues et signes",
+  "consigne": "Des mots nouveaux avec voyelles longues, soukoun, chadda et tanwin. Repère les signes avant de répondre : 85 % de bonnes réponses débloquent l'étape suivante.",
+  "questions": [
+    { "id": "q1", "type": "lis-choisis-son", "cible": "mot-tawiloun", "options": ["mot-tawiloun", "mot-qasiroun", "mot-kabiroun"], "explication": "طَ + وِي + لٌ = « ṭawîloun », long." },
+    { "id": "q2", "type": "ecoute-choisis", "cible": "mot-qasiroun", "options": ["mot-qasiroun", "mot-saghiroun", "mot-tawiloun"], "explication": "قَ + صِي + رٌ = « qaṣîroun », court." },
+    { "id": "q3", "type": "lis-choisis-son", "cible": "mot-yaqulu", "options": ["mot-yaqulu", "mot-qala", "mot-qultu"], "explication": "يَ + قُو + لُ = « yaqoûlou », il dit : damma suivie d'un و sans signe." },
+    { "id": "q4", "type": "ecoute-choisis", "cible": "mot-zurtu", "options": ["mot-zurtu", "mot-qultu", "mot-katabtu"], "explication": "زُرْ + تُ = « zourtou », j'ai visité : soukoun sur ر." },
+    { "id": "q5", "type": "paires-minimales", "paire": ["mot-sallama", "mot-allama"], "cible": "mot-sallama", "explication": "سَلَّمَ commence par س (« sallama », il a salué) ; عَلَّمَ par ع (« ʿallama »). Les deux ont une chadda sur ل." },
+    { "id": "q6", "type": "lis-choisis-son", "cible": "mot-ammi", "options": ["mot-ammi", "mot-djaddi", "mot-bayti"], "explication": "عَمْ + مِي = « ʿammî », mon oncle : chadda sur م, puis ي de prolongation." },
+    { "id": "q7", "type": "ecoute-choisis", "cible": "mot-naharan", "options": ["mot-naharan", "mot-laylan", "mot-choukran"], "explication": "نَ + هَا + رًا = « nahâran », de jour. Le dernier alif est muet, après le tanwin." },
+    { "id": "q8", "type": "assemble", "morceaux": ["syl-lam-a-ya", "syl-lam-an"], "distracteurs": ["syl-lam-ii", "syl-lam-aa"], "resultat": "mot-laylan", "explication": "لَيْ (lay) + لًا (lan) = « laylan », de nuit. لَا serait « lâ », long, sans « n »." },
+    { "id": "q9", "type": "lis-choisis-son", "cible": "mot-bintoun", "options": ["mot-bintoun", "mot-baytoun", "mot-kitaboun"], "explication": "بِنْ + تٌ = « bintoun », une fille." },
+    { "id": "q10", "type": "trouve-lettre", "mot": "mot-hadhihi", "lettre": "lettre-dhal", "reponse": "milieu", "explication": "Dans هٰذِهِ (« hâdhihi », celle-ci), ذ est au milieu, entre les deux ه." },
+    { "id": "q11", "type": "lis-verifie", "cible": "mot-nouroun", "explication": "نُو + رٌ = « noûroun », une lumière : voyelle longue, puis tanwin." },
+    { "id": "q12", "type": "classe", "categories": [{ "id": "long", "label": "Voyelle longue" }, { "id": "soukoun", "label": "Soukoun" }, { "id": "chadda", "label": "Chadda" }], "elements": [{ "ref": "syl-noun-ouu", "categorie": "long" }, { "ref": "syl-ba-ii", "categorie": "long" }, { "ref": "syl-kaf-a-ta", "categorie": "soukoun" }, { "ref": "syl-qaf-ou-lam", "categorie": "soukoun" }, { "ref": "mot-sallama", "categorie": "chadda" }, { "ref": "mot-marra", "categorie": "chadda" }], "explication": "Lettre de prolongation sans signe : voyelle longue. Petit rond : soukoun. Petit « w » : chadda." },
+    { "id": "q13", "type": "paires-minimales", "paire": ["syl-ta-aa", "syl-tta-aa"], "cible": "syl-tta-aa", "explication": "طَا : « t » emphatique, grave. تَا : « t » clair." },
+    { "id": "q14", "type": "ecoute-choisis", "cible": "syl-ghayn-aa", "options": ["syl-ghayn-aa", "syl-ayn-aa", "syl-ghayn-a"], "explication": "« ghâ » : غ (avec un point) et une voyelle longue." },
+    { "id": "q15", "type": "lis-choisis-son", "cible": "syl-dha-aa", "options": ["syl-dha-aa", "syl-dad-ouu", "syl-tta-ii"], "explication": "ظ (dessin de ط avec un point), fatha et alif : « ẓâ »." },
+    { "id": "q16", "type": "lis-choisis-son", "cible": "syl-ra-an", "options": ["syl-ra-an", "syl-ra-aa", "syl-ra-in"], "explication": "Deux fatha et l'alif muet : « ran ». رَا, avec une seule fatha, se lit « râ »." }
+  ]
+}

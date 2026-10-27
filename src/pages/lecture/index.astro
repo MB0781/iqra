@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SOURATES, nombreVersets } from '../../lib/coran';
+import { lien } from '../../lib/liens';
+const liste = [1, 112, 108, 103, 113, 114];
+---
+<Base titre="Lecture guidée" description="Lire Al-Fatiha et cinq sourates courtes avec des aides que l'on retire peu à peu : espacement, couleurs des voyelles, syllabes, audio mot par mot.">
+  <div class="conteneur max-w-2xl pt-10 sm:pt-14">
+    <h1 class="text-3xl font-semibold">Lecture guidée</h1>
+    <p class="mt-2 text-lg text-encre-2">Lis d’abord seul, écoute ensuite. Active les aides dont tu as besoin, retire-les dès que possible.</p>
+    <ul class="mt-10 divide-y divide-trait rounded-[var(--radius-lg)] border border-trait bg-surface">
+      {liste.map((s) => (
+        <li>
+          <a href={lien(`lecture/${s}/`)} class="flex min-h-16 items-center justify-between gap-4 px-5 py-3 no-underline hover:bg-surface-2">
+            <span>
+              <span class="block font-semibold">{SOURATES[s].nom}</span>
+              <span class="text-sm text-encre-2">{SOURATES[s].sens}, {nombreVersets(s)} versets</span>
+            </span>
+            <span lang="ar" dir="rtl" class="font-arabe text-2xl text-encre-2">{SOURATES[s].nomArabe}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+    <p class="mt-6 text-sm text-encre-3">Ces sourates sont aussi travaillées pas à pas dans les étapes 8 et 9 du parcours.</p>
+  </div>
+</Base>

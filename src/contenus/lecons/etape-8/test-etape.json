@@ -1,0 +1,22 @@
+{
+  "etape": 8,
+  "titre": "Test de l'étape 8 : Al-Fatiha",
+  "consigne": "Des groupes de mots d'Al-Fatiha que tu n'as pas encore rencontrés sous cette forme. Lis d'abord, puis réponds.",
+  "questions": [
+    { "id": "q1", "type": "lis-choisis-son", "cible": "q:1:2:3-4", "options": ["q:1:2:3-4", "q:1:2:1-2", "q:1:4:2-3"], "explication": "« rabbi l-ʿâlamîn » : en enchaînant, l'alif de liaison de l'article tombe." },
+    { "id": "q2", "type": "ecoute-choisis", "cible": "q:1:4:2-3", "options": ["q:1:4:2-3", "q:1:4:1-2", "q:1:2:3-4"], "explication": "« yawmi d-dîn » : « aw », puis le d solaire doublé." },
+    { "id": "q3", "type": "lis-choisis-son", "cible": "q:1:5:1-2", "options": ["q:1:5:1-2", "q:1:5:3-4", "q:1:6:1-2"], "explication": "Pas de « wa » au début : « iyyâka naʿboudou », la première moitié du verset 5." },
+    { "id": "q4", "type": "assemble", "consigne": "Remets dans l'ordre la seconde moitié du verset 5.", "morceaux": ["q:1:5:3", "q:1:5:4"], "distracteurs": ["q:1:5:1"], "resultat": "q:1:5:3-4", "explication": "La seconde moitié commence par « wa » : « wa-iyyâka nastaʿîn »." },
+    { "id": "q5", "type": "ecoute-choisis", "cible": "q:1:6:1-2", "options": ["q:1:6:1-2", "q:1:6:2-3", "q:1:7:1-2"], "explication": "« ihdinâ ṣ-ṣirâṭa » : le début du verset 6, avec l'article sur « ṣirâṭa »." },
+    { "id": "q6", "type": "lis-choisis-son", "cible": "q:1:6:2-3", "options": ["q:1:6:2-3", "q:1:6:1-2", "q:1:7:5-6"], "explication": "Deux mots avec article : ص solaire, puis م lunaire : « aṣ-ṣirâṭa l-moustaqîm »." },
+    { "id": "q7", "type": "assemble", "consigne": "Remets ces mots du verset 7 dans l'ordre.", "morceaux": ["q:1:7:2", "q:1:7:3", "q:1:7:4"], "distracteurs": ["q:1:7:5"], "resultat": "q:1:7:2-4", "explication": "« alladhîna anʿamta ʿalayhim » : ceux que Tu as comblés de bienfaits." },
+    { "id": "q8", "type": "lis-choisis-son", "cible": "q:1:7:5-6", "options": ["q:1:7:5-6", "q:1:7:8-9", "q:1:7:3-4"], "explication": "غ avec ي sans voyelle (« ay »), puis l'article lunaire, غ puis ض : « ghayri l-maghḍoûbi »." },
+    { "id": "q9", "type": "ecoute-choisis", "cible": "q:1:7:8-9", "options": ["q:1:7:8-9", "q:1:7:5-6", "q:1:2:3-4"], "explication": "« wa-lâ ḍ-ḍâllîn » : la fin de la sourate, avec le â prolongé par le signe madd." },
+    { "id": "q10", "type": "lis-choisis-son", "cible": "q:1:4:1-2", "options": ["q:1:4:1-2", "q:1:4:2-3", "q:1:1:1-2"], "explication": "Le petit alif donne « mâ », puis « yawmi » : « mâliki yawmi »." },
+    { "id": "q11", "type": "ecoute-choisis", "cible": "q:1:1:1-2", "options": ["q:1:1:1-2", "q:1:2:1-2"], "explication": "« bismi llâhi » : le début de la basmala. « al-ḥamdou lillâhi » ouvre le verset 2." },
+    { "id": "q12", "type": "lis-verifie", "cible": "q:1:7:3-4", "explication": "« anʿamta ʿalayhim » : deux soukouns dans le premier mot, « ay » dans le second." },
+    { "id": "q13", "type": "assemble", "consigne": "Remets dans l'ordre le début du verset 2.", "morceaux": ["q:1:2:1", "q:1:2:2"], "distracteurs": ["q:1:1:2"], "resultat": "q:1:2:1-2", "explication": "« al-ḥamdou lillâhi » : le second mot commence par « li », sans alif de liaison." },
+    { "id": "q14", "type": "lis-choisis-son", "cible": "q:1:7:6-7", "options": ["q:1:7:6-7", "q:1:7:3-4"], "explication": "Le mot devant « ʿalayhim » commence par l'article et غ : « al-maghḍoûbi ʿalayhim »." },
+    { "id": "q15", "type": "lis-verifie", "cible": "q:1:7:1-2", "explication": "« ṣirâṭa lladhîna » : sans article sur « ṣirâṭa », et l'alif de liaison de « alladhîna » tombe." }
+  ]
+}

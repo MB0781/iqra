@@ -1,0 +1,168 @@
+[
+  {
+    "id": "lettre-hamza",
+    "type": "lettre",
+    "ar": "ء",
+    "translit": "ʾ",
+    "nom": "hamza",
+    "prononciation": "Un coup de glotte : la petite coupure que tu fais au milieu de « oh-oh ! »."
+  },
+  {
+    "id": "lettre-alif-hamza-haut",
+    "type": "lettre",
+    "ar": "أ",
+    "translit": "ʾ (a / ou)",
+    "nom": "hamza sur alif",
+    "prononciation": "Coup de glotte suivi de « a » ou « ou » selon la voyelle."
+  },
+  {
+    "id": "lettre-alif-hamza-bas",
+    "type": "lettre",
+    "ar": "إ",
+    "translit": "ʾ (i)",
+    "nom": "hamza sous alif",
+    "prononciation": "Coup de glotte suivi de « i »."
+  },
+  {
+    "id": "lettre-waw-hamza",
+    "type": "lettre",
+    "ar": "ؤ",
+    "translit": "ʾ sur wâw",
+    "nom": "hamza sur wâw",
+    "prononciation": "Le wâw ne se prononce pas : seul le coup de glotte compte."
+  },
+  {
+    "id": "lettre-ya-hamza",
+    "type": "lettre",
+    "ar": "ئ",
+    "translit": "ʾ sur yâ",
+    "nom": "hamza sur yâ",
+    "prononciation": "Le yâ (sans points) ne se prononce pas : seul le coup de glotte compte."
+  },
+  {
+    "id": "lettre-alif-madda",
+    "type": "lettre",
+    "ar": "آ",
+    "translit": "ʾâ",
+    "nom": "alif madda",
+    "prononciation": "Coup de glotte suivi d'un « â » long."
+  },
+  {
+    "id": "lettre-ta-marbuta",
+    "type": "lettre",
+    "ar": "ة",
+    "translit": "t (h à la pause)",
+    "nom": "tâ marbouta",
+    "prononciation": "« t » dans la lecture enchaînée, léger « h » quand on s'arrête dessus."
+  },
+  {
+    "id": "lettre-alif-maqsura",
+    "type": "lettre",
+    "ar": "ى",
+    "translit": "â (ou î)",
+    "nom": "alif maqsoura",
+    "prononciation": "Après une fatha : « â » long. Dans le Mushaf, après une kasra : « î »."
+  },
+  {
+    "id": "syl-hamza-a",
+    "type": "syllabe",
+    "ar": "أَ",
+    "translit": "ʾa"
+  },
+  {
+    "id": "syl-hamza-i",
+    "type": "syllabe",
+    "ar": "إِ",
+    "translit": "ʾi"
+  },
+  {
+    "id": "syl-hamza-ou",
+    "type": "syllabe",
+    "ar": "أُ",
+    "translit": "ʾou"
+  },
+  {
+    "id": "mot-amal-espoir",
+    "type": "mot",
+    "ar": "أَمَلٌ",
+    "translit": "amaloun",
+    "sens": "espoir"
+  },
+  {
+    "id": "mot-amal-travail",
+    "type": "mot",
+    "ar": "عَمَلٌ",
+    "translit": "ʿamaloun",
+    "sens": "travail"
+  },
+  {
+    "id": "mot-alam-douleur",
+    "type": "mot",
+    "ar": "أَلَمٌ",
+    "translit": "alamoun",
+    "sens": "douleur"
+  },
+  {
+    "id": "mot-alam-drapeau",
+    "type": "mot",
+    "ar": "عَلَمٌ",
+    "translit": "ʿalamoun",
+    "sens": "drapeau"
+  },
+  {
+    "id": "mot-amana-courant",
+    "type": "mot",
+    "ar": "آمَنَ",
+    "translit": "âmana",
+    "sens": "il a cru (écriture courante)"
+  },
+  {
+    "id": "mot-saala",
+    "type": "mot",
+    "ar": "سَأَلَ",
+    "translit": "saʾala",
+    "sens": "il a demandé"
+  },
+  {
+    "id": "mot-souaal",
+    "type": "mot",
+    "ar": "سُؤَالٌ",
+    "translit": "souʾâloun",
+    "sens": "une question"
+  },
+  {
+    "id": "mot-biir",
+    "type": "mot",
+    "ar": "بِئْرٌ",
+    "translit": "biʾroun",
+    "sens": "un puits"
+  },
+  {
+    "id": "mot-madrasa",
+    "type": "mot",
+    "ar": "مَدْرَسَةٌ",
+    "translit": "madrasatoun",
+    "sens": "une école"
+  },
+  {
+    "id": "mot-chadjara",
+    "type": "mot",
+    "ar": "شَجَرَةٌ",
+    "translit": "chadjaratoun",
+    "sens": "un arbre"
+  },
+  {
+    "id": "mot-macha",
+    "type": "mot",
+    "ar": "مَشَى",
+    "translit": "machâ",
+    "sens": "il a marché"
+  },
+  {
+    "id": "mot-baka",
+    "type": "mot",
+    "ar": "بَكَى",
+    "translit": "bakâ",
+    "sens": "il a pleuré"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "id": "e8-l04",
+  "etape": 8,
+  "ordre": 4,
+  "titre": "Al-Fatiha, versets 6 et 7",
+  "resume": "La demande de guidance : le plus long verset de la sourate, découpé en petits groupes.",
+  "duree": 10,
+  "enseigne": [],
+  "elementsNouveaux": ["q:1:6:1", "q:1:6:2", "q:1:6:3", "q:1:7:2", "q:1:7:3", "q:1:7:6", "q:1:7:9", "q:1:6", "q:1:7"],
+  "theorie": [
+    { "type": "texte", "texte": "Sens global : « Guide-nous sur le droit chemin, le chemin de ceux que Tu as comblés de bienfaits, non pas de ceux qui ont encouru la colère, ni des égarés. » Le verset 7 est long : lis-le **par petits groupes de deux ou trois mots**." },
+    { "type": "presentation", "element": "q:1:6:1", "note": "**ihdinâ** : le verset commence par un alif de liaison. Comme on commence la lecture sur ce mot, on le prononce : ici « i ». Puis ه avec soukoun, د avec kasra, « nâ » long." },
+    { "type": "paire", "elements": ["q:1:6:2", "q:1:7:1"], "note": "Le même mot, avec et sans article : **aṣ-ṣirâṭa** (ص solaire, doublé) et **ṣirâṭa**. Le petit alif après ر donne « râ »." },
+    { "type": "presentation", "element": "q:1:7:6", "note": "**al-maghḍoûbi** : article lunaire, غ avec soukoun (« gh »), ض emphatique, puis « oû » long." },
+    { "type": "presentation", "element": "q:1:7:9", "note": "**aḍ-ḍâllîn** : ض solaire doublé, puis le signe madd ٓ sur l'alif : on **prolonge nettement** le « â » avant le lâm doublé. On s'arrête sur le n." },
+    { "type": "attention", "texte": "« ʿalayhim » apparaît **deux fois** dans le verset 7. ي avec soukoun après une fatha se lit « ay » : « ʿa - lay - him »." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "q:1:6:1", "options": ["q:1:6:1", "q:1:6:3", "q:1:5:2"], "explication": "Alif de liaison prononcé « i » en début de lecture, ه sans voyelle, puis « dinâ » : « ihdinâ »." },
+    { "id": "p2", "type": "ecoute-choisis", "cible": "q:1:7:2", "options": ["q:1:7:2", "q:1:7:3", "q:1:7:5"], "explication": "« alladhîna » : lâm doublé, ذ (« dh » de l'anglais « this »), « î » long." },
+    { "id": "p3", "type": "lis-choisis-son", "cible": "q:1:7:3", "options": ["q:1:7:3", "q:1:7:4", "q:1:7:8"], "explication": "Hamza sur l'alif avec fatha (« a »), ن avec soukoun, ع, م avec soukoun, تَ : « anʿamta »." },
+    { "id": "p4", "type": "ecoute-choisis", "cible": "q:1:7:6", "options": ["q:1:7:6", "q:1:7:9", "q:1:6:3"], "explication": "On entend « gh » puis « ḍ » emphatique : « al-maghḍoûbi »." },
+    { "id": "p5", "type": "lis-choisis-son", "cible": "q:1:7:9", "options": ["q:1:7:9", "q:1:7:6", "q:1:2:4"], "explication": "ض doublé (solaire), alif prolongé par le signe madd, ل doublé : « aḍ-ḍâllîn »." },
+    { "id": "p6", "type": "assemble", "consigne": "Remets les mots du verset 6 dans l'ordre de lecture.", "morceaux": ["q:1:6:1", "q:1:6:2", "q:1:6:3"], "distracteurs": ["q:1:7:1"], "resultat": "q:1:6", "explication": "ihdinâ, aṣ-ṣirâṭa, al-moustaqîm. Le verset 6 utilise la forme avec article, « aṣ-ṣirâṭa »." },
+    { "id": "p7", "type": "assemble", "consigne": "Remets dans l'ordre le début du verset 7.", "morceaux": ["q:1:7:1", "q:1:7:2", "q:1:7:3", "q:1:7:4"], "resultat": "q:1:7:1-4", "explication": "« ṣirâṭa lladhîna anʿamta ʿalayhim » : le chemin de ceux que Tu as comblés." },
+    { "id": "p8", "type": "lis-verifie", "cible": "q:1:6", "explication": "En enchaînant, les alifs de liaison tombent : « ihdinâ ṣ-ṣirâṭa l-moustaqîm »." },
+    { "id": "p9", "type": "lis-verifie", "cible": "q:1:7", "explication": "Lis par groupes : ṣirâṭa lladhîna / anʿamta ʿalayhim / ghayri l-maghḍoûbi ʿalayhim / wa-lâ ḍ-ḍâllîn." },
+    { "id": "p10", "type": "lecture-guidee", "consigne": "Lis les versets 6 et 7. Il ne reste que l'audio, à écouter après ta lecture.", "versets": "1:6-7", "aides": ["audio"], "explication": "Plus de couleurs ni de syllabes : tu lis le texte tel qu'il est écrit dans le Mushaf." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "q:1:6:3", "options": ["q:1:6:3", "q:1:6:2", "q:1:5:4"], "explication": "Article lunaire, م avec damma, س avec soukoun, ت, « qî » long : « al-moustaqîm »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "q:1:7:1", "options": ["q:1:7:1", "q:1:6:2"], "explication": "« ṣirâṭa » sans article : le mot commence directement par ص." },
+    { "id": "t3", "type": "lis-choisis-son", "cible": "q:1:7:5", "options": ["q:1:7:5", "q:1:7:4", "q:1:7:8"], "explication": "غ, ي avec soukoun (« ay »), ر avec kasra : « ghayri »." },
+    { "id": "t4", "type": "ecoute-choisis", "cible": "q:1:7:8", "options": ["q:1:7:8", "q:1:7:5", "q:1:7:2"], "explication": "« wa-lâ » : و avec fatha, puis ل suivi de l'alif long." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "q:1:7:4", "options": ["q:1:7:4", "q:1:7:3", "q:1:7:6"], "explication": "ع, لَ, ي avec soukoun, هِ, م avec soukoun : « ʿalayhim »." },
+    { "id": "t6", "type": "ecoute-choisis", "cible": "q:1:6", "options": ["q:1:6", "q:1:5"], "explication": "Le verset 6 commence par « ihdinâ »." }
+  ]
+}

@@ -1,0 +1,14 @@
+---
+import Base from '../layouts/Base.astro';
+import TableauDeBord from '../components/pages/TableauDeBord.tsx';
+import { contenus } from '../contenus/charger';
+const { lecons, etapes } = contenus();
+---
+<Base titre="Ta progression" description="Jours actifs, éléments maîtrisés, confusions principales et sauvegarde de ta progression.">
+  <div class="conteneur max-w-3xl pt-10 sm:pt-14">
+    <h1 class="text-3xl font-semibold">Ta progression</h1>
+    <div class="mt-10">
+      <TableauDeBord client:load lecons={lecons.map((l) => ({ id: l.id, etape: l.etape, ordre: l.ordre, titre: l.titre }))} etapes={etapes.map((e) => ({ numero: e.numero, titre: e.titre }))} />
+    </div>
+  </div>
+</Base>

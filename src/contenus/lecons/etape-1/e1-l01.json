@@ -1,0 +1,32 @@
+{
+  "id": "e1-l01",
+  "etape": 1,
+  "ordre": 1,
+  "titre": "Un même dessin, trois sons : ب ت ث",
+  "resume": "Trois lettres qui ont la même forme et ne diffèrent que par leurs points.",
+  "duree": 5,
+  "enseigne": ["lettre-ba", "lettre-ta", "lettre-tha"],
+  "elementsNouveaux": ["lettre-ba", "lettre-ta", "lettre-tha"],
+  "theorie": [
+    { "type": "texte", "texte": "L'arabe se lit **de droite à gauche**. Beaucoup de lettres partagent le même dessin : seuls les **points** les distinguent. Regarde bien leur nombre et leur place." },
+    { "type": "presentation", "element": "lettre-ba", "note": "**Un point en dessous.** Son : « b », comme dans « bateau »." },
+    { "type": "presentation", "element": "lettre-ta", "note": "**Deux points au-dessus.** Son : « t », comme dans « table »." },
+    { "type": "presentation", "element": "lettre-tha", "note": "**Trois points au-dessus.** Son : « th » de l'anglais « think », langue entre les dents." },
+    { "type": "astuce", "texte": "Retiens le son avant le nom : on lit des sons, pas des noms de lettres." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lis-choisis-son", "cible": "lettre-ba", "options": ["lettre-ba", "lettre-ta"], "explication": "Un seul point, en dessous : c'est ب, le son « b »." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "lettre-ta", "options": ["lettre-tha", "lettre-ta"], "explication": "Deux points au-dessus : c'est ت, le son « t »." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "lettre-tha", "options": ["lettre-ta", "lettre-tha", "lettre-ba"], "explication": "Le son « th » s'écrit avec trois points au-dessus : ث." },
+    { "id": "p4", "type": "paires-minimales", "paire": ["lettre-ta", "lettre-tha"], "cible": "lettre-tha", "explication": "ت a deux points, ث en a trois. Le son « th » se fait la langue entre les dents." },
+    { "id": "p5", "type": "classe", "categories": [{ "id": "dessous", "label": "Point(s) en dessous" }, { "id": "dessus", "label": "Points au-dessus" }], "elements": [{ "ref": "lettre-ba", "categorie": "dessous" }, { "ref": "lettre-ta", "categorie": "dessus" }, { "ref": "lettre-tha", "categorie": "dessus" }], "explication": "Seul ب a son point en dessous." },
+    { "id": "p6", "type": "lis-verifie", "cible": "lettre-tha", "explication": "Langue entre les dents, sans voix : « th »." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "lettre-tha", "options": ["lettre-ba", "lettre-tha", "lettre-ta"], "explication": "Trois points au-dessus : ث, « th »." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "lettre-ba", "options": ["lettre-tha", "lettre-ba"], "explication": "Le son « b » : un point en dessous, ب." },
+    { "id": "t3", "type": "ecoute-choisis", "cible": "lettre-ta", "options": ["lettre-ba", "lettre-ta", "lettre-tha"], "explication": "Le son « t » : deux points au-dessus, ت." },
+    { "id": "t4", "type": "paires-minimales", "paire": ["lettre-ba", "lettre-ta"], "cible": "lettre-ba", "explication": "ب : un point en dessous. ت : deux points au-dessus." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "lettre-ta", "options": ["lettre-ta", "lettre-ba", "lettre-tha"], "explication": "Deux points au-dessus : ت, « t »." }
+  ]
+}

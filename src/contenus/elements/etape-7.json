@@ -1,0 +1,122 @@
+[
+  {
+    "id": "lettre-alif-wasla",
+    "type": "lettre",
+    "ar": "ٱ",
+    "translit": "a (muet en liaison)",
+    "nom": "alif wasla",
+    "prononciation": "Se prononce seulement quand on commence à lire par ce mot ; muet au milieu d'une phrase."
+  },
+  {
+    "id": "mot-bayt-indef",
+    "type": "mot",
+    "ar": "بَيْتٌ",
+    "translit": "baytoun",
+    "sens": "une maison"
+  },
+  {
+    "id": "mot-al-bayt",
+    "type": "mot",
+    "ar": "الْبَيْتُ",
+    "translit": "al-baytou",
+    "sens": "la maison"
+  },
+  {
+    "id": "mot-al-qamar",
+    "type": "mot",
+    "ar": "الْقَمَرُ",
+    "translit": "al-qamarou",
+    "sens": "la lune"
+  },
+  {
+    "id": "mot-al-kitab",
+    "type": "mot",
+    "ar": "الْكِتَابُ",
+    "translit": "al-kitâbou",
+    "sens": "le livre"
+  },
+  {
+    "id": "mot-al-qalam",
+    "type": "mot",
+    "ar": "الْقَلَمُ",
+    "translit": "al-qalamou",
+    "sens": "le calame, le stylo"
+  },
+  {
+    "id": "mot-al-walad",
+    "type": "mot",
+    "ar": "الْوَلَدُ",
+    "translit": "al-waladou",
+    "sens": "l'enfant"
+  },
+  {
+    "id": "mot-al-bab",
+    "type": "mot",
+    "ar": "الْبَابُ",
+    "translit": "al-bâbou",
+    "sens": "la porte"
+  },
+  {
+    "id": "mot-al-djamal",
+    "type": "mot",
+    "ar": "الْجَمَلُ",
+    "translit": "al-djamalou",
+    "sens": "le chameau"
+  },
+  {
+    "id": "mot-chams-indef",
+    "type": "mot",
+    "ar": "شَمْسٌ",
+    "translit": "chamsoun",
+    "sens": "un soleil"
+  },
+  {
+    "id": "mot-ach-chams",
+    "type": "mot",
+    "ar": "الشَّمْسُ",
+    "translit": "ach-chamsou",
+    "sens": "le soleil"
+  },
+  {
+    "id": "mot-an-nour",
+    "type": "mot",
+    "ar": "النُّورُ",
+    "translit": "an-noûrou",
+    "sens": "la lumière"
+  },
+  {
+    "id": "mot-as-salam",
+    "type": "mot",
+    "ar": "السَّلَامُ",
+    "translit": "as-salâmou",
+    "sens": "la paix"
+  },
+  {
+    "id": "mot-ad-dars",
+    "type": "mot",
+    "ar": "الدَّرْسُ",
+    "translit": "ad-darsou",
+    "sens": "la leçon"
+  },
+  {
+    "id": "mot-ar-radjoul",
+    "type": "mot",
+    "ar": "الرَّجُلُ",
+    "translit": "ar-radjoulou",
+    "sens": "l'homme"
+  },
+  {
+    "id": "mot-at-tin",
+    "type": "mot",
+    "ar": "التِّينُ",
+    "translit": "at-tînou",
+    "sens": "la figue"
+  },
+  {
+    "id": "mot-adh-dhahab",
+    "type": "mot",
+    "ar": "الذَّهَبُ",
+    "translit": "adh-dhahabou",
+    "sens": "l'or"
+  }
+]

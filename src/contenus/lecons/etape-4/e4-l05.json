@@ -1,0 +1,35 @@
+{
+  "id": "e4-l05",
+  "etape": 4,
+  "ordre": 5,
+  "titre": "Révision : tous les signes",
+  "resume": "Voyelles longues, soukoun, chadda et tanwin réunis dans des mots courants.",
+  "duree": 8,
+  "enseigne": [],
+  "elementsNouveaux": ["syl-sad-aa", "syl-ha-aa", "mot-lakin", "mot-kabiroun", "mot-saghiroun", "mot-djamiloun", "mot-hulwoun", "mot-mumtazoun"],
+  "theorie": [
+    { "type": "texte", "texte": "Récapitulons les signes de l'étape : **voyelles longues** (ا و ي après la bonne voyelle, ou petit alif ٰ), **soukoun** (petit rond : pas de voyelle), **chadda** (lettre doublée), **tanwin** (voyelle doublée et « n »)." },
+    { "type": "galerie", "elements": ["mot-kabiroun", "mot-hulwoun", "mot-djiddan", "mot-lakin"], "note": "كَبِيرٌ : voyelle longue et tanwin. حُلْوٌ : soukoun et tanwin. جِدًّا : chadda et tanwin. لٰكِنْ : petit alif et soukoun." },
+    { "type": "presentation", "element": "mot-lakin", "note": "لٰ + كِنْ = « lâkin », mais : petit alif sur ل, soukoun sur ن." },
+    { "type": "astuce", "texte": "Devant un mot nouveau : repère d'abord les signes (rond, petit « w », voyelles doublées, lettres de prolongation), lis syllabe par syllabe, puis relis d'une traite." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "classe", "categories": [{ "id": "courte", "label": "Voyelle courte" }, { "id": "longue", "label": "Voyelle longue" }, { "id": "tanwin", "label": "Tanwin" }], "elements": [{ "ref": "syl-ra-a", "categorie": "courte" }, { "ref": "syl-ra-aa", "categorie": "longue" }, { "ref": "syl-ra-an", "categorie": "tanwin" }, { "ref": "syl-noun-ii", "categorie": "longue" }, { "ref": "syl-noun-in", "categorie": "tanwin" }, { "ref": "syl-tha-i", "categorie": "courte" }, { "ref": "syl-zay-ouu", "categorie": "longue" }, { "ref": "syl-dal-oun", "categorie": "tanwin" }], "explication": "Lettre de prolongation sans signe : voyelle longue. Voyelle doublée : tanwin. Rien après : voyelle courte. Attention à رًا : l'alif y est muet, c'est un tanwin." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "mot-kabiroun", "options": ["mot-kabiroun", "mot-saghiroun", "mot-djamiloun"], "explication": "كَ + بِي + رٌ = « kabîroun », grand." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "mot-saghiroun", "options": ["mot-saghiroun", "mot-kabiroun", "mot-mumtazoun"], "explication": "صَ + غِي + رٌ = « ṣaghîroun », petit." },
+    { "id": "p4", "type": "paires-minimales", "paire": ["syl-sad-aa", "syl-sin-aa"], "cible": "syl-sad-aa", "explication": "صَا : « s » emphatique, grave. سَا : « s » clair." },
+    { "id": "p5", "type": "assemble", "morceaux": ["syl-mim-ou-mim", "syl-ta-aa", "syl-zay-oun"], "distracteurs": ["syl-mim-ou"], "resultat": "mot-mumtazoun", "explication": "مُمْ (moum) + تَا (tâ) + زٌ (zoun) = « moumtâzoun », excellent. مُ seul n'a pas le second « m »." },
+    { "id": "p6", "type": "lis-choisis-son", "cible": "mot-lakin", "options": ["mot-lakin", "mot-dhalika", "mot-min"], "explication": "لٰ + كِنْ = « lâkin », mais." },
+    { "id": "p7", "type": "trouve-lettre", "mot": "mot-hulwoun", "lettre": "lettre-lam", "reponse": "milieu", "explication": "Dans حُلْوٌ, ل est au milieu, avec un soukoun : « ḥoul-woun »." },
+    { "id": "p8", "type": "ecoute-choisis", "cible": "mot-djamiloun", "options": ["mot-djamiloun", "mot-kabiroun", "mot-hulwoun"], "explication": "جَ + مِي + لٌ = « djamîloun », beau." },
+    { "id": "p9", "type": "lis-verifie", "cible": "mot-hadha", "explication": "هٰ + ذَا = « hâdhâ », ceci : deux « â » longs, l'un par le petit alif, l'autre par l'alif." }
+  ],
+  "test": [
+    { "id": "t1", "type": "lis-choisis-son", "cible": "mot-djiddan", "options": ["mot-djiddan", "mot-djaddi", "mot-afwan"], "explication": "جِدْ + دًا = « djiddan », très : kasra sur ج, chadda et tanwin sur د." },
+    { "id": "t2", "type": "ecoute-choisis", "cible": "mot-hulwoun", "options": ["mot-hulwoun", "mot-qultu", "mot-mumtazoun"], "explication": "حُلْ + وٌ = « ḥoulwoun », doux." },
+    { "id": "t3", "type": "paires-minimales", "paire": ["syl-hha-aa", "syl-ha-aa"], "cible": "syl-ha-aa", "explication": "هَا : « h » léger. حَا : souffle serré dans la gorge." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "mot-mumtazoun", "options": ["mot-mumtazoun", "mot-djamiloun", "mot-saghiroun"], "explication": "مُمْ + تَا + زٌ = « moumtâzoun », excellent." },
+    { "id": "t5", "type": "ecoute-choisis", "cible": "mot-lakin", "options": ["mot-lakin", "mot-lam", "mot-qala"], "explication": "« lâkin » : petit alif sur ل, puis كِنْ." },
+    { "id": "t6", "type": "lis-choisis-son", "cible": "mot-duna", "options": ["mot-duna", "mot-nama", "mot-fihi"], "explication": "دُو + نَ = « doûna », sans : damma suivie d'un و sans signe." }
+  ]
+}

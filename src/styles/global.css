@@ -1,0 +1,440 @@
+@import 'tailwindcss';
+@import '@fontsource/noto-naskh-arabic/arabic-400.css';
+@import '@fontsource/noto-naskh-arabic/arabic-600.css';
+@import '@fontsource/amiri-quran/arabic-400.css';
+@import '@fontsource/amiri/arabic-400.css';
+
+/*
+ * Design system Iqra' — voir docs/DESIGN.md.
+ * Tokens en variables CSS : clair par défaut, sombre selon le système ou le réglage.
+ */
+:root {
+  color-scheme: light;
+  --papier: #f6f4ef;
+  --surface: #fcfbf8;
+  --surface-2: #eeebe4;
+  --encre: #1c1a17;
+  --encre-2: #57524a;
+  --encre-3: #6f695f;
+  --trait: #dcd7cc;
+  --trait-fort: #c2bcaf;
+  --accent: #1f5f4f;
+  --accent-fort: #174a3d;
+  --accent-doux: #e2ede8;
+  --sur-accent: #ffffff;
+  --erreur: #a13a29;
+  --erreur-doux: #f6e4df;
+  --attention: #7d5400;
+  --attention-doux: #f5ebd6;
+  /* Couleurs fonctionnelles de l'aide « couleur des voyelles » */
+  --v-fatha: #a2421c;
+  --v-kasra: #1d5c99;
+  --v-damma: #7a3a8e;
+  --v-signe: #4f6a2a;
+  --v-madd: #8a5a00;
+
+  --ombre-1: 0 1px 2px rgb(28 26 23 / 0.06);
+  --ombre-2: 0 1px 2px rgb(28 26 23 / 0.05), 0 8px 24px -12px rgb(28 26 23 / 0.16);
+  --focus: 0 0 0 3px var(--papier), 0 0 0 5px var(--accent);
+
+  --taille-ar: 2.25rem;
+  --taille-ar-etude: 3.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='clair']) {
+    color-scheme: dark;
+    --papier: #181612;
+    --surface: #201e19;
+    --surface-2: #2a2721;
+    --encre: #eee9df;
+    --encre-2: #bdb6a9;
+    --encre-3: #a29b8e;
+    --trait: #3a362f;
+    --trait-fort: #4d483f;
+    --accent: #86ccb1;
+    --accent-fort: #a5dcc6;
+    --accent-doux: #1f3730;
+    --sur-accent: #10261f;
+    --erreur: #f19a87;
+    --erreur-doux: #3b221c;
+    --attention: #e6bf6e;
+    --attention-doux: #362b14;
+    --v-fatha: #f2a07c;
+    --v-kasra: #8fbaf0;
+    --v-damma: #d6a6e6;
+    --v-signe: #b9cf88;
+    --v-madd: #e6bf6e;
+    --ombre-1: 0 1px 2px rgb(0 0 0 / 0.3);
+    --ombre-2: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -12px rgb(0 0 0 / 0.5);
+  }
+}
+
+:root[data-theme='sombre'] {
+  color-scheme: dark;
+  --papier: #181612;
+  --surface: #201e19;
+  --surface-2: #2a2721;
+  --encre: #eee9df;
+  --encre-2: #bdb6a9;
+  --encre-3: #a29b8e;
+  --trait: #3a362f;
+  --trait-fort: #4d483f;
+  --accent: #86ccb1;
+  --accent-fort: #a5dcc6;
+  --accent-doux: #1f3730;
+  --sur-accent: #10261f;
+  --erreur: #f19a87;
+  --erreur-doux: #3b221c;
+  --attention: #e6bf6e;
+  --attention-doux: #362b14;
+  --v-fatha: #f2a07c;
+  --v-kasra: #8fbaf0;
+  --v-damma: #d6a6e6;
+  --v-signe: #b9cf88;
+  --v-madd: #e6bf6e;
+  --ombre-1: 0 1px 2px rgb(0 0 0 / 0.3);
+  --ombre-2: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -12px rgb(0 0 0 / 0.5);
+}
+
+:root[data-taille-ar='grande'] {
+  --taille-ar: 2.75rem;
+  --taille-ar-etude: 4rem;
+}
+:root[data-taille-ar='tres-grande'] {
+  --taille-ar: 3.25rem;
+  --taille-ar-etude: 4.5rem;
+}
+
+@theme {
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-arabe: 'Noto Naskh Arabic', 'Amiri', serif;
+  --font-coran: 'Amiri Quran', 'Noto Naskh Arabic', serif;
+
+  /* Échelle typographique (rapport ≈ 1,2) */
+  --text-xs: 0.8125rem;
+  --text-xs--line-height: 1.35;
+  --text-sm: 0.9375rem;
+  --text-sm--line-height: 1.45;
+  --text-base: 1.0625rem;
+  --text-base--line-height: 1.55;
+  --text-lg: 1.25rem;
+  --text-lg--line-height: 1.45;
+  --text-xl: 1.5rem;
+  --text-xl--line-height: 1.3;
+  --text-2xl: 1.875rem;
+  --text-2xl--line-height: 1.2;
+  --text-3xl: 2.5rem;
+  --text-3xl--line-height: 1.1;
+  --text-4xl: 3.25rem;
+  --text-4xl--line-height: 1.05;
+
+  --color-papier: var(--papier);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-encre: var(--encre);
+  --color-encre-2: var(--encre-2);
+  --color-encre-3: var(--encre-3);
+  --color-trait: var(--trait);
+  --color-trait-fort: var(--trait-fort);
+  --color-accent: var(--accent);
+  --color-accent-fort: var(--accent-fort);
+  --color-accent-doux: var(--accent-doux);
+  --color-sur-accent: var(--sur-accent);
+  --color-erreur: var(--erreur);
+  --color-erreur-doux: var(--erreur-doux);
+  --color-attention: var(--attention);
+  --color-attention-doux: var(--attention-doux);
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+
+  --shadow-1: var(--ombre-1);
+  --shadow-2: var(--ombre-2);
+
+  --ease-doux: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@layer base {
+  html {
+    background: var(--papier);
+    color: var(--encre);
+    font-family: var(--font-sans);
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    min-height: 100dvh;
+    font-size: var(--text-base);
+    line-height: 1.55;
+    overflow-x: hidden;
+  }
+  :focus-visible {
+    outline: none;
+    box-shadow: var(--focus);
+    border-radius: var(--radius-sm);
+  }
+  ::selection {
+    background: var(--accent-doux);
+  }
+  [lang='ar'] {
+    font-family: var(--font-arabe);
+    line-height: 2;
+    font-feature-settings: normal;
+    letter-spacing: 0;
+  }
+  [data-coran] {
+    font-family: var(--font-coran);
+    line-height: 2.3;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    letter-spacing: -0.015em;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  a {
+    color: inherit;
+  }
+}
+
+@layer components {
+  .conteneur {
+    width: 100%;
+    max-width: 68rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+  @media (min-width: 640px) {
+    .conteneur {
+      padding-inline: 1.5rem;
+    }
+  }
+  .prose-iqra {
+    max-width: 38rem;
+  }
+  .prose-iqra p + p {
+    margin-top: 0.75rem;
+  }
+  .prose-iqra h2 {
+    font-size: var(--text-xl);
+    font-weight: 600;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .prose-iqra h3 {
+    font-size: var(--text-lg);
+    font-weight: 600;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  .prose-iqra ul {
+    list-style: disc;
+    padding-inline-start: 1.25rem;
+    margin-top: 0.5rem;
+  }
+  .prose-iqra li + li {
+    margin-top: 0.375rem;
+  }
+  .prose-iqra a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+    text-decoration-thickness: 1px;
+  }
+
+  .bouton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.625rem 1.125rem;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    font-size: var(--text-base);
+    line-height: 1.2;
+    text-decoration: none;
+    transition:
+      background-color 150ms var(--ease-doux),
+      border-color 150ms var(--ease-doux),
+      transform 150ms var(--ease-doux);
+    cursor: pointer;
+    user-select: none;
+  }
+  @media (max-width: 639px) {
+    .bouton-principal {
+      width: 100%;
+    }
+  }
+  .bouton:active {
+    transform: scale(0.98);
+  }
+  .bouton:disabled,
+  .bouton[aria-disabled='true'] {
+    opacity: 0.45;
+    cursor: not-allowed;
+    transform: none;
+  }
+  .bouton-principal {
+    background: var(--accent);
+    color: var(--sur-accent);
+  }
+  .bouton-principal:hover {
+    background: var(--accent-fort);
+  }
+  .bouton-secondaire {
+    background: var(--surface);
+    color: var(--encre);
+    border: 1px solid var(--trait-fort);
+  }
+  .bouton-secondaire:hover {
+    border-color: var(--encre-3);
+  }
+  .bouton-discret {
+    color: var(--accent);
+    padding-inline: 0.5rem;
+  }
+  .bouton-discret:hover {
+    background: var(--accent-doux);
+  }
+
+  .panneau {
+    background: var(--surface);
+    border: 1px solid var(--trait);
+    border-radius: var(--radius-lg);
+  }
+
+  .lien {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+    text-decoration-thickness: 1px;
+  }
+
+  /* Texte arabe : rendu, aides à la lecture */
+  .ar {
+    font-family: var(--font-arabe);
+    font-size: var(--taille-ar);
+    line-height: 2.1;
+    direction: rtl;
+    unicode-bidi: isolate;
+  }
+  .ar-etude {
+    font-size: var(--taille-ar-etude);
+    line-height: 1.9;
+  }
+  .ar[data-coran],
+  [data-coran] .ar {
+    font-family: var(--font-coran);
+  }
+  /* Espacement des lettres : chaque grappe garde sa forme liée grâce à un ZWJ ajouté en pseudo-élément. */
+  .aide-espacement .grappe {
+    display: inline-block;
+    margin-inline: 0.12em;
+  }
+  .aide-espacement .grappe[data-av]::before,
+  .aide-espacement .grappe[data-ap]::after {
+    content: '\200D';
+  }
+  /* Un mot ne se coupe jamais ; l'espace entre mots reste nettement plus grand que l'écart entre syllabes. */
+  .ar .mot {
+    white-space: nowrap;
+  }
+  .aide-espacement,
+  .aide-syllabes {
+    word-spacing: 0.6em;
+  }
+  .aide-syllabes .syllabe + .syllabe {
+    margin-inline-start: 0.14em;
+  }
+  .aide-syllabes .syllabe {
+    display: inline-block;
+    border-bottom: 2px solid var(--trait-fort);
+    padding-bottom: 0.05em;
+    line-height: 1.9;
+  }
+  .aide-syllabes .syllabe[data-av]::before,
+  .aide-syllabes .syllabe[data-ap]::after {
+    content: '\200D';
+  }
+  .aide-voyelles .g-fatha {
+    color: var(--v-fatha);
+  }
+  .aide-voyelles .g-kasra {
+    color: var(--v-kasra);
+  }
+  .aide-voyelles .g-damma {
+    color: var(--v-damma);
+  }
+  .aide-voyelles .g-soukoun {
+    color: var(--v-signe);
+  }
+  /* Arabe cité dans une phrase française */
+  .ar-inline {
+    font-family: var(--font-arabe);
+    font-size: 1.4em;
+    line-height: 1;
+    unicode-bidi: isolate;
+    white-space: nowrap;
+    vertical-align: -0.08em;
+  }
+  details.aides > summary {
+    list-style: none;
+  }
+  details.aides > summary::-webkit-details-marker {
+    display: none;
+  }
+  details.aides[open] .chevron {
+    transform: rotate(180deg);
+  }
+  .mot-maitrise {
+    text-decoration: underline dotted var(--accent);
+    text-underline-offset: 0.45em;
+    text-decoration-thickness: 2px;
+  }
+}
+
+/*
+ * Amiri Quran contient des glyphes en couleur (table COLR, 4 couleurs).
+ * On les ramène à la couleur de l'encre pour un texte sobre, comme le Mushaf imprimé.
+ */
+@font-palette-values --encre-claire {
+  font-family: 'Amiri Quran';
+  override-colors: 0 #1c1a17, 1 #1c1a17, 2 #1c1a17, 3 #1c1a17;
+}
+@font-palette-values --encre-sombre {
+  font-family: 'Amiri Quran';
+  override-colors: 0 #eee9df, 1 #eee9df, 2 #eee9df, 3 #eee9df;
+}
+[data-coran] {
+  font-palette: --encre-claire;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='clair']) [data-coran] {
+    font-palette: --encre-sombre;
+  }
+}
+:root[data-theme='sombre'] [data-coran] {
+  font-palette: --encre-sombre;
+}
+/* Aide « couleur des voyelles » sur le texte coranique : Amiri (même dessin, sans couleurs intégrées). */
+.ar.aide-voyelles[data-coran] {
+  font-family: 'Amiri', var(--font-arabe);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

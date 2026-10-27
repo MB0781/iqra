@@ -1,0 +1,35 @@
+{
+  "id": "e9-l01",
+  "etape": 9,
+  "ordre": 1,
+  "titre": "Al-Ikhlas (sourate 112)",
+  "resume": "Quatre versets courts, et un dernier petit signe : le petit mîm.",
+  "duree": 8,
+  "enseigne": ["signe-mim-iqlab"],
+  "elementsNouveaux": ["q:112:1:5", "q:112:2:2", "q:112:3:2", "q:112:3:4", "q:112:4:3", "q:112:4:4", "q:112:4:5", "q:112:1", "q:112:2", "q:112:3", "q:112:4"],
+  "theorie": [
+    { "type": "texte", "texte": "Dans cette étape, tu lis **d'abord seul**, avec peu ou pas d'aides, puis tu vérifies à l'écoute. Le verset 1 commence par la **basmala**, que tu connais. Sens global d'Al-Ikhlas : « Dis : Il est Allah, Unique ; Allah, Celui vers qui l'on se tourne ; Il n'a pas engendré et n'a pas été engendré ; et nul n'est égal à Lui. »" },
+    { "type": "presentation", "element": "q:112:4:5", "note": "**Nouveau signe : le petit mîm ۢ**, posé sur le tanwin. Il indique que le « n » du tanwin se prononcerait « m » si l'on enchaînait avec la suite (la basmala de la sourate suivante commence par un b). Ici, c'est la **fin de la sourate** : on s'arrête, on lit simplement « aḥad », et le petit mîm ne se prononce pas." },
+    { "type": "presentation", "element": "q:112:4:3", "note": "**lahoû** : le petit wâw ۥ après la damma allonge le son en « oû »." },
+    { "type": "attention", "texte": "Juste avant, le noûn final de « yakoun » n'a **pas de soukoun**, et le lâm qui suit porte une **chadda** : le n se fond dans le l. On lit « yakoul lahoû ». C'est tout le tajwid nécessaire ici." },
+    { "type": "presentation", "element": "q:112:2:2", "note": "**aṣ-ṣamad** : ص est solaire (chadda), on n'entend pas le l de l'article. À l'arrêt, la dernière voyelle tombe : « aṣ-ṣamad »." }
+  ],
+  "pratique": [
+    { "id": "p1", "type": "lecture-guidee", "consigne": "Lis la sourate seul, d'abord. Écoute ensuite pour vérifier.", "versets": "112:1-4", "aides": ["voyelles", "audio"], "explication": "On garde seulement les couleurs des voyelles pour cette première sourate. Le petit mîm de la fin ne se prononce pas à l'arrêt." },
+    { "id": "p2", "type": "lis-choisis-son", "cible": "q:112:2:2", "options": ["q:112:2:2", "q:112:2:1", "q:112:1:6"], "explication": "Article + ص doublé (lettre solaire) + م + د : « aṣ-ṣamad »." },
+    { "id": "p3", "type": "ecoute-choisis", "cible": "q:112:3:2", "options": ["q:112:3:2", "q:112:3:4", "q:112:3:1"], "explication": "« yalid » : ي avec fatha, ل avec kasra, د avec soukoun. Pas de wâw long, contrairement à « yoûlad »." },
+    { "id": "p4", "type": "lis-choisis-son", "cible": "q:112:3:4", "options": ["q:112:3:4", "q:112:3:2", "q:112:4:2"], "explication": "ي avec damma suivi de و : « yoû » long, puis « lad » : « yoûlad »." },
+    { "id": "p5", "type": "lis-choisis-son", "cible": "q:112:4:3", "options": ["q:112:4:3", "q:112:1:6", "q:112:4:4"], "explication": "ل avec chadda et fatha, ه avec damma et le petit wâw : « lahoû »." },
+    { "id": "p6", "type": "lis-verifie", "cible": "q:112:1", "explication": "Basmala, puis « qoul houwa llâhou aḥad ». On s'arrête sur le d." },
+    { "id": "p7", "type": "lis-verifie", "cible": "q:112:2", "explication": "« allâhou ṣ-ṣamad » : deux mots, l'arrêt fait tomber la dernière voyelle." },
+    { "id": "p8", "type": "lis-verifie", "cible": "q:112:3", "explication": "« lam yalid wa-lam yoûlad » : deux moitiés presque identiques. Repère la différence : « ya-lid » / « yoû-lad »." },
+    { "id": "p9", "type": "lis-verifie", "cible": "q:112:4", "explication": "« wa-lam yakoul lahoû koufouwan aḥad » : le n de « yakoun » se fond dans le l doublé, et le petit mîm final ne se prononce pas puisqu'on s'arrête." }
+  ],
+  "test": [
+    { "id": "t1", "type": "ecoute-choisis", "cible": "q:112:4:4", "options": ["q:112:4:4", "q:112:4:2", "q:112:4:3"], "explication": "« koufouwan » : deux damma, puis le tanwin fatha sur le wâw." },
+    { "id": "t2", "type": "lis-choisis-son", "cible": "q:112:1:5", "options": ["q:112:1:5", "q:112:1:6", "q:112:3:1"], "explication": "ق avec damma, ل avec soukoun : « qoul », k du fond de la gorge." },
+    { "id": "t3", "type": "ecoute-choisis", "cible": "q:112:2:2", "options": ["q:112:2:2", "q:1:6:2", "q:1:4:3"], "explication": "Trois mots avec lettre solaire. Ici on entend ṣ puis « mad » : « aṣ-ṣamad »." },
+    { "id": "t4", "type": "lis-choisis-son", "cible": "q:112:4:2-3", "options": ["q:112:4:2-3", "q:112:3:3-4"], "explication": "Le n sans soukoun devant un l doublé disparaît dans le l : « yakoul lahoû »." },
+    { "id": "t5", "type": "lis-choisis-son", "cible": "q:112:4", "options": ["q:112:4", "q:112:3", "q:112:2"], "explication": "Le dernier verset, avec le petit mîm sur le tanwin du dernier mot." }
+  ]
+}
