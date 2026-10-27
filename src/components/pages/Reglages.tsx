@@ -1,5 +1,5 @@
 /** Réglages : taille du texte arabe, vitesse audio, aides par défaut, thème. */
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { RadioGroup } from 'radix-ui';
 import { depot } from '../../lib/progression/depot';
 import { REGLAGES_DEFAUT, type Reglages as R } from '../../lib/progression/types';
@@ -40,12 +40,26 @@ export function appliquerReglages(r: R) {
 export default function Reglages() {
   const [r, setR] = useState<R>(REGLAGES_DEFAUT);
   const [message, setMessage] = useState('');
+  // Toujours l'état le plus récent : deux réglages changés coup sur coup ne s'écrasent pas.
+  const courant = useRef<R>(REGLAGES_DEFAUT);
+  const modifie = useRef(false);
 
   useEffect(() => {
-    depot().then((d) => d.reglages()).then(setR).catch(() => {});
+    depot()
+      .then((d) => d.reglages())
+      .then((enregistres) => {
+        // La lecture initiale n'écrase pas un choix fait entre-temps.
+        if (modifie.current) return;
+        courant.current = enregistres;
+        setR(enregistres);
+      })
+      .catch(() => {});
   }, []);
 
-  async function maj(n: R) {
+  async function maj(changer: (prec: R) => R) {
+    modifie.current = true;
+    const n = changer(courant.current);
+    courant.current = n;
     setR(n);
     appliquerReglages(n);
     try {
@@ -65,7 +79,7 @@ export default function Reglages() {
         <Choix
           nom="Taille du texte arabe"
           valeur={r.tailleArabe}
-          onChange={(v) => maj({ ...r, tailleArabe: v })}
+          onChange={(v) => maj((p) => ({ ...p, tailleArabe: v }))}
           options={[
             { v: 'normale', label: 'Normale', extra: <span lang="ar" dir="rtl" className="ar" style={{ fontSize: '2.25rem', lineHeight: 1.6 }}>بَ</span> },
             { v: 'grande', label: 'Grande', extra: <span lang="ar" dir="rtl" className="ar" style={{ fontSize: '2.75rem', lineHeight: 1.6 }}>بَ</span> },
@@ -81,7 +95,7 @@ export default function Reglages() {
         <Choix
           nom="Vitesse de l’audio"
           valeur={String(r.vitesse) as '1' | '0.75'}
-          onChange={(v) => maj({ ...r, vitesse: v === '0.75' ? 0.75 : 1 })}
+          onChange={(v) => maj((p) => ({ ...p, vitesse: v === '0.75' ? 0.75 : 1 }))}
           options={[
             { v: '1', label: 'Normale (1×)' },
             { v: '0.75', label: 'Ralentie (0,75×)' },
@@ -94,9 +108,9 @@ export default function Reglages() {
         </h2>
         <p className="mt-1 text-sm text-encre-2">Aides activées à l’ouverture d’une sourate dans la page Lecture. Dans les leçons, c’est la leçon qui décide.</p>
         <div className="mt-3 divide-y divide-trait rounded-[var(--radius-md)] border border-trait bg-surface px-4">
-          <Interrupteur id="r-esp" libelle="Espacer les lettres" actif={r.aidesParDefaut.espacement} onChange={(v) => maj({ ...r, aidesParDefaut: { ...r.aidesParDefaut, espacement: v } })} />
-          <Interrupteur id="r-voy" libelle="Colorer les voyelles" actif={r.aidesParDefaut.voyelles} onChange={(v) => maj({ ...r, aidesParDefaut: { ...r.aidesParDefaut, voyelles: v } })} />
-          <Interrupteur id="r-syl" libelle="Découper en syllabes" actif={r.aidesParDefaut.syllabes} onChange={(v) => maj({ ...r, aidesParDefaut: { ...r.aidesParDefaut, syllabes: v } })} />
+          <Interrupteur id="r-esp" libelle="Espacer les lettres" actif={r.aidesParDefaut.espacement} onChange={(v) => maj((p) => ({ ...p, aidesParDefaut: { ...p.aidesParDefaut, espacement: v } }))} />
+          <Interrupteur id="r-voy" libelle="Colorer les voyelles" actif={r.aidesParDefaut.voyelles} onChange={(v) => maj((p) => ({ ...p, aidesParDefaut: { ...p.aidesParDefaut, voyelles: v } }))} />
+          <Interrupteur id="r-syl" libelle="Découper en syllabes" actif={r.aidesParDefaut.syllabes} onChange={(v) => maj((p) => ({ ...p, aidesParDefaut: { ...p.aidesParDefaut, syllabes: v } }))} />
         </div>
       </section>
       <section aria-labelledby="r-theme">
@@ -106,7 +120,7 @@ export default function Reglages() {
         <Choix
           nom="Thème"
           valeur={r.theme}
-          onChange={(v) => maj({ ...r, theme: v })}
+          onChange={(v) => maj((p) => ({ ...p, theme: v }))}
           options={[
             { v: 'systeme', label: 'Comme l’appareil' },
             { v: 'clair', label: 'Clair' },

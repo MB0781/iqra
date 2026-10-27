@@ -21,15 +21,18 @@ export default function LectureLibre({ sourate, nbVersets, items }: { sourate: n
       .catch(() => setAides(['voyelles', 'audio']));
   }, []);
 
+  // On attend les réglages : sinon l'arrivée des aides enregistrées remettrait la lecture à zéro.
+  if (aides === null) return <p className="text-encre-2">Préparation de la lecture…</p>;
+
   const ex = {
     id: `lecture-${sourate}`,
     type: 'lecture-guidee' as const,
     versets: `${sourate}:1-${nbVersets}`,
-    aides: aides ?? ['voyelles', 'audio'],
+    aides,
     explication: 'Relis demain sans les aides : c’est la meilleure façon de vérifier ce qui est acquis.',
   };
   return (
-    <div key={`${cle}-${aides?.join()}`}>
+    <div key={cle}>
       <LectureGuidee ex={ex} items={items} maitrises={maitrises} onFini={() => setCle(cle + 1)} />
     </div>
   );

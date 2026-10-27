@@ -39,6 +39,7 @@ test('une erreur répétée crée une confusion visible au tableau de bord', asy
 
 test('réglages : thème sombre et taille du texte arabe conservés', async ({ page }) => {
   await page.goto('reglages/');
+  await expect(page.locator('astro-island[ssr]')).toHaveCount(0); // page interactive
   await page.getByRole('radio', { name: 'Sombre' }).click();
   await page.getByRole('radio', { name: 'Très grande' }).click();
   await page.goto('alphabet/');
@@ -48,6 +49,7 @@ test('réglages : thème sombre et taille du texte arabe conservés', async ({ p
 
 test('lecture guidée : lire d’abord, écouter ensuite', async ({ page }) => {
   await page.goto('lecture/112/');
+  await expect(page.locator('[data-action="j-ai-lu"]')).toBeVisible();
   await expect(page.locator('[data-q]').first()).toBeVisible();
   await expect(page.locator('[data-audio="present"]')).toHaveCount(0);
   await page.locator('[data-action="j-ai-lu"]').click();
