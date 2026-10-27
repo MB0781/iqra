@@ -11,12 +11,11 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages-${{ github.ref }}
-  cancel-in-progress: true
+  # Sur une PR, on annule l'ancien passage ; sur main, on n'interrompt jamais un déploiement en cours.
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 jobs:
   construire:
@@ -49,6 +48,9 @@ jobs:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: construire
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deploiement.outputs.page_url }}

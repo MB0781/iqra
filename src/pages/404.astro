@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import Marque from '../components/ui/Marque.astro';
 import { lien } from '../lib/liens';
 ---
-<Base titre="Page introuvable" description="Cette page n'existe pas.">
+<Base titre="Page introuvable" description="Cette page n'existe pas." noindex>
   <div class="conteneur flex max-w-xl flex-col items-start pt-16 sm:pt-24">
     <Marque taille={48} class="text-accent" />
     <h1 class="mt-6 text-3xl font-semibold">Cette page n’existe pas</h1>

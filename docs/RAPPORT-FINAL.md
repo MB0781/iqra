@@ -15,7 +15,7 @@ ensuite **enregistrer les audios** des lettres et syllabes, et **faire relire** 
 | # | Critère | Statut | Preuve |
 |---|---|---|---|
 | 1 | `npm run build` sans erreur ni avertissement de type | **Prouvé** | `docs/preuves/build.txt` : `0 errors, 0 warnings, 0 hints`, 76 pages |
-| 2 | `npm test` à 100 % (progression, FSRS, déblocage, export/import) | **Prouvé** | `docs/preuves/vitest.txt` : 7 fichiers, **92/92** |
+| 2 | `npm test` à 100 % (progression, FSRS, déblocage, export/import) | **Prouvé** | `docs/preuves/vitest.txt` : 7 fichiers, **93/93** |
 | 3 | `npx playwright test` à 100 %, parcours étape 1 → test, mobile et ordinateur | **Prouvé** | `docs/preuves/playwright.txt` : **100/100** (dont le parcours complet sur `mobile` Pixel 7 et `ordinateur` 1280 px) |
 | 4 | Vérification : Coran affiché = Tanzil ; 0 élément avant d'être enseigné ; manifeste audio | **Prouvé** | `docs/preuves/verifier.txt` : 121/121 blocs identiques (100 %), 0 problème de contenu (6 contrôles), 690 entrées avec statut. Les URL Quran.com étaient bloquées dans le conteneur, mais la CI GitHub les a appelées : 34/34 versets et 177/180 mots répondaient ; les 3 en 404 (sourate 97) venaient d'une basmala mal détectée, corrigée et testée. Voir la CI de la pull request |
 | 5 | axe-core : 0 violation sérieuse ou critique, clavier | **Prouvé** | Playwright : 19 pages × clair/sombre × mobile/ordinateur + exercice en cours + lecture guidée ; test de navigation complète au clavier ; aucun défilement horizontal |
@@ -98,8 +98,59 @@ ensuite **enregistrer les audios** des lettres et syllabes, et **faire relire** 
 ## Limites connues
 
 - Les plages de plusieurs mots coraniques n'ont pas d'audio propre : on les écoute mot par mot.
+- Dans la CI, Lighthouse est informatif (`continue-on-error`) : les scores varient d'une machine à l'autre ; les mesures locales sont dans `docs/preuves/lighthouse.txt`.
 - L'audio Quran.com n'est pas mis en cache hors ligne, car il est servi par un tiers.
 - Les captures sont rendues avec la police de substitution du conteneur. Sur un appareil Apple, le texte latin
   s'affiche en SF Pro.
 - Le parcours complet est testé de bout en bout pour l'étape 1. Les étapes 2 à 9 sont couvertes par les contrôles
   automatiques de contenu, et les écrans de leçon par axe-core.
+
+## Relecture finale (relecteur indépendant)
+
+Relecteur qui n'a rien construit. Commandes relancées le 27 octobre 2026 sur le commit `813b88e`, avec `dist/` à jour
+et `astro preview` sur le port 4321.
+
+| # | Statut | Preuve relancée (une ligne) |
+|---|---|---|
+| 1 | **PROUVÉ** | `npm run build` : `Result (81 files): 0 errors, 0 warnings, 0 hints` puis `76 page(s) built`, code de sortie 0 |
+| 2 | **PROUVÉ** | `npm test` : `Test Files 7 passed (7)`, `Tests 93 passed (93)` (dont export puis import dans `depot.test.ts`) |
+| 3 | **PROUVÉ** | `npx playwright test --workers=4` : `100 passed (1.8m)`. Le parcours complet de l'étape 1 jusqu'au test passe en `[mobile]` (48 s) et en `[ordinateur]` (32 s) |
+| 4 | **PROUVÉ** (contrôle hors réseau) | `verifier.ts --sans-reseau` : `121 blocs … 121 identiques à Tanzil (100.0 %)`, 6 contrôles de contenu à 0, `690 entrées`, `214 [URL] non testées`. La vérification des URL réelles est seulement **rapportée par le chef de projet** (CI verte sur `813b88e`) : je n'ai pas pu la consulter d'ici |
+| 5 | **PROUVÉ** | `accessibilite.spec.ts` : 19 adresses. Elles couvrent les 17 gabarits HTML de `src/pages` (404 compris, via `/nexiste-pas/`), en clair et en sombre, plus un exercice, la lecture guidée et la navigation au clavier. Les gabarits dynamiques ne sont testés que sur un exemple (3 leçons, `test/1`, `lecture/1`) |
+| 6 | **PROUVÉ** (non relancé) | `docs/preuves/lighthouse.txt` : accueil 100/100/100/100, leçon 98/100/100/100, lecture 96/100/100/100. `lighthouserc.json` est en mobile avec un seuil de 0,9. Voir l'écart b |
+| 7 | **PROUVÉ** | Critique design, « Verdict global de la revue de contrôle » : **VALIDÉ**. Gardien du texte : 5 lignes **VALIDÉ** et « Verdict global : VALIDÉ » |
+| 8 | **PROUVÉ** | Étapes 1 à 8 : 9, 6, 4, 5, 4, 5, 5 et 5 leçons, chacune avec `test-etape.json`. Étape 9 : `e9-l01` à `e9-l05` portent sur les sourates 112, 108, 103, 113 et 114, soit 48 leçons en tout |
+| 9 | **PARTIEL** (attendu) | Le workflow publie sur un push vers `main` (`publier` : `if: push && refs/heads/main`) et construit sur une PR. Le site n'est pas encore en ligne : il faut activer Pages, puis fusionner la PR |
+| 10 | **PROUVÉ**, avec réserves | Le rapport est honnête sur l'essentiel, et la liste « reste à faire » est précise et actionnable. Voir les écarts c et d |
+
+Sondages hors tableau, tous conformes :
+- **Voix de synthèse** : aucune trace de `speechSynthesis` dans `src/` ni dans `scripts/`.
+- **URL externes dans `dist/`** : Quran.com (audio), tanzil.net, creativecommons, github et l'adresse canonique
+  `mb0781.github.io`. Le reste n'est que du texte inerte : en-têtes de licence (tailwindcss.com, react.dev, radix),
+  espaces de noms XML (w3.org, sitemaps.org, google.com/schemas), messages d'erreur de Dexie (tinyurl, bit.ly) et
+  schema.org.
+- **Polices, traqueurs** : aucune police externe, aucun `<script src>` ou `<link href>` externe hormis `canonical`.
+- **Page 404** : le statut HTTP 404 est bien renvoyé.
+- **Sitemap** : 73 adresses, sans `/studio` ni `/design`. Le fichier `robots.txt` les exclut aussi.
+- **Données structurées** : `@type: Course` présent sur l'accueil.
+- **PWA** : le manifeste a 3 icônes (dont une maskable), et le service worker `sw.js` est enregistré avec la portée
+  `/iqra/`.
+- **Export/import** : couvert par Vitest et Playwright.
+- **`/studio`** : `noindex, nofollow`, comme `/design`.
+
+Écarts trouvés (aucun ne bloque) :
+- a. **Workflow** : `concurrency` avec `cancel-in-progress: true` peut annuler un déploiement en cours si deux pushes
+  sur `main` se suivent. GitHub conseille `false` pour Pages.
+- b. **Workflow** : l'étape Lighthouse a `continue-on-error: true`. Le seuil de 90 n'empêche donc pas la publication.
+  Le critère 6 repose sur une mesure ponctuelle.
+- c. **Workflow** : les permissions `pages: write` et `id-token: write` sont données à tout le workflow, y compris
+  aux PR. Il vaudrait mieux les réserver au job `publier`. `configure-pages` avec `enablement: true` échouera
+  probablement avec le `GITHUB_TOKEN` (`continue-on-error`). Cela confirme qu'il faut activer Pages à la main.
+- d. **Rapport** : le tableau indique « 92/92 » pour Vitest, alors que `docs/preuves/vitest.txt` et ma relance
+  donnent **93/93**. De plus, le passage « la CI GitHub a appelé les URL… 177/180 » et le statut « brouillon » de la
+  PR ne sont pas vérifiables depuis le conteneur.
+- e. **404** : la page n'a pas de `noindex` et porte une adresse canonique vers `/iqra/404/`, qui n'existe pas sur
+  Pages. C'est mineur, puisque le statut HTTP 404 suffit aux moteurs de recherche.
+- f. **Portée des tests** : le parcours de bout en bout ne couvre que l'étape 1, comme le rapport le dit lui-même.
+  Pour les étapes 2 à 9, seule la structure est vérifiée automatiquement. Les écrans sont vérifiés par axe-core sur
+  3 leçons. La qualité pédagogique dépend de la relecture humaine (point 4 de la liste).
