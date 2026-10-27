@@ -20,6 +20,7 @@ const PAGES = [
   'reglages/',
   'design/',
   'studio/',
+  'studio/sources/',
   'nexiste-pas/',
 ];
 

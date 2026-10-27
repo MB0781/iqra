@@ -62,6 +62,24 @@ test('studio : liste des éléments à enregistrer', async ({ page }) => {
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', /noindex/);
 });
 
+test('validation des sons : 28 lettres, choix conservé et résultat exportable', async ({ page }) => {
+  await page.goto('studio/sources/');
+  await expect(page.locator('[data-lettre]')).toHaveCount(28);
+  await expect(page.locator('astro-island[ssr]')).toHaveCount(0);
+  const ba = page.locator('[data-lettre="lettre-ba"]');
+  await ba.locator('label', { hasText: 'Bapron' }).click();
+  await expect(page.getByText('1').first()).toBeVisible();
+  await page.reload();
+  await expect(page.locator('[data-lettre="lettre-ba"] input:checked')).toHaveCount(1);
+  const lien = await page.getByRole('link', { name: 'Télécharger' }).getAttribute('href');
+  expect(decodeURIComponent(lien!)).toContain('"lettre-ba": "Bapron.wav"');
+});
+
+test('alphabet : exactement les 28 lettres', async ({ page }) => {
+  await page.goto('alphabet/');
+  await expect(page.locator('tbody tr')).toHaveCount(28);
+});
+
 test('page 404', async ({ page }) => {
   const r = await page.goto('cette-page-n-existe-pas/');
   expect(r?.status()).toBe(404);
