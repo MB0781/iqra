@@ -1,0 +1,2147 @@
+{
+ "expr-choukran-djazilan": {
+  "duree": 2.01,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "expr-hadha-bayti": {
+  "duree": 1.67,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "expr-hadha-kitaboun": {
+  "duree": 1.91,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "expr-kayfa-haluka": {
+  "duree": 1.43,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-alif-fin": {
+  "duree": 0.5,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ayn-debut": {
+  "duree": 0.63,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ayn-fin": {
+  "duree": 0.77,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ayn-milieu": {
+  "duree": 0.66,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ba-debut": {
+  "duree": 0.63,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ba-fin": {
+  "duree": 0.62,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ba-milieu": {
+  "duree": 0.49,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-chin-debut": {
+  "duree": 0.77,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-chin-fin": {
+  "duree": 0.77,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-chin-milieu": {
+  "duree": 0.78,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-dad-debut": {
+  "duree": 0.75,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-dad-fin": {
+  "duree": 0.77,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-dad-milieu": {
+  "duree": 0.77,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-dal-fin": {
+  "duree": 0.77,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-dha-debut": {
+  "duree": 0.77,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-dha-fin": {
+  "duree": 0.78,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-dha-milieu": {
+  "duree": 0.78,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-dhal-fin": {
+  "duree": 0.63,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-fa-debut": {
+  "duree": 0.59,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-fa-fin": {
+  "duree": 0.58,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-fa-milieu": {
+  "duree": 0.59,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ghayn-debut": {
+  "duree": 0.77,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ghayn-fin": {
+  "duree": 0.77,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ghayn-milieu": {
+  "duree": 0.77,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ha-debut": {
+  "duree": 0.64,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ha-fin": {
+  "duree": 0.72,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ha-milieu": {
+  "duree": 0.63,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-hha-debut": {
+  "duree": 0.62,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-hha-fin": {
+  "duree": 0.7,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-hha-milieu": {
+  "duree": 0.68,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-jim-debut": {
+  "duree": 0.62,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-jim-fin": {
+  "duree": 0.64,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-jim-milieu": {
+  "duree": 0.67,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-kaf-debut": {
+  "duree": 0.71,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-kaf-fin": {
+  "duree": 0.65,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-kaf-milieu": {
+  "duree": 0.66,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-kha-debut": {
+  "duree": 0.62,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-kha-fin": {
+  "duree": 0.6,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-kha-milieu": {
+  "duree": 0.55,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-lam-debut": {
+  "duree": 0.67,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-lam-fin": {
+  "duree": 0.67,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-lam-milieu": {
+  "duree": 0.71,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-mim-debut": {
+  "duree": 0.89,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-mim-fin": {
+  "duree": 1.01,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-mim-milieu": {
+  "duree": 1.03,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-noun-debut": {
+  "duree": 0.79,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-noun-fin": {
+  "duree": 0.79,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-noun-milieu": {
+  "duree": 0.79,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-qaf-debut": {
+  "duree": 0.78,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-qaf-fin": {
+  "duree": 0.78,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-qaf-milieu": {
+  "duree": 0.77,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ra-fin": {
+  "duree": 0.58,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-sad-debut": {
+  "duree": 0.56,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-sad-fin": {
+  "duree": 0.51,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-sad-milieu": {
+  "duree": 0.53,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-sin-debut": {
+  "duree": 0.48,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-sin-fin": {
+  "duree": 0.49,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-sin-milieu": {
+  "duree": 0.51,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ta-debut": {
+  "duree": 0.36,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ta-fin": {
+  "duree": 0.36,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ta-milieu": {
+  "duree": 0.36,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-tha-debut": {
+  "duree": 0.42,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-tha-fin": {
+  "duree": 0.46,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-tha-milieu": {
+  "duree": 0.48,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-tta-debut": {
+  "duree": 0.48,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-tta-fin": {
+  "duree": 0.46,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-tta-milieu": {
+  "duree": 0.42,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-waw-fin": {
+  "duree": 0.59,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ya-debut": {
+  "duree": 0.51,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ya-fin": {
+  "duree": 0.53,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-ya-milieu": {
+  "duree": 0.5,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "forme-zay-fin": {
+  "duree": 0.52,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-alif": {
+  "duree": 0.46,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-alif-hamza-bas": {
+  "duree": 0.77,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-alif-hamza-haut": {
+  "duree": 0.63,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-alif-madda": {
+  "duree": 0.55,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-alif-maqsura": {
+  "duree": 0.45,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-alif-wasla": {
+  "duree": 0.38,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-ayn": {
+  "duree": 0.74,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-ba": {
+  "duree": 0.56,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-chin": {
+  "duree": 0.78,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-dad": {
+  "duree": 0.74,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-dal": {
+  "duree": 0.78,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-dha": {
+  "duree": 0.78,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-dhal": {
+  "duree": 0.52,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-fa": {
+  "duree": 0.74,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-ghayn": {
+  "duree": 0.75,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-ha": {
+  "duree": 0.66,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-hamza": {
+  "duree": 0.44,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-hha": {
+  "duree": 0.66,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-jim": {
+  "duree": 0.6,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-kaf": {
+  "duree": 0.58,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-kha": {
+  "duree": 0.51,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-lam": {
+  "duree": 0.66,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-mim": {
+  "duree": 0.99,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-noun": {
+  "duree": 0.85,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-qaf": {
+  "duree": 0.77,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-ra": {
+  "duree": 0.71,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-sad": {
+  "duree": 0.52,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-sin": {
+  "duree": 0.53,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-ta": {
+  "duree": 0.33,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-ta-marbuta": {
+  "duree": 0.34,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-tha": {
+  "duree": 0.39,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-tta": {
+  "duree": 0.45,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-waw": {
+  "duree": 0.7,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-waw-hamza": {
+  "duree": 0.46,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-ya": {
+  "duree": 0.6,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-ya-hamza": {
+  "duree": 0.78,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "lettre-zay": {
+  "duree": 0.55,
+  "style": "lettre",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-ach-chams": {
+  "duree": 1.03,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-ad-dars": {
+  "duree": 0.84,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-adh-dhahab": {
+  "duree": 1.02,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-afwan": {
+  "duree": 0.89,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-al-bab": {
+  "duree": 0.98,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-al-bayt": {
+  "duree": 1.15,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-al-djamal": {
+  "duree": 1.14,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-al-kitab": {
+  "duree": 1.18,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-al-qalam": {
+  "duree": 1.01,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-al-qamar": {
+  "duree": 1.05,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-al-walad": {
+  "duree": 1.13,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-alam-douleur": {
+  "duree": 0.75,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-alam-drapeau": {
+  "duree": 0.97,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-alima": {
+  "duree": 0.71,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-allama": {
+  "duree": 0.76,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-amal-espoir": {
+  "duree": 0.76,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-amal-travail": {
+  "duree": 0.91,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-amana-courant": {
+  "duree": 0.79,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-ammi": {
+  "duree": 0.51,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-an": {
+  "duree": 0.33,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-an-nour": {
+  "duree": 0.92,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-ar-radjoul": {
+  "duree": 0.71,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-as-salam": {
+  "duree": 1.15,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-at-tin": {
+  "duree": 0.67,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-baka": {
+  "duree": 0.59,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-baouda": {
+  "duree": 0.58,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-bayt-indef": {
+  "duree": 0.85,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-bayti": {
+  "duree": 0.58,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-baytoun": {
+  "duree": 0.81,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-biir": {
+  "duree": 0.64,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-bintoun": {
+  "duree": 0.76,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-burtuqaloun": {
+  "duree": 1.39,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-chadjara": {
+  "duree": 1.13,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-chams-indef": {
+  "duree": 0.87,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-chariba": {
+  "duree": 0.64,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-chayoun": {
+  "duree": 0.43,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-choukran": {
+  "duree": 0.83,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-chubbakoun": {
+  "duree": 1.06,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-daftaroun": {
+  "duree": 1.12,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-dahika": {
+  "duree": 0.56,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-dakhala": {
+  "duree": 0.69,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-darasa": {
+  "duree": 0.6,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-darrasa": {
+  "duree": 0.68,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-dhahaba": {
+  "duree": 0.47,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-dhakara": {
+  "duree": 0.51,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-dhalika": {
+  "duree": 0.47,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-djaddi": {
+  "duree": 0.39,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-djalasa": {
+  "duree": 0.65,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-djamiloun": {
+  "duree": 1.13,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-djazaroun": {
+  "duree": 0.44,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-djiddan": {
+  "duree": 0.51,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-dukkanoun": {
+  "duree": 1.04,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-duna": {
+  "duree": 0.63,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-fahima": {
+  "duree": 0.29,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-fataha": {
+  "duree": 0.64,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-fihi": {
+  "duree": 0.37,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-findjanoun": {
+  "duree": 1.17,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-funduqoun": {
+  "duree": 0.97,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-futiha": {
+  "duree": 0.61,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-ghadiba": {
+  "duree": 0.6,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-ghasala": {
+  "duree": 0.72,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-hadha": {
+  "duree": 0.63,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-hadhihi": {
+  "duree": 0.6,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-hadhira": {
+  "duree": 0.34,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-hakadha": {
+  "duree": 0.79,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-haliboun": {
+  "duree": 0.9,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-hammamoun": {
+  "duree": 1.15,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-haraba": {
+  "duree": 0.56,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-hasouboun": {
+  "duree": 1.14,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-hasuna": {
+  "duree": 0.81,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-hatifoun": {
+  "duree": 0.95,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-hulwoun": {
+  "duree": 0.63,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kaakoun": {
+  "duree": 0.64,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kabiroun": {
+  "duree": 0.97,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kabura": {
+  "duree": 0.69,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kana": {
+  "duree": 0.51,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-karuma": {
+  "duree": 0.61,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kasara": {
+  "duree": 0.63,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kassara": {
+  "duree": 0.76,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kataba": {
+  "duree": 0.69,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-katabtu": {
+  "duree": 0.53,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kharadja": {
+  "duree": 0.55,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kitaban": {
+  "duree": 0.96,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kitabi": {
+  "duree": 0.7,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kitabin": {
+  "duree": 0.92,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kitaboun": {
+  "duree": 0.87,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kursiyyoun": {
+  "duree": 1.0,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-kutiba": {
+  "duree": 0.68,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-laiba": {
+  "duree": 0.62,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-lakin": {
+  "duree": 0.83,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-lam": {
+  "duree": 0.47,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-laylan": {
+  "duree": 0.61,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-laymunoun": {
+  "duree": 1.18,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-macha": {
+  "duree": 0.71,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-madrasa": {
+  "duree": 1.17,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-maktaboun": {
+  "duree": 0.98,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-malaboun": {
+  "duree": 0.98,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-manziloun": {
+  "duree": 1.13,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-marra": {
+  "duree": 0.5,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-masdjidoun": {
+  "duree": 1.02,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-matamoun": {
+  "duree": 0.89,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-mataroun": {
+  "duree": 1.05,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-matbakhoun": {
+  "duree": 1.12,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-mawzoun": {
+  "duree": 0.54,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-miftahoun": {
+  "duree": 1.06,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-min": {
+  "duree": 0.49,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-muallimoun": {
+  "duree": 1.23,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-mudarrisi": {
+  "duree": 1.03,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-muhandisoun": {
+  "duree": 1.21,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-mumtazoun": {
+  "duree": 1.12,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-naharan": {
+  "duree": 0.77,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-nama": {
+  "duree": 0.64,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-nouroun": {
+  "duree": 0.55,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-qala": {
+  "duree": 0.53,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-qalamoun": {
+  "duree": 0.8,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-qamisoun": {
+  "duree": 0.94,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-qaruba": {
+  "duree": 0.36,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-qasiroun": {
+  "duree": 1.04,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-qittoun": {
+  "duree": 0.6,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-qultu": {
+  "duree": 0.5,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-rakiba": {
+  "duree": 0.66,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-rasama": {
+  "duree": 0.67,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-saala": {
+  "duree": 0.5,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-sabounoun": {
+  "duree": 0.94,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-sadaqa": {
+  "duree": 0.4,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-sadiqoun": {
+  "duree": 1.11,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-safara": {
+  "duree": 0.68,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-saghiroun": {
+  "duree": 0.81,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-saghura": {
+  "duree": 0.34,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-sakana": {
+  "duree": 0.72,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-sallama": {
+  "duree": 0.69,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-samakoun": {
+  "duree": 0.84,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-samia": {
+  "duree": 0.76,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-sariroun": {
+  "duree": 0.76,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-souaal": {
+  "duree": 1.04,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-sukkaroun": {
+  "duree": 0.93,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-sumia": {
+  "duree": 0.84,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-suriya": {
+  "duree": 0.76,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-tabakha": {
+  "duree": 0.52,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-tabiboun": {
+  "duree": 1.0,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-taraka": {
+  "duree": 0.39,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-tawiloun": {
+  "duree": 1.06,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-thaqula": {
+  "duree": 0.63,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-tilfazoun": {
+  "duree": 1.06,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-tilmidhoun": {
+  "duree": 1.16,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-tuffahoun": {
+  "duree": 1.28,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-waladoun": {
+  "duree": 1.0,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-yaftahu": {
+  "duree": 0.97,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-yaktubu": {
+  "duree": 1.01,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-yalabu": {
+  "duree": 0.77,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-yaqulu": {
+  "duree": 0.97,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-zaraa": {
+  "duree": 0.55,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "mot-zurtu": {
+  "duree": 0.37,
+  "style": "mot",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-alif-a": {
+  "duree": 0.38,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-alif-a-ba": {
+  "duree": 0.52,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-alif-i": {
+  "duree": 0.39,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-alif-ou": {
+  "duree": 0.51,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ayn-a": {
+  "duree": 0.55,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ayn-a-noun": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ayn-aa": {
+  "duree": 0.68,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ayn-i": {
+  "duree": 0.48,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ayn-ou": {
+  "duree": 0.57,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ayn-oun": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ba-a": {
+  "duree": 0.48,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ba-aa": {
+  "duree": 0.46,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ba-an": {
+  "duree": 0.77,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ba-i": {
+  "duree": 0.46,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ba-i-noun": {
+  "duree": 0.78,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ba-ii": {
+  "duree": 0.7,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ba-in": {
+  "duree": 0.82,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ba-ou": {
+  "duree": 0.57,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ba-ou-ra": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ba-oun": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ba-ouu": {
+  "duree": 0.57,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-chin-a": {
+  "duree": 0.35,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-chin-ou-ba": {
+  "duree": 0.5,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-chin-ou-kaf": {
+  "duree": 0.51,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dad-a": {
+  "duree": 0.44,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dad-i": {
+  "duree": 0.51,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dad-ou": {
+  "duree": 0.46,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dad-ouu": {
+  "duree": 0.59,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dal-a": {
+  "duree": 0.38,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dal-a-fa": {
+  "duree": 0.53,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dal-aa": {
+  "duree": 0.87,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dal-an": {
+  "duree": 0.78,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dal-i": {
+  "duree": 0.48,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dal-in": {
+  "duree": 0.84,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dal-ou": {
+  "duree": 0.51,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dal-oun": {
+  "duree": 0.79,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dal-ouu": {
+  "duree": 0.81,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dha-a": {
+  "duree": 0.57,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dha-aa": {
+  "duree": 0.87,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dha-i": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dha-ou": {
+  "duree": 0.57,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dhal-a": {
+  "duree": 0.45,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dhal-i": {
+  "duree": 0.45,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dhal-ou": {
+  "duree": 0.57,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-dhal-oun": {
+  "duree": 0.94,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-fa-a": {
+  "duree": 0.34,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-fa-aa": {
+  "duree": 0.67,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-fa-i": {
+  "duree": 0.28,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-fa-ou": {
+  "duree": 0.39,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-fa-ou-noun": {
+  "duree": 0.73,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-fa-oun": {
+  "duree": 0.82,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ghayn-a": {
+  "duree": 0.5,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ghayn-aa": {
+  "duree": 0.81,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ghayn-i": {
+  "duree": 0.44,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ghayn-ou": {
+  "duree": 0.57,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ha-a": {
+  "duree": 1.31,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ha-a-noun": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ha-aa": {
+  "duree": 0.71,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ha-i": {
+  "duree": 0.43,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ha-ou": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-hamza-a": {
+  "duree": 0.34,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-hamza-i": {
+  "duree": 0.44,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-hamza-ou": {
+  "duree": 0.48,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-hha-a": {
+  "duree": 0.42,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-hha-aa": {
+  "duree": 0.67,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-hha-i": {
+  "duree": 0.36,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-hha-ou": {
+  "duree": 0.57,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-hha-oun": {
+  "duree": 0.7,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-jim-a": {
+  "duree": 0.42,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-jim-i": {
+  "duree": 0.39,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-kaf-a": {
+  "duree": 0.49,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-kaf-a-ta": {
+  "duree": 0.42,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-kaf-aa": {
+  "duree": 0.55,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-kaf-i": {
+  "duree": 0.35,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-kaf-ou": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-kaf-oun": {
+  "duree": 0.81,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-kha-a": {
+  "duree": 0.36,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-kha-i": {
+  "duree": 0.29,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-kha-oun": {
+  "duree": 0.59,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-lam-a": {
+  "duree": 0.57,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-lam-a-mim": {
+  "duree": 0.59,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-lam-a-ya": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-lam-aa": {
+  "duree": 0.63,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-lam-an": {
+  "duree": 0.73,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-lam-i": {
+  "duree": 0.51,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-lam-ii": {
+  "duree": 0.63,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-lam-ou": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-lam-oun": {
+  "duree": 0.96,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-a": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-a-kaf": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-a-lam": {
+  "duree": 0.72,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-a-noun": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-a-ra": {
+  "duree": 0.9,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-a-sin": {
+  "duree": 0.9,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-a-tta": {
+  "duree": 0.9,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-aa": {
+  "duree": 0.97,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-an": {
+  "duree": 0.66,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-i": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-i-fa": {
+  "duree": 0.57,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-i-noun": {
+  "duree": 0.82,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-ii": {
+  "duree": 0.79,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-ou": {
+  "duree": 0.73,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-mim-ou-mim": {
+  "duree": 0.59,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-noun-a": {
+  "duree": 0.73,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-noun-aa": {
+  "duree": 0.88,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-noun-i": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-noun-ii": {
+  "duree": 0.75,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-noun-in": {
+  "duree": 0.85,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-noun-ou": {
+  "duree": 0.88,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-noun-oun": {
+  "duree": 1.16,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-noun-ouu": {
+  "duree": 0.88,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-qaf-a": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-qaf-aa": {
+  "duree": 0.73,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-qaf-i": {
+  "duree": 0.51,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-qaf-i-tta": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-qaf-ou": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-qaf-ou-lam": {
+  "duree": 0.57,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-qaf-oun": {
+  "duree": 0.68,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ra-a": {
+  "duree": 0.55,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ra-aa": {
+  "duree": 0.63,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ra-an": {
+  "duree": 0.86,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ra-i": {
+  "duree": 0.49,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ra-in": {
+  "duree": 0.72,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ra-ou": {
+  "duree": 0.57,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ra-oun": {
+  "duree": 0.98,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sad-a": {
+  "duree": 0.48,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sad-aa": {
+  "duree": 0.51,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sad-i": {
+  "duree": 0.53,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sad-ou": {
+  "duree": 0.42,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sad-ou-mim": {
+  "duree": 0.57,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sin-a": {
+  "duree": 0.36,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sin-aa": {
+  "duree": 0.55,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sin-i": {
+  "duree": 0.35,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sin-ii": {
+  "duree": 0.55,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sin-in": {
+  "duree": 0.68,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sin-ou": {
+  "duree": 0.34,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sin-ou-kaf": {
+  "duree": 0.37,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sin-oun": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-sin-ouu": {
+  "duree": 0.43,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ta-a": {
+  "duree": 0.29,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ta-aa": {
+  "duree": 0.36,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ta-i": {
+  "duree": 0.34,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ta-i-lam": {
+  "duree": 0.48,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ta-ou": {
+  "duree": 0.42,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ta-ou-fa": {
+  "duree": 0.41,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ta-ouu": {
+  "duree": 0.44,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-tha-a": {
+  "duree": 0.28,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-tha-i": {
+  "duree": 0.27,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-tha-ou": {
+  "duree": 0.36,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-tta-a": {
+  "duree": 0.37,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-tta-aa": {
+  "duree": 0.39,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-tta-i": {
+  "duree": 0.38,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-tta-ii": {
+  "duree": 0.48,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-tta-ou": {
+  "duree": 0.48,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-tta-oun": {
+  "duree": 0.74,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ya-a": {
+  "duree": 0.43,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ya-a-kaf": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-ya-aa": {
+  "duree": 0.59,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-zay-a": {
+  "duree": 0.35,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-zay-i": {
+  "duree": 0.33,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-zay-ou": {
+  "duree": 0.42,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-zay-oun": {
+  "duree": 0.58,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ },
+ "syl-zay-ouu": {
+  "duree": 0.41,
+  "style": "syllabe",
+  "voix": "piper ar_JO-kareem-medium"
+ }
+}

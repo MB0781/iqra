@@ -10,9 +10,10 @@ explique simplement, note tes choix dans `docs/DECISIONS.md`.
    le retaper ni le générer. Dans les contenus, on écrit une **référence** (`q:1:2:1` = sourate 1, verset 2, jeton 1 ;
    `q:1:2:1-3` ; `q:1:2` = verset entier) et le texte est lu dans Tanzil. Toute mise en forme se fait à l'affichage.
    Chaque bloc coranique affiché porte `data-q="S:A:W1-W2"` ; `npm run verifier` compare le HTML construit à Tanzil.
-2. **Pas de voix de synthèse pour l'arabe.** Audio mot par mot : `https://audio.qurancdn.com/wbw/SSS_AAA_WWW.mp3` ;
-   audio par verset : `https://verses.quran.com/Alafasy/mp3/SSSAAA.mp3`. Lettres, syllabes, mots non coraniques :
-   statut « à enregistrer » dans `data/audio/manifest.json`, enregistrés plus tard via `/studio`.
+2. **Jamais de voix de synthèse pour le texte coranique.** Audio mot par mot : `https://audio.qurancdn.com/wbw/SSS_AAA_WWW.mp3` ;
+   audio par verset : `https://verses.quran.com/Alafasy/mp3/SSSAAA.mp3`. Lettres, syllabes, mots d'entraînement :
+   voix de synthèse Piper (décision du propriétaire, voir `docs/VOIX-DE-SYNTHESE.md`), remplaçable à tout moment par
+   un enregistrement humain via `/studio`.
 3. Respecter les licences (Tanzil, Quran.com, polices OFL, bibliothèques MIT/Apache). Rien copié d'une appli concurrente.
 4. Gratuit, sans publicité, sans traqueur, sans compte. Progression dans le navigateur (IndexedDB, repli localStorage).
 5. Distinguer **déchiffrage** (but), **prononciation** (expliquée, jamais corrigée automatiquement), **tajwid** (minimum utile).

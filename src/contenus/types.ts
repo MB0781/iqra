@@ -24,7 +24,7 @@ export interface ManifesteEntree {
   id: string;
   ar: string;
   translit: string;
-  source: 'quran.com-mot' | 'quran.com-verset' | 'enregistrement';
+  source: 'quran.com-mot' | 'quran.com-verset' | 'enregistrement' | 'synthese-vocale';
   statut: 'disponible' | 'à enregistrer';
   url?: string;
   fichier?: string;
