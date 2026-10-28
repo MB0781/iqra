@@ -34,7 +34,7 @@ export default function Studio() {
   useEffect(() => {
     fetch(lien('manifeste-audio.json'))
       .then((r) => r.json())
-      .then((m: { elements: ManifesteEntree[] }) => setEntrees(m.elements.filter((e) => e.statut === 'à enregistrer' || e.source === 'synthese-vocale')))
+      .then((m: { elements: ManifesteEntree[] }) => setEntrees(m.elements.filter((e) => e.statut === 'à enregistrer')))
       .catch(() => setErreur('Le manifeste audio n’a pas pu être chargé.'));
     return () => flux.current?.getTracks().forEach((t) => t.stop());
   }, []);

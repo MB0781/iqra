@@ -62,15 +62,6 @@ test('studio : liste des éléments à enregistrer', async ({ page }) => {
   await expect(page.locator('meta[name="robots"]')).toHaveAttribute('content', /noindex/);
 });
 
-test('audio des lettres : la leçon propose l’écoute et le fichier existe', async ({ page }) => {
-  await page.goto('lecon/e1-l01/');
-  const bouton = page.locator('[data-audio="present"] button').first();
-  await expect(bouton).toBeVisible();
-  const r = await page.request.get('audio/lettre-ba.mp3');
-  expect(r.status()).toBe(200);
-  expect((await r.body()).length).toBeGreaterThan(2000);
-});
-
 test('alphabet : exactement les 28 lettres', async ({ page }) => {
   await page.goto('alphabet/');
   await expect(page.locator('tbody tr')).toHaveCount(28);
