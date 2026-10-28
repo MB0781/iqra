@@ -6,8 +6,8 @@
     "enregistrement": "Enregistré par un récitateur via /studio, fichier dans public/audio/"
   },
   "total": 690,
-  "disponibles": 214,
-  "aEnregistrer": 476,
+  "disponibles": 314,
+  "aEnregistrer": 376,
   "elements": [
     {
       "id": "expr-choukran-djazilan",
@@ -42,511 +42,584 @@
       "ar": "ـا",
       "translit": "alif",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-alif-fin.mp3"
     },
     {
       "id": "forme-ayn-debut",
       "ar": "عـ",
       "translit": "ʿ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ayn-debut.mp3"
     },
     {
       "id": "forme-ayn-fin",
       "ar": "ـع",
       "translit": "ʿ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ayn-fin.mp3"
     },
     {
       "id": "forme-ayn-milieu",
       "ar": "ـعـ",
       "translit": "ʿ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ayn-milieu.mp3"
     },
     {
       "id": "forme-ba-debut",
       "ar": "بـ",
       "translit": "b",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ba-debut.mp3"
     },
     {
       "id": "forme-ba-fin",
       "ar": "ـب",
       "translit": "b",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ba-fin.mp3"
     },
     {
       "id": "forme-ba-milieu",
       "ar": "ـبـ",
       "translit": "b",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ba-milieu.mp3"
     },
     {
       "id": "forme-chin-debut",
       "ar": "شـ",
       "translit": "ch",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-chin-debut.mp3"
     },
     {
       "id": "forme-chin-fin",
       "ar": "ـش",
       "translit": "ch",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-chin-fin.mp3"
     },
     {
       "id": "forme-chin-milieu",
       "ar": "ـشـ",
       "translit": "ch",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-chin-milieu.mp3"
     },
     {
       "id": "forme-dad-debut",
       "ar": "ضـ",
       "translit": "ḍ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-dad-debut.mp3"
     },
     {
       "id": "forme-dad-fin",
       "ar": "ـض",
       "translit": "ḍ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-dad-fin.mp3"
     },
     {
       "id": "forme-dad-milieu",
       "ar": "ـضـ",
       "translit": "ḍ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-dad-milieu.mp3"
     },
     {
       "id": "forme-dal-fin",
       "ar": "ـد",
       "translit": "d",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-dal-fin.mp3"
     },
     {
       "id": "forme-dha-debut",
       "ar": "ظـ",
       "translit": "ẓ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-dha-debut.mp3"
     },
     {
       "id": "forme-dha-fin",
       "ar": "ـظ",
       "translit": "ẓ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-dha-fin.mp3"
     },
     {
       "id": "forme-dha-milieu",
       "ar": "ـظـ",
       "translit": "ẓ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-dha-milieu.mp3"
     },
     {
       "id": "forme-dhal-fin",
       "ar": "ـذ",
       "translit": "dh",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-dhal-fin.mp3"
     },
     {
       "id": "forme-fa-debut",
       "ar": "فـ",
       "translit": "f",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-fa-debut.mp3"
     },
     {
       "id": "forme-fa-fin",
       "ar": "ـف",
       "translit": "f",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-fa-fin.mp3"
     },
     {
       "id": "forme-fa-milieu",
       "ar": "ـفـ",
       "translit": "f",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-fa-milieu.mp3"
     },
     {
       "id": "forme-ghayn-debut",
       "ar": "غـ",
       "translit": "gh",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ghayn-debut.mp3"
     },
     {
       "id": "forme-ghayn-fin",
       "ar": "ـغ",
       "translit": "gh",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ghayn-fin.mp3"
     },
     {
       "id": "forme-ghayn-milieu",
       "ar": "ـغـ",
       "translit": "gh",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ghayn-milieu.mp3"
     },
     {
       "id": "forme-ha-debut",
       "ar": "هـ",
       "translit": "h",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ha-debut.mp3"
     },
     {
       "id": "forme-ha-fin",
       "ar": "ـه",
       "translit": "h",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ha-fin.mp3"
     },
     {
       "id": "forme-ha-milieu",
       "ar": "ـهـ",
       "translit": "h",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ha-milieu.mp3"
     },
     {
       "id": "forme-hha-debut",
       "ar": "حـ",
       "translit": "ḥ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-hha-debut.mp3"
     },
     {
       "id": "forme-hha-fin",
       "ar": "ـح",
       "translit": "ḥ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-hha-fin.mp3"
     },
     {
       "id": "forme-hha-milieu",
       "ar": "ـحـ",
       "translit": "ḥ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-hha-milieu.mp3"
     },
     {
       "id": "forme-jim-debut",
       "ar": "جـ",
       "translit": "dj",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-jim-debut.mp3"
     },
     {
       "id": "forme-jim-fin",
       "ar": "ـج",
       "translit": "dj",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-jim-fin.mp3"
     },
     {
       "id": "forme-jim-milieu",
       "ar": "ـجـ",
       "translit": "dj",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-jim-milieu.mp3"
     },
     {
       "id": "forme-kaf-debut",
       "ar": "كـ",
       "translit": "k",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-kaf-debut.mp3"
     },
     {
       "id": "forme-kaf-fin",
       "ar": "ـك",
       "translit": "k",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-kaf-fin.mp3"
     },
     {
       "id": "forme-kaf-milieu",
       "ar": "ـكـ",
       "translit": "k",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-kaf-milieu.mp3"
     },
     {
       "id": "forme-kha-debut",
       "ar": "خـ",
       "translit": "kh",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-kha-debut.mp3"
     },
     {
       "id": "forme-kha-fin",
       "ar": "ـخ",
       "translit": "kh",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-kha-fin.mp3"
     },
     {
       "id": "forme-kha-milieu",
       "ar": "ـخـ",
       "translit": "kh",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-kha-milieu.mp3"
     },
     {
       "id": "forme-lam-debut",
       "ar": "لـ",
       "translit": "l",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-lam-debut.mp3"
     },
     {
       "id": "forme-lam-fin",
       "ar": "ـل",
       "translit": "l",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-lam-fin.mp3"
     },
     {
       "id": "forme-lam-milieu",
       "ar": "ـلـ",
       "translit": "l",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-lam-milieu.mp3"
     },
     {
       "id": "forme-mim-debut",
       "ar": "مـ",
       "translit": "m",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-mim-debut.mp3"
     },
     {
       "id": "forme-mim-fin",
       "ar": "ـم",
       "translit": "m",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-mim-fin.mp3"
     },
     {
       "id": "forme-mim-milieu",
       "ar": "ـمـ",
       "translit": "m",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-mim-milieu.mp3"
     },
     {
       "id": "forme-noun-debut",
       "ar": "نـ",
       "translit": "n",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-noun-debut.mp3"
     },
     {
       "id": "forme-noun-fin",
       "ar": "ـن",
       "translit": "n",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-noun-fin.mp3"
     },
     {
       "id": "forme-noun-milieu",
       "ar": "ـنـ",
       "translit": "n",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-noun-milieu.mp3"
     },
     {
       "id": "forme-qaf-debut",
       "ar": "قـ",
       "translit": "q",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-qaf-debut.mp3"
     },
     {
       "id": "forme-qaf-fin",
       "ar": "ـق",
       "translit": "q",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-qaf-fin.mp3"
     },
     {
       "id": "forme-qaf-milieu",
       "ar": "ـقـ",
       "translit": "q",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-qaf-milieu.mp3"
     },
     {
       "id": "forme-ra-fin",
       "ar": "ـر",
       "translit": "r",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ra-fin.mp3"
     },
     {
       "id": "forme-sad-debut",
       "ar": "صـ",
       "translit": "ṣ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-sad-debut.mp3"
     },
     {
       "id": "forme-sad-fin",
       "ar": "ـص",
       "translit": "ṣ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-sad-fin.mp3"
     },
     {
       "id": "forme-sad-milieu",
       "ar": "ـصـ",
       "translit": "ṣ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-sad-milieu.mp3"
     },
     {
       "id": "forme-sin-debut",
       "ar": "سـ",
       "translit": "s",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-sin-debut.mp3"
     },
     {
       "id": "forme-sin-fin",
       "ar": "ـس",
       "translit": "s",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-sin-fin.mp3"
     },
     {
       "id": "forme-sin-milieu",
       "ar": "ـسـ",
       "translit": "s",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-sin-milieu.mp3"
     },
     {
       "id": "forme-ta-debut",
       "ar": "تـ",
       "translit": "t",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ta-debut.mp3"
     },
     {
       "id": "forme-ta-fin",
       "ar": "ـت",
       "translit": "t",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ta-fin.mp3"
     },
     {
       "id": "forme-ta-milieu",
       "ar": "ـتـ",
       "translit": "t",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ta-milieu.mp3"
     },
     {
       "id": "forme-tha-debut",
       "ar": "ثـ",
       "translit": "th",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-tha-debut.mp3"
     },
     {
       "id": "forme-tha-fin",
       "ar": "ـث",
       "translit": "th",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-tha-fin.mp3"
     },
     {
       "id": "forme-tha-milieu",
       "ar": "ـثـ",
       "translit": "th",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-tha-milieu.mp3"
     },
     {
       "id": "forme-tta-debut",
       "ar": "طـ",
       "translit": "ṭ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-tta-debut.mp3"
     },
     {
       "id": "forme-tta-fin",
       "ar": "ـط",
       "translit": "ṭ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-tta-fin.mp3"
     },
     {
       "id": "forme-tta-milieu",
       "ar": "ـطـ",
       "translit": "ṭ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-tta-milieu.mp3"
     },
     {
       "id": "forme-waw-fin",
       "ar": "ـو",
       "translit": "w",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-waw-fin.mp3"
     },
     {
       "id": "forme-ya-debut",
       "ar": "يـ",
       "translit": "y",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ya-debut.mp3"
     },
     {
       "id": "forme-ya-fin",
       "ar": "ـي",
       "translit": "y",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ya-fin.mp3"
     },
     {
       "id": "forme-ya-milieu",
       "ar": "ـيـ",
       "translit": "y",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-ya-milieu.mp3"
     },
     {
       "id": "forme-zay-fin",
       "ar": "ـز",
       "translit": "z",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "forme-zay-fin.mp3"
     },
     {
       "id": "lettre-alif",
       "ar": "ا",
       "translit": "alif",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-alif.mp3"
     },
     {
       "id": "lettre-alif-hamza-bas",
@@ -588,70 +661,80 @@
       "ar": "ع",
       "translit": "ʿ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-ayn.mp3"
     },
     {
       "id": "lettre-ba",
       "ar": "ب",
       "translit": "b",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-ba.mp3"
     },
     {
       "id": "lettre-chin",
       "ar": "ش",
       "translit": "ch",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-chin.mp3"
     },
     {
       "id": "lettre-dad",
       "ar": "ض",
       "translit": "ḍ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-dad.mp3"
     },
     {
       "id": "lettre-dal",
       "ar": "د",
       "translit": "d",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-dal.mp3"
     },
     {
       "id": "lettre-dha",
       "ar": "ظ",
       "translit": "ẓ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-dha.mp3"
     },
     {
       "id": "lettre-dhal",
       "ar": "ذ",
       "translit": "dh",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-dhal.mp3"
     },
     {
       "id": "lettre-fa",
       "ar": "ف",
       "translit": "f",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-fa.mp3"
     },
     {
       "id": "lettre-ghayn",
       "ar": "غ",
       "translit": "gh",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-ghayn.mp3"
     },
     {
       "id": "lettre-ha",
       "ar": "ه",
       "translit": "h",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-ha.mp3"
     },
     {
       "id": "lettre-hamza",
@@ -665,84 +748,96 @@
       "ar": "ح",
       "translit": "ḥ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-hha.mp3"
     },
     {
       "id": "lettre-jim",
       "ar": "ج",
       "translit": "dj",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-jim.mp3"
     },
     {
       "id": "lettre-kaf",
       "ar": "ك",
       "translit": "k",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-kaf.mp3"
     },
     {
       "id": "lettre-kha",
       "ar": "خ",
       "translit": "kh",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-kha.mp3"
     },
     {
       "id": "lettre-lam",
       "ar": "ل",
       "translit": "l",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-lam.mp3"
     },
     {
       "id": "lettre-mim",
       "ar": "م",
       "translit": "m",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-mim.mp3"
     },
     {
       "id": "lettre-noun",
       "ar": "ن",
       "translit": "n",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-noun.mp3"
     },
     {
       "id": "lettre-qaf",
       "ar": "ق",
       "translit": "q",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-qaf.mp3"
     },
     {
       "id": "lettre-ra",
       "ar": "ر",
       "translit": "r",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-ra.mp3"
     },
     {
       "id": "lettre-sad",
       "ar": "ص",
       "translit": "ṣ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-sad.mp3"
     },
     {
       "id": "lettre-sin",
       "ar": "س",
       "translit": "s",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-sin.mp3"
     },
     {
       "id": "lettre-ta",
       "ar": "ت",
       "translit": "t",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-ta.mp3"
     },
     {
       "id": "lettre-ta-marbuta",
@@ -756,21 +851,24 @@
       "ar": "ث",
       "translit": "th",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-tha.mp3"
     },
     {
       "id": "lettre-tta",
       "ar": "ط",
       "translit": "ṭ",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-tta.mp3"
     },
     {
       "id": "lettre-waw",
       "ar": "و",
       "translit": "w",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-waw.mp3"
     },
     {
       "id": "lettre-waw-hamza",
@@ -784,7 +882,8 @@
       "ar": "ي",
       "translit": "y",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-ya.mp3"
     },
     {
       "id": "lettre-ya-hamza",
@@ -798,7 +897,8 @@
       "ar": "ز",
       "translit": "z",
       "source": "enregistrement",
-      "statut": "à enregistrer"
+      "statut": "disponible",
+      "fichier": "lettre-zay.mp3"
     },
     {
       "id": "mot-ach-chams",
