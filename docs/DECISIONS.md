@@ -53,5 +53,8 @@ Choix faits en autonomie, avec leur raison. Le plus récent en bas.
     un enregistrement professionnel via `/studio`.
     Une voix de synthèse (Piper, modèle libre) a aussi été essayée et publiée, puis retirée à la demande du
     propriétaire : rendu jugé non naturel et peu fiable pour apprendre la prononciation.
+    **Noms des lettres** : enregistrés par le frère du propriétaire, associé au projet, qui a donné son accord pour
+    une publication gratuite sur le site. Découpés depuis une vidéo (28 noms, alif … yā'), volume égalisé ; le même
+    fichier sert pour les formes liées de la lettre (`forme-*`). Syllabes et mots : toujours « à enregistrer ».
 20. **Alphabet** : la page affiche exactement les 28 lettres (la hamza, la tâ marbouta, etc., déclarées comme éléments
     « lettre » à l'étape 6, n'y figurent plus).
