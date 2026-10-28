@@ -48,14 +48,3 @@ Les enregistrements restent dans la page tant qu'elle est ouverte : télécharge
 
 Formats acceptés : `.webm`, `.m4a`, `.ogg`, `.mp3`. Idéalement, convertis en `.mp3` 64 kbit/s mono avant dépôt pour
 alléger le site (par exemple avec Audacity ou `ffmpeg -i lettre-ba.webm -ac 1 -b:a 64k lettre-ba.mp3`).
-
-## Enregistrements libres existants (noms des lettres)
-
-Une série d'enregistrements des noms des lettres existe sous licence libre sur Wikimedia Commons (Ruaa Ghareeb,
-CC BY-SA 4.0). Pour l'utiliser :
-1. Ouvre `https://mb0781.github.io/iqra/studio/sources/`, écoute les candidats de chaque lettre et choisis celui qui
-   dit le bon nom (« Aucun ne convient » en cas de doute), idéalement avec une personne qui lit l'arabe.
-2. Clique sur « Télécharger » et dépose le fichier obtenu dans `data/audio/validation-audio.json`
-   (ou colle le résultat à Claude).
-3. Lance `npx tsx scripts/integrer-audio-valide.ts` puis `npm run audio:manifest` : seuls les fichiers validés sont
-   téléchargés, copiés pour la lettre et ses formes, et crédités sur la page Sources.
