@@ -1,5 +1,17 @@
 ---
 import Base from '../layouts/Base.astro';
+import { existsSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+// Enregistrements libres validés à l'écoute et intégrés (voir scripts/integrer-audio-valide.ts)
+const chemin = join(process.cwd(), 'data', 'audio', 'credits.json');
+const credits = existsSync(chemin) ? (JSON.parse(readFileSync(chemin, 'utf-8')) as Record<string, { auteur: string; licence: string; source: string; fichierOrigine: string }>) : {};
+const parFichier = new Map<string, { auteur: string; licence: string; source: string; ids: string[] }>();
+for (const [id, c] of Object.entries(credits)) {
+  const e = parFichier.get(c.fichierOrigine) ?? { auteur: c.auteur, licence: c.licence, source: c.source, ids: [] };
+  e.ids.push(id);
+  parFichier.set(c.fichierOrigine, e);
+}
 ---
 <Base titre="Sources et licences" description="D'où viennent le texte coranique, l'audio, les polices et les bibliothèques utilisées par Iqra', et sous quelles licences.">
   <article class="conteneur pt-10 sm:pt-14">
@@ -16,6 +28,17 @@ import Base from '../layouts/Base.astro';
         <li>Audio verset par verset : récitation de Mishary Rashid Alafasy, via Quran.com (verses.quran.com).</li>
         <li>Lettres, syllabes et mots d’entraînement : à enregistrer par un récitateur. En attendant, le site l’indique par « audio en préparation ». Aucune voix de synthèse n’est utilisée pour l’arabe.</li>
       </ul>
+      {parFichier.size > 0 ? (
+        <>
+          <h3>Enregistrements libres réutilisés</h3>
+          <p>Noms de lettres enregistrés par d’autres personnes et publiés sous licence libre, vérifiés à l’écoute avant intégration. Fichiers convertis sans modification du son.</p>
+          <ul>
+            {[...parFichier].map(([f, c]) => (
+              <li><a href={c.source}>{f}</a>, par {c.auteur}, licence {c.licence} (<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">conditions</a>) : {c.ids.length} élément(s).</li>
+            ))}
+          </ul>
+        </>
+      ) : null}
 
       <h2>Polices</h2>
       <ul>

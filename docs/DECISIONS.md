@@ -47,3 +47,12 @@ Choix faits en autonomie, avec leur raison. Le plus récent en bas.
 17. **Agents** : les contenus ont été rédigés par quatre agents pédagogues en parallèle (étapes 1-2, 3-5, 6-7, 8-9),
     contrôlés par le vérificateur automatique ; les revues (gardien du texte, critique design) sont dans `docs/revues/`.
 18. **Translittération** : voyelle u écrite « ou », longues â î oû, forme de pause en fin de verset (« aḥad »).
+19. **Audio de sources libres, validé à l'écoute** : pas de reprise d'audio YouTube ou d'applications (droit d'auteur,
+    site public). Source libre retenue : série de noms de lettres de Ruaa Ghareeb sur Wikimedia Commons
+    (CC BY-SA 4.0). Les noms de fichiers et les descriptions ne concordent pas toujours, et aucun outil de
+    reconnaissance vocale n'était accessible : chaque fichier est validé par un humain sur `/studio/sources/` avant
+    intégration (`scripts/integrer-audio-valide.ts`), avec crédit sur la page Sources. Jeu Mendeley « Arabic Letter
+    Utterance » (CC BY 4.0) écarté pour l'instant : 10 syllabes seulement, locuteurs non natifs, conçu pour
+    l'apprentissage automatique.
+20. **Alphabet** : la page affiche exactement les 28 lettres (la hamza, la tâ marbouta, etc., déclarées comme éléments
+    « lettre » à l'étape 6, n'y figurent plus).

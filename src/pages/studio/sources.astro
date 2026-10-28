@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import ValidationSources from '../../components/pages/ValidationSources.tsx';
+import { contenus } from '../../contenus/charger';
+import { NOMS_LETTRES } from '../../contenus/notions';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { lien } from '../../lib/liens';
+
+const { candidats, fichiers } = JSON.parse(readFileSync(join(process.cwd(), 'data', 'audio', 'candidats-lettres.json'), 'utf-8')) as {
+  candidats: Record<string, string[]>;
+  fichiers: Record<string, { url: string }>;
+};
+// Écoute directement depuis Wikimedia (aucune copie avant validation).
+const urls = Object.fromEntries(Object.entries(fichiers).map(([f, v]) => [f, v.url]));
+const lettres = [...contenus().elements.values()]
+  .filter((e) => e.type === 'lettre' && e.id in NOMS_LETTRES) // les 28 lettres de l'alphabet
+  .map((e) => ({ id: e.id, ar: e.ar, nom: e.nom ?? e.translit, candidats: candidats[e.id] ?? [] }));
+---
+<Base titre="Valider les sons des lettres" description="Page de travail : valider à l'écoute les enregistrements libres des noms de lettres." noindex>
+  <div class="conteneur max-w-3xl pt-10">
+    <h1 class="text-3xl font-semibold">Valider les sons des lettres</h1>
+    <div class="prose-iqra mt-3 text-encre-2">
+      <p>Ces enregistrements viennent de Wikimedia Commons (Ruaa Ghareeb, licence CC BY-SA 4.0). Ils disent le <strong>nom</strong> de chaque lettre. Les noms des fichiers ne sont pas toujours fiables : écoute, puis choisis pour chaque lettre le fichier qui dit le bon nom. En cas de doute, choisis « Aucun ne convient » : une lettre sans son vaut mieux qu’une lettre avec un faux son.</p>
+      <p>Idéalement, fais cette vérification avec une personne qui lit l’arabe. À la fin, clique sur « Copier le résultat » et colle-le dans la conversation. <a href={lien('studio/')}>Retour au studio</a></p>
+    </div>
+    <div class="mt-8"><ValidationSources client:load lettres={lettres} urls={urls} /></div>
+  </div>
+</Base>

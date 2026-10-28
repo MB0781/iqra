@@ -33,7 +33,7 @@ for (const r of [...refs].sort()) {
     const verset = /^q:\d+:\d+$/.test(r);
     parId.set(it.id, { id: it.id, ar: it.ar, translit: it.translit, source: verset ? 'quran.com-verset' : 'quran.com-mot', statut: 'disponible', url: it.audio });
   } else {
-    const fichier = fichiers.find((f) => f.replace(/\.(mp3|m4a|webm|ogg)$/, '') === it.id);
+    const fichier = fichiers.find((f) => f.replace(/\.(mp3|m4a|webm|ogg|wav)$/, '') === it.id);
     parId.set(it.id, { id: it.id, ar: it.ar, translit: it.translit, source: 'enregistrement', statut: fichier ? 'disponible' : 'à enregistrer', ...(fichier ? { fichier } : {}) });
   }
 }

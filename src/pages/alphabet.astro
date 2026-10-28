@@ -4,8 +4,10 @@ import BoutonAudio from '../components/ui/BoutonAudio.tsx';
 import TexteMixte from '../components/ui/TexteMixte.tsx';
 import { contenus, itemsPour } from '../contenus/charger';
 import { NON_ATTACHANTES, ZWJ } from '../lib/arabe';
+import { NOMS_LETTRES } from '../contenus/notions';
 
-const lettres = [...contenus().elements.values()].filter((e) => e.type === 'lettre');
+// Les 28 lettres de l'alphabet (les signes comme la hamza ou la tâ marbouta sont enseignés à l'étape 6).
+const lettres = [...contenus().elements.values()].filter((e) => e.type === 'lettre' && e.id in NOMS_LETTRES);
 const audio = itemsPour(lettres.map((l) => l.id));
 const formes = (c: string) => {
   const attache = !NON_ATTACHANTES.has(c);
