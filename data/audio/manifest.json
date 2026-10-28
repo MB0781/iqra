@@ -3,1593 +3,1820 @@
   "sources": {
     "quran.com-mot": "Audio mot par mot public de Quran.com : https://audio.qurancdn.com/wbw/SSS_AAA_WWW.mp3",
     "quran.com-verset": "Audio verset par verset (Mishary Rashid Alafasy) : https://verses.quran.com/Alafasy/mp3/SSSAAA.mp3",
-    "enregistrement": "Enregistré par un récitateur via /studio, fichier dans public/audio/"
+    "enregistrement": "Enregistré par un récitateur via /studio, fichier dans public/audio/",
+    "synthese-vocale": "Voix de synthèse Piper ar_JO-kareem-medium (scripts/voix/generer.py), fichier dans public/audio/ ; remplaçable par un enregistrement humain"
   },
   "total": 690,
-  "disponibles": 214,
-  "aEnregistrer": 476,
+  "disponibles": 643,
+  "aEnregistrer": 47,
   "elements": [
     {
       "id": "expr-choukran-djazilan",
       "ar": "شُكْرًا جَزِيلًا",
       "translit": "choukran djazîlan",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "expr-choukran-djazilan.mp3"
     },
     {
       "id": "expr-hadha-bayti",
       "ar": "هٰذَا بَيْتِي",
       "translit": "hâdhâ baytî",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "expr-hadha-bayti.mp3"
     },
     {
       "id": "expr-hadha-kitaboun",
       "ar": "هٰذَا كِتَابٌ",
       "translit": "hâdhâ kitâboun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "expr-hadha-kitaboun.mp3"
     },
     {
       "id": "expr-kayfa-haluka",
       "ar": "كَيْفَ حَالُكَ",
       "translit": "kayfa ḥâlouka",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "expr-kayfa-haluka.mp3"
     },
     {
       "id": "forme-alif-fin",
       "ar": "ـا",
       "translit": "alif",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-alif-fin.mp3"
     },
     {
       "id": "forme-ayn-debut",
       "ar": "عـ",
       "translit": "ʿ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ayn-debut.mp3"
     },
     {
       "id": "forme-ayn-fin",
       "ar": "ـع",
       "translit": "ʿ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ayn-fin.mp3"
     },
     {
       "id": "forme-ayn-milieu",
       "ar": "ـعـ",
       "translit": "ʿ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ayn-milieu.mp3"
     },
     {
       "id": "forme-ba-debut",
       "ar": "بـ",
       "translit": "b",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ba-debut.mp3"
     },
     {
       "id": "forme-ba-fin",
       "ar": "ـب",
       "translit": "b",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ba-fin.mp3"
     },
     {
       "id": "forme-ba-milieu",
       "ar": "ـبـ",
       "translit": "b",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ba-milieu.mp3"
     },
     {
       "id": "forme-chin-debut",
       "ar": "شـ",
       "translit": "ch",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-chin-debut.mp3"
     },
     {
       "id": "forme-chin-fin",
       "ar": "ـش",
       "translit": "ch",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-chin-fin.mp3"
     },
     {
       "id": "forme-chin-milieu",
       "ar": "ـشـ",
       "translit": "ch",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-chin-milieu.mp3"
     },
     {
       "id": "forme-dad-debut",
       "ar": "ضـ",
       "translit": "ḍ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-dad-debut.mp3"
     },
     {
       "id": "forme-dad-fin",
       "ar": "ـض",
       "translit": "ḍ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-dad-fin.mp3"
     },
     {
       "id": "forme-dad-milieu",
       "ar": "ـضـ",
       "translit": "ḍ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-dad-milieu.mp3"
     },
     {
       "id": "forme-dal-fin",
       "ar": "ـد",
       "translit": "d",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-dal-fin.mp3"
     },
     {
       "id": "forme-dha-debut",
       "ar": "ظـ",
       "translit": "ẓ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-dha-debut.mp3"
     },
     {
       "id": "forme-dha-fin",
       "ar": "ـظ",
       "translit": "ẓ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-dha-fin.mp3"
     },
     {
       "id": "forme-dha-milieu",
       "ar": "ـظـ",
       "translit": "ẓ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-dha-milieu.mp3"
     },
     {
       "id": "forme-dhal-fin",
       "ar": "ـذ",
       "translit": "dh",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-dhal-fin.mp3"
     },
     {
       "id": "forme-fa-debut",
       "ar": "فـ",
       "translit": "f",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-fa-debut.mp3"
     },
     {
       "id": "forme-fa-fin",
       "ar": "ـف",
       "translit": "f",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-fa-fin.mp3"
     },
     {
       "id": "forme-fa-milieu",
       "ar": "ـفـ",
       "translit": "f",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-fa-milieu.mp3"
     },
     {
       "id": "forme-ghayn-debut",
       "ar": "غـ",
       "translit": "gh",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ghayn-debut.mp3"
     },
     {
       "id": "forme-ghayn-fin",
       "ar": "ـغ",
       "translit": "gh",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ghayn-fin.mp3"
     },
     {
       "id": "forme-ghayn-milieu",
       "ar": "ـغـ",
       "translit": "gh",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ghayn-milieu.mp3"
     },
     {
       "id": "forme-ha-debut",
       "ar": "هـ",
       "translit": "h",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ha-debut.mp3"
     },
     {
       "id": "forme-ha-fin",
       "ar": "ـه",
       "translit": "h",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ha-fin.mp3"
     },
     {
       "id": "forme-ha-milieu",
       "ar": "ـهـ",
       "translit": "h",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ha-milieu.mp3"
     },
     {
       "id": "forme-hha-debut",
       "ar": "حـ",
       "translit": "ḥ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-hha-debut.mp3"
     },
     {
       "id": "forme-hha-fin",
       "ar": "ـح",
       "translit": "ḥ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-hha-fin.mp3"
     },
     {
       "id": "forme-hha-milieu",
       "ar": "ـحـ",
       "translit": "ḥ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-hha-milieu.mp3"
     },
     {
       "id": "forme-jim-debut",
       "ar": "جـ",
       "translit": "dj",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-jim-debut.mp3"
     },
     {
       "id": "forme-jim-fin",
       "ar": "ـج",
       "translit": "dj",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-jim-fin.mp3"
     },
     {
       "id": "forme-jim-milieu",
       "ar": "ـجـ",
       "translit": "dj",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-jim-milieu.mp3"
     },
     {
       "id": "forme-kaf-debut",
       "ar": "كـ",
       "translit": "k",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-kaf-debut.mp3"
     },
     {
       "id": "forme-kaf-fin",
       "ar": "ـك",
       "translit": "k",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-kaf-fin.mp3"
     },
     {
       "id": "forme-kaf-milieu",
       "ar": "ـكـ",
       "translit": "k",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-kaf-milieu.mp3"
     },
     {
       "id": "forme-kha-debut",
       "ar": "خـ",
       "translit": "kh",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-kha-debut.mp3"
     },
     {
       "id": "forme-kha-fin",
       "ar": "ـخ",
       "translit": "kh",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-kha-fin.mp3"
     },
     {
       "id": "forme-kha-milieu",
       "ar": "ـخـ",
       "translit": "kh",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-kha-milieu.mp3"
     },
     {
       "id": "forme-lam-debut",
       "ar": "لـ",
       "translit": "l",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-lam-debut.mp3"
     },
     {
       "id": "forme-lam-fin",
       "ar": "ـل",
       "translit": "l",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-lam-fin.mp3"
     },
     {
       "id": "forme-lam-milieu",
       "ar": "ـلـ",
       "translit": "l",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-lam-milieu.mp3"
     },
     {
       "id": "forme-mim-debut",
       "ar": "مـ",
       "translit": "m",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-mim-debut.mp3"
     },
     {
       "id": "forme-mim-fin",
       "ar": "ـم",
       "translit": "m",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-mim-fin.mp3"
     },
     {
       "id": "forme-mim-milieu",
       "ar": "ـمـ",
       "translit": "m",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-mim-milieu.mp3"
     },
     {
       "id": "forme-noun-debut",
       "ar": "نـ",
       "translit": "n",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-noun-debut.mp3"
     },
     {
       "id": "forme-noun-fin",
       "ar": "ـن",
       "translit": "n",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-noun-fin.mp3"
     },
     {
       "id": "forme-noun-milieu",
       "ar": "ـنـ",
       "translit": "n",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-noun-milieu.mp3"
     },
     {
       "id": "forme-qaf-debut",
       "ar": "قـ",
       "translit": "q",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-qaf-debut.mp3"
     },
     {
       "id": "forme-qaf-fin",
       "ar": "ـق",
       "translit": "q",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-qaf-fin.mp3"
     },
     {
       "id": "forme-qaf-milieu",
       "ar": "ـقـ",
       "translit": "q",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-qaf-milieu.mp3"
     },
     {
       "id": "forme-ra-fin",
       "ar": "ـر",
       "translit": "r",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ra-fin.mp3"
     },
     {
       "id": "forme-sad-debut",
       "ar": "صـ",
       "translit": "ṣ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-sad-debut.mp3"
     },
     {
       "id": "forme-sad-fin",
       "ar": "ـص",
       "translit": "ṣ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-sad-fin.mp3"
     },
     {
       "id": "forme-sad-milieu",
       "ar": "ـصـ",
       "translit": "ṣ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-sad-milieu.mp3"
     },
     {
       "id": "forme-sin-debut",
       "ar": "سـ",
       "translit": "s",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-sin-debut.mp3"
     },
     {
       "id": "forme-sin-fin",
       "ar": "ـس",
       "translit": "s",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-sin-fin.mp3"
     },
     {
       "id": "forme-sin-milieu",
       "ar": "ـسـ",
       "translit": "s",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-sin-milieu.mp3"
     },
     {
       "id": "forme-ta-debut",
       "ar": "تـ",
       "translit": "t",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ta-debut.mp3"
     },
     {
       "id": "forme-ta-fin",
       "ar": "ـت",
       "translit": "t",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ta-fin.mp3"
     },
     {
       "id": "forme-ta-milieu",
       "ar": "ـتـ",
       "translit": "t",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ta-milieu.mp3"
     },
     {
       "id": "forme-tha-debut",
       "ar": "ثـ",
       "translit": "th",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-tha-debut.mp3"
     },
     {
       "id": "forme-tha-fin",
       "ar": "ـث",
       "translit": "th",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-tha-fin.mp3"
     },
     {
       "id": "forme-tha-milieu",
       "ar": "ـثـ",
       "translit": "th",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-tha-milieu.mp3"
     },
     {
       "id": "forme-tta-debut",
       "ar": "طـ",
       "translit": "ṭ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-tta-debut.mp3"
     },
     {
       "id": "forme-tta-fin",
       "ar": "ـط",
       "translit": "ṭ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-tta-fin.mp3"
     },
     {
       "id": "forme-tta-milieu",
       "ar": "ـطـ",
       "translit": "ṭ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-tta-milieu.mp3"
     },
     {
       "id": "forme-waw-fin",
       "ar": "ـو",
       "translit": "w",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-waw-fin.mp3"
     },
     {
       "id": "forme-ya-debut",
       "ar": "يـ",
       "translit": "y",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ya-debut.mp3"
     },
     {
       "id": "forme-ya-fin",
       "ar": "ـي",
       "translit": "y",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ya-fin.mp3"
     },
     {
       "id": "forme-ya-milieu",
       "ar": "ـيـ",
       "translit": "y",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-ya-milieu.mp3"
     },
     {
       "id": "forme-zay-fin",
       "ar": "ـز",
       "translit": "z",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "forme-zay-fin.mp3"
     },
     {
       "id": "lettre-alif",
       "ar": "ا",
       "translit": "alif",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-alif.mp3"
     },
     {
       "id": "lettre-alif-hamza-bas",
       "ar": "إ",
       "translit": "ʾ (i)",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-alif-hamza-bas.mp3"
     },
     {
       "id": "lettre-alif-hamza-haut",
       "ar": "أ",
       "translit": "ʾ (a / ou)",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-alif-hamza-haut.mp3"
     },
     {
       "id": "lettre-alif-madda",
       "ar": "آ",
       "translit": "ʾâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-alif-madda.mp3"
     },
     {
       "id": "lettre-alif-maqsura",
       "ar": "ى",
       "translit": "â (ou î)",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-alif-maqsura.mp3"
     },
     {
       "id": "lettre-alif-wasla",
       "ar": "ٱ",
       "translit": "a (muet en liaison)",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-alif-wasla.mp3"
     },
     {
       "id": "lettre-ayn",
       "ar": "ع",
       "translit": "ʿ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-ayn.mp3"
     },
     {
       "id": "lettre-ba",
       "ar": "ب",
       "translit": "b",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-ba.mp3"
     },
     {
       "id": "lettre-chin",
       "ar": "ش",
       "translit": "ch",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-chin.mp3"
     },
     {
       "id": "lettre-dad",
       "ar": "ض",
       "translit": "ḍ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-dad.mp3"
     },
     {
       "id": "lettre-dal",
       "ar": "د",
       "translit": "d",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-dal.mp3"
     },
     {
       "id": "lettre-dha",
       "ar": "ظ",
       "translit": "ẓ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-dha.mp3"
     },
     {
       "id": "lettre-dhal",
       "ar": "ذ",
       "translit": "dh",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-dhal.mp3"
     },
     {
       "id": "lettre-fa",
       "ar": "ف",
       "translit": "f",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-fa.mp3"
     },
     {
       "id": "lettre-ghayn",
       "ar": "غ",
       "translit": "gh",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-ghayn.mp3"
     },
     {
       "id": "lettre-ha",
       "ar": "ه",
       "translit": "h",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-ha.mp3"
     },
     {
       "id": "lettre-hamza",
       "ar": "ء",
       "translit": "ʾ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-hamza.mp3"
     },
     {
       "id": "lettre-hha",
       "ar": "ح",
       "translit": "ḥ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-hha.mp3"
     },
     {
       "id": "lettre-jim",
       "ar": "ج",
       "translit": "dj",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-jim.mp3"
     },
     {
       "id": "lettre-kaf",
       "ar": "ك",
       "translit": "k",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-kaf.mp3"
     },
     {
       "id": "lettre-kha",
       "ar": "خ",
       "translit": "kh",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-kha.mp3"
     },
     {
       "id": "lettre-lam",
       "ar": "ل",
       "translit": "l",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-lam.mp3"
     },
     {
       "id": "lettre-mim",
       "ar": "م",
       "translit": "m",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-mim.mp3"
     },
     {
       "id": "lettre-noun",
       "ar": "ن",
       "translit": "n",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-noun.mp3"
     },
     {
       "id": "lettre-qaf",
       "ar": "ق",
       "translit": "q",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-qaf.mp3"
     },
     {
       "id": "lettre-ra",
       "ar": "ر",
       "translit": "r",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-ra.mp3"
     },
     {
       "id": "lettre-sad",
       "ar": "ص",
       "translit": "ṣ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-sad.mp3"
     },
     {
       "id": "lettre-sin",
       "ar": "س",
       "translit": "s",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-sin.mp3"
     },
     {
       "id": "lettre-ta",
       "ar": "ت",
       "translit": "t",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-ta.mp3"
     },
     {
       "id": "lettre-ta-marbuta",
       "ar": "ة",
       "translit": "t (h à la pause)",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-ta-marbuta.mp3"
     },
     {
       "id": "lettre-tha",
       "ar": "ث",
       "translit": "th",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-tha.mp3"
     },
     {
       "id": "lettre-tta",
       "ar": "ط",
       "translit": "ṭ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-tta.mp3"
     },
     {
       "id": "lettre-waw",
       "ar": "و",
       "translit": "w",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-waw.mp3"
     },
     {
       "id": "lettre-waw-hamza",
       "ar": "ؤ",
       "translit": "ʾ sur wâw",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-waw-hamza.mp3"
     },
     {
       "id": "lettre-ya",
       "ar": "ي",
       "translit": "y",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-ya.mp3"
     },
     {
       "id": "lettre-ya-hamza",
       "ar": "ئ",
       "translit": "ʾ sur yâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-ya-hamza.mp3"
     },
     {
       "id": "lettre-zay",
       "ar": "ز",
       "translit": "z",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "lettre-zay.mp3"
     },
     {
       "id": "mot-ach-chams",
       "ar": "الشَّمْسُ",
       "translit": "ach-chamsou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-ach-chams.mp3"
     },
     {
       "id": "mot-ad-dars",
       "ar": "الدَّرْسُ",
       "translit": "ad-darsou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-ad-dars.mp3"
     },
     {
       "id": "mot-adh-dhahab",
       "ar": "الذَّهَبُ",
       "translit": "adh-dhahabou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-adh-dhahab.mp3"
     },
     {
       "id": "mot-afwan",
       "ar": "عَفْوًا",
       "translit": "ʿafwan",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-afwan.mp3"
     },
     {
       "id": "mot-al-bab",
       "ar": "الْبَابُ",
       "translit": "al-bâbou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-al-bab.mp3"
     },
     {
       "id": "mot-al-bayt",
       "ar": "الْبَيْتُ",
       "translit": "al-baytou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-al-bayt.mp3"
     },
     {
       "id": "mot-al-djamal",
       "ar": "الْجَمَلُ",
       "translit": "al-djamalou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-al-djamal.mp3"
     },
     {
       "id": "mot-al-kitab",
       "ar": "الْكِتَابُ",
       "translit": "al-kitâbou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-al-kitab.mp3"
     },
     {
       "id": "mot-al-qalam",
       "ar": "الْقَلَمُ",
       "translit": "al-qalamou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-al-qalam.mp3"
     },
     {
       "id": "mot-al-qamar",
       "ar": "الْقَمَرُ",
       "translit": "al-qamarou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-al-qamar.mp3"
     },
     {
       "id": "mot-al-walad",
       "ar": "الْوَلَدُ",
       "translit": "al-waladou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-al-walad.mp3"
     },
     {
       "id": "mot-alam-douleur",
       "ar": "أَلَمٌ",
       "translit": "alamoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-alam-douleur.mp3"
     },
     {
       "id": "mot-alam-drapeau",
       "ar": "عَلَمٌ",
       "translit": "ʿalamoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-alam-drapeau.mp3"
     },
     {
       "id": "mot-alima",
       "ar": "عَلِمَ",
       "translit": "ʿalima",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-alima.mp3"
     },
     {
       "id": "mot-allama",
       "ar": "عَلَّمَ",
       "translit": "ʿallama",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-allama.mp3"
     },
     {
       "id": "mot-amal-espoir",
       "ar": "أَمَلٌ",
       "translit": "amaloun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-amal-espoir.mp3"
     },
     {
       "id": "mot-amal-travail",
       "ar": "عَمَلٌ",
       "translit": "ʿamaloun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-amal-travail.mp3"
     },
     {
       "id": "mot-amana-courant",
       "ar": "آمَنَ",
       "translit": "âmana",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-amana-courant.mp3"
     },
     {
       "id": "mot-ammi",
       "ar": "عَمِّي",
       "translit": "ʿammî",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-ammi.mp3"
     },
     {
       "id": "mot-an",
       "ar": "عَنْ",
       "translit": "ʿan",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-an.mp3"
     },
     {
       "id": "mot-an-nour",
       "ar": "النُّورُ",
       "translit": "an-noûrou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-an-nour.mp3"
     },
     {
       "id": "mot-ar-radjoul",
       "ar": "الرَّجُلُ",
       "translit": "ar-radjoulou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-ar-radjoul.mp3"
     },
     {
       "id": "mot-as-salam",
       "ar": "السَّلَامُ",
       "translit": "as-salâmou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-as-salam.mp3"
     },
     {
       "id": "mot-at-tin",
       "ar": "التِّينُ",
       "translit": "at-tînou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-at-tin.mp3"
     },
     {
       "id": "mot-baka",
       "ar": "بَكَى",
       "translit": "bakâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-baka.mp3"
     },
     {
       "id": "mot-baouda",
       "ar": "بَعُدَ",
       "translit": "baʿouda",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-baouda.mp3"
     },
     {
       "id": "mot-bayt-indef",
       "ar": "بَيْتٌ",
       "translit": "baytoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-bayt-indef.mp3"
     },
     {
       "id": "mot-bayti",
       "ar": "بَيْتِي",
       "translit": "baytî",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-bayti.mp3"
     },
     {
       "id": "mot-baytoun",
       "ar": "بَيْتٌ",
       "translit": "baytoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-baytoun.mp3"
     },
     {
       "id": "mot-biir",
       "ar": "بِئْرٌ",
       "translit": "biʾroun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-biir.mp3"
     },
     {
       "id": "mot-bintoun",
       "ar": "بِنْتٌ",
       "translit": "bintoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-bintoun.mp3"
     },
     {
       "id": "mot-burtuqaloun",
       "ar": "بُرْتُقَالٌ",
       "translit": "bourtouqâloun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-burtuqaloun.mp3"
     },
     {
       "id": "mot-chadjara",
       "ar": "شَجَرَةٌ",
       "translit": "chadjaratoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-chadjara.mp3"
     },
     {
       "id": "mot-chams-indef",
       "ar": "شَمْسٌ",
       "translit": "chamsoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-chams-indef.mp3"
     },
     {
       "id": "mot-chariba",
       "ar": "شَرِبَ",
       "translit": "chariba",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-chariba.mp3"
     },
     {
       "id": "mot-chayoun",
       "ar": "شَايٌ",
       "translit": "châyoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-chayoun.mp3"
     },
     {
       "id": "mot-choukran",
       "ar": "شُكْرًا",
       "translit": "choukran",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-choukran.mp3"
     },
     {
       "id": "mot-chubbakoun",
       "ar": "شُبَّاكٌ",
       "translit": "choubbâkoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-chubbakoun.mp3"
     },
     {
       "id": "mot-daftaroun",
       "ar": "دَفْتَرٌ",
       "translit": "daftaroun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-daftaroun.mp3"
     },
     {
       "id": "mot-dahika",
       "ar": "ضَحِكَ",
       "translit": "ḍaḥika",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-dahika.mp3"
     },
     {
       "id": "mot-dakhala",
       "ar": "دَخَلَ",
       "translit": "dakhala",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-dakhala.mp3"
     },
     {
       "id": "mot-darasa",
       "ar": "دَرَسَ",
       "translit": "darasa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-darasa.mp3"
     },
     {
       "id": "mot-darrasa",
       "ar": "دَرَّسَ",
       "translit": "darrasa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-darrasa.mp3"
     },
     {
       "id": "mot-dhahaba",
       "ar": "ذَهَبَ",
       "translit": "dhahaba",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-dhahaba.mp3"
     },
     {
       "id": "mot-dhakara",
       "ar": "ذَكَرَ",
       "translit": "dhakara",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-dhakara.mp3"
     },
     {
       "id": "mot-dhalika",
       "ar": "ذٰلِكَ",
       "translit": "dhâlika",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-dhalika.mp3"
     },
     {
       "id": "mot-djaddi",
       "ar": "جَدِّي",
       "translit": "djaddî",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-djaddi.mp3"
     },
     {
       "id": "mot-djalasa",
       "ar": "جَلَسَ",
       "translit": "djalasa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-djalasa.mp3"
     },
     {
       "id": "mot-djamiloun",
       "ar": "جَمِيلٌ",
       "translit": "djamîloun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-djamiloun.mp3"
     },
     {
       "id": "mot-djazaroun",
       "ar": "جَزَرٌ",
       "translit": "djazaroun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-djazaroun.mp3"
     },
     {
       "id": "mot-djiddan",
       "ar": "جِدًّا",
       "translit": "djiddan",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-djiddan.mp3"
     },
     {
       "id": "mot-dukkanoun",
       "ar": "دُكَّانٌ",
       "translit": "doukkânoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-dukkanoun.mp3"
     },
     {
       "id": "mot-duna",
       "ar": "دُونَ",
       "translit": "doûna",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-duna.mp3"
     },
     {
       "id": "mot-fahima",
       "ar": "فَهِمَ",
       "translit": "fahima",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-fahima.mp3"
     },
     {
       "id": "mot-fataha",
       "ar": "فَتَحَ",
       "translit": "fataḥa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-fataha.mp3"
     },
     {
       "id": "mot-fihi",
       "ar": "فِيهِ",
       "translit": "fîhi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-fihi.mp3"
     },
     {
       "id": "mot-findjanoun",
       "ar": "فِنْجَانٌ",
       "translit": "findjânoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-findjanoun.mp3"
     },
     {
       "id": "mot-funduqoun",
       "ar": "فُنْدُقٌ",
       "translit": "foundouqoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-funduqoun.mp3"
     },
     {
       "id": "mot-futiha",
       "ar": "فُتِحَ",
       "translit": "foutiḥa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-futiha.mp3"
     },
     {
       "id": "mot-ghadiba",
       "ar": "غَضِبَ",
       "translit": "ghaḍiba",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-ghadiba.mp3"
     },
     {
       "id": "mot-ghasala",
       "ar": "غَسَلَ",
       "translit": "ghasala",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-ghasala.mp3"
     },
     {
       "id": "mot-hadha",
       "ar": "هٰذَا",
       "translit": "hâdhâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-hadha.mp3"
     },
     {
       "id": "mot-hadhihi",
       "ar": "هٰذِهِ",
       "translit": "hâdhihi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-hadhihi.mp3"
     },
     {
       "id": "mot-hadhira",
       "ar": "حَذِرَ",
       "translit": "ḥadhira",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-hadhira.mp3"
     },
     {
       "id": "mot-hakadha",
       "ar": "هٰكَذَا",
       "translit": "hâkadhâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-hakadha.mp3"
     },
     {
       "id": "mot-haliboun",
       "ar": "حَلِيبٌ",
       "translit": "ḥalîboun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-haliboun.mp3"
     },
     {
       "id": "mot-hammamoun",
       "ar": "حَمَّامٌ",
       "translit": "ḥammâmoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-hammamoun.mp3"
     },
     {
       "id": "mot-haraba",
       "ar": "هَرَبَ",
       "translit": "haraba",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-haraba.mp3"
     },
     {
       "id": "mot-hasouboun",
       "ar": "حَاسُوبٌ",
       "translit": "ḥâsoûboun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-hasouboun.mp3"
     },
     {
       "id": "mot-hasuna",
       "ar": "حَسُنَ",
       "translit": "ḥasouna",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-hasuna.mp3"
     },
     {
       "id": "mot-hatifoun",
       "ar": "هَاتِفٌ",
       "translit": "hâtifoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-hatifoun.mp3"
     },
     {
       "id": "mot-hulwoun",
       "ar": "حُلْوٌ",
       "translit": "ḥoulwoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-hulwoun.mp3"
     },
     {
       "id": "mot-kaakoun",
       "ar": "كَعْكٌ",
       "translit": "kaʿkoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kaakoun.mp3"
     },
     {
       "id": "mot-kabiroun",
       "ar": "كَبِيرٌ",
       "translit": "kabîroun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kabiroun.mp3"
     },
     {
       "id": "mot-kabura",
       "ar": "كَبُرَ",
       "translit": "kaboura",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kabura.mp3"
     },
     {
       "id": "mot-kana",
       "ar": "كَانَ",
       "translit": "kâna",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kana.mp3"
     },
     {
       "id": "mot-karuma",
       "ar": "كَرُمَ",
       "translit": "karouma",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-karuma.mp3"
     },
     {
       "id": "mot-kasara",
       "ar": "كَسَرَ",
       "translit": "kasara",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kasara.mp3"
     },
     {
       "id": "mot-kassara",
       "ar": "كَسَّرَ",
       "translit": "kassara",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kassara.mp3"
     },
     {
       "id": "mot-kataba",
       "ar": "كَتَبَ",
       "translit": "kataba",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kataba.mp3"
     },
     {
       "id": "mot-katabtu",
       "ar": "كَتَبْتُ",
       "translit": "katabtou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-katabtu.mp3"
     },
     {
       "id": "mot-kharadja",
       "ar": "خَرَجَ",
       "translit": "kharadja",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kharadja.mp3"
     },
     {
       "id": "mot-kitaban",
       "ar": "كِتَابًا",
       "translit": "kitâban",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kitaban.mp3"
     },
     {
       "id": "mot-kitabi",
       "ar": "كِتَابِي",
       "translit": "kitâbî",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kitabi.mp3"
     },
     {
       "id": "mot-kitabin",
       "ar": "كِتَابٍ",
       "translit": "kitâbin",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kitabin.mp3"
     },
     {
       "id": "mot-kitaboun",
       "ar": "كِتَابٌ",
       "translit": "kitâboun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kitaboun.mp3"
     },
     {
       "id": "mot-kursiyyoun",
       "ar": "كُرْسِيٌّ",
       "translit": "koursiyyoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kursiyyoun.mp3"
     },
     {
       "id": "mot-kutiba",
       "ar": "كُتِبَ",
       "translit": "koutiba",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-kutiba.mp3"
     },
     {
       "id": "mot-laiba",
       "ar": "لَعِبَ",
       "translit": "laʿiba",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-laiba.mp3"
     },
     {
       "id": "mot-lakin",
       "ar": "لٰكِنْ",
       "translit": "lâkin",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-lakin.mp3"
     },
     {
       "id": "mot-lam",
       "ar": "لَمْ",
       "translit": "lam",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-lam.mp3"
     },
     {
       "id": "mot-laylan",
       "ar": "لَيْلًا",
       "translit": "laylan",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-laylan.mp3"
     },
     {
       "id": "mot-laymunoun",
       "ar": "لَيْمُونٌ",
       "translit": "laymoûnoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-laymunoun.mp3"
     },
     {
       "id": "mot-macha",
       "ar": "مَشَى",
       "translit": "machâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-macha.mp3"
     },
     {
       "id": "mot-madrasa",
       "ar": "مَدْرَسَةٌ",
       "translit": "madrasatoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-madrasa.mp3"
     },
     {
       "id": "mot-maktaboun",
       "ar": "مَكْتَبٌ",
       "translit": "maktaboun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-maktaboun.mp3"
     },
     {
       "id": "mot-malaboun",
       "ar": "مَلْعَبٌ",
       "translit": "malʿaboun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-malaboun.mp3"
     },
     {
       "id": "mot-manziloun",
       "ar": "مَنْزِلٌ",
       "translit": "manziloun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-manziloun.mp3"
     },
     {
       "id": "mot-marra",
       "ar": "مَرَّ",
       "translit": "marra",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-marra.mp3"
     },
     {
       "id": "mot-masdjidoun",
       "ar": "مَسْجِدٌ",
       "translit": "masdjidoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-masdjidoun.mp3"
     },
     {
       "id": "mot-matamoun",
       "ar": "مَطْعَمٌ",
       "translit": "maṭʿamoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-matamoun.mp3"
     },
     {
       "id": "mot-mataroun",
       "ar": "مَطَارٌ",
       "translit": "maṭâroun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-mataroun.mp3"
     },
     {
       "id": "mot-matbakhoun",
       "ar": "مَطْبَخٌ",
       "translit": "maṭbakhoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-matbakhoun.mp3"
     },
     {
       "id": "mot-mawzoun",
       "ar": "مَوْزٌ",
       "translit": "mawzoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-mawzoun.mp3"
     },
     {
       "id": "mot-miftahoun",
       "ar": "مِفْتَاحٌ",
       "translit": "miftâḥoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-miftahoun.mp3"
     },
     {
       "id": "mot-min",
       "ar": "مِنْ",
       "translit": "min",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-min.mp3"
     },
     {
       "id": "mot-muallimoun",
       "ar": "مُعَلِّمٌ",
       "translit": "mouʿallimoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-muallimoun.mp3"
     },
     {
       "id": "mot-mudarrisi",
       "ar": "مُدَرِّسِي",
       "translit": "moudarrisî",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-mudarrisi.mp3"
     },
     {
       "id": "mot-muhandisoun",
       "ar": "مُهَنْدِسٌ",
       "translit": "mouhandisoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-muhandisoun.mp3"
     },
     {
       "id": "mot-mumtazoun",
       "ar": "مُمْتَازٌ",
       "translit": "moumtâzoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-mumtazoun.mp3"
     },
     {
       "id": "mot-naharan",
       "ar": "نَهَارًا",
       "translit": "nahâran",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-naharan.mp3"
     },
     {
       "id": "mot-nama",
       "ar": "نَامَ",
       "translit": "nâma",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-nama.mp3"
     },
     {
       "id": "mot-nouroun",
       "ar": "نُورٌ",
       "translit": "noûroun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-nouroun.mp3"
     },
     {
       "id": "mot-nv-ayn",
@@ -1924,281 +2151,321 @@
       "id": "mot-qala",
       "ar": "قَالَ",
       "translit": "qâla",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-qala.mp3"
     },
     {
       "id": "mot-qalamoun",
       "ar": "قَلَمٌ",
       "translit": "qalamoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-qalamoun.mp3"
     },
     {
       "id": "mot-qamisoun",
       "ar": "قَمِيصٌ",
       "translit": "qamîṣoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-qamisoun.mp3"
     },
     {
       "id": "mot-qaruba",
       "ar": "قَرُبَ",
       "translit": "qarouba",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-qaruba.mp3"
     },
     {
       "id": "mot-qasiroun",
       "ar": "قَصِيرٌ",
       "translit": "qaṣîroun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-qasiroun.mp3"
     },
     {
       "id": "mot-qittoun",
       "ar": "قِطٌّ",
       "translit": "qiṭṭoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-qittoun.mp3"
     },
     {
       "id": "mot-qultu",
       "ar": "قُلْتُ",
       "translit": "qoultou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-qultu.mp3"
     },
     {
       "id": "mot-rakiba",
       "ar": "رَكِبَ",
       "translit": "rakiba",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-rakiba.mp3"
     },
     {
       "id": "mot-rasama",
       "ar": "رَسَمَ",
       "translit": "rasama",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-rasama.mp3"
     },
     {
       "id": "mot-saala",
       "ar": "سَأَلَ",
       "translit": "saʾala",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-saala.mp3"
     },
     {
       "id": "mot-sabounoun",
       "ar": "صَابُونٌ",
       "translit": "ṣâboûnoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-sabounoun.mp3"
     },
     {
       "id": "mot-sadaqa",
       "ar": "صَدَقَ",
       "translit": "ṣadaqa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-sadaqa.mp3"
     },
     {
       "id": "mot-sadiqoun",
       "ar": "صَدِيقٌ",
       "translit": "ṣadîqoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-sadiqoun.mp3"
     },
     {
       "id": "mot-safara",
       "ar": "سَافَرَ",
       "translit": "sâfara",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-safara.mp3"
     },
     {
       "id": "mot-saghiroun",
       "ar": "صَغِيرٌ",
       "translit": "ṣaghîroun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-saghiroun.mp3"
     },
     {
       "id": "mot-saghura",
       "ar": "صَغُرَ",
       "translit": "ṣaghoura",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-saghura.mp3"
     },
     {
       "id": "mot-sakana",
       "ar": "سَكَنَ",
       "translit": "sakana",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-sakana.mp3"
     },
     {
       "id": "mot-sallama",
       "ar": "سَلَّمَ",
       "translit": "sallama",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-sallama.mp3"
     },
     {
       "id": "mot-samakoun",
       "ar": "سَمَكٌ",
       "translit": "samakoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-samakoun.mp3"
     },
     {
       "id": "mot-samia",
       "ar": "سَمِعَ",
       "translit": "samiʿa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-samia.mp3"
     },
     {
       "id": "mot-sariroun",
       "ar": "سَرِيرٌ",
       "translit": "sarîroun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-sariroun.mp3"
     },
     {
       "id": "mot-souaal",
       "ar": "سُؤَالٌ",
       "translit": "souʾâloun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-souaal.mp3"
     },
     {
       "id": "mot-sukkaroun",
       "ar": "سُكَّرٌ",
       "translit": "soukkaroun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-sukkaroun.mp3"
     },
     {
       "id": "mot-sumia",
       "ar": "سُمِعَ",
       "translit": "soumiʿa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-sumia.mp3"
     },
     {
       "id": "mot-suriya",
       "ar": "سُورِيَا",
       "translit": "soûriyâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-suriya.mp3"
     },
     {
       "id": "mot-tabakha",
       "ar": "طَبَخَ",
       "translit": "ṭabakha",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-tabakha.mp3"
     },
     {
       "id": "mot-tabiboun",
       "ar": "طَبِيبٌ",
       "translit": "ṭabîboun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-tabiboun.mp3"
     },
     {
       "id": "mot-taraka",
       "ar": "تَرَكَ",
       "translit": "taraka",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-taraka.mp3"
     },
     {
       "id": "mot-tawiloun",
       "ar": "طَوِيلٌ",
       "translit": "ṭawîloun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-tawiloun.mp3"
     },
     {
       "id": "mot-thaqula",
       "ar": "ثَقُلَ",
       "translit": "thaqoula",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-thaqula.mp3"
     },
     {
       "id": "mot-tilfazoun",
       "ar": "تِلْفَازٌ",
       "translit": "tilfâzoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-tilfazoun.mp3"
     },
     {
       "id": "mot-tilmidhoun",
       "ar": "تِلْمِيذٌ",
       "translit": "tilmîdhoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-tilmidhoun.mp3"
     },
     {
       "id": "mot-tuffahoun",
       "ar": "تُفَّاحٌ",
       "translit": "touffâḥoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-tuffahoun.mp3"
     },
     {
       "id": "mot-waladoun",
       "ar": "وَلَدٌ",
       "translit": "waladoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-waladoun.mp3"
     },
     {
       "id": "mot-yaftahu",
       "ar": "يَفْتَحُ",
       "translit": "yaftaḥou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-yaftahu.mp3"
     },
     {
       "id": "mot-yaktubu",
       "ar": "يَكْتُبُ",
       "translit": "yaktoubou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-yaktubu.mp3"
     },
     {
       "id": "mot-yalabu",
       "ar": "يَلْعَبُ",
       "translit": "yalʿabou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-yalabu.mp3"
     },
     {
       "id": "mot-yaqulu",
       "ar": "يَقُولُ",
       "translit": "yaqoûlou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-yaqulu.mp3"
     },
     {
       "id": "mot-zaraa",
       "ar": "زَرَعَ",
       "translit": "zaraʿa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-zaraa.mp3"
     },
     {
       "id": "mot-zurtu",
       "ar": "زُرْتُ",
       "translit": "zourtou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "mot-zurtu.mp3"
     },
     {
       "id": "q-1-1",
@@ -3916,1142 +4183,1305 @@
       "id": "syl-alif-a",
       "ar": "اَ",
       "translit": "a",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-alif-a.mp3"
     },
     {
       "id": "syl-alif-a-ba",
       "ar": "اَبْ",
       "translit": "ab",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-alif-a-ba.mp3"
     },
     {
       "id": "syl-alif-i",
       "ar": "اِ",
       "translit": "i",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-alif-i.mp3"
     },
     {
       "id": "syl-alif-ou",
       "ar": "اُ",
       "translit": "ou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-alif-ou.mp3"
     },
     {
       "id": "syl-ayn-a",
       "ar": "عَ",
       "translit": "ʿa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ayn-a.mp3"
     },
     {
       "id": "syl-ayn-a-noun",
       "ar": "عَنْ",
       "translit": "ʿan",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ayn-a-noun.mp3"
     },
     {
       "id": "syl-ayn-aa",
       "ar": "عَا",
       "translit": "ʿâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ayn-aa.mp3"
     },
     {
       "id": "syl-ayn-i",
       "ar": "عِ",
       "translit": "ʿi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ayn-i.mp3"
     },
     {
       "id": "syl-ayn-ou",
       "ar": "عُ",
       "translit": "ʿou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ayn-ou.mp3"
     },
     {
       "id": "syl-ayn-oun",
       "ar": "عٌ",
       "translit": "ʿoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ayn-oun.mp3"
     },
     {
       "id": "syl-ba-a",
       "ar": "بَ",
       "translit": "ba",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ba-a.mp3"
     },
     {
       "id": "syl-ba-aa",
       "ar": "بَا",
       "translit": "bâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ba-aa.mp3"
     },
     {
       "id": "syl-ba-an",
       "ar": "بًا",
       "translit": "ban",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ba-an.mp3"
     },
     {
       "id": "syl-ba-i",
       "ar": "بِ",
       "translit": "bi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ba-i.mp3"
     },
     {
       "id": "syl-ba-i-noun",
       "ar": "بِنْ",
       "translit": "bin",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ba-i-noun.mp3"
     },
     {
       "id": "syl-ba-ii",
       "ar": "بِي",
       "translit": "bî",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ba-ii.mp3"
     },
     {
       "id": "syl-ba-in",
       "ar": "بٍ",
       "translit": "bin",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ba-in.mp3"
     },
     {
       "id": "syl-ba-ou",
       "ar": "بُ",
       "translit": "bou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ba-ou.mp3"
     },
     {
       "id": "syl-ba-ou-ra",
       "ar": "بُرْ",
       "translit": "bour",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ba-ou-ra.mp3"
     },
     {
       "id": "syl-ba-oun",
       "ar": "بٌ",
       "translit": "boun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ba-oun.mp3"
     },
     {
       "id": "syl-ba-ouu",
       "ar": "بُو",
       "translit": "boû",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ba-ouu.mp3"
     },
     {
       "id": "syl-chin-a",
       "ar": "شَ",
       "translit": "cha",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-chin-a.mp3"
     },
     {
       "id": "syl-chin-ou-ba",
       "ar": "شُبْ",
       "translit": "choub",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-chin-ou-ba.mp3"
     },
     {
       "id": "syl-chin-ou-kaf",
       "ar": "شُكْ",
       "translit": "chouk",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-chin-ou-kaf.mp3"
     },
     {
       "id": "syl-dad-a",
       "ar": "ضَ",
       "translit": "ḍa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dad-a.mp3"
     },
     {
       "id": "syl-dad-i",
       "ar": "ضِ",
       "translit": "ḍi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dad-i.mp3"
     },
     {
       "id": "syl-dad-ou",
       "ar": "ضُ",
       "translit": "ḍou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dad-ou.mp3"
     },
     {
       "id": "syl-dad-ouu",
       "ar": "ضُو",
       "translit": "ḍoû",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dad-ouu.mp3"
     },
     {
       "id": "syl-dal-a",
       "ar": "دَ",
       "translit": "da",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dal-a.mp3"
     },
     {
       "id": "syl-dal-a-fa",
       "ar": "دَفْ",
       "translit": "daf",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dal-a-fa.mp3"
     },
     {
       "id": "syl-dal-aa",
       "ar": "دَا",
       "translit": "dâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dal-aa.mp3"
     },
     {
       "id": "syl-dal-an",
       "ar": "دًا",
       "translit": "dan",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dal-an.mp3"
     },
     {
       "id": "syl-dal-i",
       "ar": "دِ",
       "translit": "di",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dal-i.mp3"
     },
     {
       "id": "syl-dal-in",
       "ar": "دٍ",
       "translit": "din",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dal-in.mp3"
     },
     {
       "id": "syl-dal-ou",
       "ar": "دُ",
       "translit": "dou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dal-ou.mp3"
     },
     {
       "id": "syl-dal-oun",
       "ar": "دٌ",
       "translit": "doun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dal-oun.mp3"
     },
     {
       "id": "syl-dal-ouu",
       "ar": "دُو",
       "translit": "doû",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dal-ouu.mp3"
     },
     {
       "id": "syl-dha-a",
       "ar": "ظَ",
       "translit": "ẓa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dha-a.mp3"
     },
     {
       "id": "syl-dha-aa",
       "ar": "ظَا",
       "translit": "ẓâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dha-aa.mp3"
     },
     {
       "id": "syl-dha-i",
       "ar": "ظِ",
       "translit": "ẓi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dha-i.mp3"
     },
     {
       "id": "syl-dha-ou",
       "ar": "ظُ",
       "translit": "ẓou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dha-ou.mp3"
     },
     {
       "id": "syl-dhal-a",
       "ar": "ذَ",
       "translit": "dha",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dhal-a.mp3"
     },
     {
       "id": "syl-dhal-i",
       "ar": "ذِ",
       "translit": "dhi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dhal-i.mp3"
     },
     {
       "id": "syl-dhal-ou",
       "ar": "ذُ",
       "translit": "dhou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dhal-ou.mp3"
     },
     {
       "id": "syl-dhal-oun",
       "ar": "ذٌ",
       "translit": "dhoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-dhal-oun.mp3"
     },
     {
       "id": "syl-fa-a",
       "ar": "فَ",
       "translit": "fa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-fa-a.mp3"
     },
     {
       "id": "syl-fa-aa",
       "ar": "فَا",
       "translit": "fâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-fa-aa.mp3"
     },
     {
       "id": "syl-fa-i",
       "ar": "فِ",
       "translit": "fi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-fa-i.mp3"
     },
     {
       "id": "syl-fa-ou",
       "ar": "فُ",
       "translit": "fou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-fa-ou.mp3"
     },
     {
       "id": "syl-fa-ou-noun",
       "ar": "فُنْ",
       "translit": "foun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-fa-ou-noun.mp3"
     },
     {
       "id": "syl-fa-oun",
       "ar": "فٌ",
       "translit": "foun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-fa-oun.mp3"
     },
     {
       "id": "syl-ghayn-a",
       "ar": "غَ",
       "translit": "gha",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ghayn-a.mp3"
     },
     {
       "id": "syl-ghayn-aa",
       "ar": "غَا",
       "translit": "ghâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ghayn-aa.mp3"
     },
     {
       "id": "syl-ghayn-i",
       "ar": "غِ",
       "translit": "ghi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ghayn-i.mp3"
     },
     {
       "id": "syl-ghayn-ou",
       "ar": "غُ",
       "translit": "ghou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ghayn-ou.mp3"
     },
     {
       "id": "syl-ha-a",
       "ar": "هَ",
       "translit": "ha",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ha-a.mp3"
     },
     {
       "id": "syl-ha-a-noun",
       "ar": "هَنْ",
       "translit": "han",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ha-a-noun.mp3"
     },
     {
       "id": "syl-ha-aa",
       "ar": "هَا",
       "translit": "hâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ha-aa.mp3"
     },
     {
       "id": "syl-ha-i",
       "ar": "هِ",
       "translit": "hi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ha-i.mp3"
     },
     {
       "id": "syl-ha-ou",
       "ar": "هُ",
       "translit": "hou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ha-ou.mp3"
     },
     {
       "id": "syl-hamza-a",
       "ar": "أَ",
       "translit": "ʾa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-hamza-a.mp3"
     },
     {
       "id": "syl-hamza-i",
       "ar": "إِ",
       "translit": "ʾi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-hamza-i.mp3"
     },
     {
       "id": "syl-hamza-ou",
       "ar": "أُ",
       "translit": "ʾou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-hamza-ou.mp3"
     },
     {
       "id": "syl-hha-a",
       "ar": "حَ",
       "translit": "ḥa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-hha-a.mp3"
     },
     {
       "id": "syl-hha-aa",
       "ar": "حَا",
       "translit": "ḥâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-hha-aa.mp3"
     },
     {
       "id": "syl-hha-i",
       "ar": "حِ",
       "translit": "ḥi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-hha-i.mp3"
     },
     {
       "id": "syl-hha-ou",
       "ar": "حُ",
       "translit": "ḥou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-hha-ou.mp3"
     },
     {
       "id": "syl-hha-oun",
       "ar": "حٌ",
       "translit": "ḥoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-hha-oun.mp3"
     },
     {
       "id": "syl-jim-a",
       "ar": "جَ",
       "translit": "dja",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-jim-a.mp3"
     },
     {
       "id": "syl-jim-i",
       "ar": "جِ",
       "translit": "dji",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-jim-i.mp3"
     },
     {
       "id": "syl-kaf-a",
       "ar": "كَ",
       "translit": "ka",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-kaf-a.mp3"
     },
     {
       "id": "syl-kaf-a-ta",
       "ar": "كَتْ",
       "translit": "kat",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-kaf-a-ta.mp3"
     },
     {
       "id": "syl-kaf-aa",
       "ar": "كَا",
       "translit": "kâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-kaf-aa.mp3"
     },
     {
       "id": "syl-kaf-i",
       "ar": "كِ",
       "translit": "ki",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-kaf-i.mp3"
     },
     {
       "id": "syl-kaf-ou",
       "ar": "كُ",
       "translit": "kou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-kaf-ou.mp3"
     },
     {
       "id": "syl-kaf-oun",
       "ar": "كٌ",
       "translit": "koun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-kaf-oun.mp3"
     },
     {
       "id": "syl-kha-a",
       "ar": "خَ",
       "translit": "kha",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-kha-a.mp3"
     },
     {
       "id": "syl-kha-i",
       "ar": "خِ",
       "translit": "khi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-kha-i.mp3"
     },
     {
       "id": "syl-kha-oun",
       "ar": "خٌ",
       "translit": "khoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-kha-oun.mp3"
     },
     {
       "id": "syl-lam-a",
       "ar": "لَ",
       "translit": "la",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-lam-a.mp3"
     },
     {
       "id": "syl-lam-a-mim",
       "ar": "لَمْ",
       "translit": "lam",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-lam-a-mim.mp3"
     },
     {
       "id": "syl-lam-a-ya",
       "ar": "لَيْ",
       "translit": "lay",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-lam-a-ya.mp3"
     },
     {
       "id": "syl-lam-aa",
       "ar": "لَا",
       "translit": "lâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-lam-aa.mp3"
     },
     {
       "id": "syl-lam-an",
       "ar": "لًا",
       "translit": "lan",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-lam-an.mp3"
     },
     {
       "id": "syl-lam-i",
       "ar": "لِ",
       "translit": "li",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-lam-i.mp3"
     },
     {
       "id": "syl-lam-ii",
       "ar": "لِي",
       "translit": "lî",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-lam-ii.mp3"
     },
     {
       "id": "syl-lam-ou",
       "ar": "لُ",
       "translit": "lou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-lam-ou.mp3"
     },
     {
       "id": "syl-lam-oun",
       "ar": "لٌ",
       "translit": "loun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-lam-oun.mp3"
     },
     {
       "id": "syl-mim-a",
       "ar": "مَ",
       "translit": "ma",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-a.mp3"
     },
     {
       "id": "syl-mim-a-kaf",
       "ar": "مَكْ",
       "translit": "mak",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-a-kaf.mp3"
     },
     {
       "id": "syl-mim-a-lam",
       "ar": "مَلْ",
       "translit": "mal",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-a-lam.mp3"
     },
     {
       "id": "syl-mim-a-noun",
       "ar": "مَنْ",
       "translit": "man",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-a-noun.mp3"
     },
     {
       "id": "syl-mim-a-ra",
       "ar": "مَرْ",
       "translit": "mar",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-a-ra.mp3"
     },
     {
       "id": "syl-mim-a-sin",
       "ar": "مَسْ",
       "translit": "mas",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-a-sin.mp3"
     },
     {
       "id": "syl-mim-a-tta",
       "ar": "مَطْ",
       "translit": "maṭ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-a-tta.mp3"
     },
     {
       "id": "syl-mim-aa",
       "ar": "مَا",
       "translit": "mâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-aa.mp3"
     },
     {
       "id": "syl-mim-an",
       "ar": "مًا",
       "translit": "man",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-an.mp3"
     },
     {
       "id": "syl-mim-i",
       "ar": "مِ",
       "translit": "mi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-i.mp3"
     },
     {
       "id": "syl-mim-i-fa",
       "ar": "مِفْ",
       "translit": "mif",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-i-fa.mp3"
     },
     {
       "id": "syl-mim-i-noun",
       "ar": "مِنْ",
       "translit": "min",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-i-noun.mp3"
     },
     {
       "id": "syl-mim-ii",
       "ar": "مِي",
       "translit": "mî",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-ii.mp3"
     },
     {
       "id": "syl-mim-ou",
       "ar": "مُ",
       "translit": "mou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-ou.mp3"
     },
     {
       "id": "syl-mim-ou-mim",
       "ar": "مُمْ",
       "translit": "moum",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-mim-ou-mim.mp3"
     },
     {
       "id": "syl-noun-a",
       "ar": "نَ",
       "translit": "na",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-noun-a.mp3"
     },
     {
       "id": "syl-noun-aa",
       "ar": "نَا",
       "translit": "nâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-noun-aa.mp3"
     },
     {
       "id": "syl-noun-i",
       "ar": "نِ",
       "translit": "ni",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-noun-i.mp3"
     },
     {
       "id": "syl-noun-ii",
       "ar": "نِي",
       "translit": "nî",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-noun-ii.mp3"
     },
     {
       "id": "syl-noun-in",
       "ar": "نٍ",
       "translit": "nin",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-noun-in.mp3"
     },
     {
       "id": "syl-noun-ou",
       "ar": "نُ",
       "translit": "nou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-noun-ou.mp3"
     },
     {
       "id": "syl-noun-oun",
       "ar": "نٌ",
       "translit": "noun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-noun-oun.mp3"
     },
     {
       "id": "syl-noun-ouu",
       "ar": "نُو",
       "translit": "noû",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-noun-ouu.mp3"
     },
     {
       "id": "syl-qaf-a",
       "ar": "قَ",
       "translit": "qa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-qaf-a.mp3"
     },
     {
       "id": "syl-qaf-aa",
       "ar": "قَا",
       "translit": "qâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-qaf-aa.mp3"
     },
     {
       "id": "syl-qaf-i",
       "ar": "قِ",
       "translit": "qi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-qaf-i.mp3"
     },
     {
       "id": "syl-qaf-i-tta",
       "ar": "قِطْ",
       "translit": "qiṭ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-qaf-i-tta.mp3"
     },
     {
       "id": "syl-qaf-ou",
       "ar": "قُ",
       "translit": "qou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-qaf-ou.mp3"
     },
     {
       "id": "syl-qaf-ou-lam",
       "ar": "قُلْ",
       "translit": "qoul",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-qaf-ou-lam.mp3"
     },
     {
       "id": "syl-qaf-oun",
       "ar": "قٌ",
       "translit": "qoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-qaf-oun.mp3"
     },
     {
       "id": "syl-ra-a",
       "ar": "رَ",
       "translit": "ra",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ra-a.mp3"
     },
     {
       "id": "syl-ra-aa",
       "ar": "رَا",
       "translit": "râ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ra-aa.mp3"
     },
     {
       "id": "syl-ra-an",
       "ar": "رًا",
       "translit": "ran",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ra-an.mp3"
     },
     {
       "id": "syl-ra-i",
       "ar": "رِ",
       "translit": "ri",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ra-i.mp3"
     },
     {
       "id": "syl-ra-in",
       "ar": "رٍ",
       "translit": "rin",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ra-in.mp3"
     },
     {
       "id": "syl-ra-ou",
       "ar": "رُ",
       "translit": "rou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ra-ou.mp3"
     },
     {
       "id": "syl-ra-oun",
       "ar": "رٌ",
       "translit": "roun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ra-oun.mp3"
     },
     {
       "id": "syl-sad-a",
       "ar": "صَ",
       "translit": "ṣa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sad-a.mp3"
     },
     {
       "id": "syl-sad-aa",
       "ar": "صَا",
       "translit": "ṣâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sad-aa.mp3"
     },
     {
       "id": "syl-sad-i",
       "ar": "صِ",
       "translit": "ṣi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sad-i.mp3"
     },
     {
       "id": "syl-sad-ou",
       "ar": "صُ",
       "translit": "ṣou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sad-ou.mp3"
     },
     {
       "id": "syl-sad-ou-mim",
       "ar": "صُمْ",
       "translit": "ṣoum",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sad-ou-mim.mp3"
     },
     {
       "id": "syl-sin-a",
       "ar": "سَ",
       "translit": "sa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sin-a.mp3"
     },
     {
       "id": "syl-sin-aa",
       "ar": "سَا",
       "translit": "sâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sin-aa.mp3"
     },
     {
       "id": "syl-sin-i",
       "ar": "سِ",
       "translit": "si",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sin-i.mp3"
     },
     {
       "id": "syl-sin-ii",
       "ar": "سِي",
       "translit": "sî",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sin-ii.mp3"
     },
     {
       "id": "syl-sin-in",
       "ar": "سٍ",
       "translit": "sin",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sin-in.mp3"
     },
     {
       "id": "syl-sin-ou",
       "ar": "سُ",
       "translit": "sou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sin-ou.mp3"
     },
     {
       "id": "syl-sin-ou-kaf",
       "ar": "سُكْ",
       "translit": "souk",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sin-ou-kaf.mp3"
     },
     {
       "id": "syl-sin-oun",
       "ar": "سٌ",
       "translit": "soun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sin-oun.mp3"
     },
     {
       "id": "syl-sin-ouu",
       "ar": "سُو",
       "translit": "soû",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-sin-ouu.mp3"
     },
     {
       "id": "syl-ta-a",
       "ar": "تَ",
       "translit": "ta",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ta-a.mp3"
     },
     {
       "id": "syl-ta-aa",
       "ar": "تَا",
       "translit": "tâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ta-aa.mp3"
     },
     {
       "id": "syl-ta-i",
       "ar": "تِ",
       "translit": "ti",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ta-i.mp3"
     },
     {
       "id": "syl-ta-i-lam",
       "ar": "تِلْ",
       "translit": "til",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ta-i-lam.mp3"
     },
     {
       "id": "syl-ta-ou",
       "ar": "تُ",
       "translit": "tou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ta-ou.mp3"
     },
     {
       "id": "syl-ta-ou-fa",
       "ar": "تُفْ",
       "translit": "touf",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ta-ou-fa.mp3"
     },
     {
       "id": "syl-ta-ouu",
       "ar": "تُو",
       "translit": "toû",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ta-ouu.mp3"
     },
     {
       "id": "syl-tha-a",
       "ar": "ثَ",
       "translit": "tha",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-tha-a.mp3"
     },
     {
       "id": "syl-tha-i",
       "ar": "ثِ",
       "translit": "thi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-tha-i.mp3"
     },
     {
       "id": "syl-tha-ou",
       "ar": "ثُ",
       "translit": "thou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-tha-ou.mp3"
     },
     {
       "id": "syl-tta-a",
       "ar": "طَ",
       "translit": "ṭa",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-tta-a.mp3"
     },
     {
       "id": "syl-tta-aa",
       "ar": "طَا",
       "translit": "ṭâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-tta-aa.mp3"
     },
     {
       "id": "syl-tta-i",
       "ar": "طِ",
       "translit": "ṭi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-tta-i.mp3"
     },
     {
       "id": "syl-tta-ii",
       "ar": "طِي",
       "translit": "ṭî",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-tta-ii.mp3"
     },
     {
       "id": "syl-tta-ou",
       "ar": "طُ",
       "translit": "ṭou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-tta-ou.mp3"
     },
     {
       "id": "syl-tta-oun",
       "ar": "طٌ",
       "translit": "ṭoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-tta-oun.mp3"
     },
     {
       "id": "syl-ya-a",
       "ar": "يَ",
       "translit": "ya",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ya-a.mp3"
     },
     {
       "id": "syl-ya-a-kaf",
       "ar": "يَكْ",
       "translit": "yak",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ya-a-kaf.mp3"
     },
     {
       "id": "syl-ya-aa",
       "ar": "يَا",
       "translit": "yâ",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-ya-aa.mp3"
     },
     {
       "id": "syl-zay-a",
       "ar": "زَ",
       "translit": "za",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-zay-a.mp3"
     },
     {
       "id": "syl-zay-i",
       "ar": "زِ",
       "translit": "zi",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-zay-i.mp3"
     },
     {
       "id": "syl-zay-ou",
       "ar": "زُ",
       "translit": "zou",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-zay-ou.mp3"
     },
     {
       "id": "syl-zay-oun",
       "ar": "زٌ",
       "translit": "zoun",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-zay-oun.mp3"
     },
     {
       "id": "syl-zay-ouu",
       "ar": "زُو",
       "translit": "zoû",
-      "source": "enregistrement",
-      "statut": "à enregistrer"
+      "source": "synthese-vocale",
+      "statut": "disponible",
+      "fichier": "syl-zay-ouu.mp3"
     }
   ]
 }

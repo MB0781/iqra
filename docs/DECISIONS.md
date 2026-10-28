@@ -47,9 +47,10 @@ Choix faits en autonomie, avec leur raison. Le plus récent en bas.
 17. **Agents** : les contenus ont été rédigés par quatre agents pédagogues en parallèle (étapes 1-2, 3-5, 6-7, 8-9),
     contrôlés par le vérificateur automatique ; les revues (gardien du texte, critique design) sont dans `docs/revues/`.
 18. **Translittération** : voyelle u écrite « ou », longues â î oû, forme de pause en fin de verset (« aḥad »).
-19. **Audio des lettres et syllabes : uniquement un récitateur qualifié.** Pas de reprise d'audio YouTube ou
-    d'applications (droit d'auteur). Les enregistrements libres trouvés (Wikimedia Commons, Mendeley) ont été écartés :
-    qualité d'amateur, insuffisante pour un site d'apprentissage. Ces éléments restent « audio en préparation » jusqu'à
-    un enregistrement professionnel via `/studio`.
+19. **Audio des lettres, syllabes et mots d'entraînement : voix de synthèse** (décision du propriétaire, qui lève la
+    règle initiale « pas de TTS » pour ces éléments seulement ; le Coran reste récité par un humain). Enregistrements
+    amateurs de Wikimedia Commons écartés (qualité). Voix libre Piper `ar_JO-kareem` choisie (pas de compte ni de clé),
+    phonèmes produits par notre propre convertisseur, style validé à l'écoute. Licence des données d'entraînement non
+    déclarée : zone grise documentée dans `docs/VOIX-DE-SYNTHESE.md`.
 20. **Alphabet** : la page affiche exactement les 28 lettres (la hamza, la tâ marbouta, etc., déclarées comme éléments
     « lettre » à l'étape 6, n'y figurent plus).
