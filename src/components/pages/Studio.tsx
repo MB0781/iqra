@@ -99,8 +99,8 @@ export default function Studio() {
           <label className="sr-only" htmlFor="filtre">
             Filtrer
           </label>
-          <input id="filtre" type="search" placeholder="Filtrer (id, son, arabe)" value={filtre} onChange={(e) => setFiltre(e.target.value)} className="min-h-11 flex-1 rounded-[var(--radius-md)] border border-trait-fort bg-surface px-3" />
-          <button type="button" className="bouton bouton-principal" disabled={nb === 0} onClick={telecharger} data-action="zip">
+          <input id="filtre" type="search" placeholder="Filtrer (id, son, arabe)" value={filtre} onChange={(e) => setFiltre(e.target.value)} className="min-h-11 min-w-0 flex-1 rounded-[var(--radius-pilule)] border border-trait-fort bg-surface px-4" />
+          <button type="button" className="bouton bouton-principal shrink-0 !w-auto" disabled={nb === 0} onClick={telecharger} data-action="zip">
             <Download aria-hidden size={18} /> ZIP
           </button>
         </div>

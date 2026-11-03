@@ -13,7 +13,7 @@ const page = await navigateur.newPage();
 
 async function icone(taille: number, fichier: string, marge: number) {
   await page.setViewportSize({ width: taille, height: taille });
-  await page.setContent(`<style>${css}</style><div style="width:${taille}px;height:${taille}px;background:#1f5f4f;display:grid;place-items:center">${marque('#ffffff', Math.round(taille * (1 - marge)))}</div>`);
+  await page.setContent(`<style>${css}</style><div style="width:${taille}px;height:${taille}px;background:#2e3a2f;display:grid;place-items:center">${marque('#d9c9b2', Math.round(taille * (1 - marge)))}</div>`);
   await page.screenshot({ path: join('public/icones', fichier) });
 }
 await icone(192, 'icone-192.png', 0.3);
@@ -23,15 +23,15 @@ await icone(180, 'apple-touch-icon.png', 0.3);
 
 await page.setViewportSize({ width: 1200, height: 630 });
 await page.setContent(`<style>${css}</style>
-<div style="width:1200px;height:630px;background:#f6f4ef;color:#1c1a17;display:grid;grid-template-columns:1fr 460px;align-items:center;padding:0 80px;gap:40px">
+<div style="width:1200px;height:630px;background:#2e3a2f;color:#f8f6ee;display:grid;grid-template-columns:1fr 460px;align-items:center;padding:0 80px;gap:40px">
   <div>
-    <div style="display:flex;align-items:center;gap:14px;font-size:34px;font-weight:600">${marque('#1f5f4f', 44)} Iqra’</div>
+    <div style="display:flex;align-items:center;gap:14px;font-size:34px;font-weight:600">${marque('#d9c9b2', 44)} Iqra’</div>
     <div style="margin-top:36px;font-size:60px;line-height:1.08;font-weight:600;letter-spacing:-0.02em">Lire l’arabe, lettre après lettre, jusqu’à lire Al‑Fatiha seul.</div>
-    <div style="margin-top:28px;font-size:26px;color:#57524a">Gratuit, sans publicité, sans compte.</div>
+    <div style="margin-top:28px;font-size:26px;color:#d9c9b2">Gratuit, sans publicité, sans compte.</div>
   </div>
-  <div style="height:460px;border:1px solid #dcd7cc;border-radius:28px;background:#fcfbf8;display:grid;place-items:center">
+  <div style="height:460px;border-radius:36px;background:#f8f6ee;color:#2e3a2f;box-shadow:0 30px 60px -30px rgb(0 0 0 / .5);display:grid;place-items:center">
     <div lang="ar" dir="rtl" style="font-family:Naskh;font-weight:600;font-size:250px;line-height:1">ب</div>
-    <div style="font-size:26px;color:#57524a;margin-top:-30px">un point en dessous : « b »</div>
+    <div style="font-size:26px;color:#9c4f2e;margin-top:-30px">un point en dessous : « b »</div>
   </div>
 </div>`);
 await page.waitForTimeout(300);

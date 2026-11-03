@@ -58,3 +58,7 @@ Choix faits en autonomie, avec leur raison. Le plus récent en bas.
     fichier sert pour les formes liées de la lettre (`forme-*`). Syllabes et mots : toujours « à enregistrer ».
 20. **Alphabet** : la page affiche exactement les 28 lettres (la hamza, la tâ marbouta, etc., déclarées comme éléments
     « lettre » à l'étape 6, n'y figurent plus).
+21. **Palette « Earthy Minimal » et allure d'application** (demande du propriétaire, avec une vidéo d'exemple) :
+    vert profond #2E3A2F, sauge #6B7F5B, sable #D9C9B2, terre cuite #C96F4F, fond #F8F6EE. Écran d'ouverture court,
+    en-tête courbe sur l'accueil, boutons en pilule, navigation mobile flottante. Contrastes vérifiés (axe-core, AA) ;
+    la sauge et la terre cuite ne servent pas au petit texte (variante `--terre-texte` plus foncée). Détails : DESIGN.md.
